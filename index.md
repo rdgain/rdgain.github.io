@@ -6,7 +6,7 @@ layout: default
 
 **Raluca D. Gaina** is currently studying for her Ph.D. in Intelligent Games and Games Intelligence at the University of Essex, in the area of Rolling Horizon evolution in General Video Game Playing, after completing a B.Sc. and M.Sc. in Computer Games at the same institution. Her research interests include general video game playing AI, reinforcement learning and evolutionary computation algorithms. 
 
-![]({{ site.url }}/assets/images/headshot.png)
+![](assets/images/headshot.jpg)
 
 # [](#header-1)Publications
 
