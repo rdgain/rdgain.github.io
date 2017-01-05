@@ -51,6 +51,19 @@ p.tagline {
   font-size: 17px;
 }
 
+p.customtag {
+  background: transparent url(../images/code.png) no-repeat 0 2px;
+  padding-left: 35px;
+  margin-top: 8px;
+  display: block;
+  float: left;
+  text-indent: 0;
+  width: auto;
+  height: auto;
+  opacity: 1;
+  color: #63a52a;
+}
+
 #main {
   margin-top: 20px;
   padding: 0 20px 90px;
