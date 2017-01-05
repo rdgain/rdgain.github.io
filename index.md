@@ -17,6 +17,8 @@ Raluca D. Gaina, Diego Perez-Liebana, Simon M. Lucas, **"General Video Game for 
 
 Raluca D. Gaina, Jialin Liu, Simon M. Lucas, Diego Perez-Liebana, **"Analysis of Vanilla Rolling Horizon Evolution Parameters in General Video Game Playing"**, _Springer Lecture Notes in Computer Science, EvoStar_, 2017.
 
+Raluca D. Gaina, Adrien Couetoux, Dennis J.N.J. Soemers, Mark H.M. Winands, Tom Vodopivec, Florian Kirchgessner, Jialin Liu, Simon M. Lucas, Diego Perez-Liebana, "The 2016 Two-Player GVGAI Competition", IEEE Transactions on Computational Intelligence and AI in Games (TCIAIG), 2017.
+
 # [](#header-1)External Links
 
 [General Video Game AI Competition (GVGAI)](http://gvgai.net)
