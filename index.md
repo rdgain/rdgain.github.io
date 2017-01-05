@@ -11,7 +11,11 @@ layout: default
 
 # [](#header-1)Publications
 
-Raluca D. Gaina, Diego Perez-Liebana, Simon M. Lucas. General Video Game for 2 Players: Framework and Competition, Proceedings of the IEEE Computer Science and Electronic Engineering Conference (CEEC) (2016). [(PDF)](assets/pdf/GVGAI2P-2016.pdf)
+Raluca D. Gaina, Diego Perez-Liebana, Simon M. Lucas, **"General Video Game for 2 Players: Framework and Competition"**, _Proceedings of the IEEE Computer Science and Electronic Engineering Conference (CEEC)_, 2016. [(PDF)](assets/pdf/GVGAI2P-2016.pdf)
+
+## [](#header-2)Under review
+
+Raluca D. Gaina, Jialin Liu, Simon M. Lucas, Diego Perez-Liebana, **"Analysis of Vanilla Rolling Horizon Evolution Parameters in General Video Game Playing"**, _Springer Lecture Notes in Computer Science, EvoStar_, 2017.
 
 # [](#header-1)External
 
