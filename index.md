@@ -25,7 +25,7 @@ Raluca D. Gaina, Adrien Couetoux, Dennis J.N.J. Soemers, Mark H.M. Winands, Tom 
 
 [Intelligent Games and Games Intelligence (IGGI)](http://iggi.org.uk)
 
-# [] (#header-1)Contact
+# [](#header-1)Contact
 
 E-mail: rdgain@essex.ac.uk
 
