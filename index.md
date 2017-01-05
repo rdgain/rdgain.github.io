@@ -29,8 +29,7 @@ More Stuff.
 
 # [](#header-1)External Links
 
-[General Video Game AI Competition (GVGAI)](http://gvgai.net)
-
+[General Video Game AI Competition (GVGAI)](http://gvgai.net)<br />
 [Intelligent Games and Games Intelligence (IGGI)](http://iggi.org.uk)
 
 # [](#header-1)Contact
