@@ -19,6 +19,14 @@ Raluca D. Gaina, Jialin Liu, Simon M. Lucas, Diego Perez-Liebana, **"Analysis of
 
 Raluca D. Gaina, Adrien Couetoux, Dennis J.N.J. Soemers, Mark H.M. Winands, Tom Vodopivec, Florian Kirchgessner, Jialin Liu, Simon M. Lucas, Diego Perez-Liebana, **"The 2016 Two-Player GVGAI Competition"**, _IEEE Transactions on Computational Intelligence and AI in Games (TCIAIG)_, 2017.
 
+# [](#header-1)Projects
+
+Stuff.
+
+# [](#header-1)Achievements
+
+More Stuff.
+
 # [](#header-1)External Links
 
 [General Video Game AI Competition (GVGAI)](http://gvgai.net)
