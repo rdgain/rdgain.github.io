@@ -10,11 +10,11 @@ layout: default
 
 ## [](#header-1)Publications
 
-Raluca D. Gaina, Diego Perez-Liebana, Simon M. Lucas. General Video Game for 2 Players: Framework and Competition, Proceedings of the IEEE Computer Science and Electronic Engineering Conference (CEEC) (2016). [(PDF)](assets/pdf/GVGAI2P-2016)
+Raluca D. Gaina, Diego Perez-Liebana, Simon M. Lucas. General Video Game for 2 Players: Framework and Competition, Proceedings of the IEEE Computer Science and Electronic Engineering Conference (CEEC) (2016). [(PDF)](assets/pdf/GVGAI2P-2016.pdf)
 
 ### [](#header-3)External
 
-[General Video Game AI Competition (GVGAI)](gvgai.net)
+[General Video Game AI Competition (GVGAI)](http://gvgai.net)
 
-[Intelligent Games and Games Intelligence (IGGI)](iggi.org)
+[Intelligent Games and Games Intelligence (IGGI)](http://iggi.org)
 
