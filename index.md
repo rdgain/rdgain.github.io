@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<img src="assets/images/headshot.jpg" width="150" style="float:right" /> 
+<img src="assets/images/headshot2.png" width="150" style="float:right" /> 
 
 # [](#header-1)About
 
