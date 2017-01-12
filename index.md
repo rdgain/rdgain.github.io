@@ -13,7 +13,7 @@ layout: default
 
 **2017**
 
-Raluca D. Gaina, Jialin Liu, Simon M. Lucas, Diego Perez-Liebana, **"Analysis of Vanilla Rolling Horizon Evolution Parameters in General Video Game Playing"**, _Springer Lecture Notes in Computer Science, EvoStar_, 2017.
+Raluca D. Gaina, Jialin Liu, Simon M. Lucas, Diego Perez-Liebana, **"Analysis of Vanilla Rolling Horizon Evolution Parameters in General Video Game Playing"**, _Springer Lecture Notes in Computer Science, EvoStar_, 2017, to appear.
 
 **2016**
 
