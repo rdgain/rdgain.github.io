@@ -17,7 +17,7 @@ Raluca D. Gaina, Jialin Liu, Simon M. Lucas, Diego Perez-Liebana, **"Analysis of
 
 **2016**
 
-Raluca D. Gaina, Diego Perez-Liebana, Simon M. Lucas, **"General Video Game for 2 Players: Framework and Competition"**, _Proceedings of the IEEE Computer Science and Electronic Engineering Conference (CEEC)_, 2016. [(PDF)](assets/pdf/GVGAI2P-2016.pdf)
+Raluca D. Gaina, Diego Perez-Liebana, Simon M. Lucas, **"General Video Game for 2 Players: Framework and Competition"**, _Proceedings of the IEEE Computer Science and Electronic Engineering Conference (CEEC)_, p. 186-191, 2016. [(PDF)](assets/pdf/GVGAI2P-2016.pdf) [(IEEEXplore)](http://ieeexplore.ieee.org/document/7835911/)
 
 ### [](#header-3)Under review
 
