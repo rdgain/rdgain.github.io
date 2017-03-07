@@ -15,15 +15,15 @@ layout: default
 
 * Raluca D. Gaina, Jialin Liu, Simon M. Lucas, Diego Perez-Liebana, **"Analysis of Vanilla Rolling Horizon Evolution Parameters in General Video Game Playing"**, _Springer Lecture Notes in Computer Science, EvoStar_, 2017, to appear. [(PDF)](assets/pdf/analysis-vanilla-rolling.pdf)
 
+* Raluca D. Gaina, Simon M. Lucas, Diego Perez-Liebana, **"Population Initializaion Techniques for Rolling Horizon Evolution in General Video Game Playing"**, _Special Session on Computational Intelligence in Games, IEEE Congress on Evolutionary Computation (CEC)_, 2017, to appear.
+
+* Kamolwan Kunanusont, Raluca D. Gaina, Jialin Liu, Diego Perez-Liebana, Simon M. Lucas, **"The N-Tuple Bandit Evolutionary Algorithm for Game Design"**, _Special Session on Computational Intelligence in Games, IEEE Congress on Evolutionary Computation (CEC)_, 2017, to appear.
+
 **2016**
 
 * Raluca D. Gaina, Diego Perez-Liebana, Simon M. Lucas, **"General Video Game for 2 Players: Framework and Competition"**, _Proceedings of the IEEE Computer Science and Electronic Engineering Conference (CEEC)_, p. 186-191, 2016. [(PDF)](assets/pdf/GVGAI2P-2016.pdf) [(IEEEXplore)](http://ieeexplore.ieee.org/document/7835911/)
 
 ### [](#header-3)Under review
-
-* Raluca D. Gaina, Simon M. Lucas, Diego Perez-Liebana, **"Population Initializaion Techniques for Rolling Horizon Evolution in General Video Game Playing"**, _Special Session on Computational Intelligence in Games, IEEE Congress on Evolutionary Computation (CEC)_, 2017
-
-* Kamolwan Kunanusont, Raluca D. Gaina, Jialin Liu, Diego Perez-Liebana, Simon M. Lucas, **"The N-Tuple Bandit Evolutionary Algorithm for Game Design"**, _Special Session on Computational Intelligence in Games, IEEE Congress on Evolutionary Computation (CEC)_, 2017
 
 * Raluca D. Gaina, Adrien Couetoux, Dennis J.N.J. Soemers, Mark H.M. Winands, Tom Vodopivec, Florian Kirchgessner, Jialin Liu, Simon M. Lucas, Diego Perez-Liebana, **"The 2016 Two-Player GVGAI Competition"**, _IEEE Transactions on Computational Intelligence and AI in Games (TCIAIG)_, 2017.
 
