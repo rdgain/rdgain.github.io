@@ -13,9 +13,9 @@ layout: default
 
 **2017**
 
-* Raluca D. Gaina, Simon M. Lucas, Diego Perez-Liebana, **"Population Initializaion Techniques for Rolling Horizon Evolution in General Video Game Playing"**, _Special Session on Computational Intelligence in Games, IEEE Congress on Evolutionary Computation (CEC)_, 2017, to appear.
+* Raluca D. Gaina, Simon M. Lucas, Diego Perez-Liebana, **"Population Initializaion Techniques for Rolling Horizon Evolution in General Video Game Playing"**, _Special Session on Computational Intelligence in Games, IEEE Congress on Evolutionary Computation (CEC)_, 2017, to appear. [(PDF)](assets/pdf/seeding-cec.pdf)
 
-* Kamolwan Kunanusont, Raluca D. Gaina, Jialin Liu, Diego Perez-Liebana, Simon M. Lucas, **"The N-Tuple Bandit Evolutionary Algorithm for Game Design"**, _Special Session on Computational Intelligence in Games, IEEE Congress on Evolutionary Computation (CEC)_, 2017, to appear.
+* Kamolwan Kunanusont, Raluca D. Gaina, Jialin Liu, Diego Perez-Liebana, Simon M. Lucas, **"The N-Tuple Bandit Evolutionary Algorithm for Game Design"**, _Special Session on Computational Intelligence in Games, IEEE Congress on Evolutionary Computation (CEC)_, 2017, to appear. [(PDF)](assets/pdf/n-tuple-bandit.pdf)
 
 * Raluca D. Gaina, Jialin Liu, Simon M. Lucas, Diego Perez-Liebana, **"Analysis of Vanilla Rolling Horizon Evolution Parameters in General Video Game Playing"**, _Springer Lecture Notes in Computer Science, EvoStar_, 2017, to appear. [(PDF)](assets/pdf/analysis-vanilla-rolling.pdf)
 
