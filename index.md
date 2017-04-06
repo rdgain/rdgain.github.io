@@ -17,7 +17,7 @@ layout: default
 
 * Kamolwan Kunanusont, Raluca D. Gaina, Jialin Liu, Diego Perez-Liebana, Simon M. Lucas, **"The N-Tuple Bandit Evolutionary Algorithm for Game Design"**, _Special Session on Computational Intelligence in Games, IEEE Congress on Evolutionary Computation (CEC)_, 2017, to appear. [(PDF)](assets/pdf/n-tuple-bandit.pdf)
 
-* Raluca D. Gaina, Jialin Liu, Simon M. Lucas, Diego Perez-Liebana, **"Analysis of Vanilla Rolling Horizon Evolution Parameters in General Video Game Playing"**, _Squillero G., Sim K. (eds) Applications of Evolutionary Computation, EvoApplications, Lecture Notes in Computer Science, vol. 10199, Springer, Cham._, p. 418-434, 2017.[(PDF)](assets/pdf/analysis-vanilla-rolling.pdf) [(Springer)](https://link.springer.com/chapter/10.1007/978-3-319-55849-3_28)
+* Raluca D. Gaina, Jialin Liu, Simon M. Lucas, Diego Perez-Liebana, **"Analysis of Vanilla Rolling Horizon Evolution Parameters in General Video Game Playing"**, _Squillero G., Sim K. (eds) Applications of Evolutionary Computation, EvoApplications, Lecture Notes in Computer Science, vol. 10199, Springer, Cham._, p. 418-434, 2017. [(PDF)](assets/pdf/analysis-vanilla-rolling.pdf) [(Springer)](https://link.springer.com/chapter/10.1007/978-3-319-55849-3_28)
 
 **2016**
 
