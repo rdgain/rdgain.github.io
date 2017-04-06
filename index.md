@@ -53,7 +53,7 @@ More Stuff.
 [Intelligent Games and Games Intelligence (IGGI)](http://iggi.org.uk)<br />
 [UoE CSEE Women in Science (Athena Swan)](https://www.essex.ac.uk/csee/about/women-in-science.aspx)
 
-[<img src="assets/images/researchgate.png" width="20" />](https://www.researchgate.net/profile/Raluca_Gaina) [<img src="assets/images/gschcolar.png" width="20" />](https://scholar.google.co.uk/citations?user=tC5klQYAAAAJ) [<img src="assets/images/linkedin.png" width="20" />](https://www.linkedin.com/in/raluca-gaina-347518114/) 
+[<img src="assets/images/researchgate.png" width="20" />](https://www.researchgate.net/profile/Raluca_Gaina) [<img src="assets/images/gscholar.png" width="20" />](https://scholar.google.co.uk/citations?user=tC5klQYAAAAJ) [<img src="assets/images/linkedin.png" width="20" />](https://www.linkedin.com/in/raluca-gaina-347518114/) 
 
 # [](#header-1)Contact
 
