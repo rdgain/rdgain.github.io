@@ -41,7 +41,7 @@ Stuff.
 More Stuff.
 -->
 
-#[](#header-1)More
+# [](#header-1)More
 
 [Blog](pages/blog). <br />
 CV available upon request.
