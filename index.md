@@ -43,7 +43,7 @@ More Stuff.
 
 # [](#header-1)More
 
-[Blog](pages/blog). <br />
+[Blog](blog). <br />
 CV available upon request.
 
 # [](#header-1)External Links

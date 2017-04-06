@@ -9,4 +9,4 @@ layout: default
 
 _yay_
 
-[back](index)
+[back](./)
