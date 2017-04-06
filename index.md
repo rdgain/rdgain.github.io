@@ -44,8 +44,6 @@ More Stuff.
 # [](#header-1)More
 
 [Blog](blog). <br />
-[Global Game Jam 2017: Flappy McArmbands Goes to London](http://globalgamejam.org/2017/games/flappy-mcarmbands-goes-london).<br />
-[Global Game Jam 2016: Rebirth](http://globalgamejam.org/2016/games/rebirth).
 
 # [](#header-1)External Links
 
@@ -53,9 +51,12 @@ More Stuff.
 [Intelligent Games and Games Intelligence (IGGI)](http://iggi.org.uk)<br />
 [UoE CSEE Women in Science (Athena Swan)](https://www.essex.ac.uk/csee/about/women-in-science.aspx)
 
-[<img src="assets/images/researchgate.png" width="20" />](https://www.researchgate.net/profile/Raluca_Gaina) [<img src="assets/images/gscholar.png" width="20" />](https://scholar.google.co.uk/citations?user=tC5klQYAAAAJ) [<img src="assets/images/linkedin.png" width="20" />](https://www.linkedin.com/in/raluca-gaina-347518114/) 
+[Global Game Jam 2017: Flappy McArmbands Goes to London](http://globalgamejam.org/2017/games/flappy-mcarmbands-goes-london).<br />
+[Global Game Jam 2016: Rebirth](http://globalgamejam.org/2016/games/rebirth).
 
 # [](#header-1)Contact
 
 E-mail: rdgain@essex.ac.uk
+
+[<img src="assets/images/researchgate.png" width="20" />](https://www.researchgate.net/profile/Raluca_Gaina) [<img src="assets/images/gscholar.png" width="20" />](https://scholar.google.co.uk/citations?user=tC5klQYAAAAJ) [<img src="assets/images/linkedin.png" width="20" />](https://www.linkedin.com/in/raluca-gaina-347518114/) 
 
