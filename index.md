@@ -39,12 +39,12 @@ Stuff.
 # [](#header-1)Achievements
 
 More Stuff.
+-->
 
 #[](#header-1)More
 
-Blog. <br />
+[Blog](pages/blog). <br />
 CV available upon request.
--->
 
 # [](#header-1)External Links
 
