@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: bloglayout
 ---
 
 # [](#header-1)Blog.
