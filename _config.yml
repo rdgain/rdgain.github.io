@@ -18,7 +18,7 @@ author :
   name : Raluca D. Gaina
   email : rdgain@essex.ac.uk
   github : rdgain
-  twitter : rdgain
+  twitter : b_gum22
   feedburner : feedname
 
 # The production_url is only used when full-domain names are needed
@@ -88,7 +88,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : jekyllbootstrap
+      short_name : ralucagaina
     livefyre :
       site_id : 123
     intensedebate :
