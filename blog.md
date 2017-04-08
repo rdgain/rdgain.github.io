@@ -2,7 +2,7 @@
 layout: page
 ---
 
-Changed 2
+Changed 3
 
 <ul class="posts">
   {% for post in site.posts %}
