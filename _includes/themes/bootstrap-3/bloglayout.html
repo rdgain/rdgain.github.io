@@ -44,23 +44,16 @@
   <div class="wrapper">
 	<header><h1 class="title">Blog.</h1></header>
     <div id="container">
-	
-			<nav class="navbar navbar-default" role="navigation">
+		<p class="tagline">
 				<!-- Collect the nav links, forms, and other content for toggling -->
-				<div class="collapse navbar-collapse" id="jb-navbar-collapse">
+				<div class="nav-bar" id="jb-navbar-collapse">
 				  <!--<ul class="nav navbar-nav">-->
 					{% assign pages_list = site.pages %}
 					{% assign group = 'navigation' %}
 					{% include JB/pages_list %}
 				  <!--</ul>-->
-				  <form class="navbar-form navbar-right" role="search">
-					<div class="form-group">
-					  <input type="text" class="form-control" placeholder="Search">
-						<button type="submit" class="btn btn-default">Search</button>
-					</div>
-				  </form>
 				</div><!-- /.navbar-collapse -->
-			  </nav>
+		</p>
       <div id="main" role="main">
         <div class="download-bar">
         <div class="inner">
@@ -93,6 +86,13 @@
 		<small>with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
           and <a href="http://getbootstrap.com" target="_blank">Bootstrap</a></small>
       </div>
+	  
+	  <form class="navbar-form navbar-right" role="search">
+		<div class="form-group">
+		  <input type="text" class="form-control" placeholder="Search">
+			<button type="submit" class="btn btn-default">Search</button>
+		</div>
+	  </form>
     </footer>
   </div>
   <div class="current-section">
