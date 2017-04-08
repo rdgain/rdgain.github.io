@@ -77,8 +77,6 @@ p.customtag {
 
 .nav-bar a {
     background-color: #333;
-    float: center;
-    display: block;
     color: #63a52a;
     text-align: center;
     padding: 14px 16px;
@@ -90,8 +88,8 @@ p.customtag {
 
 .nav-bar a:hover {
   text-decoration: underline;
-  background-color: #ddd;
-  color: #90D355;
+  background-color: #222;
+  color: #D1D1D1;
 }
 
 .download-bar {
