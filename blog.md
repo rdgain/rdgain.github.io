@@ -2,7 +2,7 @@
 layout: page
 ---
 
-Changed 4
+Welcome to blog! Here's an ugly list of posts before I make it prettier. Yes, that's a sample post.
 
 <ul class="posts">
   {% for post in site.posts %}
