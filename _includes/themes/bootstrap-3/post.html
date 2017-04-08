@@ -17,16 +17,14 @@
       {% assign categories_list = page.categories %}
       {% include JB/categories_list_comma %}
   {% endunless %}  
-	<br/><br/>
+	<br/>
 	Tags: 
   {% unless page.tags == empty %}
-    <ul class="tag_box inline">
       {% assign tags_list = page.tags %}
       {% include JB/tags_list_comma %}
-    </ul>
   {% endunless %}  
   
-    <hr>
+    <hr><center>
     {% if page.previous %}
       <a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&laquo; Previous</a> 
     {% else %}
@@ -38,7 +36,7 @@
     {% else %}
       Next &rarr;
     {% endif %}
-    <hr>
+    </center><hr>
     {% include JB/comments %}
   </div>
 </div>
