@@ -76,14 +76,13 @@
 				  {% assign posts_collate = site.posts %}
 			      {% for post in posts_collate %}
 					  {% assign count = posts_collate.size | modulo: 3 %}
-					  {% assign moduloindex = forloop.index + 3 - count | modulo: 3 %}
+					  {% assign offset = forloop.index + 3 - count %}
+					  {% assign moduloindex = offset | modulo: 3 %}
 					  
 					  
-					  {% if moduloindex == 1 %}
-						{% unless forloop.index == 1 %}
-							</tr>
-						{% endunless %}		
-						{% if posts_collate.size | minus: forloop.index >= 3 %}
+					  {% if moduloindex == 1 %}	
+						{% assign diff = posts_collate.size | minus: forloop.index %}
+						{% if diff >= 3 %}
 							<tr>
 						{% endif %}							
 					  {% endif %}
