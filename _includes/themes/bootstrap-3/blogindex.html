@@ -94,7 +94,7 @@
 							  </div></td>
 							{% else %}
 							  <td><div class="post-container">
-								  <img src="assets/images/{{ post.image1 }}" />
+								  <img style="width:100%" src="assets/images/{{ post.image1 }}" />
 								  <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
 							  </div></td>
 							{% endif %}
@@ -102,19 +102,19 @@
 					  {% elsif count == 2 %}
 							{% if forloop.index == 1 %}		
 							  <td colspan="2"><div class="post-container">
-								  <img style="width:100%" src="assets/images/{{ post.image2 }}" />
+								  <img style="width:100%" style="width:100%" src="assets/images/{{ post.image2 }}" />
 								  <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
 							  </div></td>
 							{% else %}	
 							  <td><div class="post-container">
-								  <img src="assets/images/{{ post.image1 }}" />
+								  <img style="width:100%" src="assets/images/{{ post.image1 }}" />
 								  <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
 							  </div></td>
 							{% endif %}
 							
 					  {% else %}
 						  <td><div class="post-container">
-							  <img src="assets/images/{{ post.image1 }}" />
+							  <img style="width:100%" src="assets/images/{{ post.image1 }}" />
 							  <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
 						  </div></td>	  
 					  
