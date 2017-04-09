@@ -45,17 +45,17 @@ h1.title {
   box-shadow: 0 0 5px #b1b1b1;
 }
 
-#post-container {
+.post-container {
   height: 100px;
   width: 100px;
   position: relative;
 }
-#post-image {
+.post-container img {
   position: absolute;
   left: 0;
   top: 0;
 }
-#post-text {
+.post-container p a {
   z-index: 20;
   position: absolute;
   color: white;
