@@ -79,7 +79,7 @@
 					  {% assign offset = forloop.index0 + 3 - count %}
 					  {% assign moduloindex = offset | modulo: 3 %}
 					  
-					  {{ moduloindex }}
+					  {{ offset }}
 					  
 					  {% if moduloindex == 0 %}	
 						{% assign diff = posts_collate.size | minus: forloop.index %}
