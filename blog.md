@@ -12,7 +12,3 @@ Welcome to blog! Here's an ugly list of posts before I make it prettier. Yes, th
 	  </div>
   {% endfor %}
 </ul>
-
-<!-- 
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}"><img src="assets/images/{{ post.image1 }}"/></a></li>
-	{{ post.title }} -->
