@@ -73,7 +73,6 @@
           {{ content }}
         </article>
 				  {% assign posts_collate = site.posts %}
-				  {% include JB/posts_collate %}
 			      {% for post in posts_collate %}
 					  {% assign count = posts_collate.size | modulo: 3 %}
 					  {% if count == 1 %}
