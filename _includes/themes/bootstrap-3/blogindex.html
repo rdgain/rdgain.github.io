@@ -81,7 +81,7 @@
 					  
 					  {{ moduloindex }}
 					  
-					  {% if moduloindex == 1 %}	
+					  {% if moduloindex == 0 %}	
 						{% assign diff = posts_collate.size | minus: forloop.index %}
 						{% if diff >= 3 %}
 							<tr>
@@ -122,7 +122,7 @@
 					  
 					  {% endif %}
 					  
-					  {% if moduloindex == 0 %}
+					  {% if moduloindex == 2 %}
 						</tr>					
 					  {% endif %}
 					  
