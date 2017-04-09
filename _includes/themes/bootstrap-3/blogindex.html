@@ -1,5 +1,78 @@
+<!doctype html>
+<!-- The Time Machine GitHub pages theme was designed and developed by Jon Rohan, on Feb 7, 2012. -->
+<!-- Follow him for fun. http://twitter.com/jonrohan. Tail his code on https://github.com/jonrohan -->
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-					<center><table style="width:100%;border-collapse: collapse;"  border="0" cellpadding="5" cellspacing="0"><tr>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script type="text/javascript" src="{{ '/assets/js/script.js' | relative_url }}"></script>
+
+  <title>{{ site.title | default: site.github.repository_name }} - Blog.</title>
+  <meta name="description" content="{{ site.description | default: site.github.project_tagline }}">
+
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  
+    <!-- Bootstrap styles -->
+    <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <!-- Update these with your own images
+      <link rel="shortcut icon" href="images/favicon.ico">
+      <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+      <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+      <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+    -->
+
+    <!-- atom & rss feed -->
+    <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+    <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+
+</head>
+
+<body>
+
+  <div class="wrapper">
+	<header><h1 class="title">Blog.</h1></header>
+    <div id="container">
+		<p class="tagline">
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<center>
+					<div class="nav-bar" id="jb-navbar-collapse">
+					  <a href="{{ site.url }}">Home</a>
+					  <a href="{{ site.url }}/blog">Blog</a>
+					  <!--<ul class="nav navbar-nav">-->
+						{% assign pages_list = site.pages %}
+						{% assign group = 'navigation' %}
+						{% include JB/pages_list %}
+					  <!--</ul>-->
+					</div><!-- /.navbar-collapse -->
+				</center>
+		</p>
+      <div id="main" role="main">
+        <div class="download-bar">
+        <div class="inner">
+          {% if site.show_downloads %}
+          <a href="{{ site.github.tar_url }}" class="download-button tar"><span>Download</span></a>
+          <a href="{{ site.github.zip_url }}" class="download-button zip"><span>Download</span></a>
+          {% endif %}
+          <p class="customtag">Some bugs just don't want to be squished, so learn to love them.</p>
+        </div>
+        <span class="blc"></span><span class="trc"></span>
+        </div>
+        <article class="markdown-body">				  
+          {{ content }}
+        </article>
+		<center><table style="width:100%;border-collapse: collapse;"  border="0" cellpadding="5" cellspacing="0"><tr>
 				  {% assign posts_collate = site.posts %}
 			      {% for post in posts_collate %}
 					  {% assign count = posts_collate.size | modulo: 3 %}
@@ -53,3 +126,61 @@
 					  
 				  {% endfor %}
 				  </table></center>
+      </div>
+    </div>
+    <footer>
+      <div class="owner">
+      {% if site.github.is_project_page %}
+      <p><a href="{{ site.github.owner_url }}" class="avatar"><img src="{{ site.github.owner_gravatar_url }}" width="48" height="48"></a> <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a> maintains <a href="{{ site.github.repository_url }}">{{ site.title | default: site.github.repository_name }}</a></p>
+      {% endif %}
+
+       {% if site.github.is_user_page %}
+      <p><a href="{{ site.github.owner_url }}" class="avatar"><img src="{{ site.github.owner_gravatar_url }}" width="48" height="48"></a>View <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a> on <a href="https://www.github.com">GitHub</a></p>
+      {% endif %}
+
+      </div>
+      <div class="creds">
+        <small>This page generated using <a href="https://pages.github.com/">GitHub Pages</a><br>theme by <a href="https://twitter.com/jonrohan/">Jon Rohan</a></small>
+		<small>with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
+          and <a href="http://getbootstrap.com" target="_blank">Bootstrap</a></small>
+      </div>
+	  
+	  <form class="navbar-form navbar-right" role="search">
+		<div class="form-group">
+		  <input type="text" class="form-control" placeholder="Search">
+			<button type="submit" class="btn btn-default">Search</button>
+		</div>
+	  </form>
+    </footer>
+  </div>
+  <div class="current-section">
+    <a href="#top">Scroll to top</a>
+    <p class="name"></p>
+  </div>
+
+    {% include JB/analytics %}
+	
+  {% if site.google_analytics %}
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      try {
+        var pageTracker = _gat._getTracker("{{ site.google_analytics }}");
+      pageTracker._trackPageview();
+      } catch(err) {}
+    </script>
+  {% endif %}
+  
+  <!-- Latest compiled and minified JavaScript, requires jQuery 1.x (2.x not supported in IE8) -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="{{ ASSET_PATH }}/bootstrap/js/bootstrap.min.js"></script>
+	
+	<script id="dsq-count-scr" src="//rdgain.disqus.com/count.js" async></script>
+	
+</body>
+</html>
+
+					
