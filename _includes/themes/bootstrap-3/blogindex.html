@@ -76,7 +76,7 @@
 				  {% assign posts_collate = site.posts %}
 			      {% for post in posts_collate %}
 					  {% assign count = posts_collate.size | modulo: 3 %}
-					  {% assign offset = forloop.index0 + 3 - count %}
+					  {% assign offset = forloop.index0 + count %}
 					  {% assign moduloindex = offset | modulo: 3 %}
 					  
 					  {% if moduloindex == 1 %}	
