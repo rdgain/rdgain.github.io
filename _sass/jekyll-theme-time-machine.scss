@@ -45,6 +45,26 @@ h1.title {
   box-shadow: 0 0 5px #b1b1b1;
 }
 
+#post-container {
+  height: 100px;
+  width: 100px;
+  position: relative;
+}
+#post-image {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#post-text {
+  z-index: 100;
+  position: absolute;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  left: 150px;
+  top: 350px;
+}
+
 p.tagline {
   padding: 20px 20px 0;
   color: #fff;
