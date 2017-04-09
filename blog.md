@@ -3,7 +3,6 @@ layout: page
 ---
 
 
-<ul class="posts">
   {% for post in site.posts %}
 	  {% assign count = site.posts.size | modulo: 3 %}
 	  {% if count == 1 %}
@@ -43,4 +42,3 @@ layout: page
 	  
 	  
   {% endfor %}
-</ul>
