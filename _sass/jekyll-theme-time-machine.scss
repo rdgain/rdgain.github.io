@@ -50,19 +50,14 @@ h1.title {
   width: 100px;
   position: relative;
 }
-.post-container img {
-  position: absolute;
-  left: 0;
-  top: 0;
-}
 .post-container p a {
   z-index: 20;
   position: absolute;
   color: white;
   font-size: 24px;
   font-weight: bold;
-  left: 150px;
-  top: 350px;
+  left: 20px;
+  top: 20px;
 }
 
 p.tagline {
