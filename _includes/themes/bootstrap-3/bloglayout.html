@@ -72,44 +72,62 @@
         <article class="markdown-body">				  
           {{ content }}
         </article>
+					<table><tr>
 				  {% assign posts_collate = site.posts %}
 			      {% for post in posts_collate %}
 					  {% assign count = posts_collate.size | modulo: 3 %}
+					  {% assign moduloindex = forloop.index | modulo: 3 %}
+					  
+					  
+					  {% if moduloindex == 1 %}
+						{% unless forloop.index == 1 %}
+							</tr>
+						{% endunless %}		
+						{% if posts_collate.size | minus: forloop.index >= 3 %}
+							<tr>
+						{% endif %}							
+					  {% endif %}
+					  
 					  {% if count == 1 %}
 							{% if forloop.index == 1 %}	
-							  <div class="post-container">
+							  <td colspan="3"><div class="post-container">
 								  <img src="assets/images/{{ post.image3 }}" />
 								  <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
-							  </div>
+							  </div></td>
 							{% else %}
-							  <div class="post-container">
+							  <td><div class="post-container">
 								  <img src="assets/images/{{ post.image1 }}" />
 								  <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
-							  </div>
+							  </div></td>
 							{% endif %}
 						  
 					  {% elsif count == 2 %}
 							{% if forloop.index == 1 %}		
-							  <div class="post-container">
+							  <td colspan="2"><div class="post-container">
 								  <img src="assets/images/{{ post.image2 }}" />
 								  <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
-							  </div>
+							  </div></td>
 							{% else %}	
-							  <div class="post-container">
+							  <td><div class="post-container">
 								  <img src="assets/images/{{ post.image1 }}" />
 								  <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
-							  </div>
+							  </div></td>
 							{% endif %}
 							
 					  {% else %}
-						  <div class="post-container">
+						  <td><div class="post-container">
 							  <img src="assets/images/{{ post.image1 }}" />
 							  <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
-						  </div>	  
+						  </div></td>	  
 					  
 					  {% endif %}
 					  
+					  {% if forloop.index == posts_collate.size %}
+						</tr>					
+					  {% endif %}
+					  
 				  {% endfor %}
+				  </table>
       </div>
     </div>
     <footer>
