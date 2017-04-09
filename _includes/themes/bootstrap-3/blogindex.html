@@ -72,7 +72,7 @@
         <article class="markdown-body">				  
           {{ content }}
         </article>
-		<center><table style="width:100%;border-collapse: collapse;"  border="0" cellpadding="5" cellspacing="0"><tr>
+		<center><table style="width:100%;border-spacing: 10px; border-collapse: separate;"  border="0" cellpadding="5" cellspacing="0"><tr>
 				  {% assign posts_collate = site.posts %}
 			      {% for post in posts_collate %}
 					  {% assign count = posts_collate.size | modulo: 3 %}
