@@ -7,9 +7,6 @@
     <div class="date">
       <span>{{ page.date | date_to_long_string }}</span>
     </div>
-    <div class="content">
-      {{ content }}
-    </div>
 
 	<hr>
 	Categories: 
@@ -23,7 +20,12 @@
       {% assign tags_list = page.tags %}
       {% include JB/tags_list_comma %}
   {% endunless %}  
+  <hr>
   
+    <div class="content">
+      {{ content }}
+    </div>
+	
     <hr><center>
     {% if page.previous %}
       <a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&laquo; Previous</a> 
