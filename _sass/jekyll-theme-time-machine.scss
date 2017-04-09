@@ -63,6 +63,16 @@ h1.title {
   background: rgba(0, 0, 0, 0.7);
   padding: 10px; 
 }
+.post-container-table * {
+          margin: 0;
+          padding: 0;
+          border: 0;
+          outline: 0;
+          font-size: 100%;
+		  width: 100%;
+          vertical-align: baseline;
+          background: transparent;
+}
 
 p.tagline {
   padding: 20px 20px 0;
