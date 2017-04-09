@@ -27,7 +27,7 @@ Usage:
     	</a>
 		{% unless forloop.index == categories_list.size %}
 			,
-		{% endif %}
+		{% endunless %}
     {% endfor %}
   {% else %}
     {% for category in categories_list %} 
@@ -36,7 +36,7 @@ Usage:
     	</a>
 		{% unless forloop.index == categories_list.size %}
 			,
-		{% endif %} 
+		{% endunless %} 
     {% endfor %}
   {% endif %}
 {% endif %}
