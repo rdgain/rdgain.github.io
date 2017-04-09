@@ -46,7 +46,8 @@ h1.title {
 }
 
 .post-container {
-  margin: 12.5px;
+  margin: 10px 10px 10px 10px;
+  width:auto;
   position: relative;
 }
 .post-container a {
@@ -84,12 +85,6 @@ p.customtag {
 #main {
   margin-top: 20px;
   padding: 0 20px 90px;
-  background-color: #fff;
-}
-
-#blog-main {
-  margin-top: 20px;
-  padding: 0 12.5px 90px;
   background-color: #fff;
 }
 
