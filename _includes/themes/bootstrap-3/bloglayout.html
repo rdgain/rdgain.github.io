@@ -72,60 +72,6 @@
         <article class="markdown-body">				  
           {{ content }}
         </article>
-					<center><table><tr>
-				  {% assign posts_collate = site.posts %}
-			      {% for post in posts_collate %}
-					  {% assign count = posts_collate.size | modulo: 3 %}
-					  {% assign offset = forloop.index0 + 3 - count %}
-					  {% assign moduloindex = offset | modulo: 3 %}
-					  
-					  {% if moduloindex == 1 %}	
-						{% assign diff = posts_collate.size | minus: forloop.index %}
-						{% if diff >= 3 %}
-							<tr>
-						{% endif %}							
-					  {% endif %}
-					  
-					  {% if count == 1 %}
-							{% if forloop.index == 1 %}	
-							  <td colspan="3"><div class="post-container">
-								  <img src="assets/images/{{ post.image3 }}" />
-								  <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
-							  </div></td>
-							{% else %}
-							  <td><div class="post-container">
-								  <img src="assets/images/{{ post.image1 }}" />
-								  <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
-							  </div></td>
-							{% endif %}
-						  
-					  {% elsif count == 2 %}
-							{% if forloop.index == 1 %}		
-							  <td colspan="2"><div class="post-container">
-								  <img src="assets/images/{{ post.image2 }}" />
-								  <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
-							  </div></td>
-							{% else %}	
-							  <td><div class="post-container">
-								  <img src="assets/images/{{ post.image1 }}" />
-								  <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
-							  </div></td>
-							{% endif %}
-							
-					  {% else %}
-						  <td><div class="post-container">
-							  <img src="assets/images/{{ post.image1 }}" />
-							  <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
-						  </div></td>	  
-					  
-					  {% endif %}
-					  
-					  {% if moduloindex == 0 or forloop.index == posts_collate.size %}
-						</tr>					
-					  {% endif %}
-					  
-				  {% endfor %}
-				  </table></center>
       </div>
     </div>
     <footer>
