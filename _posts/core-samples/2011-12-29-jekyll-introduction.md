@@ -4,8 +4,9 @@ comments: true
 category : lessons
 tagline: "Supporting tagline"
 tags : [intro, beginner, jekyll, tutorial]
-image1: researchgate.png
-image3: researchgate_long.png
+image1: image_short.png
+image2: image_medium.png
+image3: image_long.png
 ---
 {% include JB/setup %}
 
