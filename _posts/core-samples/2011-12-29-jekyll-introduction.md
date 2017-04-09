@@ -4,6 +4,7 @@ comments: true
 category : lessons
 tagline: "Supporting tagline"
 tags : [intro, beginner, jekyll, tutorial]
+image1: gscholar.png
 ---
 {% include JB/setup %}
 
