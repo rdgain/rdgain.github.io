@@ -75,12 +75,9 @@
 		<center><table style="width:100%;border-spacing: 10px; border-collapse: separate;"  cellpadding="5"><tr>
 				  {% assign posts_collate = site.posts %}
 				  {% assign count = posts_collate.size | modulo: 3 %}
-					  Extras: {{ count }}
 			      {% for post in posts_collate %}
-					  {% assign offset = forloop.index0 + 3 - count %}
+					  {% assign offset = forloop.index0 | plus: 3 | minus: count %}
 					  {% assign moduloindex = offset | modulo: 3 %}
-					  
-					  {{ forloop.index0 }}
 					  
 					  {% if moduloindex == 0 %}	
 						{% assign diff = posts_collate.size | minus: forloop.index %}
