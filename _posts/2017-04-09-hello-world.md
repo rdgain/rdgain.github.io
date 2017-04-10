@@ -7,7 +7,7 @@ tags : [random, event]
 image1: post1/logo_short.png
 image2: post1/logo_medium.png
 image3: post1/logo_long.png
-short_title: Hello World
+finalimage: post1/glasses.png
 ---
 {% include JB/setup %}
 
@@ -19,7 +19,7 @@ Quick introduction about myself. I'm guessing you've already read my "official" 
 
 <img style="float:left;width:250px;margin:15px" src="{{ site.url }}/assets/images/post1/cats.png" />
 
-But now we're getting off track. So I came to the UK for university. I did a Bachelors in Computer Games at the University of Essex in Colchester and it was quite cool. Lots of stones thrown in my way, making walking this path painful, but then I was doing a Masters in Computer Games! And that's when I found out about this cool thing called research. You should try it if you haven't yet. It's what the academics do when they're not replying to that urgent email you've sent. It's a cool way to try things without people screaming at you you're wrong (well, they might write that in a review instead) and sharing your work with others so together you build stronger and better science. You can be part of history, like the DeepMind people. Or you can just travel to nice places, present your work and pretend you're smart in front of a bunch of people who probably know a lot more about what you're trying to sell to them than you do. But that's how you learn, isn't it?
+But now we're getting off track. Did I mention I'm very easily distracted? So, as I was saying, I came to the UK for university. I did a Bachelors in Computer Games at the University of Essex in Colchester and it was quite cool. Lots of stones thrown in my way, making walking this path painful, but then I was doing a Masters in Computer Games! And that's when I found out about this cool thing called research. You should try it if you haven't yet. It's what the academics do when they're not replying to that urgent email you've sent. It's a cool way to try things without people screaming at you you're wrong (well, they might write that in a review instead) and sharing your work with others so together you build stronger and better science. You can be part of history, like the DeepMind people. Or you can just travel to nice places, present your work and pretend you're smart in front of a bunch of people who probably know a lot more about what you're trying to sell to them than you do. But that's how you learn, isn't it?
 
 <img style="float:right;width:250px;margin:15px" src="{{ site.url }}/assets/images/post1/cupcakes.png" />
 
@@ -38,9 +38,3 @@ And many more. I'll do my best to keep this blog professional, but it won't be j
 * **Books** - I also read as much as I can; recently started the Dragonlance Chronicles, I might let you come along for the journey
 
 I hope something there peaked your interest and you'll stick around. I'll try to vary things as much as possible, so there aren't just cats floating around or talk of papers. Thank you for reading!
-
-
-Have a lovely day, <br/>
-<span style="font-family:'Dancing Script', cursive; font-size:30px">Me.</span>
-
-<img style="width:100%" src="{{ site.url }}/assets/images/post1/glasses.png" />

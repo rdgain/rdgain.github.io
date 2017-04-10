@@ -23,7 +23,12 @@
   <hr>
   
     <div class="content">
-      {{ content }}
+      {{ content }} <br/><br/>
+	  
+		Have a lovely day, <br/>
+		<span style="font-family:'Dancing Script', cursive; font-size:30px">Me.</span>
+		
+		{% if page.finalimage %}<center><img style="width:100%" src="{{ site.url }}/assets/images/{{ page.finalimage }}"/></center>{% endif %}
     </div>
 	
     <hr><center>

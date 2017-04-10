@@ -49,6 +49,7 @@ More Stuff.
 
 [General Video Game AI Competition (GVGAI)](http://gvgai.net)<br />
 [Intelligent Games and Games Intelligence (IGGI)](http://iggi.org.uk)<br />
+[Computer Science & Electronic Engineering Conference 2017 (CEEC)](http://ceec.uk/)<br />
 [UoE CSEE Women in Science (Athena Swan)](https://www.essex.ac.uk/csee/about/women-in-science.aspx)
 
 [Global Game Jam 2017: Flappy McArmbands Goes to London](http://globalgamejam.org/2017/games/flappy-mcarmbands-goes-london).<br />
