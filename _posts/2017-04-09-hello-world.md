@@ -4,9 +4,9 @@ comments: true
 category : Random
 tagline: ": when there was a blog."
 tags : [random, event]
-image1: image_short.png
-image2: image_medium.png
-image3: image_long.png
+image1: post1/logo_short.png
+image2: post1/logo_medium.png
+image3: post1/logo_long.png
 short_title: Hello World
 ---
 {% include JB/setup %}
@@ -22,7 +22,7 @@ So that's where I am now. I am trying to be a Ph.D. student in Intelligent Games
 And many more. I'll do my best to keep this blog professional, but it won't be just that. Some of my current ideas for categories you might expect include:
 
 * **Random** - stuff that doesn't fit in any other category
-* **Paper Club** - like a book club, but instead commenting and reviewing academic papers, with you joining in the discussion in the comments! (If there is a you... hellooo?)
+* **Paper Club** - like a book club, but instead commenting and reviewing academic papers, with you joining in the discussion in the comments! (If there even is a you... hellooo?)
 * **Conferences** - thoughts on conferences, presentations I make or other cool conferency things
 * **PhD Life** - general experiences related to being a PhD student
 * **Side Projects** - there are always some of those, I might share what I'm up to when my supervisors are not looking 
@@ -34,5 +34,5 @@ And many more. I'll do my best to keep this blog professional, but it won't be j
 I hope something there peaked your interest and you'll stick around. I'll try to vary things as much as possible, so there aren't just cats floating around or talk of papers. Thank you for reading!
 
 
-Have a lovely day,
+Have a lovely day, <br/>
 Me.
