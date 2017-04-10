@@ -41,6 +41,6 @@ I hope something there peaked your interest and you'll stick around. I'll try to
 
 
 Have a lovely day, <br/>
-<span style="font-family:'Spirax', cursive; font-size:30px">__Me__.</span>
+<span style="font-family:'Dancing Script', cursive; font-size:30px">Me.</span>
 
 <img style="width:100%" src="{{ site.url }}/assets/images/post1/glasses.png" />
