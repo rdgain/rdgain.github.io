@@ -31,7 +31,7 @@ Introductory slides. I assumed they knew who I was so I skipped saying my introd
 
 The missing slide was before these two, explaining my algorithm and how it works in the context of games. I babbled so much on that one slide, words were not my friends this morning. The board chair stopped me at some point to clarify something (so I was clearly not making any sense) and they were all scribbling in their papers, even my supervisors! That panicked me more, it must mean I was talking nonsense, so I babbled more. I focused mainly on the board chair, since the other two supposedly knew what I'd been up to. And somehow I got through these slides. Those two pictured here are implying general game AI: one AI that is not able to be brilliant at only one game, but any given to it.
 
-<center><img style="margin:15px;width:400px" src="{{ site.url }}/assets/images/post2/Slide6.png" /><img style="margin:15px;width:400px" src="{{ site.url }}/assets/images/post2/Presentation/Slide7.png" /></center>
+<center><img style="margin:15px;width:400px" src="{{ site.url }}/assets/images/post2/slide6.png" /><img style="margin:15px;width:400px" src="{{ site.url }}/assets/images/post2/Presentation/Slide7.png" /></center>
 
 Then came the time to say what I actually used this algorithm for. I started getting my hands involved a bit at this point to cover my babbling. Gesturing is a great cover up! I went slowly through all the papers and explained what happened in each one, doing my best to give details so it makes sense, while not spending hours presenting them. The corners of my eyes were focused on my supervisors who looked intrigued by what I was saying. Another time to panic, but at least they had friendly faces on. Eventually I finished and I could breathe again.
 
