@@ -4,10 +4,10 @@ comments: true
 category : PhD-Life
 tagline: ": when there was fear and tears."
 tags : [phd, event, first]
-image1: post2/penguin1_short.png
-image2: post2/penguin1_medium.png
-image3: post2/penguin1_long.png
-finalimage: post2/cat.png
+image1: post2/penguin2_short.png
+image2: post2/penguin2_medium.png
+image3: post2/penguin2_long.png
+finalimage: post2/cat.jpg
 ---
 {% include JB/setup %}
 
