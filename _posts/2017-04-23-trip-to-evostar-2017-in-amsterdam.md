@@ -1,14 +1,14 @@
 ---
 layout: post
 comments: true
-category : PhD-Life, Conferences, Travel
+category : [PhD-Life, Conferences, Travel]
 short_title: EvoStar 2017
 tagline: ": when there were professionals, evolution, fun and city explorations."
 tags : [phd, event, first]
-image1: post3/cloudssmall.png
-image2: post3/cloudssmall.png
-image3: post3/cloudsbig.png
-finalimage: post3/finalimage.png
+image1: post3/finalimagesmall.png
+image2: post3/finalimagesmall.png
+image3: post3/finalimage.png
+finalimage: post3/cacti.png
 ---
 {% include JB/setup %}
 
@@ -53,6 +53,8 @@ The last day we spent exploring some more before the flights. Starting at the Be
 
 And in the four days spent there, I surprisingly did not get run over by one bicycle.
 
-One thing I noticed, I complained a lot about having to travel a lot, as now I am off on another adventure. But how lucky am I to be able to go beautiful places!
-
 Check [this album](https://www.facebook.com/media/set/?set=a.1523573877676779.1073741833.100000725447762&type=1&l=8237b2fd41) for more pictures.
+
+<center><iframe src="//giphy.com/embed/3ohzdZKQZpCetgyPPa" width="240" height="180" frameBorder="0" class="giphy-embed" allowFullScreen></iframe> <iframe src="//giphy.com/embed/xUPGcBjcXD8gl6H0U8" width="240" height="180" frameBorder="0" class="giphy-embed" allowFullScreen></iframe> <iframe src="//giphy.com/embed/3ohzdUC48wiDhZaym4" width="240" height="180" frameBorder="0" class="giphy-embed" allowFullScreen></iframe> <iframe src="//giphy.com/embed/xUPGcjCUEmpAH00eje" width="240" height="180" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></center>
+
+One thing I noticed, I complained a lot about having to travel a lot, as now I am off on another adventure. But how lucky am I to be able to go beautiful places!
