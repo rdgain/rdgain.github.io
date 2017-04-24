@@ -3,7 +3,7 @@ layout: post
 comments: true
 category : [PhD-Life, Conferences, Travel]
 short_title: EvoStar 2017
-tagline: ": when there were professionals, evolution, fun and city explorations."
+tagline: ": when there was evolution, fun and city explorations."
 tags : [phd, event, first]
 image1: post3/finalimagesmall.png
 image2: post3/finalimagesmall.png
@@ -55,6 +55,6 @@ And in the four days spent there, I surprisingly did not get run over by one bic
 
 Check [this album](https://www.facebook.com/media/set/?set=a.1523573877676779.1073741833.100000725447762&type=1&l=8237b2fd41) for more pictures.
 
-<center><iframe src="//giphy.com/embed/3ohzdZKQZpCetgyPPa" width="240" height="180" frameBorder="0" class="giphy-embed" allowFullScreen></iframe> <iframe src="//giphy.com/embed/xUPGcBjcXD8gl6H0U8" width="240" height="180" frameBorder="0" class="giphy-embed" allowFullScreen></iframe> <iframe src="//giphy.com/embed/3ohzdUC48wiDhZaym4" width="240" height="180" frameBorder="0" class="giphy-embed" allowFullScreen></iframe> <iframe src="//giphy.com/embed/xUPGcjCUEmpAH00eje" width="240" height="180" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></center>
+<center><iframe src="//giphy.com/embed/3ohzdZKQZpCetgyPPa" width="200" height="150" frameBorder="0" class="giphy-embed" allowFullScreen></iframe> <iframe src="//giphy.com/embed/xUPGcBjcXD8gl6H0U8" width="200" height="150" frameBorder="0" class="giphy-embed" allowFullScreen></iframe> <iframe src="//giphy.com/embed/3ohzdUC48wiDhZaym4" width="200" height="150" frameBorder="0" class="giphy-embed" allowFullScreen></iframe> <iframe src="//giphy.com/embed/xUPGcjCUEmpAH00eje" width="200" height="150" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></center>
 
 One thing I noticed, I complained a lot about having to travel a lot, as now I am off on another adventure. But how lucky am I to be able to go beautiful places!
