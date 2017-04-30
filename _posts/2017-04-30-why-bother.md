@@ -34,5 +34,6 @@ Analogy turned weird there. I don't like feet.
 <!--
 <center><iframe width="560" height="315" src="https://www.youtube.com/embed/i0CnVdQSRVg" frameborder="0" allowfullscreen></iframe></center>
 -->
+<br /><br />
 
 P.S. This post was kept clean of noise in the memory of PhD topics actually dropped. I'll also take this opportunity to mention that all images used on this blog are personal pictures that I am happy to share. 
