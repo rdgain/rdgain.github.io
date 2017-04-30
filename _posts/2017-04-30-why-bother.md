@@ -30,6 +30,9 @@ But in the mean time, I'm not quitting. And I'm not changing my PhD topic either
 I bother because my small footprints in the sand are important to me. And they have to be important to me before they become important to someone else with bigger feet.
 
 Analogy turned weird there. I don't like feet.
-<br/><br/>
+
+<!--
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/i0CnVdQSRVg" frameborder="0" allowfullscreen></iframe></center>
+-->
 
 P.S. This post was kept clean of noise in the memory of PhD topics actually dropped. I'll also take this opportunity to mention that all images used on this blog are personal pictures that I am happy to share. 
