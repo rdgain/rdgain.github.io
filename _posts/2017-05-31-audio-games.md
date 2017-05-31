@@ -4,9 +4,9 @@ comments: true
 category : [PhD]
 tagline: ": when there was only sound."
 tags : [phd, presentation, patw, sound, audio, deaf]
-image1: post6/logo_short.png
-image2: post6/logo_medium.png
-image3: post6/logo_long.png
+image1: post7/logo_short.png
+image2: post7/logo_medium.png
+image3: post7/logo_long.png
 ---
 {% include JB/setup %}
 
