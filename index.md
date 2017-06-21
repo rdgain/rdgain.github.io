@@ -13,6 +13,10 @@ layout: default
 
 **2017**
 
+* Raluca D. Gaina, Simon M. Lucas, Diego Perez-Liebana, **"Rolling Horizon Evolution Enhancements in General Video Game Playing"**, _IEEE Conference on Computational Intelligence and Games_, 2017, to appear. [(PDF)](assets/pdf/rolling-horizon-enh.pdf)
+
+* Diego Perez-Liebana, Matthew Stephenson, Raluca D. Gaina, Jochen Renz, Simon M. Lucas **"Introducing Real World Physics and Macro-Actions to General Video Game AI"**, _IEEE Conference on Computational Intelligence and Games_, 2017, to appear. [(PDF)](assets/pdf/physics-macro.pdf)
+
 * Raluca D. Gaina, Simon M. Lucas, Diego Perez-Liebana, **"Population Initializaion Techniques for Rolling Horizon Evolution in General Video Game Playing"**, _Special Session on Computational Intelligence in Games, IEEE Congress on Evolutionary Computation (CEC)_, 2017, to appear. [(PDF)](assets/pdf/seeding-cec.pdf)
 
 * Kamolwan Kunanusont, Raluca D. Gaina, Jialin Liu, Diego Perez-Liebana, Simon M. Lucas, **"The N-Tuple Bandit Evolutionary Algorithm for Game Design"**, _Special Session on Computational Intelligence in Games, IEEE Congress on Evolutionary Computation (CEC)_, 2017, to appear. [(PDF)](assets/pdf/n-tuple-bandit.pdf)
@@ -27,19 +31,16 @@ layout: default
 
 * Raluca D. Gaina, Adrien Couetoux, Dennis J.N.J. Soemers, Mark H.M. Winands, Tom Vodopivec, Florian Kirchgessner, Jialin Liu, Simon M. Lucas, Diego Perez-Liebana, **"The 2016 Two-Player GVGAI Competition"**, _IEEE Transactions on Computational Intelligence and AI in Games (TCIAIG)_, 2017.
 
-* Raluca D. Gaina, Simon M. Lucas, Diego Perez-Liebana, **"Rolling Horizon Evolution Enhancements in General Video Game Playing"**, _IEEE Conference on Computational Intelligence and Games_, 2017.
-
-* Diego Perez-Liebana, Matthew Stephenson, Raluca D. Gaina, Jochen Renz, Simon M. Lucas **"Introducing Real World Physics and Macro-Actions to General Video Game AI"**, _IEEE Conference on Computational Intelligence and Games_, 2017.
 
 <!--
 # [](#header-1)Projects
 
 Stuff.
+-->
 
 # [](#header-1)Achievements
 
-More Stuff.
--->
+* **IEEE Present Around The World Competition**, University of Essex, 2017: Runner-up
 
 # [](#header-1)More
 
