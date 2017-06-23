@@ -41,6 +41,7 @@ Stuff.
 # [](#header-1)Achievements
 
 * **IEEE Present Around The World Competition**, University of Essex, 2017: Runner-up
+* **IET Game AI Hackathon Competition**, University of Essex, 2017: Runner-up Best Game Design
 
 # [](#header-1)More
 
