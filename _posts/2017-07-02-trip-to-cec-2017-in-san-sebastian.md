@@ -16,7 +16,7 @@ Hello and welcome.
 
 Presentation download: [(PPTX)]({{ site.url }}/assets/ppt/cecPpt.pptx) [(PDF)]({{ site.url }}/assets/pdf/cecPdf.pdf).
 
-<img style="margin:15px;width:250px;float:left" src="{{ site.url }}/assets/images/post8/mepresentrh.png" />
+<img style="margin:15px;float:right" src="{{ site.url }}/assets/images/post8/mepresentrh.png" />
 
 A few weeks ago (I know, I'm slow at updating this blog) I was in Spain for the Conference on Evolutionary Computation (CEC) 2017, which happened to take place in San Sebastian this year. Considering my timing issues in Amsterdam, for this one I arrived a few days early just to be sure I'd make it on time to my presentation. And also to enjoy the city and a little holiday a bit more before the conference. One other student and friend from the University of Essex, Kamolwan Kunanusont, who was also presenting at the conference, joined me for these early days. There was one day that was warm and sunny and we did get to enjoy the beach before the cold and the rain arrived. It was a great experience regardless, San Sebastian is absolutely gorgeous and a recommended visit for anyone who's not been there, I will definitely have to return at some point.
 
@@ -29,9 +29,9 @@ I'll start with my presentation first. I've had a comment in the past from someo
 - **(We use a 900 Forward Model call budget for all algorithms in the experiments, the average vanilla RHEA can achieve in GVGAI games in 40ms execution time). What if the budget was increased?** Firstly, that would not be a real-time game anymore and that is the problem we are trying to solve. We do have increased budgets in the EvoStar paper where we are analysing the vanilla version and performance does increase - but our goal is to make the search efficient enough within the limited budget.
 - Some open room discussion that everyone in the room joined in (slightly less traditional Q&A session, this one), although I can't seem to remember what was the main topic.
 
-Next presentation on RHEA will be at CIG 2017 in August for our latest paper, some very interesting work in there that I'll be happy to present.
+<img style="margin:15px;float:left" src="{{ site.url }}/assets/images/post8/mepresentgvgai.png" />
 
-<img style="margin:15px;width:250px;float:right" src="{{ site.url }}/assets/images/post8/mepresentgvgai.png" />
+Next presentation on RHEA will be at CIG 2017 in August for our latest paper, some very interesting work in there that I'll be happy to present.
 
 For the other item on the list, I joined (or really, he joined me, I should say, since I am the chair of this track!) Diego Perez-Liebana, the big GVGAI boss and my supervisor, to present the results of the competition. The full results can be found [here](http://gvgai.net/gvg_rankings_conf_2p.php?rg=2006).
 
