@@ -7,7 +7,7 @@ tagline: ": when there was sea food, a palace and big waves."
 tags : [phd, event, first]
 image1: post8/logo_short.png
 image2: post8/logo_medium.png
-image3: post8/logo_medium.png
+image3: post8/logo_long.png
 finalimage: post8/finalimage.png
 ---
 {% include JB/setup %}
