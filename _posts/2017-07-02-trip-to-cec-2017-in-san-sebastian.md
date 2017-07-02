@@ -39,10 +39,9 @@ And these are the winners!
 - **1st runner up**: ehauckdo  {_Eduardo Hauck (Universidade Federal de Juiz de Fora), Brazil._}
 - **2nd runner up**: not2048 {_Piers Williams, Joseph Walton Rivers (University of Essex), Damien Anderson (University of Strathclyde), UK._}
 
+Congratulations! And thank you to everyone who participated this year, it turned out to be a very close competition. :)
 
 <img style="margin:15px;float:left" src="{{ site.url }}/assets/images/post8/mepresentgvgai.png" />
-
-Congratulations! And thank you to everyone who participated this year, it turned out to be a very close competition. :)
 
 We also made a last minute decision right before presenting the results: someone (*cough* Diego *cough*) forgot about a private Spanish league we had run early this year for a course at Universidad Carlos III de Madrid (UC3M), which included **15** other entries! So we will be running these on the still hidden test set, and select the best from the private league and CEC for a final showdown presented at CIG 2017!
 
