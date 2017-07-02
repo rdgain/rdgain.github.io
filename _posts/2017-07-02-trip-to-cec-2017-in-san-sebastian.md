@@ -29,8 +29,6 @@ I'll start with my presentation first. I've had a comment in the past from someo
 - **(We use a 900 Forward Model call budget for all algorithms in the experiments, the average vanilla RHEA can achieve in GVGAI games in 40ms execution time). What if the budget was increased?** Firstly, that would not be a real-time game anymore and that is the problem we are trying to solve. We do have increased budgets in the EvoStar paper where we are analysing the vanilla version and performance does increase - but our goal is to make the search efficient enough within the limited budget.
 - Some open room discussion that everyone in the room joined in (slightly less traditional Q&A session, this one), although I can't seem to remember what was the main topic.
 
-<img style="margin:15px;float:left" src="{{ site.url }}/assets/images/post8/mepresentgvgai.png" />
-
 Next presentation on RHEA will be at CIG 2017 in August for our latest paper, some very interesting work in there that I'll be happy to present.
 
 For the other item on the list, I joined (or really, he joined me, I should say, since I am the chair of this track!) Diego Perez-Liebana, the big GVGAI boss and my supervisor, to present the results of the competition. The full results can be found [here](http://gvgai.net/gvg_rankings_conf_2p.php?rg=2006).
@@ -40,6 +38,9 @@ And these are the winners!
 - **Winner**: ToVo2 {_Tom Vodopivec (University of Ljubljana), Slovenia._}
 - **1st runner up**: ehauckdo  {_Eduardo Hauck (Universidade Federal de Juiz de Fora), Brazil._}
 - **2nd runner up**: not2048 {_Piers Williams, Joseph Walton Rivers (University of Essex), Damien Anderson (University of Strathclyde), UK._}
+
+
+<img style="margin:15px;float:left" src="{{ site.url }}/assets/images/post8/mepresentgvgai.png" />
 
 Congratulations! And thank you to everyone who participated this year, it turned out to be a very close competition. :)
 
