@@ -13,8 +13,6 @@ layout: default
 
 **2017**
 
-* Raluca D. Gaina, Rokas Volkovas, Carlos Gonzalez Diaz, Rory Davidson, **"'Automatic Game Tuning for Strategic Diversity"**, _IEEE Computer Science and Electronic Engineering Conference (CEEC)_, 2017, to appear. [(PDF)](assets/pdf/automatic-game-tuning.pdf)
-
 * Raluca D. Gaina, Simon M. Lucas, Diego Perez-Liebana, **"Rolling Horizon Evolution Enhancements in General Video Game Playing"**, _IEEE Conference on Computational Intelligence and Games_, 2017, to appear. [(PDF)](assets/pdf/rolling-horizon-enh.pdf)
 
 * Diego Perez-Liebana, Matthew Stephenson, Raluca D. Gaina, Jochen Renz, Simon M. Lucas **"Introducing Real World Physics and Macro-Actions to General Video Game AI"**, _IEEE Conference on Computational Intelligence and Games_, 2017, to appear. [(PDF)](assets/pdf/physics-macro.pdf)
