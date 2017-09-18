@@ -45,8 +45,7 @@ So far, various aspects have been explored on several games, such as the impact 
 
 # [](#header-1)Awards
 
-**IEEE Present Around The World Competition**, University of Essex, 2017: Runner-up
-
+**IEEE Present Around The World Competition**, University of Essex, 2017: Runner-up <br />
 **IET Game AI Hackathon Competition**, University of Essex, 2017: Runner-up Best Game Design
 
 # [](#header-1)External Links
