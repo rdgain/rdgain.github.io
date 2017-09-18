@@ -6,8 +6,15 @@ layout: default
 
 # [](#header-1)About
 
- **Raluca D. Gaina** is currently studying for her Ph.D. in Intelligent Games and Games Intelligence at the University of Essex, in the area of Rolling Horizon evolution in General Video Game Playing, after completing a B.Sc. and M.Sc. in Computer Games at the same institution. Her research interests include general video game playing AI, reinforcement learning and evolutionary computation algorithms.    
+ **Raluca D. Gaina** is currently studying for her Ph.D. in Intelligent Games and Games Intelligence at Queen Mary University of London, in the area of rolling horizon evolution in general video game playing, after completing a B.Sc. and M.Sc. in Computer Games at the University of Essex. Her research interests include general video game playing AI, reinforcement learning and evolutionary computation algorithms. Find out more on the [blog](blog). 
 
+# [](#header-1)Research Topic
+
+<b>Rolling Horizon Evolutionary Algorithm Improvements for General Video Game Playing in Single and Multi-Player Games</b>
+
+Artificial Intelligence is concerned with creating an agent capable of rational thought. When applied to games, the agent must be able to make decisions which would lead to fulfilling its goal (usually winning, possibly against an opponent). As a sub-field, general video game playing aims to design an agent which would achieve high-level play in any given game, thus raising the need to generalize the heuristics used and introduce various machine learning techniques to gather information about the previously unknown game. While Monte Carlo Tree Search has dominated general video game playing, Rolling Horizon Evolutionary Algorithms have the potential to reach an even better performance. The proposed study will focus on improving this algorithm, using mostly the General Video Game AI framework for testing purposes.
+
+So far, various aspects have been explored on several games, such as the impact of the population size and individual length on performance, population seeding techniques and other algorithm structure modifications previously encountered in literature, now tested in a consistent environment and a general setting. A simple macro-action enhancement has also been explored in continuous physics games. On successful completion, the research aims to bring forward better NPCs and new challenging experiences for players, as well as reliable game testing tools. 
 
 # [](#header-1)Publications
 
@@ -31,21 +38,15 @@ layout: default
 
 * Raluca D. Gaina, Adrien Couetoux, Dennis J.N.J. Soemers, Mark H.M. Winands, Tom Vodopivec, Florian Kirchgessner, Jialin Liu, Simon M. Lucas, Diego Perez-Liebana, **"The 2016 Two-Player GVGAI Competition"**, _IEEE Transactions on Computational Intelligence and AI in Games (TCIAIG)_, 2017.
 
-
-<!--
 # [](#header-1)Projects
 
-Stuff.
--->
+[Global Game Jam 2017: Flappy McArmbands Goes to London](http://globalgamejam.org/2017/games/flappy-mcarmbands-goes-london).<br />
+[Global Game Jam 2016: Rebirth](http://globalgamejam.org/2016/games/rebirth).
 
-# [](#header-1)Achievements
+# [](#header-1)Awards
 
 * **IEEE Present Around The World Competition**, University of Essex, 2017: Runner-up
 * **IET Game AI Hackathon Competition**, University of Essex, 2017: Runner-up Best Game Design
-
-# [](#header-1)More
-
-[Blog](blog). <br />
 
 # [](#header-1)External Links
 
@@ -53,9 +54,6 @@ Stuff.
 [Intelligent Games and Games Intelligence (IGGI)](http://iggi.org.uk)<br />
 [Computer Science & Electronic Engineering Conference 2017 (CEEC)](http://ceec.uk/)<br />
 [UoE CSEE Women in Science (Athena Swan)](https://www.essex.ac.uk/csee/about/women-in-science.aspx)
-
-[Global Game Jam 2017: Flappy McArmbands Goes to London](http://globalgamejam.org/2017/games/flappy-mcarmbands-goes-london).<br />
-[Global Game Jam 2016: Rebirth](http://globalgamejam.org/2016/games/rebirth).
 
 # [](#header-1)Contact
 
