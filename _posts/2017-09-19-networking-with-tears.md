@@ -12,7 +12,7 @@ finalimage: post12/finalimage.png
 ---
 {% include JB/setup %}
 
-<img style="margin:15px;float:rightwidth:300px;" src="{{ site.url }}/assets/images/post12/iggi.jpg" />
+<img style="margin:15px;float:right;width:300px;" src="{{ site.url }}/assets/images/post12/iggi.jpg" />
 
 Hello and welcome. 
 
@@ -50,5 +50,4 @@ And complain less, please.
 <img style="margin:15px;width:300px;" src="{{ site.url }}/assets/images/post12/katja.jpg" />
 
 <img style="margin:15px;width:300px;" src="{{ site.url }}/assets/images/post12/all.jpg-large" />
-
 <img style="margin:15px;width:300px;" src="{{ site.url }}/assets/images/post12/end.jpg" />
