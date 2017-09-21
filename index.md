@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<a href="http://feeds.feedburner.com/rdgain" rel="alternate" type="application/rss+xml"><img src="//feedburner.google.com/fb/images/pub/feed-icon16x16.png" alt="" style="vertical-align:middle;border:0"/></a>&nbsp;<a href="http://feeds.feedburner.com/rdgain" rel="alternate" type="application/rss+xml">Subscribe in a reader</a> for work updates and [blog](blog) posts.
+<a href="http://feeds.feedburner.com/rdgain" rel="alternate" type="application/rss+xml"><img src="//feedburner.google.com/fb/images/pub/feed-icon16x16.png" alt="" style="vertical-align:middle;border:0"/></a>&nbsp;<a href="http://feeds.feedburner.com/rdgain" rel="alternate" type="application/rss+xml">Subscribe in a reader</a> for work updates and new [blog](blog) posts.
 
 <img src="assets/images/headshot2.png" width="150" style="float:right" /> 
 
