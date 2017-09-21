@@ -14,7 +14,7 @@ finalimage: post11/finalimage.png
 
 Hello and welcome. 
 
-<img style="margin:15px;float:right;with:300px" src="{{ site.url }}/assets/images/post11/pic1.jpg" />
+<img style="margin:15px;float:right;width:300px" src="{{ site.url }}/assets/images/post11/pic1.jpg" />
 
 I attended my first games conference aimed at women. You could tell this was the case by the title: "Women in Games". Kind of gives it away, doesn't it? And it also makes anyone not associating with being a woman shy away. Why should they attend a conference for women? That's a very good question indeed.
 
@@ -26,7 +26,7 @@ It seems a bit silly if I put it this way, doesn't it?
 
 My point is this: how come the gender of a person is taken into account when considering if they're good at something? Does the fact that they like cats affect whether they can program? No. I'm sure someone could come up with a great study that says cat-owners are more likely to be good at programmers because 80% of subjects identified with both criteria. But is there really a correlation there? Sure, maybe my "woman-brain" works differently to a "man-brain". I look at an algorithm and cringe if it's not indented and structured in a pretty way. I look at creative solutions to problems of twirls and bows, when a straight line drawn through the right path would've done the trick.
 
-<img style="margin:15px;float:left;with:300px" src="{{ site.url }}/assets/images/post11/pic2.jpg" />
+<img style="margin:15px;float:left;width:300px" src="{{ site.url }}/assets/images/post11/pic2.jpg" />
 
 But is that because I'm a woman? It's because that's me. That's me as an individual. The lady sitting next to me could have a completely different view to the same problem. And the man sitting at the desk across from me and poking his legs under my desk (so not cool) might agree with my twirls and bows. 
 
@@ -46,7 +46,7 @@ To this I say, I hope the next delivery woman throws pineapple on your pizza and
 
 Do I like flowers? I love them. Would I stuff my face with pizza while repeatedly smashing my car into a wall in a rancing game (oh you wouldn't imagine how bad I am at those)? Yes I would. And if you're going to give a talk at a conference entitled WOMEN IN GAMES, then you'd better remove slides saying women don't like games off your presentation.
 
-<img style="margin:15px;float:right;with:300px" src="{{ site.url }}/assets/images/post11/pic3.jpg" />
+<img style="margin:15px;float:right;width:300px" src="{{ site.url }}/assets/images/post11/pic3.jpg" />
 
 As to what I actually learned at this conference? ...
 
