@@ -8,7 +8,7 @@ layout: default
 
 # [](#header-1)About
 
- **Raluca D. Gaina** is currently studying for her Ph.D. in Intelligent Games and Games Intelligence at Queen Mary University of London, in the area of rolling horizon evolution in general video game playing, after completing a B.Sc. and M.Sc. in Computer Games at the University of Essex. Her research interests include general video game playing AI, reinforcement learning and evolutionary computation algorithms. Find out more on the [blog](blog). 
+ **Raluca D. Gaina** is currently studying for her Ph.D. in Intelligent Games and Games Intelligence at Queen Mary University of London, in the area of rolling horizon evolution in general video game playing, after completing a B.Sc. and M.Sc. in Computer Games at the University of Essex. She's already completed her first year of Ph.D. at the University of Essex (transfer to Queen Mary) with 7 conference papers and a journal in the final stages of acceptance. Her research interests include general video game playing AI, reinforcement learning and evolutionary computation algorithms. Find out more on the [blog](blog). 
 
 # [](#header-1)Research Topic
 
@@ -21,6 +21,8 @@ So far, various aspects have been explored on several games, such as the impact 
 # [](#header-1)Publications
 
 **2017**
+
+* Raluca D. Gaina, Rokas Volkovas, Carlos Gonzalez Diaz, Rory Davidson, **"'Automatic Game Tuning for Strategic Diversity"**, _IEEE Computer Science and Electronic Engineering Conference (CEEC)_, 2017, to appear. [(PDF)](assets/pdf/automatic-game-tuning.pdf)
 
 * Raluca D. Gaina, Simon M. Lucas, Diego Perez-Liebana, **"Rolling Horizon Evolution Enhancements in General Video Game Playing"**, _IEEE Conference on Computational Intelligence and Games_, 2017, to appear. [(PDF)](assets/pdf/rolling-horizon-enh.pdf)
 
@@ -59,6 +61,6 @@ So far, various aspects have been explored on several games, such as the impact 
 
 # [](#header-1)Contact
 
-E-mail: rdgain@essex.ac.uk 
+E-mail: r.d.gaina@qmul.ac.uk 
 
 [<img src="assets/images/researchgate.png" width="50" />](https://www.researchgate.net/profile/Raluca_Gaina) [<img src="assets/images/gscholar.png" width="50" />](https://scholar.google.co.uk/citations?user=tC5klQYAAAAJ) [<img src="assets/images/linkedin.png" width="50" />](https://www.linkedin.com/in/raluca-gaina-347518114/) [<img src="assets/images/twitter.png" width="50" />](https://twitter.com/b_gum22)
