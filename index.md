@@ -8,7 +8,9 @@ layout: default
 
 # [](#header-1)About
 
- **Raluca D. Gaina** is currently studying for her Ph.D. in Intelligent Games and Games Intelligence at Queen Mary University of London, in the area of rolling horizon evolution in general video game playing, after completing a B.Sc. and M.Sc. in Computer Games at the University of Essex. She's already completed her first year of Ph.D. at the University of Essex (transfer to Queen Mary) with 7 conference papers and a journal in the final stages of acceptance. Her research interests include general video game playing AI, reinforcement learning and evolutionary computation algorithms. Find out more on the [blog](blog). 
+ **Raluca D. Gaina** is currently studying for her Ph.D. in Intelligent Games and Games Intelligence at Queen Mary University of London, in the area of rolling horizon evolution in general video game playing, after completing a B.Sc. and M.Sc. in Computer Games at the University of Essex. She's already completed her first year of Ph.D. at the University of Essex (transfer to Queen Mary) with 7 conference papers and a journal in the final stages of acceptance. Her research interests include general video game playing AI, reinforcement learning and evolutionary computation algorithms. 
+ 
+ Find out more of what I get up to on the [blog](blog). 
 
 # [](#header-1)Research Topic
 
