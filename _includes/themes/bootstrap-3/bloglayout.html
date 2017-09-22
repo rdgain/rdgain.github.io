@@ -39,6 +39,17 @@
     <!-- atom & rss feed -->
     <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
     <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+	
+    <!-- twitter card -->
+	  <meta name="twitter:card" content="summary">
+	  <meta name="twitter:site" content="@{{ site.author.twitter }}">
+	  <meta name="twitter:creator" content="@{{ site.author.twitter }}">
+	  <meta name="twitter:title" content="{% if post.short_title %}{{ post.short_title }}{% else %}{{ post.title }}{% endif %}">
+	  <meta name="twitter:description" content="{% if post.tagline %}{{ page.tagline | strip_html | strip_newlines | truncate: 200 }}{% else %}{{ site.description }}{% endif %}">
+	{% if post.image1 %}
+	  <meta name="twitter:image:src" content="{{ post.image1 | prepend: site.baseurl | prepend: site.url }}"> 
+	{% endif %} 
+	  <!-- end twitter card -->
 
 </head>
 
