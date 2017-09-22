@@ -4,4 +4,10 @@ theme :
 layout: bloglayout
 ---
 {% include JB/setup %}
+
+{% capture include_title %} {% if post.short_title %}{{ post.short_title }}{% else %}{{ post.title }}{% endif %} {% endcapture %}
+{% capture include_description %} {% if post.tagline %}{{ page.tagline | strip_html | strip_newlines | truncate: 200 }}{% else %}{{ site.description }}{% endif %} {% endcapture %}
+{% capture include_image %} {{ post.image1 | prepend: site.baseurl | prepend: site.url }} {% endcapture %}
+
+{% include head.html title=include_title description=include_description image=include_image %}
 {% include themes/bootstrap-3/post.html %}
