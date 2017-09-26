@@ -2,7 +2,7 @@
 layout: post
 comments: true
 category : [Games]
-short_title: Game: Her Story
+short_title: "Game: Her Story"
 tagline: ": 5/10."
 tags : [games, review, story, design]
 image1: post13/logo_short.png
@@ -10,8 +10,6 @@ image2: post13/logo_short.png
 image3: post13/logo_long.png
 ---
 {% include JB/setup %}
-
-<img style="margin:15px;float:right;width:300px;" src="{{ site.url }}/assets/images/post12/iggi.jpg" />
 
 Hello and welcome. 
 
