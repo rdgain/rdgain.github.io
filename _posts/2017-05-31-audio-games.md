@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-category : [PhD]
+category : [Random]
 tagline: ": when there was only sound."
 tags : [presentation, patw, sound, audio, deaf]
 image1: post7/logo_short.png
