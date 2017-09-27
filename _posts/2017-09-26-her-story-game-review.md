@@ -17,7 +17,7 @@ I've not done a review before. How hard can it be?
 
 (Those were her last words)
 
-I want to talk to a game that I finished playing with a friend last night at 1am. We finished it in two 2-hour sessions which started very confused about what to do, then confused about what was happening, then confused about what else to do.
+I want to talk to a game that I finished playing with a friend last night at 1am. We finished it in two 2-hour sessions which started very confused about what to do, then confused about what was happening, then confused about what else to do. Released in 2015 by Sam Barlow.
 
 A lot of confusion. Not much gameplay time. And no replayablity, once you know the story it's kind of pointless going back and doing it again. If you have strong feelings about all of those, you probably won't like this game very much. And that's why I only gave it a 5. I probably should've gone even lower as there isn't much "game" aspect to it at all, unless you count the hidden mini-game inside. But I've kept it at 5 because there is one big good thing that I enjoyed.
 
