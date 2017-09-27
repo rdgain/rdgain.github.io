@@ -2,7 +2,7 @@
 layout: post
 comments: true
 category : [Games]
-short_title: "Game: Her Story"
+short_title: "Game: Never Alone"
 tagline: ": 5.5/10."
 tags : [games, review, co-op, atmosphere]
 image1: post14/logo_short.png
