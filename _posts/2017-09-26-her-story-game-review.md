@@ -4,7 +4,7 @@ comments: true
 category : [Games]
 short_title: "Game: Her Story"
 tagline: ": 5/10."
-tags : [games, review, story, design]
+tags : [games, review, story, design, crime, mystery]
 image1: post13/logo_short.png
 image2: post13/logo_short.png
 image3: post13/logo_long.png
