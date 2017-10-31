@@ -24,6 +24,8 @@ So far, various aspects have been explored on several games, such as the impact 
 
 **2017**
 
+* Raluca D. Gaina, Adrien Couetoux, Dennis J.N.J. Soemers, Mark H.M. Winands, Tom Vodopivec, Florian Kirchgessner, Jialin Liu, Simon M. Lucas, Diego Perez-Liebana, **"The 2016 Two-Player GVGAI Competition"**, _IEEE Transactions on Computational Intelligence and AI in Games (TCIAIG)_, 2017, to appear. [(PDF)](assets/pdf/GVGAI2P-2017.pdf)
+
 * Raluca D. Gaina, Rokas Volkovas, Carlos Gonzalez Diaz, Rory Davidson, **"'Automatic Game Tuning for Strategic Diversity"**, _IEEE Computer Science and Electronic Engineering Conference (CEEC)_, 2017, to appear. [(PDF)](assets/pdf/automatic-game-tuning.pdf)
 
 * Raluca D. Gaina, Simon M. Lucas, Diego Perez-Liebana, **"Rolling Horizon Evolution Enhancements in General Video Game Playing"**, _IEEE Conference on Computational Intelligence and Games_, 2017, to appear. [(PDF)](assets/pdf/rolling-horizon-enh.pdf)
@@ -40,9 +42,8 @@ So far, various aspects have been explored on several games, such as the impact 
 
 * Raluca D. Gaina, Diego Perez-Liebana, Simon M. Lucas, **"General Video Game for 2 Players: Framework and Competition"**, _Proceedings of the IEEE Computer Science and Electronic Engineering Conference (CEEC)_, p. 186-191, 2016. [(PDF)](assets/pdf/GVGAI2P-2016.pdf) [(IEEEXplore)](http://ieeexplore.ieee.org/document/7835911/)
 
-### [](#header-3)Under review
+//### [](#header-3)Under review
 
-* Raluca D. Gaina, Adrien Couetoux, Dennis J.N.J. Soemers, Mark H.M. Winands, Tom Vodopivec, Florian Kirchgessner, Jialin Liu, Simon M. Lucas, Diego Perez-Liebana, **"The 2016 Two-Player GVGAI Competition"**, _IEEE Transactions on Computational Intelligence and AI in Games (TCIAIG)_, 2017.
 
 # [](#header-1)Projects
 
