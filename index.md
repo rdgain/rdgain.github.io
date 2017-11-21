@@ -24,17 +24,17 @@ So far, various aspects have been explored on several games, such as the impact 
 
 **2017**
 
-* Raluca D. Gaina, Adrien Couetoux, Dennis J.N.J. Soemers, Mark H.M. Winands, Tom Vodopivec, Florian Kirchgessner, Jialin Liu, Simon M. Lucas, Diego Perez-Liebana, **"The 2016 Two-Player GVGAI Competition"**, _IEEE Transactions on Computational Intelligence and AI in Games (TCIAIG)_, 2017, to appear. [(PDF)](assets/pdf/GVGAI2P-2017.pdf)
+* Raluca D. Gaina, Adrien Couetoux, Dennis J.N.J. Soemers, Mark H.M. Winands, Tom Vodopivec, Florian Kirchgessner, Jialin Liu, Simon M. Lucas, Diego Perez-Liebana, **"The 2016 Two-Player GVGAI Competition"**, _IEEE Transactions on Computational Intelligence and AI in Games (TCIAIG)_, volume PP, issue 99, p. 1-1, 2017. [(PDF)](assets/pdf/GVGAI2P-2017.pdf) [(IEEEXplore)](http://ieeexplore.ieee.org/document/8100955/)   
 
-* Raluca D. Gaina, Rokas Volkovas, Carlos Gonzalez Diaz, Rory Davidson, **"'Automatic Game Tuning for Strategic Diversity"**, _IEEE Computer Science and Electronic Engineering Conference (CEEC)_, 2017, to appear. [(PDF)](assets/pdf/automatic-game-tuning.pdf)
+* Raluca D. Gaina, Rokas Volkovas, Carlos Gonzalez Diaz, Rory Davidson, **"'Automatic Game Tuning for Strategic Diversity"**, _IEEE Computer Science and Electronic Engineering Conference (CEEC)_, p. 195-200, 2017. [(PDF)](assets/pdf/automatic-game-tuning.pdf) [(IEEEXplore)](http://ieeexplore.ieee.org/document/8101624/)
 
-* Raluca D. Gaina, Simon M. Lucas, Diego Perez-Liebana, **"Rolling Horizon Evolution Enhancements in General Video Game Playing"**, _IEEE Conference on Computational Intelligence and Games_, 2017, to appear. [(PDF)](assets/pdf/rolling-horizon-enh.pdf)
+* Raluca D. Gaina, Simon M. Lucas, Diego Perez-Liebana, **"Rolling Horizon Evolution Enhancements in General Video Game Playing"**, _IEEE Conference on Computational Intelligence and Games_, p. 88-95, 2017. [(PDF)](assets/pdf/rolling-horizon-enh.pdf) [(IEEEXplore)](http://ieeexplore.ieee.org/document/8080420/)
 
-* Diego Perez-Liebana, Matthew Stephenson, Raluca D. Gaina, Jochen Renz, Simon M. Lucas **"Introducing Real World Physics and Macro-Actions to General Video Game AI"**, _IEEE Conference on Computational Intelligence and Games_, 2017, to appear. [(PDF)](assets/pdf/physics-macro.pdf)
+* Diego Perez-Liebana, Matthew Stephenson, Raluca D. Gaina, Jochen Renz, Simon M. Lucas **"Introducing Real World Physics and Macro-Actions to General Video Game AI"**, _IEEE Conference on Computational Intelligence and Games_, p.248-255, 2017. [(PDF)](assets/pdf/physics-macro.pdf) [(IEEEXplore)](http://ieeexplore.ieee.org/document/8080443/)
 
-* Raluca D. Gaina, Simon M. Lucas, Diego Perez-Liebana, **"Population Initializaion Techniques for Rolling Horizon Evolution in General Video Game Playing"**, _Special Session on Computational Intelligence in Games, IEEE Congress on Evolutionary Computation (CEC)_, 2017. [(PDF)](assets/pdf/seeding-cec.pdf)
+* Raluca D. Gaina, Simon M. Lucas, Diego Perez-Liebana, **"Population Seeding Techniques for Rolling Horizon Evolution in General Video Game Playing"**, _Special Session on Computational Intelligence in Games, IEEE Congress on Evolutionary Computation (CEC)_, p. 1956-1963, 2017. [(PDF)](assets/pdf/seeding-cec.pdf) [(IEEEXplore)](http://ieeexplore.ieee.org/document/7969540/)
 
-* Kamolwan Kunanusont, Raluca D. Gaina, Jialin Liu, Diego Perez-Liebana, Simon M. Lucas, **"The N-Tuple Bandit Evolutionary Algorithm for Game Design"**, _Special Session on Computational Intelligence in Games, IEEE Congress on Evolutionary Computation (CEC)_, 2017. [(PDF)](assets/pdf/n-tuple-bandit.pdf)
+* Kamolwan Kunanusont, Raluca D. Gaina, Jialin Liu, Diego Perez-Liebana, Simon M. Lucas, **"The N-Tuple Bandit Evolutionary Algorithm for Automatic Game Improvement"**, _Special Session on Computational Intelligence in Games, IEEE Congress on Evolutionary Computation (CEC)_, p. 2201-2208, 2017. [(PDF)](assets/pdf/n-tuple-bandit.pdf) [(IEEEXplore)](http://ieeexplore.ieee.org/document/7969571/)
 
 * Raluca D. Gaina, Jialin Liu, Simon M. Lucas, Diego Perez-Liebana, **"Analysis of Vanilla Rolling Horizon Evolution Parameters in General Video Game Playing"**, _Squillero G., Sim K. (eds) Applications of Evolutionary Computation, EvoApplications, Lecture Notes in Computer Science, vol. 10199, Springer, Cham._, p. 418-434, 2017. [(PDF)](assets/pdf/analysis-vanilla-rolling.pdf) [(Springer)](https://link.springer.com/chapter/10.1007/978-3-319-55849-3_28)
 
