@@ -22,6 +22,10 @@ So far, various aspects have been explored on several games, such as the impact 
 
 # [](#header-1)Publications
 
+**2018**
+
+* Chiara F. Sironi, Jialin Liu, Diego Perez-Liebana, Raluca D. Gaina, Ivan Bravi, Simon M. Lucas, Mark H.M. Winands, **"Self-Adaptive MCTS for General Video Game Playing"**, _EvoStar_, 2018, to appear. [(PDF)](https://www.researchgate.net/profile/Jialin_Liu13/publication/322539569_Self-Adaptive_MCTS_for_General_Video_Game_Playing/links/5a5f22bea6fdcc68fa9a3ff2/Self-Adaptive-MCTS-for-General-Video-Game-Playing.pdf) 
+
 **2017**
 
 * Raluca D. Gaina, Adrien Couetoux, Dennis J.N.J. Soemers, Mark H.M. Winands, Tom Vodopivec, Florian Kirchgessner, Jialin Liu, Simon M. Lucas, Diego Perez-Liebana, **"The 2016 Two-Player GVGAI Competition"**, _IEEE Transactions on Computational Intelligence and AI in Games (TCIAIG)_, volume PP, issue 99, p. 1-1, 2017. [(PDF)](assets/pdf/GVGAI2P-2017.pdf) [(IEEEXplore)](http://ieeexplore.ieee.org/document/8100955/)   
