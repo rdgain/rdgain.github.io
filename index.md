@@ -71,23 +71,23 @@ So far, various aspects have been explored on several games, such as the impact 
 
 ### [](#header-3)Conferences attended
 
-Asynchronous Research on AI & Games | OCT 2017 | [ONLINE](https://youtu.be/Qh59xHU1zlQ)
+**Asynchronous Research on AI & Games**, OCT 2017, [Online](https://youtu.be/Qh59xHU1zlQ)
 * Presentation: _"Planning in Real-time Games with Rolling Horizon Evolution"_, first ASYNC event by MetaMakers Institute
 
-IGGI Conference | SEP 2017 | YORK, UK 
+**IGGI Conference**, SEP 2017, York, UK 
 * Presentation: _"The General Video Game Playing Challenge: Improving RHEA & Playing Beyond Win"_, with Cristina Guerrero-Romero. 
 
-IEEE Computational Intelligence and Games (CIG) | AUG 2017 | NEW YORK, USA 
+**IEEE Computational Intelligence and Games (CIG)**, AUG 2017, New York, USA 
 * Presentation: _"Rolling Horizon Evolution Enhancements in General Video Game Playing"_ paper, Special Session on General Game Playing.
 
-IEEE Congress on Evolutionary Computation (CEC) | JUN 2017 | SAN SEBASTIAN, SPAIN 
+**IEEE Congress on Evolutionary Computation (CEC)**, JUN 2017, San Sebastian, Spain
 * Presentation: _"Population Initialization Techniques for Rolling Horizon Evolution in General Video Game Playing_" paper, Special Session on Computational Intelligence and Games. 
 * Presentation: General Video Game AI 2-Player Planning Competition 2017 results. 
 
-Evostar (EvoApplications/EvoGames) | APR 2017 | AMSTERDAM, THE NETHERLANDS 
+**Evostar (EvoApplications/EvoGames)**, APR 2017, Amsterdam, The Netherlands
 * Presentation: _"Analysis of Vanilla Rolling Horizon Evolution Parameters in General Video Game Playing"_ paper, EvoGames. 
 
-IEEE Computer Science and Electronic Engineering Conference (CEEC) | SEP 2016 | COLCHESTER, UK 
+**IEEE Computer Science and Electronic Engineering Conference (CEEC)**, SEP 2016, Colchester, UK 
 * Presentation: _"General Video Game for 2 Players: Framework and Competition"_ paper, Special Session on Computational Intelligence and Games.
 
 ### [](#header-3)Teaching
@@ -96,21 +96,19 @@ IEEE Computer Science and Electronic Engineering Conference (CEEC) | SEP 2016 | 
 **High Level Games Development module**, _University of Essex_ (BSc): 2017 (Graduate Lab Assistant) <br/>
 **Game Artificial Intelligence module**, _University of Essex_ (MSc): 2017 (Graduate Lab Assistant)
 
-<!---
-### [](#header-3)Reviewing
+### [](#header-3)Program Committee Member
 
 * IEEE Congress on Evolutionary Computation (CEC) 2017
 * AAAI Workshop on Knowledge Extraction from Games (KEG) 2018
 * IEEE Congress on Evolutionary Computation (CEC) 2018
 * IEEE Conference on Computational Intelligence and Games (CIG) 2018
 * IEEE Foundations of Digital Games (FDG) 2018
--->
 
 ### [](#header-3)Others
 
-**GVGAI 2-Player** track organizer <br/>
-**GVGAI tutorial** given and organized in _Queen Mary University of London_ (19 FEB 2018) <br/>
-Assisted tutorial: **"Computational Intelligence for Games: General Video Game AI – 2 Player"** at _IEEE Computer Science and Electronic Engineering Conference (CEEC)_, University of Essex (SEP 2016)
+* **GVGAI 2-Player** track organizer 
+* **GVGAI tutorial** given and organized in _Queen Mary University of London_ (19 FEB 2018)
+* Assisted tutorial: **"Computational Intelligence for Games: General Video Game AI – 2 Player"** at _IEEE Computer Science and Electronic Engineering Conference (CEEC)_, University of Essex (SEP 2016)
 
 # [](#header-1)External Links
 
