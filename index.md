@@ -8,7 +8,7 @@ layout: default
 
 # [](#header-1)About
 
- **Raluca D. Gaina** is currently studying for her Ph.D. in Intelligent Games and Games Intelligence at Queen Mary University of London, in the area of rolling horizon evolution in general video game playing, after completing a B.Sc. and M.Sc. in Computer Games at the University of Essex. She's already completed her first year of Ph.D. at the University of Essex (transfer to Queen Mary) with 7 conference papers and a journal in the final stages of acceptance. Her research interests include general video game playing AI, reinforcement learning and evolutionary computation algorithms. 
+ **Raluca D. Gaina** is currently on a 3 month internship at Microsoft Research Cambridge, working on the Multi-Agent Reinforcement Learning in Malmo (MARLO) Competition. She is studying for her Ph.D. in Intelligent Games and Games Intelligence at Queen Mary University of London, in the area of rolling horizon evolution in general video game playing, after completing a B.Sc. and M.Sc. in Computer Games at the University of Essex. She's already completed her first year of Ph.D. at the University of Essex (transfer to Queen Mary) with 7 conference papers and a journal publication. Her research interests include general video game playing AI, reinforcement learning and evolutionary computation algorithms. 
  
  Find out more of what I get up to on the [blog](blog). 
 
@@ -30,7 +30,7 @@ So far, various aspects have been explored on several games, such as the impact 
 
 * Raluca D. Gaina, Adrien Couetoux, Dennis J.N.J. Soemers, Mark H.M. Winands, Tom Vodopivec, Florian Kirchgessner, Jialin Liu, Simon M. Lucas, Diego Perez-Liebana, **"The 2016 Two-Player GVGAI Competition"**, _IEEE Transactions on Computational Intelligence and AI in Games (TCIAIG)_, volume PP, issue 99, p. 1-1, 2017. [(PDF)](assets/pdf/GVGAI2P-2017.pdf) [(IEEEXplore)](http://ieeexplore.ieee.org/document/8100955/)   
 
-* Raluca D. Gaina, Rokas Volkovas, Carlos Gonzalez Diaz, Rory Davidson, **"'Automatic Game Tuning for Strategic Diversity"**, _IEEE Computer Science and Electronic Engineering Conference (CEEC)_, p. 195-200, 2017. [(PDF)](assets/pdf/automatic-game-tuning.pdf) [(IEEEXplore)](http://ieeexplore.ieee.org/document/8101624/)
+* Raluca D. Gaina, Rokas Volkovas, Carlos Gonzalez Diaz, Rory Davidson, **"Automatic Game Tuning for Strategic Diversity"**, _IEEE Computer Science and Electronic Engineering Conference (CEEC)_, p. 195-200, 2017. [(PDF)](assets/pdf/automatic-game-tuning.pdf) [(IEEEXplore)](http://ieeexplore.ieee.org/document/8101624/)
 
 * Raluca D. Gaina, Simon M. Lucas, Diego Perez-Liebana, **"Rolling Horizon Evolution Enhancements in General Video Game Playing"**, _IEEE Conference on Computational Intelligence and Games_, p. 88-95, 2017. [(PDF)](assets/pdf/rolling-horizon-enh.pdf) [(IEEEXplore)](http://ieeexplore.ieee.org/document/8080420/)
 
