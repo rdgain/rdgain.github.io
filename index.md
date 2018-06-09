@@ -52,7 +52,7 @@ So far, various aspects have been explored on several games, such as the impact 
 ### [](#header-3)Under review
 -->
 
-# [](#header-1)Projects
+# [](#header-1)Other Projects
 
 [Global Game Jam 2018: Kill the Penguin](https://globalgamejam.org/2018/games/kill-penguin). (under development)<br />
 [Global Game Jam 2017: Flappy McArmbands Goes to London](http://globalgamejam.org/2017/games/flappy-mcarmbands-goes-london).<br />
@@ -72,6 +72,11 @@ So far, various aspects have been explored on several games, such as the impact 
 # [](#header-1)Research activities
 
 ### [](#header-3)Conferences attended
+
+**CogX**, JUN 2018, London, UK
+* Presentation: _"Learning to Play: Multi-Agent Reinforcement Learning in Malmo (MARLO) Competition"_, Research Stage
+
+**Artificial Intelligence & Games Summer School**, MAY 2018, Chania, Greece
 
 **Asynchronous Research on AI & Games**, OCT 2017, [Online](https://youtu.be/Qh59xHU1zlQ)
 * Presentation: _"Planning in Real-time Games with Rolling Horizon Evolution"_, first ASYNC event by MetaMakers Institute
@@ -100,15 +105,16 @@ So far, various aspects have been explored on several games, such as the impact 
 
 ### [](#header-3)Program Committee Member
 
-* IEEE Congress on Evolutionary Computation (CEC) 2017
-* AAAI Workshop on Knowledge Extraction from Games (KEG) 2018
-* IEEE Congress on Evolutionary Computation (CEC) 2018
-* IEEE Conference on Computational Intelligence and Games (CIG) 2018
 * IEEE Foundations of Digital Games (FDG) 2018
+* IEEE Conference on Computational Intelligence and Games (CIG) 2018
+* IEEE Congress on Evolutionary Computation (CEC) 2018
+* AAAI Workshop on Knowledge Extraction from Games (KEG) 2018
+* IEEE Congress on Evolutionary Computation (CEC) 2017
 
 ### [](#header-3)Others
 
-* **GVGAI 2-Player** track organizer 
+* **GVGAI 2-Player** track organizer  (2016-2018)
+* **MARLO** task design
 * **GVGAI tutorial** given and organized in _Queen Mary University of London_ (19 FEB 2018)
 * Assisted tutorial: **"Computational Intelligence for Games: General Video Game AI – 2 Player"** at _IEEE Computer Science and Electronic Engineering Conference (CEEC)_, University of Essex (SEP 2016)
 
@@ -116,6 +122,7 @@ So far, various aspects have been explored on several games, such as the impact 
 
 [General Video Game AI Competition (GVGAI)](http://gvgai.net)<br />
 [Intelligent Games and Games Intelligence (IGGI)](http://iggi.org.uk)<br />
+[MARLO (Multi-Agent Reinforcement Learning in Malmo Competition](http://aka.ms/marlo)<br />
 [UoE CSEE Women in Science (Athena Swan)](https://www.essex.ac.uk/csee/about/women-in-science.aspx)
 
 # [](#header-1)Contact
