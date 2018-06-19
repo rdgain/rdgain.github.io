@@ -73,7 +73,7 @@ So far, various aspects have been explored on several games, such as the impact 
 
 ### [](#header-3)Conferences attended
 
-**CogX**, JUN 2018, London, UK
+**CogX**, JUN 2018, London, UK, [(Youtube)](https://youtu.be/B4GbuPWlC5Q) [(Youtube-Full-Stream)](https://youtu.be/4Lw1cJdUedU)
 * Presentation: _"Learning to Play: Multi-Agent Reinforcement Learning in Malmo (MARLO) Competition"_, Research Stage
 
 **Artificial Intelligence & Games Summer School**, MAY 2018, Chania, Greece
@@ -84,7 +84,7 @@ So far, various aspects have been explored on several games, such as the impact 
 **IGGI Conference**, SEP 2017, York, UK 
 * Presentation: _"The General Video Game Playing Challenge: Improving RHEA & Playing Beyond Win"_, with Cristina Guerrero-Romero. 
 
-**IEEE Computational Intelligence and Games (CIG)**, AUG 2017, New York, USA 
+**IEEE Computational Intelligence and Games (CIG)**, AUG 2017, New York, USA, [(Youtube)](https://youtu.be/AUYcafpDaxM) [(Youtube-Full-Stream)](https://youtu.be/0fSK1VI9XNc)
 * Presentation: _"Rolling Horizon Evolution Enhancements in General Video Game Playing"_ paper, Special Session on General Game Playing.
 
 **IEEE Congress on Evolutionary Computation (CEC)**, JUN 2017, San Sebastian, Spain
