@@ -8,7 +8,7 @@ layout: default
 
 # [](#header-1)About
 
- **Raluca D. Gaina** is currently on a 3 month internship at Microsoft Research Cambridge, working on the Multi-Agent Reinforcement Learning in Malmo (MARLO) Competition. She is studying for her Ph.D. in Intelligent Games and Games Intelligence at Queen Mary University of London, in the area of rolling horizon evolution in general video game playing, after completing a B.Sc. and M.Sc. in Computer Games at the University of Essex. She's already completed her first year of Ph.D. at the University of Essex (transfer to Queen Mary) with 7 conference papers and a journal publication. Her research interests include general video game playing AI, reinforcement learning and evolutionary computation algorithms. 
+ **Raluca D. Gaina** is currently on her Ph.D. in Intelligent Games and Games Intelligence at Queen Mary University of London, in the area of rolling horizon evolution in general video game playing, after completing a B.Sc. and M.Sc. in Computer Games at the University of Essex. In 2018, she did a 3 month internship at Microsoft Research Cambridge, working on the Multi-Agent Reinforcement Learning in Malmo Competition (MARLO, aka.ms/marlo). She is the track organiser of the Two-Player General Video Game AI Competition (gvgai.net). Her research interests include general video game playing AI, reinforcement learning and evolutionary computation algorithms. 
  
  Find out more of what I get up to on the [blog](blog). 
 
@@ -24,7 +24,7 @@ So far, various aspects have been explored on several games, such as the impact 
 
 **2018**
 
-* Raluca D. Gaina, Simon M. Lucas, Diego Perez-Liebana, **"General Win Prediction from Agent Experience"**, _IEEE Conference on Computational Intelligence and Games_, 2018, accepted. [(PDF)](assets/pdf/general-win-prediction.pdf)
+* *Raluca D. Gaina, Simon M. Lucas, Diego Perez-Liebana, **"General Win Prediction from Agent Experience"**, _IEEE Conference on Computational Intelligence and Games_, 2018, accepted. [(PDF)](assets/pdf/general-win-prediction.pdf)
 
 * Chiara F. Sironi, Jialin Liu, Diego Perez-Liebana, Raluca D. Gaina, Ivan Bravi, Simon M. Lucas, Mark H.M. Winands, **"Self-Adaptive MCTS for General Video Game Playing"**, _EvoStar_, 2018, to appear. [(PDF)](https://www.researchgate.net/profile/Jialin_Liu13/publication/322539569_Self-Adaptive_MCTS_for_General_Video_Game_Playing/links/5a5f22bea6fdcc68fa9a3ff2/Self-Adaptive-MCTS-for-General-Video-Game-Playing.pdf) 
 
@@ -60,6 +60,7 @@ So far, various aspects have been explored on several games, such as the impact 
 
 # [](#header-1)Awards
 
+***Best Paper Award Nomination**, IEEE CIG, Maastricht, 2018 <br />
 **IEEE Present Around The World Competition**, University of Essex, 2017: Runner-up <br />
 **IET Game AI Hackathon Competition**, University of Essex, 2017: Runner-up Best Game Design <br />
 **MSc Project Prize in the area of Computer Science**, University of Essex, 2016 – awarded for the highest mark obtained in an MSc project in the CSEE department. <br />
@@ -114,7 +115,7 @@ So far, various aspects have been explored on several games, such as the impact 
 ### [](#header-3)Others
 
 * **GVGAI 2-Player** track organizer  (2016-2018)
-* **MARLO** task design
+* **MARLO** task design / Internship at Microsoft Research, Cambridge (APR-JUL 2018)
 * **GVGAI tutorial** given and organized in _Queen Mary University of London_ (19 FEB 2018)
 * Assisted tutorial: **"Computational Intelligence for Games: General Video Game AI – 2 Player"** at _IEEE Computer Science and Electronic Engineering Conference (CEEC)_, University of Essex (SEP 2016)
 
