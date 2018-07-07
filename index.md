@@ -114,6 +114,7 @@ So far, various aspects have been explored on several games, such as the impact 
 
 ### [](#header-3)Others
 
+* **IGGI Conference 2018** Program Chair (2018), [web](http://2018.iggi.org.uk)
 * **GVGAI 2-Player** track organizer  (2016-2018)
 * **MARLO** task design / Internship at Microsoft Research, Cambridge (APR-JUL 2018)
 * **GVGAI tutorial** given and organized in _Queen Mary University of London_ (19 FEB 2018)
