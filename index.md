@@ -24,7 +24,7 @@ So far, various aspects have been explored on several games, such as the impact 
 
 **2018**
 
-* *Raluca D. Gaina, Simon M. Lucas, Diego Perez-Liebana, **"General Win Prediction from Agent Experience"**, _IEEE Conference on Computational Intelligence and Games_, 2018, accepted. [(PDF)](assets/pdf/general-win-prediction.pdf)
+* &ast;Raluca D. Gaina, Simon M. Lucas, Diego Perez-Liebana, **"General Win Prediction from Agent Experience"**, _IEEE Conference on Computational Intelligence and Games_, 2018, accepted. [(PDF)](assets/pdf/general-win-prediction.pdf)
 
 * Chiara F. Sironi, Jialin Liu, Diego Perez-Liebana, Raluca D. Gaina, Ivan Bravi, Simon M. Lucas, Mark H.M. Winands, **"Self-Adaptive MCTS for General Video Game Playing"**, _EvoStar_, 2018, to appear. [(PDF)](https://www.researchgate.net/profile/Jialin_Liu13/publication/322539569_Self-Adaptive_MCTS_for_General_Video_Game_Playing/links/5a5f22bea6fdcc68fa9a3ff2/Self-Adaptive-MCTS-for-General-Video-Game-Playing.pdf) 
 
@@ -60,7 +60,7 @@ So far, various aspects have been explored on several games, such as the impact 
 
 # [](#header-1)Awards
 
-***Best Paper Award Nomination**, IEEE CIG, Maastricht, 2018 <br />
+**&ast;Best Paper Award Nomination**, IEEE CIG, Maastricht, 2018 <br />
 **IEEE Present Around The World Competition**, University of Essex, 2017: Runner-up <br />
 **IET Game AI Hackathon Competition**, University of Essex, 2017: Runner-up Best Game Design <br />
 **MSc Project Prize in the area of Computer Science**, University of Essex, 2016 – awarded for the highest mark obtained in an MSc project in the CSEE department. <br />
