@@ -4,7 +4,7 @@ layout: default
 
 <a href="http://feeds.feedburner.com/rdgain" rel="alternate" type="application/rss+xml"><img src="//feedburner.google.com/fb/images/pub/feed-icon16x16.png" alt="" style="vertical-align:middle;border:0"/></a>&nbsp;<a href="http://feeds.feedburner.com/rdgain" rel="alternate" type="application/rss+xml">Subscribe in a reader</a> for work updates and new [blog](blog) posts.
 
-[About](#about) | [Research](#research-topic) | [Publications](#publications) | [Other Projects](#other-projects) | [Awards](#awards) | [Funding](#funding) | [Conferences](#conferences) | [Teaching](#teaching) | [PC Member](#pc-member) | [External Links](#external-links) | [Contact](#contact)
+| [About](#about) | [Research](#research-topic) | [Publications](#publications) | [Other Projects](#other-projects) | [Awards](#awards) | [Funding](#funding) | [Conferences](#conferences) | [Teaching](#teaching) | [PC Member](#pc-member) | [External Links](#external-links) | [Contact](#contact) |
 
 <img src="assets/images/headshot2.png" width="150" style="float:right" /> 
 
