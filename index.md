@@ -4,15 +4,17 @@ layout: default
 
 <a href="http://feeds.feedburner.com/rdgain" rel="alternate" type="application/rss+xml"><img src="//feedburner.google.com/fb/images/pub/feed-icon16x16.png" alt="" style="vertical-align:middle;border:0"/></a>&nbsp;<a href="http://feeds.feedburner.com/rdgain" rel="alternate" type="application/rss+xml">Subscribe in a reader</a> for work updates and new [blog](blog) posts.
 
+[About](#about) | [Research](#research-topic) | [Publications](#publications)
+
 <img src="assets/images/headshot2.png" width="150" style="float:right" /> 
 
-# [](#header-1)About
+# [](#about)About
 
  **Raluca D. Gaina** is currently studying for her Ph.D. in Intelligent Games and Games Intelligence at Queen Mary University of London, in the area of rolling horizon evolution in general video game playing, after completing a B.Sc. and M.Sc. in Computer Games at the University of Essex. In 2018, she did a 3 month internship at Microsoft Research Cambridge, working on the Multi-Agent Reinforcement Learning in Malmo Competition (MARLO, aka.ms/marlo). She is the track organiser of the Two-Player General Video Game AI Competition (gvgai.net). Her research interests include general video game playing AI, reinforcement learning and evolutionary computation algorithms. 
  
  Find out more of what I get up to on the [blog](blog). 
 
-# [](#header-1)Research Topic
+# [](#research-topic)Research Topic
 
 <b>Rolling Horizon Evolutionary Algorithm Improvements for General Video Game Playing in Single and Multi-Player Games</b>
 
@@ -20,7 +22,7 @@ Artificial Intelligence is concerned with creating an agent capable of rational 
 
 So far, various aspects have been explored on several games, such as the impact of the population size and individual length on performance, population seeding techniques and other algorithm structure modifications previously encountered in literature, now tested in a consistent environment and a general setting. A simple macro-action enhancement has also been explored in continuous physics games. On successful completion, the research aims to bring forward better NPCs and new challenging experiences for players, as well as reliable game testing tools. 
 
-# [](#header-1)Publications
+# [](#publications)Publications
 
 **2018**
 
@@ -52,13 +54,13 @@ So far, various aspects have been explored on several games, such as the impact 
 ### [](#header-3)Under review
 -->
 
-# [](#header-1)Other Projects
+# [](#other-projects)Other Projects
 
 [Global Game Jam 2018: Kill the Penguin](https://globalgamejam.org/2018/games/kill-penguin). (under development)<br />
 [Global Game Jam 2017: Flappy McArmbands Goes to London](http://globalgamejam.org/2017/games/flappy-mcarmbands-goes-london).<br />
 [Global Game Jam 2016: Rebirth](http://globalgamejam.org/2016/games/rebirth) -- [final version](https://github.com/rdgain/Rebirth-Game).
 
-# [](#header-1)Awards
+# [](#awards)Awards
 
 ***Best Paper Award Nomination**, IEEE CIG, Maastricht, 2018 <br />
 **IEEE Present Around The World Competition**, University of Essex, 2017: Runner-up <br />
@@ -67,13 +69,13 @@ So far, various aspects have been explored on several games, such as the impact 
 **K.F Bowden Memorial prize**, University of Essex, 2014 – awarded for achieving one of the top four overall highest marks in the second year in the CSEE department.<br />
 **K.F Bowden Memorial prize**, University of Essex, 2013 – awarded for achieving one of the top four overall highest marks in the first year in the CSEE department. 
 
-### [](#header-3)Funding
+### [](#funding)Funding
 **Postgraduate Support Scheme 10k Grant**, University of Essex, 2015  
 **EPSRC Centre for Doctoral Training in Intelligent Games and Game Intelligence (IGGI) Grant**, 2016-2020
 
 # [](#header-1)Research activities
 
-### [](#header-3)Conferences attended
+### [](#conferences)Conferences attended
 
 **CogX**, JUN 2018, London, UK, [(Youtube)](https://youtu.be/B4GbuPWlC5Q) [(Youtube-Full-Stream)](https://youtu.be/4Lw1cJdUedU)
 * Presentation: _"Learning to Play: Multi-Agent Reinforcement Learning in Malmo (MARLO) Competition"_, Research Stage
@@ -99,21 +101,22 @@ So far, various aspects have been explored on several games, such as the impact 
 **IEEE Computer Science and Electronic Engineering Conference (CEEC)**, SEP 2016, Colchester, UK 
 * Presentation: _"General Video Game for 2 Players: Framework and Competition"_ paper, Special Session on Computational Intelligence and Games.
 
-### [](#header-3)Teaching
+### [](#teaching)Teaching
 
 **High Level Games Development module**, _University of Essex_ (BSc): 2016 (Graduate Lab Assistant, marking only) <br/>
 **High Level Games Development module**, _University of Essex_ (BSc): 2017 (Graduate Lab Assistant) <br/>
 **Game Artificial Intelligence module**, _University of Essex_ (MSc): 2017 (Graduate Lab Assistant)
 
-### [](#header-3)Program Committee Member
+### [](#pc-member)Program Committee Member
 
+* IEEE Transactions on Games (TOG) 2018
 * IEEE Foundations of Digital Games (FDG) 2018
 * IEEE Conference on Computational Intelligence and Games (CIG) 2018
 * IEEE Congress on Evolutionary Computation (CEC) 2018
 * AAAI Workshop on Knowledge Extraction from Games (KEG) 2018
 * IEEE Congress on Evolutionary Computation (CEC) 2017
 
-### [](#header-3)Others
+### [](#others)Others
 
 * **IGGI Conference 2018** Program Chair (2018), [web](http://2018.iggi.org.uk)
 * **GVGAI 2-Player** track organizer  (2016-2018)
@@ -121,14 +124,14 @@ So far, various aspects have been explored on several games, such as the impact 
 * **GVGAI tutorial** given and organized in _Queen Mary University of London_ (19 FEB 2018)
 * Assisted tutorial: **"Computational Intelligence for Games: General Video Game AI – 2 Player"** at _IEEE Computer Science and Electronic Engineering Conference (CEEC)_, University of Essex (SEP 2016)
 
-# [](#header-1)External Links
+# [](#external-links)External Links
 
 [General Video Game AI Competition (GVGAI)](http://gvgai.net)<br />
 [Intelligent Games and Games Intelligence (IGGI)](http://iggi.org.uk)<br />
 [MARLO (Multi-Agent Reinforcement Learning in Malmo Competition](http://aka.ms/marlo)<br />
 [UoE CSEE Women in Science (Athena Swan)](https://www.essex.ac.uk/csee/about/women-in-science.aspx)
 
-# [](#header-1)Contact
+# [](#contact)Contact
 
 E-mail: r.d.gaina@qmul.ac.uk 
 
