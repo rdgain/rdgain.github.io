@@ -64,7 +64,8 @@ So far, various aspects have been explored on several games, such as the impact 
 **IEEE Present Around The World Competition**, University of Essex, 2017: Runner-up <br />
 **IET Game AI Hackathon Competition**, University of Essex, 2017: Runner-up Best Game Design <br />
 **MSc Project Prize in the area of Computer Science**, University of Essex, 2016 – awarded for the highest mark obtained in an MSc project in the CSEE department. <br />
-**K.F Bowden Memorial prize**, University of Essex, 2013 & 2014 – awarded for achieving one of the top four overall highest marks in the first, respectively second year in the CSEE department. 
+**K.F Bowden Memorial prize**, University of Essex, 2014 – awarded for achieving one of the top four overall highest marks in the second year in the CSEE department.<br />
+**K.F Bowden Memorial prize**, University of Essex, 2013 – awarded for achieving one of the top four overall highest marks in the first year in the CSEE department. 
 
 ### [](#header-3)Funding
 **Postgraduate Support Scheme 10k Grant**, University of Essex, 2015  
