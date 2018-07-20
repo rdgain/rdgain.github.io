@@ -39,6 +39,5 @@ All I would like to say is that it’s okay.
 Discover the world, question the world, dissect it to find its secrets. That’s what science is all about. And you can do it. It’s okay to want to. In fact, it is quite inspiring that you do.
 
 
-With hopes for the future you represent,
-Me,
+With hopes for the future you represent, <br/>
 A fellow girl breaking into the world of science.

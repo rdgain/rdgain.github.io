@@ -5,7 +5,7 @@ category : [Games]
 short_title: "Game: Never Alone"
 tagline: ": 5.5/10."
 tags : [games, review, co-op, atmosphere, puzzle, adventure, platformer]
-image1: post14/logo_short.png
+image1: post14/logo_small.png
 image2: post14/logo_medium.png
 image3: post14/logo_long.png
 ---
