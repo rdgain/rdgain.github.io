@@ -2,13 +2,13 @@
 layout: default
 ---
 
-### [](#teaching)Teaching
+# [](#teaching)Teaching
 
 **High Level Games Development module**, _University of Essex_ (BSc): 2016 (Graduate Lab Assistant, marking only) <br/>
 **High Level Games Development module**, _University of Essex_ (BSc): 2017 (Graduate Lab Assistant) <br/>
 **Game Artificial Intelligence module**, _University of Essex_ (MSc): 2017 (Graduate Lab Assistant)
 
-### [](#funding)Funding
+# [](#funding)Funding
 **Postgraduate Support Scheme 10k Grant**, University of Essex, 2015  
 **EPSRC Centre for Doctoral Training in Intelligent Games and Game Intelligence (IGGI) Grant**, 2016-2020
 

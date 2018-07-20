@@ -14,7 +14,7 @@ Related publications:
 
 [Full publication list](publications)
 
-### [](#pc-member)Program Committee Member
+# [](#pc-member)Program Committee Member
 
 * IEEE Transactions on Games (TOG) 2018
 * IEEE Foundations of Digital Games (FDG) 2018

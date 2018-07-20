@@ -19,7 +19,7 @@ layout: default
 **K.F Bowden Memorial prize**, University of Essex, 2014 – awarded for achieving one of the top four overall highest marks in the second year in the CSEE department.<br />
 **K.F Bowden Memorial prize**, University of Essex, 2013 – awarded for achieving one of the top four overall highest marks in the first year in the CSEE department. 
 
-### [](#funding)Funding
+# [](#funding)Funding
 **Postgraduate Support Scheme 10k Grant**, University of Essex, 2015  
 **EPSRC Centre for Doctoral Training in Intelligent Games and Game Intelligence (IGGI) Grant**, 2016-2020
 
