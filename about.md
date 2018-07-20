@@ -4,26 +4,28 @@ layout: default
 
 <img src="assets/images/headshot2.png" width="150" style="float:right" /> 
 
-# [](#about)About
-
  **Raluca D. Gaina** is currently studying for her Ph.D. in Intelligent Games and Games Intelligence at Queen Mary University of London, in the area of rolling horizon evolution in general video game playing, after completing a B.Sc. and M.Sc. in Computer Games at the University of Essex. In 2018, she did a 3 month internship at Microsoft Research Cambridge, working on the Multi-Agent Reinforcement Learning in Malmo Competition (MARLO, aka.ms/marlo). She is the track organiser of the Two-Player General Video Game AI Competition (gvgai.net). Her research interests include general video game playing AI, reinforcement learning and evolutionary computation algorithms. 
  
  Find out more of what I get up to on the [blog](blog). 
 
+<hr>
+ 
 # [](#awards)Awards
 
 **Best Paper Award Nomination**, IEEE CIG, Maastricht, 2018 <br />
-<div style="margin-left:50px; margin-right:-50px;color:gray; font-style: italic">Paper: General Win Prediction from Agent Experience</div><br />
+<div style="margin-left:50px; margin-top:-20px; margin-right:-50px;color:gray; font-style: italic">Paper: General Win Prediction from Agent Experience</div><br />
 **IEEE Present Around The World Competition**, University of Essex, 2017 <br />
-<div style="margin-left:50px; margin-right:-50px;color:gray; font-style: italic">Runner-up</div><br />
+<div style="margin-left:50px; margin-top:-20px; margin-right:-50px;color:gray; font-style: italic">Runner-up</div><br />
 **IET Game AI Hackathon Competition**, University of Essex, 2017 <br />
-<div style="margin-left:50px; margin-right:-50px;color:gray; font-style: italic">Runner-up Best Game Design</div><br />
+<div style="margin-left:50px; margin-top:-20px; margin-right:-50px;color:gray; font-style: italic">Runner-up Best Game Design</div><br />
 **MSc Project Prize in the area of Computer Science**, University of Essex, 2016 <br />
-<div style="margin-left:50px; margin-right:-50px;color:gray; font-style: italic">Awarded for the highest mark obtained in an MSc project in the CSEE department.</div><br />
+<div style="margin-left:50px; margin-top:-20px; margin-right:-50px;color:gray; font-style: italic">Awarded for the highest mark obtained in an MSc project in the CSEE department.</div><br />
 **K.F Bowden Memorial prize**, University of Essex, 2014 <br />
-<div style="margin-left:50px; margin-right:-50px;color:gray; font-style: italic">Awarded for achieving one of the top four overall highest marks in the second year in the CSEE department.</div><br />
+<div style="margin-left:50px; margin-top:-20px; margin-right:-50px;color:gray; font-style: italic">Awarded for achieving one of the top four overall highest marks in the second year in the CSEE department.</div><br />
 **K.F Bowden Memorial prize**, University of Essex, 2013 <br />
-<div style="margin-left:50px; margin-right:-50px;color:gray; font-style: italic">Awarded for achieving one of the top four overall highest marks in the first year in the CSEE department.</div> 
+<div style="margin-left:50px; margin-top:-20px; margin-right:-50px;color:gray; font-style: italic">Awarded for achieving one of the top four overall highest marks in the first year in the CSEE department.</div> 
+
+<hr>
 
 # [](#funding)Funding
 **Postgraduate Support Scheme 10k Grant**, University of Essex, 2015  
