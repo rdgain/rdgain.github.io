@@ -10,7 +10,7 @@ layout: default
 
 <hr>
  
-# <img src="assets/images/trophy.jpg" width="25" /> [](#awards)AWARDS
+# <img src="assets/images/trophy.png" width="25" /> [](#awards)AWARDS
 
 **Best Paper Award Nomination**, IEEE CIG, Maastricht, 2018 <br />
 <div style="margin-left:50px; margin-top:-20px; margin-right:-50px;color:gray; font-style: italic">Paper: General Win Prediction from Agent Experience</div><br />
