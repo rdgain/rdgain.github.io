@@ -4,15 +4,17 @@ layout: default
 
 <a href="http://feeds.feedburner.com/rdgain" rel="alternate" type="application/rss+xml"><img src="//feedburner.google.com/fb/images/pub/feed-icon16x16.png" alt="" style="vertical-align:middle;border:0"/></a>&nbsp;<a href="http://feeds.feedburner.com/rdgain" rel="alternate" type="application/rss+xml">Subscribe in a reader</a> for work updates and new [blog](blog) posts.
 
+| [Publications](#publications) | [Other Projects](#other-projects) | [Awards](#awards) | [Conferences](#conferences-attended) | [Teaching](#teaching) | [PC Member](#program-committee-member) | [External Links](#external-links) | [Contact](#contact) |
+
 <img src="assets/images/headshot2.png" width="150" style="float:right" /> 
 
-# [](#header-1)About
+# [](#about)About
 
- **Raluca D. Gaina** is currently on a 3 month internship at Microsoft Research Cambridge, working on the Multi-Agent Reinforcement Learning in Malmo (MARLO) Competition. She is studying for her Ph.D. in Intelligent Games and Games Intelligence at Queen Mary University of London, in the area of rolling horizon evolution in general video game playing, after completing a B.Sc. and M.Sc. in Computer Games at the University of Essex. She's already completed her first year of Ph.D. at the University of Essex (transfer to Queen Mary) with 7 conference papers and a journal publication. Her research interests include general video game playing AI, reinforcement learning and evolutionary computation algorithms. 
+ **Raluca D. Gaina** is currently studying for her Ph.D. in Intelligent Games and Games Intelligence at Queen Mary University of London, in the area of rolling horizon evolution in general video game playing, after completing a B.Sc. and M.Sc. in Computer Games at the University of Essex. In 2018, she did a 3 month internship at Microsoft Research Cambridge, working on the Multi-Agent Reinforcement Learning in Malmo Competition (MARLO, aka.ms/marlo). She is the track organiser of the Two-Player General Video Game AI Competition (gvgai.net). Her research interests include general video game playing AI, reinforcement learning and evolutionary computation algorithms. 
  
  Find out more of what I get up to on the [blog](blog). 
 
-# [](#header-1)Research Topic
+# [](#research-topic)Research Topic
 
 <b>Rolling Horizon Evolutionary Algorithm Improvements for General Video Game Playing in Single and Multi-Player Games</b>
 
@@ -20,9 +22,11 @@ Artificial Intelligence is concerned with creating an agent capable of rational 
 
 So far, various aspects have been explored on several games, such as the impact of the population size and individual length on performance, population seeding techniques and other algorithm structure modifications previously encountered in literature, now tested in a consistent environment and a general setting. A simple macro-action enhancement has also been explored in continuous physics games. On successful completion, the research aims to bring forward better NPCs and new challenging experiences for players, as well as reliable game testing tools. 
 
-# [](#header-1)Publications
+# [](#publications)Publications
 
 **2018**
+
+* *Raluca D. Gaina, Simon M. Lucas, Diego Perez-Liebana, **"General Win Prediction from Agent Experience"**, _IEEE Conference on Computational Intelligence and Games_, 2018, accepted. [(PDF)](assets/pdf/general-win-prediction.pdf)
 
 * Chiara F. Sironi, Jialin Liu, Diego Perez-Liebana, Raluca D. Gaina, Ivan Bravi, Simon M. Lucas, Mark H.M. Winands, **"Self-Adaptive MCTS for General Video Game Playing"**, _EvoStar_, 2018, to appear. [(PDF)](https://www.researchgate.net/profile/Jialin_Liu13/publication/322539569_Self-Adaptive_MCTS_for_General_Video_Game_Playing/links/5a5f22bea6fdcc68fa9a3ff2/Self-Adaptive-MCTS-for-General-Video-Game-Playing.pdf) 
 
@@ -50,26 +54,33 @@ So far, various aspects have been explored on several games, such as the impact 
 ### [](#header-3)Under review
 -->
 
-# [](#header-1)Projects
+# [](#other-projects)Other Projects
 
 [Global Game Jam 2018: Kill the Penguin](https://globalgamejam.org/2018/games/kill-penguin). (under development)<br />
 [Global Game Jam 2017: Flappy McArmbands Goes to London](http://globalgamejam.org/2017/games/flappy-mcarmbands-goes-london).<br />
 [Global Game Jam 2016: Rebirth](http://globalgamejam.org/2016/games/rebirth) -- [final version](https://github.com/rdgain/Rebirth-Game).
 
-# [](#header-1)Awards
+# [](#awards)Awards
 
+***Best Paper Award Nomination**, IEEE CIG, Maastricht, 2018 <br />
 **IEEE Present Around The World Competition**, University of Essex, 2017: Runner-up <br />
 **IET Game AI Hackathon Competition**, University of Essex, 2017: Runner-up Best Game Design <br />
 **MSc Project Prize in the area of Computer Science**, University of Essex, 2016 – awarded for the highest mark obtained in an MSc project in the CSEE department. <br />
-**K.F Bowden Memorial prize**, University of Essex, 2013 & 2014 – awarded for achieving one of the top four overall highest marks in the first, respectively second year in the CSEE department. 
+**K.F Bowden Memorial prize**, University of Essex, 2014 – awarded for achieving one of the top four overall highest marks in the second year in the CSEE department.<br />
+**K.F Bowden Memorial prize**, University of Essex, 2013 – awarded for achieving one of the top four overall highest marks in the first year in the CSEE department. 
 
-### [](#header-3)Funding
+### [](#funding)Funding
 **Postgraduate Support Scheme 10k Grant**, University of Essex, 2015  
 **EPSRC Centre for Doctoral Training in Intelligent Games and Game Intelligence (IGGI) Grant**, 2016-2020
 
 # [](#header-1)Research activities
 
-### [](#header-3)Conferences attended
+### [](#conferences)Conferences attended
+
+**CogX**, JUN 2018, London, UK, [(Youtube)](https://youtu.be/B4GbuPWlC5Q) [(Youtube-Full-Stream)](https://youtu.be/4Lw1cJdUedU)
+* Presentation: _"Learning to Play: Multi-Agent Reinforcement Learning in Malmo (MARLO) Competition"_, Research Stage
+
+**Artificial Intelligence & Games Summer School**, MAY 2018, Chania, Greece
 
 **Asynchronous Research on AI & Games**, OCT 2017, [Online](https://youtu.be/Qh59xHU1zlQ)
 * Presentation: _"Planning in Real-time Games with Rolling Horizon Evolution"_, first ASYNC event by MetaMakers Institute
@@ -77,7 +88,7 @@ So far, various aspects have been explored on several games, such as the impact 
 **IGGI Conference**, SEP 2017, York, UK 
 * Presentation: _"The General Video Game Playing Challenge: Improving RHEA & Playing Beyond Win"_, with Cristina Guerrero-Romero. 
 
-**IEEE Computational Intelligence and Games (CIG)**, AUG 2017, New York, USA 
+**IEEE Computational Intelligence and Games (CIG)**, AUG 2017, New York, USA, [(Youtube)](https://youtu.be/AUYcafpDaxM) [(Youtube-Full-Stream)](https://youtu.be/0fSK1VI9XNc)
 * Presentation: _"Rolling Horizon Evolution Enhancements in General Video Game Playing"_ paper, Special Session on General Game Playing.
 
 **IEEE Congress on Evolutionary Computation (CEC)**, JUN 2017, San Sebastian, Spain
@@ -90,33 +101,37 @@ So far, various aspects have been explored on several games, such as the impact 
 **IEEE Computer Science and Electronic Engineering Conference (CEEC)**, SEP 2016, Colchester, UK 
 * Presentation: _"General Video Game for 2 Players: Framework and Competition"_ paper, Special Session on Computational Intelligence and Games.
 
-### [](#header-3)Teaching
+### [](#teaching)Teaching
 
 **High Level Games Development module**, _University of Essex_ (BSc): 2016 (Graduate Lab Assistant, marking only) <br/>
 **High Level Games Development module**, _University of Essex_ (BSc): 2017 (Graduate Lab Assistant) <br/>
 **Game Artificial Intelligence module**, _University of Essex_ (MSc): 2017 (Graduate Lab Assistant)
 
-### [](#header-3)Program Committee Member
+### [](#pc-member)Program Committee Member
 
-* IEEE Congress on Evolutionary Computation (CEC) 2017
-* AAAI Workshop on Knowledge Extraction from Games (KEG) 2018
-* IEEE Congress on Evolutionary Computation (CEC) 2018
-* IEEE Conference on Computational Intelligence and Games (CIG) 2018
+* IEEE Transactions on Games (TOG) 2018
 * IEEE Foundations of Digital Games (FDG) 2018
+* IEEE Conference on Computational Intelligence and Games (CIG) 2018
+* IEEE Congress on Evolutionary Computation (CEC) 2018
+* AAAI Workshop on Knowledge Extraction from Games (KEG) 2018
+* IEEE Congress on Evolutionary Computation (CEC) 2017
 
-### [](#header-3)Others
+### [](#others)Others
 
-* **GVGAI 2-Player** track organizer 
+* **IGGI Conference 2018** Program Chair (2018), [web](http://2018.iggi.org.uk)
+* **GVGAI 2-Player** track organizer  (2016-2018)
+* **MARLO** task design / Internship at Microsoft Research, Cambridge (APR-JUL 2018)
 * **GVGAI tutorial** given and organized in _Queen Mary University of London_ (19 FEB 2018)
 * Assisted tutorial: **"Computational Intelligence for Games: General Video Game AI – 2 Player"** at _IEEE Computer Science and Electronic Engineering Conference (CEEC)_, University of Essex (SEP 2016)
 
-# [](#header-1)External Links
+# [](#external-links)External Links
 
 [General Video Game AI Competition (GVGAI)](http://gvgai.net)<br />
 [Intelligent Games and Games Intelligence (IGGI)](http://iggi.org.uk)<br />
+[MARLO (Multi-Agent Reinforcement Learning in Malmo Competition](http://aka.ms/marlo)<br />
 [UoE CSEE Women in Science (Athena Swan)](https://www.essex.ac.uk/csee/about/women-in-science.aspx)
 
-# [](#header-1)Contact
+# [](#contact)Contact
 
 E-mail: r.d.gaina@qmul.ac.uk 
 
