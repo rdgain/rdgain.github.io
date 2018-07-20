@@ -10,7 +10,7 @@ layout: default
 
 <hr>
  
-# [](#awards)Awards
+# <img src="assets/images/trophy.jpg" width="25" /> [](#awards)AWARDS
 
 **Best Paper Award Nomination**, IEEE CIG, Maastricht, 2018 <br />
 <div style="margin-left:50px; margin-top:-20px; margin-right:-50px;color:gray; font-style: italic">Paper: General Win Prediction from Agent Experience</div><br />
@@ -27,7 +27,7 @@ layout: default
 
 <hr>
 
-# [](#funding)Funding
+# <img src="assets/images/money.png" width="25" /> [](#funding)FUNDING
 **Postgraduate Support Scheme 10k Grant**, University of Essex, 2015  
 **EPSRC Centre for Doctoral Training in Intelligent Games and Game Intelligence (IGGI) Grant**, 2016-2020
 
