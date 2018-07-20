@@ -25,6 +25,7 @@ layout: default
 **K.F Bowden Memorial prize**, University of Essex, 2013 <br />
 <div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Awarded for achieving one of the top four overall highest marks in the first year in the CSEE department.</div> 
 
+<br/><br/>
 <hr>
 
 # <img src="assets/images/money.png" width="25" /> [](#funding)FUNDING

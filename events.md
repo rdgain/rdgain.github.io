@@ -11,6 +11,9 @@ layout: default
 **EGX**, SEP 2018, Birmingham, UK<br/>
 <div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Talk: TBC</div><br />
 
+<br/><br/>
+<hr>
+
 # [](#conferences)CONFERENCES ATTENDED
 
 **CogX**, JUN 2018, London, UK, [(Youtube)](https://youtu.be/B4GbuPWlC5Q) [(Youtube-Full-Stream)](https://youtu.be/4Lw1cJdUedU)
