@@ -28,7 +28,7 @@ layout: default
 <hr>
 
 # <img src="assets/images/money.png" width="25" /> [](#funding)FUNDING
-**EPSRC Centre for Doctoral Training in Intelligent Games and Game Intelligence (IGGI) Grant**, 2016-2020
+**EPSRC Centre for Doctoral Training in Intelligent Games and Game Intelligence (IGGI) Grant**, 2016-2020 <br/>
 **Postgraduate Support Scheme 10k Grant**, University of Essex, 2015  
 
 <hr>
