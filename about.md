@@ -12,12 +12,18 @@ layout: default
 
 # [](#awards)Awards
 
-***Best Paper Award Nomination**, IEEE CIG, Maastricht, 2018 <br />
-**IEEE Present Around The World Competition**, University of Essex, 2017: Runner-up <br />
-**IET Game AI Hackathon Competition**, University of Essex, 2017: Runner-up Best Game Design <br />
-**MSc Project Prize in the area of Computer Science**, University of Essex, 2016 – awarded for the highest mark obtained in an MSc project in the CSEE department. <br />
-**K.F Bowden Memorial prize**, University of Essex, 2014 – awarded for achieving one of the top four overall highest marks in the second year in the CSEE department.<br />
-**K.F Bowden Memorial prize**, University of Essex, 2013 – awarded for achieving one of the top four overall highest marks in the first year in the CSEE department. 
+**Best Paper Award Nomination**, IEEE CIG, Maastricht, 2018 <br />
+<div style="margin-left:50px; margin-right:-50px;color:gray; font-style: italic">Paper: General Win Prediction from Agent Experience</div><br />
+**IEEE Present Around The World Competition**, University of Essex, 2017 <br />
+<div style="margin-left:50px; margin-right:-50px;color:gray; font-style: italic">Runner-up</div><br />
+**IET Game AI Hackathon Competition**, University of Essex, 2017 <br />
+<div style="margin-left:50px; margin-right:-50px;color:gray; font-style: italic">Runner-up Best Game Design</div><br />
+**MSc Project Prize in the area of Computer Science**, University of Essex, 2016 <br />
+<div style="margin-left:50px; margin-right:-50px;color:gray; font-style: italic">Awarded for the highest mark obtained in an MSc project in the CSEE department.</div><br />
+**K.F Bowden Memorial prize**, University of Essex, 2014 <br />
+<div style="margin-left:50px; margin-right:-50px;color:gray; font-style: italic">Awarded for achieving one of the top four overall highest marks in the second year in the CSEE department.</div><br />
+**K.F Bowden Memorial prize**, University of Essex, 2013 <br />
+<div style="margin-left:50px; margin-right:-50px;color:gray; font-style: italic">Awarded for achieving one of the top four overall highest marks in the first year in the CSEE department.</div> 
 
 # [](#funding)Funding
 **Postgraduate Support Scheme 10k Grant**, University of Essex, 2015  
