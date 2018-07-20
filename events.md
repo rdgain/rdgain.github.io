@@ -17,6 +17,7 @@ layout: default
 **CogX**, JUN 2018, London, UK, [(Youtube)](https://youtu.be/B4GbuPWlC5Q) [(Youtube-Full-Stream)](https://youtu.be/4Lw1cJdUedU)
 <div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Talk: "Learning to Play: Multi-Agent Reinforcement Learning in Malmo (MARLO) Competition", Research Stage</div><br />
 **Artificial Intelligence & Games Summer School**, MAY 2018, Chania, Greece <br />
+<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic"></div><br />
 **Asynchronous Research on AI & Games**, OCT 2017, [Online](https://youtu.be/Qh59xHU1zlQ)
 <div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Talk: "Planning in Real-time Games with Rolling Horizon Evolution", first ASYNC event by MetaMakers Institute</div><br />
 **IGGI Conference**, SEP 2017, York, UK.
