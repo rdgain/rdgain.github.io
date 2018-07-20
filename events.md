@@ -29,6 +29,7 @@ Presentation: General Video Game AI 2-Player Planning Competition 2017 results. 
 <div style="margin-left:50px; margin-top:-20px; margin-bottom:-20px; color:gray; font-style: italic">Presentation: "Analysis of Vanilla Rolling Horizon Evolution Parameters in General Video Game Playing" paper, EvoGames.</div><br />
 **IEEE Computer Science and Electronic Engineering Conference (CEEC)**, SEP 2016, Colchester, UK 
 <div style="margin-left:50px; margin-top:-20px; margin-bottom:-20px; color:gray; font-style: italic">Presentation: "General Video Game for 2 Players: Framework and Competition" paper, Special Session on Computational Intelligence and Games.</div><br />
+**IGGI Conference**, SEP 2016, Goldsmiths University of London, UK <br/>
 
 
 <hr>
