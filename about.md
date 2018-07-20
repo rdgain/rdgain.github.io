@@ -13,23 +13,23 @@ layout: default
 # <img src="assets/images/trophy.png" width="25" /> [](#awards)AWARDS
 
 **Best Paper Award Nomination**, IEEE CIG, Maastricht, 2018 <br />
-<div style="margin-left:50px; margin-top:-20px; margin-right:-50px;color:gray; font-style: italic">Paper: General Win Prediction from Agent Experience</div><br />
+<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Paper: General Win Prediction from Agent Experience</div><br />
 **IEEE Present Around The World Competition**, University of Essex, 2017 <br />
-<div style="margin-left:50px; margin-top:-20px; margin-right:-50px;color:gray; font-style: italic">Runner-up</div><br />
+<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Runner-up</div><br />
 **IET Game AI Hackathon Competition**, University of Essex, 2017 <br />
-<div style="margin-left:50px; margin-top:-20px; margin-right:-50px;color:gray; font-style: italic">Runner-up Best Game Design</div><br />
+<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Runner-up Best Game Design</div><br />
 **MSc Project Prize in the area of Computer Science**, University of Essex, 2016 <br />
-<div style="margin-left:50px; margin-top:-20px; margin-right:-50px;color:gray; font-style: italic">Awarded for the highest mark obtained in an MSc project in the CSEE department.</div><br />
+<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Awarded for the highest mark obtained in an MSc project in the CSEE department.</div><br />
 **K.F Bowden Memorial prize**, University of Essex, 2014 <br />
-<div style="margin-left:50px; margin-top:-20px; margin-right:-50px;color:gray; font-style: italic">Awarded for achieving one of the top four overall highest marks in the second year in the CSEE department.</div><br />
+<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Awarded for achieving one of the top four overall highest marks in the second year in the CSEE department.</div><br />
 **K.F Bowden Memorial prize**, University of Essex, 2013 <br />
-<div style="margin-left:50px; margin-top:-20px; margin-right:-50px;color:gray; font-style: italic">Awarded for achieving one of the top four overall highest marks in the first year in the CSEE department.</div> 
+<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Awarded for achieving one of the top four overall highest marks in the first year in the CSEE department.</div> 
 
 <hr>
 
 # <img src="assets/images/money.png" width="25" /> [](#funding)FUNDING
-**Postgraduate Support Scheme 10k Grant**, University of Essex, 2015  
 **EPSRC Centre for Doctoral Training in Intelligent Games and Game Intelligence (IGGI) Grant**, 2016-2020
+**Postgraduate Support Scheme 10k Grant**, University of Essex, 2015  
 
 <hr>
 
