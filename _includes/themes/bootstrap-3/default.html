@@ -24,7 +24,21 @@
       <h1 class="title">{{ site.title | default: site.github.repository_name }}</h1>
     </header>
     <div id="container">
-      <p class="tagline">{{ site.description  }}</p>
+		<p class="tagline">
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<center>
+					<div class="nav-bar" id="jb-navbar-collapse">
+					  <a href="{{ site.url }}">Home</a>
+					  <a href="{{ site.url }}/about">About</a>
+					  <a href="{{ site.url }}/research">Research</a>
+					  <a href="{{ site.url }}/publications">Publications</a>
+					  <a href="{{ site.url }}/events">Events</a>
+					  <a href="{{ site.url }}/teaching">Teaching</a>
+					  <a href="{{ site.url }}/projects">Projects</a>
+					  <a href="{{ site.url }}/blog">Blog</a>
+					</div><!-- /.navbar-collapse -->
+				</center>
+		</p>
       <div id="main" role="main">
         <div class="download-bar">
         <div class="inner">

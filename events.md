@@ -2,7 +2,17 @@
 layout: default
 ---
 
-### [](#conferences)Conferences attended
+# [](#conferences)Upcoming events
+
+**IEEE Computational Intelligence and Games (CIG)**, AUG 2018, Maastricht, The Netherlands
+* Presentation: _"General Win Prediction from Agent Experience"_ paper, Best Paper Award Nominee Session I.
+
+**IGGI Conference**, SEP 2018, Queen Mary University of London, UK 
+
+**EGX**, SEP 2018, Birmingham, UK
+* Talk: TBC
+
+# [](#conferences)Conferences attended
 
 **CogX**, JUN 2018, London, UK, [(Youtube)](https://youtu.be/B4GbuPWlC5Q) [(Youtube-Full-Stream)](https://youtu.be/4Lw1cJdUedU)
 * Presentation: _"Learning to Play: Multi-Agent Reinforcement Learning in Malmo (MARLO) Competition"_, Research Stage
@@ -30,4 +40,4 @@ layout: default
 
 <hr>
 
-<a href="mailto:r.d.gaina@qmul.ac.uk"><img src="assets/images/email.png" width="50" /></a> <a href="https://publists.qmul.ac.uk/userprofile.html?uid=41431&em=false"><img src="assets/images/qmul.jpg" width="50"/></a> <a href="https://www.researchgate.net/profile/Raluca_Gaina"><img src="assets/images/researchgate.png" width="50" /></a> <a href="https://scholar.google.co.uk/citations?user=tC5klQYAAAAJ"><img src="assets/images/gscholar.png" width="50" /></a> <a href="https://www.linkedin.com/in/raluca-gaina-347518114/"><img src="assets/images/linkedin.png" width="50" /></a> <a href="https://twitter.com/b_gum22"></a>
+<center><a href="mailto:r.d.gaina@qmul.ac.uk"><img src="assets/images/email.png" width="50" /></a> <a href="https://publists.qmul.ac.uk/userprofile.html?uid=41431&em=false"><img src="assets/images/qmul.jpg" width="50"/></a> <a href="https://www.researchgate.net/profile/Raluca_Gaina"><img src="assets/images/researchgate.png" width="50" /></a> <a href="https://scholar.google.co.uk/citations?user=tC5klQYAAAAJ"><img src="assets/images/gscholar.png" width="50" /></a> <a href="https://www.linkedin.com/in/raluca-gaina-347518114/"><img src="assets/images/linkedin.png" width="50" /></a> <a href="https://twitter.com/b_gum22"></a></center>
