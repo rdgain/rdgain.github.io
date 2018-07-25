@@ -19,8 +19,8 @@ Graduate Lab Assistant.
 <hr>
 
 # [](#funding)FUNDING
+**EPSRC Centre for Doctoral Training in Intelligent Games and Game Intelligence (IGGI) Grant** - sponsored by, 2016-2020
 **Postgraduate Support Scheme 10k Grant**, University of Essex, 2015  
-**EPSRC Centre for Doctoral Training in Intelligent Games and Game Intelligence (IGGI) Grant**, 2016-2020
 
 <hr> 
 
