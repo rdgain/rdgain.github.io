@@ -7,35 +7,35 @@ layout: default
 <center><table style="width:100%;border-spacing: 10px; border-collapse: separate;"  cellpadding="5">
 <tr>
 <td><div class="post-container">
-  <img style="width:100%" src="assets/images/index/about1.png" />
+  <img style="width:100%" src="assets/images/index/about.png" />
   <a href="about">About</a>
 </div></td>
 <td><div class="post-container">
-  <img style="width:100%" src="assets/images/index/research1.png" />
+  <img style="width:100%" src="assets/images/index/research.png" />
   <a href="research">Research</a>
 </div></td>
 <td><div class="post-container">
-  <img style="width:100%" src="assets/images/index/publications1.png" />
+  <img style="width:100%" src="assets/images/index/publications.png" />
   <a href="publications">Publications</a>
 </div></td>
 </tr>
 <tr>
 <td><div class="post-container">
-  <img style="width:100%" src="assets/images/index/events1.png" />
+  <img style="width:100%" src="assets/images/index/events.png" />
   <a href="events">Events</a>
 </div></td>
 <td><div class="post-container">
-  <img style="width:100%" src="assets/images/index/teaching1.png" />
+  <img style="width:100%" src="assets/images/index/teaching.png" />
   <a href="teaching">Teaching</a>
 </div></td>
 <td><div class="post-container">
-  <img style="width:100%" src="assets/images/index/projects1.png" />
+  <img style="width:100%" src="assets/images/index/projects.png" />
   <a href="projects">Projects</a>
 </div></td>
 </tr>
 <tr>
 <td colspan="3"><div class="post-container">
-  <img style="width:100%" src="assets/images/index/blog1.png" />
+  <img style="width:100%" src="assets/images/index/blog.png" />
   <a href="blog">Blog</a>
 </div></td>
 </tr>
