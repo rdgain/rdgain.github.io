@@ -12,11 +12,12 @@ layout: default
 
 # [](#others)OTHERS
 
+[MARLO (Multi-Agent Reinforcement Learning in Malmo Competition)](https://project.dke.maastrichtuniversity.nl/cig2018/learning-to-play-the-multi-agent-reinforcement-learning-on-malmo-competition/) Tutorial given at _IEEE Conference on Computational Intelligence and Games (CIG)_, Maastricht, The Netherlands (AUG 2018)<br/>
 [IGGI Conference 2018](http://2018.iggi.org.uk) Program Chair (2018)<br/>
 [GVGAI 2-Player](http://gvgai.net) track organizer  (2016-2018)<br/>
 [MARLO (Multi-Agent Reinforcement Learning in Malmo Competition)](http://aka.ms/marlo) task design / Internship at Microsoft Research, Cambridge (APR-JUL 2018)<br/>
-[GVGAI tutorial]() given and organized in _Queen Mary University of London_ (19 FEB 2018)<br/>
-Assisted tutorial: **"Computational Intelligence for Games: General Video Game AI – 2 Player"** at _IEEE Computer Science and Electronic Engineering Conference (CEEC)_, University of Essex (SEP 2016)<br/>
+[GVGAI]() Tutorial given and organized in _Queen Mary University of London_ (19 FEB 2018)<br/>
+[Computational Intelligence for Games: General Video Game AI – 2 Player]() Tutorial assisted at _IEEE Computer Science and Electronic Engineering Conference (CEEC)_, University of Essex (SEP 2016)<br/>
 [Intelligent Games and Games Intelligence (IGGI)](http://iggi.org.uk)<br />
 [UoE CSEE Women in Science (Athena Swan)](https://www.essex.ac.uk/csee/about/women-in-science.aspx)<br />
 

@@ -12,8 +12,10 @@ layout: default
  
 # <img src="assets/images/trophy.png" width="25" /> [](#awards)AWARDS
 
+**Video Competition**, IEEE CIG, Maastricht, 2018 <br />
+<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">3rd Place - [Video](https://youtu.be/zq9zaEjspUY): General Win Prediction from Agent Experience</div><br />
 **Best Paper Award Nomination**, IEEE CIG, Maastricht, 2018 <br />
-<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Paper: General Win Prediction from Agent Experience</div><br />
+<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Runner-up - Paper: General Win Prediction from Agent Experience</div><br />
 **IEEE Present Around The World Competition**, University of Essex, 2017 <br />
 <div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Runner-up</div><br />
 **IET Game AI Hackathon Competition**, University of Essex, 2017 <br />

@@ -4,19 +4,19 @@ layout: default
 
 # [](#conferences)UPCOMING EVENTS
 
-**IEEE Computational Intelligence and Games (CIG)**, AUG 2018, Maastricht, The Netherlands<br />
-<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Presentation: "General Win Prediction from Agent Experience" paper, Best Paper Award Nominee Session I.</div><br />
-**IGGI Conference**, SEP 2018, Queen Mary University of London, UK <br/>
+**IGGI Conference**, SEP 2018, Queen Mary University of London, UK <br/> [(Conference Web)](http://2018.iggi.org.uk/talks.php)
 <div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Program Chair. Talk: "General Outcome Prediction".</div><br />
-**EGX**, SEP 2018, Birmingham, UK<br/>
+<!-- **EGX**, SEP 2018, Birmingham, UK<br/>
 <div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Talk: TBC</div><br/>
-<hr>
+<hr> -->
 
 # [](#conferences)CONFERENCES ATTENDED
 
+**IEEE Computational Intelligence and Games (CIG)**, AUG 2018, Maastricht, The Netherlands [(Youtube)](https://youtu.be/zq9zaEjspUY)
+<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Presentation: "General Win Prediction from Agent Experience" paper, Best Paper Award Nominee Session I.</div><br />
 **CogX**, JUN 2018, London, UK, [(Youtube)](https://youtu.be/B4GbuPWlC5Q) [(Youtube-Full-Stream)](https://youtu.be/4Lw1cJdUedU)
 <div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Talk: "Learning to Play: Multi-Agent Reinforcement Learning in Malmo (MARLO) Competition", Research Stage</div><br />
-**Artificial Intelligence & Games Summer School**, MAY 2018, Chania, Greece <br />
+**Artificial Intelligence & Games Summer School**, MAY 2018, Chania, Greece
 <div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic"></div><br />
 **Asynchronous Research on AI & Games**, OCT 2017, [Online](https://youtu.be/Qh59xHU1zlQ)
 <div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Talk: "Planning in Real-time Games with Rolling Horizon Evolution", first ASYNC event by MetaMakers Institute</div><br />

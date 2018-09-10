@@ -4,6 +4,11 @@ layout: default
 
 # [](#teaching)TEACHING
 
+
+**Artificial Intelligence in Games module** (MSc), Autumn 2018, _Queen Mary University of London_<br />
+<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">
+Demonstrator.
+</div><br />
 **High Level Games Development module** (BSc, 3rd Year), Autumn 2016, _University of Essex_<br />
 <div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">
 Graduate Lab Assistant, marking only.
