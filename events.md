@@ -6,8 +6,6 @@ layout: default
 
 **IGGI Conference**, SEP 2018, Queen Mary University of London, UK <br/> [(Conference Web)](http://2018.iggi.org.uk/talks.php)
 <div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Program Chair. Talk: "General Outcome Prediction".</div><br />
-<!-- **EGX**, SEP 2018, Birmingham, UK<br/>
-<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Talk: TBC</div><br/> -->
 <hr>
 
 # [](#conferences)CONFERENCES ATTENDED
