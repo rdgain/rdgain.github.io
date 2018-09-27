@@ -4,12 +4,14 @@ layout: default
 
 # [](#conferences)UPCOMING EVENTS
 
-**IGGI Conference**, SEP 2018, Queen Mary University of London, UK [(Conference Web)](http://2018.iggi.org.uk/talks.php)
-<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Program Chair. Talk: "General Outcome Prediction".</div><br />
+**AIIDE Conference**, NOV 2018, University of Alberta, Edmonton, Canada 
+<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Demo paper: "VERTIGØ: Visualisation of Rolling Horizon Evolutionary Algorithms in GVGAI".</div><br />
 <hr>
 
 # [](#conferences)CONFERENCES ATTENDED
 
+**IGGI Conference**, SEP 2018, Queen Mary University of London, UK [(Conference Web)](http://2018.iggi.org.uk/talks.php)
+<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Program Chair. Talk: "General Outcome Prediction".</div><br />
 **IEEE Computational Intelligence and Games (CIG)**, AUG 2018, Maastricht, The Netherlands [(Youtube)](https://youtu.be/zq9zaEjspUY)
 <div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Presentation: "General Win Prediction from Agent Experience" paper, Best Paper Award Nominee Session I.</div><br />
 **CogX**, JUN 2018, London, UK, [(Youtube)](https://youtu.be/B4GbuPWlC5Q) [(Youtube-Full-Stream)](https://youtu.be/4Lw1cJdUedU)
