@@ -18,6 +18,7 @@ Related publications:
 
 # [](#pc-member)PROGRAM COMMITTEE MEMBER
 
+* IEEE Congress on Evolutionary Computation (CEC) 2019
 * IEEE Transactions on Games (TOG) 2018
 * IEEE Foundations of Digital Games (FDG) 2018
 * IEEE Conference on Computational Intelligence and Games (CIG) 2018
