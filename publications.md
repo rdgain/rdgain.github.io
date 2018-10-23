@@ -4,11 +4,11 @@ layout: default
 
 **2018**
 
-* Raluca D. Gaina, Simon M. Lucas, Diego Perez-Liebana, **"VERTIGØ: Visualisation of Rolling Horizon Evolutionary Algorithms in GVGAI"** (demo paper), _AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment (AIIDE)_, 2018, to appear. [(PDF)](assets/pdf/vertigo-visualisation-rolling.pdf)
+* Raluca D. Gaina, Simon M. Lucas, Diego Perez-Liebana, **"VERTIGØ: Visualisation of Rolling Horizon Evolutionary Algorithms in GVGAI"** (demo paper), _AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment (AIIDE)_, 2018, to appear. [(PDF)](assets/pdf/vertigo-visualisation-rolling.pdf) 
 
-* Raluca D. Gaina, Simon M. Lucas, Diego Perez-Liebana, **"General Win Prediction from Agent Experience"**, _IEEE Conference on Computational Intelligence and Games_, 2018, to appear. [(PDF)](assets/pdf/general-win-prediction.pdf)
+* Raluca D. Gaina, Simon M. Lucas, Diego Perez-Liebana, **"General Win Prediction from Agent Experience"**, _IEEE Conference on Computational Intelligence and Games_, p. 1-8, 2018. [(PDF)](assets/pdf/general-win-prediction.pdf) [(IEEEXplore)](https://ieeexplore.ieee.org/document/8490439)
 
-* Chiara F. Sironi, Jialin Liu, Diego Perez-Liebana, Raluca D. Gaina, Ivan Bravi, Simon M. Lucas, Mark H.M. Winands, **"Self-Adaptive MCTS for General Video Game Playing"**, _EvoStar_, 2018, to appear. [(PDF)](https://www.researchgate.net/profile/Jialin_Liu13/publication/322539569_Self-Adaptive_MCTS_for_General_Video_Game_Playing/links/5a5f22bea6fdcc68fa9a3ff2/Self-Adaptive-MCTS-for-General-Video-Game-Playing.pdf) 
+* Chiara F. Sironi, Jialin Liu, Diego Perez-Liebana, Raluca D. Gaina, Ivan Bravi, Simon M. Lucas, Mark H.M. Winands, **"Self-Adaptive MCTS for General Video Game Playing"**, _Sim K., Kaufmann P. (eds) Applications of Evolutionary Computation, EvoApplications, Lecture Notes in Computer Science, vol 10784, Springer, Cham._, p. 358-375, 2018. [(PDF)](https://www.researchgate.net/profile/Jialin_Liu13/publication/322539569_Self-Adaptive_MCTS_for_General_Video_Game_Playing/links/5a5f22bea6fdcc68fa9a3ff2/Self-Adaptive-MCTS-for-General-Video-Game-Playing.pdf) [(Springer)](https://link.springer.com/chapter/10.1007/978-3-319-77538-8_25)
 
 **2017**
 
