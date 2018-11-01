@@ -2,6 +2,10 @@
 layout: default
 ---
 
+**2019**
+
+* Raluca D. Gaina, Simon M. Lucas, Diego Perez-Liebana, **"Tackling Sparse Rewards in Real-Time Games with Statistical Forward Planning Methods"**, _AAAI Conference on Artificial Intelligence (AAAI-19)_, 2019, accepted. [(PDF)](assets/pdf/soon-to-come)
+
 **2018**
 
 * Raluca D. Gaina, Simon M. Lucas, Diego Perez-Liebana, **"VERTIGØ: Visualisation of Rolling Horizon Evolutionary Algorithms in GVGAI"** (demo paper), _AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment (AIIDE)_, 2018, to appear. [(PDF)](assets/pdf/vertigo-visualisation-rolling.pdf) 
