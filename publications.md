@@ -4,7 +4,7 @@ layout: default
 
 **2019**
 
-* Raluca D. Gaina, Simon M. Lucas, Diego Perez-Liebana, **"Tackling Sparse Rewards in Real-Time Games with Statistical Forward Planning Methods"**, _AAAI Conference on Artificial Intelligence (AAAI-19)_, 2019, accepted. [(PDF)](assets/pdf/soon-to-come)
+* Raluca D. Gaina, Simon M. Lucas, Diego Perez-Liebana, **"Tackling Sparse Rewards in Real-Time Games with Statistical Forward Planning Methods"**, _AAAI Conference on Artificial Intelligence (AAAI-19)_, 2019, accepted. [(PDF)](assets/pdf/sparse-rewards.pdf) [(BibTex)](assets/bibtex/gaina2018sparse-rewards.bib)
 
 **2018**
 
