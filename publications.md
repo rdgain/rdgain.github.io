@@ -4,11 +4,15 @@ layout: default
 
 **2019**
 
-* Raluca D. Gaina, Simon M. Lucas, Diego Perez-Liebana, **"Tackling Sparse Rewards in Real-Time Games with Statistical Forward Planning Methods"**, _AAAI Conference on Artificial Intelligence (AAAI-19)_, 2019, accepted. [(PDF)](assets/pdf/sparse-rewards.pdf) [(BibTex)](assets/bibtex/gaina2018sparse-rewards.bib)
+* Raluca D. Gaina, Simon M. Lucas, Diego Perez-Liebana, **"Tackling Sparse Rewards in Real-Time Games with Statistical Forward Planning Methods"**, _AAAI Conference on Artificial Intelligence (AAAI-19)_, 2019. [(PDF)](assets/pdf/sparse-rewards.pdf) [(BibTex)](assets/bibtex/gaina2018sparse-rewards.bib)
+
+* Simon M Lucas, Jialin Liu, Ivan Bravi, Raluca D. Gaina, John Woodward, Vanessa Volz and Diego Perez-Liebana, **"Efficient Evolutionary Methods for Game Agent Optimisation: Model-Based is Best"**, _Game Simulations Workshop (AAAI)_, 2019. [(arXiv)](https://arxiv.org/abs/1901.00723)
 
 **2018**
 
 * Raluca D. Gaina, Simon M. Lucas, Diego Perez-Liebana, **"VERTIGØ: Visualisation of Rolling Horizon Evolutionary Algorithms in GVGAI"** (demo paper), _AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment (AIIDE)_, p. 265-267, 2018. [(PDF)](assets/pdf/vertigo-visualisation-rolling.pdf) [(AAAI)](https://aaai.org/ocs/index.php/AIIDE/AIIDE18/paper/view/18100) [(BibTex)](assets/bibtex/gaina2018vertigo.bib)
+
+* Diego Perez-Liebana, Katja Hofmann, Sharada Prasanna Mohanty, Noburo Kuno, Andre Kramer, Sam Devlin, Raluca D. Gaina, Daniel Ionita, **"The Multi-Agent Reinforcement Learning in Malmo (MARLO) Competition"**, _Challenges in Machine Learning (CiML; NIPS Workshop)_, 2018. [(PDF)](http://diego-perez.net/papers/MARLO_CiML_NIPS2018.pdf)
 
 * Raluca D. Gaina, Simon M. Lucas, Diego Perez-Liebana, **"General Win Prediction from Agent Experience"**, _IEEE Conference on Computational Intelligence and Games_, p. 1-8, 2018. [(PDF)](assets/pdf/general-win-prediction.pdf) [(IEEEXplore)](https://ieeexplore.ieee.org/document/8490439) [(BibTex)](assets/bibtex/gaina2018win.bib)
 
