@@ -4,6 +4,8 @@ layout: default
 
 **2019**
 
+* Simon M Lucas, Alexander Dockhorn, Vanessa Volz, Chris Bamford, Raluca D. Gaina, Ivan Bravi, Diego Perez-Liebana, Sanaz Mostaghim, Rudolf Kruse, **"A Local Approach to Forward Model Learning: Results on the Game of Life Game"**, _Submitted to IEEE COG_, 2019. [(arXiv)](https://arxiv.org/abs/1903.12508)
+
 * Raluca D. Gaina, Simon M. Lucas, Diego Perez-Liebana, **"Tackling Sparse Rewards in Real-Time Games with Statistical Forward Planning Methods"**, _AAAI Conference on Artificial Intelligence (AAAI-19)_, 2019. [(PDF)](assets/pdf/sparse-rewards.pdf) [(BibTex)](assets/bibtex/gaina2018sparse-rewards.bib)
 
 * Simon M Lucas, Jialin Liu, Ivan Bravi, Raluca D. Gaina, John Woodward, Vanessa Volz and Diego Perez-Liebana, **"Efficient Evolutionary Methods for Game Agent Optimisation: Model-Based is Best"**, _Game Simulations Workshop (AAAI)_, 2019. [(arXiv)](https://arxiv.org/abs/1901.00723)
