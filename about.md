@@ -30,6 +30,7 @@ layout: default
 <hr>
 
 # <img src="assets/images/money.png" width="25" /> [](#funding)FUNDING
+**AAAI Conference on Artificial Intelligence (AAAI-19) Travel Grant Award**, 2019<br/>
 **AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment (AIIDE) Travel Grant Award**, 2018<br/>
 **EPSRC Centre for Doctoral Training in Intelligent Games and Game Intelligence (IGGI) Grant**, 2016-2020 <br/>
 **Postgraduate Support Scheme 10k Grant**, University of Essex, 2015  

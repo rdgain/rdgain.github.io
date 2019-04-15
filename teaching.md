@@ -4,16 +4,23 @@ layout: default
 
 # [](#teaching)TEACHING
 
-
+**Multi-platform Game Development module** (BSc, 3rd Year + MSc), Spring 2019, _Queen Mary University of London_<br />
+<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">
+Demonstrator.
+</div><br />
 **Artificial Intelligence in Games module** (MSc), Autumn 2018, _Queen Mary University of London_<br />
 <div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">
 Demonstrator.
 </div><br />
-**High Level Games Development module** (BSc, 3rd Year), Autumn 2016, _University of Essex_<br />
+**Software Engineering module** (MSc), Autumn 2018, _Queen Mary University of London_<br />
+<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">
+Demonstrator, marking only.
+</div><br />
+**High Level Games Development module** (BSc, 3rd Year + MSc), Autumn 2016, _University of Essex_<br />
 <div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">
 Graduate Lab Assistant, marking only.
 </div><br />
-**High Level Games Development module** (BSc, 3rd Year), Autumn 2017, _University of Essex_<br />
+**High Level Games Development module** (BSc, 3rd Year + MSc), Autumn 2017, _University of Essex_<br />
 <div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">
 Graduate Lab Assistant.
 </div><br />
@@ -22,10 +29,7 @@ Graduate Lab Assistant.
 Graduate Lab Assistant.
 </div><br />
 <hr>
-
-# [](#funding)FUNDING
-**EPSRC Centre for Doctoral Training in Intelligent Games and Game Intelligence (IGGI) Grant** - sponsored by, 2016-2020<br/>
-**Postgraduate Support Scheme 10k Grant**, University of Essex, 2015  
+ 
 
 <hr> 
 

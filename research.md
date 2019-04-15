@@ -12,15 +12,20 @@ algorithm structure modifications previously encountered in literature, now test
 
 Raluca’s latest studies look at a better understanding of RHEA’s inner workings through feature analysis (including algorithm convergence, sense of danger or fitness landscapes observed), as well as performance prediction based on the agent’s experience while playing the game.
 
-Related publications:
-
-[Full publication list](publications)
+Related publications: [Full publication list](publications)
 
 # [](#pc-member)PROGRAM COMMITTEE MEMBER
 
+* Machine Learning Journal (MACH) 2019
+* International Computer Games Association Journal (ICGA) 2019
+* IEEE Transactions on Games (TOG) 2019
+* IEEE Transactions on Games (TOG) 2018
+
+* IEEE Conference on Games (CoG) 2019
+* IEEE Foundations of Digital Games (FDG) 2019
 * AAAI Workshop on Knowledge Extraction from Games (KEG) 2019
 * IEEE Congress on Evolutionary Computation (CEC) 2019
-* IEEE Transactions on Games (TOG) 2018
+* Conference of the Spanish Association of Artificial Intelligence (CAEPIA) 2018
 * IEEE Foundations of Digital Games (FDG) 2018
 * IEEE Conference on Computational Intelligence and Games (CIG) 2018
 * IEEE Congress on Evolutionary Computation (CEC) 2018

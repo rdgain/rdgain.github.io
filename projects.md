@@ -12,6 +12,7 @@ layout: default
 
 # [](#others)OTHERS
 
+[IEEE CoG Conference 2019](http://ieee-cog.org) Publicity & Media Chair (2019)<br/>
 [MARLO (Multi-Agent Reinforcement Learning in Malmo Competition)](https://project.dke.maastrichtuniversity.nl/cig2018/learning-to-play-the-multi-agent-reinforcement-learning-on-malmo-competition/) Tutorial given at _IEEE Conference on Computational Intelligence and Games (CIG)_, Maastricht, The Netherlands (AUG 2018)<br/>
 [IGGI Conference 2018](http://2018.iggi.org.uk) Program Chair (2018)<br/>
 [GVGAI 2-Player](http://gvgai.net) track organizer  (2016-2018)<br/>

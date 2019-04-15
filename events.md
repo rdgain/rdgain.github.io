@@ -4,12 +4,19 @@ layout: default
 
 # [](#conferences)UPCOMING EVENTS
 
-**AIIDE Conference**, NOV 2018, University of Alberta, Edmonton, Canada 
-<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Demo paper: "VERTIGØ: Visualisation of Rolling Horizon Evolutionary Algorithms in GVGAI".</div><br />
+**IEEE CoG Conference**, AUG 2019, Queen Mary University of London, London, UK
+<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Publicity and Media Chair.</div><br />
+**Dagstuhl Seminar 19511**, DEC 2019, Dagstuhl, Germany
+<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Invited attendee.</div><br />
 <hr>
 
 # [](#conferences)CONFERENCES ATTENDED
 
+**AAAI Conference**, JAN 2019, Honolulu, Hawaii, USA 
+<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Presentation: "Tackling Sparse Rewards in Real-Time Games with Statistical Forward Planning Methods".</div><br />
+<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Presentation (Game Simulations Workshop paper): "Efficient Evolutionary Methods for Game Agent Optimisation: Model-Based is Best".</div><br />
+**AIIDE Conference**, NOV 2018, University of Alberta, Edmonton, Canada 
+<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Demo paper: "VERTIGØ: Visualisation of Rolling Horizon Evolutionary Algorithms in GVGAI".</div><br />
 **IGGI Conference**, SEP 2018, Queen Mary University of London, UK [(Conference Web)](http://2018.iggi.org.uk/talks.php)
 <div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Program Chair. Talk: "General Outcome Prediction".</div><br />
 **IEEE Computational Intelligence and Games (CIG)**, AUG 2018, Maastricht, The Netherlands [(Youtube)](https://youtu.be/zq9zaEjspUY)
