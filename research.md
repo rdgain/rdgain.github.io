@@ -20,7 +20,7 @@ Related publications: [Full publication list](publications)
 * International Computer Games Association Journal (ICGA) 2019
 * IEEE Transactions on Games (TOG) 2019
 * IEEE Transactions on Games (TOG) 2018
-
+<br/>
 * IEEE Conference on Games (CoG) 2019
 * IEEE Foundations of Digital Games (FDG) 2019
 * AAAI Workshop on Knowledge Extraction from Games (KEG) 2019

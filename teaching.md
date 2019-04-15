@@ -28,8 +28,7 @@ Graduate Lab Assistant.
 <div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">
 Graduate Lab Assistant.
 </div><br />
-<hr>
- 
+
 
 <hr> 
 

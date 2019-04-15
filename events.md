@@ -13,8 +13,8 @@ layout: default
 # [](#conferences)CONFERENCES ATTENDED
 
 **AAAI Conference**, JAN 2019, Honolulu, Hawaii, USA 
-<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Presentation: "Tackling Sparse Rewards in Real-Time Games with Statistical Forward Planning Methods".</div><br />
-<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Presentation (Game Simulations Workshop paper): "Efficient Evolutionary Methods for Game Agent Optimisation: Model-Based is Best".</div><br />
+<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Presentation: "Tackling Sparse Rewards in Real-Time Games with Statistical Forward Planning Methods".<br />
+Presentation (Game Simulations Workshop paper): "Efficient Evolutionary Methods for Game Agent Optimisation: Model-Based is Best".</div><br />
 **AIIDE Conference**, NOV 2018, University of Alberta, Edmonton, Canada 
 <div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Demo paper: "VERTIGØ: Visualisation of Rolling Horizon Evolutionary Algorithms in GVGAI".</div><br />
 **IGGI Conference**, SEP 2018, Queen Mary University of London, UK [(Conference Web)](http://2018.iggi.org.uk/talks.php)
