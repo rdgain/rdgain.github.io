@@ -17,7 +17,7 @@ layout: default
 **AAAI Conference**, JAN 2019, Honolulu, Hawaii, USA 
 <div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Presentation: "Tackling Sparse Rewards in Real-Time Games with Statistical Forward Planning Methods".<br />
 Presentation (Game Simulations Workshop paper): "Efficient Evolutionary Methods for Game Agent Optimisation: Model-Based is Best".</div><br />
-**IET Christmas Lecture**, DEC 2018, Queen Mary University of London, London, UK [(Game AI Unleashed](https://www.qmul.ac.uk/events/items/2018/game-ai-unleashed.html)
+**IET Christmas Lecture**, DEC 2018, Queen Mary University of London, London, UK [(Game AI Unleashed)](https://www.qmul.ac.uk/events/items/2018/game-ai-unleashed.html)
 <div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Invited speaker.</div><br />
 **AIIDE Conference**, NOV 2018, University of Alberta, Edmonton, Canada 
 <div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Demo paper: "VERTIGØ: Visualisation of Rolling Horizon Evolutionary Algorithms in GVGAI".</div><br />
