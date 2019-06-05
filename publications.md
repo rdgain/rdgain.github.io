@@ -4,7 +4,15 @@ layout: default
 
 **2019**
 
-* Simon M Lucas, Alexander Dockhorn, Vanessa Volz, Chris Bamford, Raluca D. Gaina, Ivan Bravi, Diego Perez-Liebana, Sanaz Mostaghim, Rudolf Kruse, **"A Local Approach to Forward Model Learning: Results on the Game of Life Game"**, _Submitted to IEEE COG_, 2019. [(arXiv)](https://arxiv.org/abs/1903.12508)
+* Raluca Gaina, Simon M. Lucas, Diego Perez-Liebana, **"Project Thyia: A Forever Gameplayer"**, _Accepted at IEEE COG_, 2019.
+
+* Raluca D. Gaina, Matthew Stephenson, **""Did You Hear That?" Learning to Play Video Games from Audio Cues"**, _Accepted at IEEE COG_, 2019. (short paper)
+
+* Olve Drageset, Raluca Gaina, Diego Perez-Liebana, Mark Winands, **"Optimising Level Generators for General Video Game AI"**, _Accepted at IEEE COG_, 2019.
+
+* Alexander Dockhorn, Simon M Lucas, Vanessa Volz, Ivan Bravi, Raluca D. Gaina, Diego Perez-Liebana, **"Learning Local Forward Models on Unforgiving Games"**, _Accepted at IEEE COG_, 2019. (short paper)
+
+* Simon M Lucas, Alexander Dockhorn, Vanessa Volz, Chris Bamford, Raluca D. Gaina, Ivan Bravi, Diego Perez-Liebana, Sanaz Mostaghim, Rudolf Kruse, **"A Local Approach to Forward Model Learning: Results on the Game of Life Game"**, _Accepted at IEEE COG_, 2019. [(arXiv)](https://arxiv.org/abs/1903.12508)
 
 * Raluca D. Gaina, Simon M. Lucas, Diego Perez-Liebana, **"Tackling Sparse Rewards in Real-Time Games with Statistical Forward Planning Methods"**, _AAAI Conference on Artificial Intelligence (AAAI-19)_, 2019. [(PDF)](assets/pdf/sparse-rewards.pdf) [(BibTex)](assets/bibtex/gaina2018sparse-rewards.bib)
 
