@@ -4,9 +4,9 @@ layout: default
 
 **2019**
 
-* Raluca D. Gaina, Simon M. Lucas, Diego Perez-Liebana, **"Project Thyia: A Forever Gameplayer"**, _accepted at IEEE COG_, 2019.
+* Raluca D. Gaina, Simon M. Lucas, Diego Perez-Liebana, **"Project Thyia: A Forever Gameplayer"**, _accepted at IEEE COG_, 2019. [(PDF)](assets/pdf/thyia-cog.pdf)
 
-* Raluca D. Gaina, Matthew Stephenson, **""Did You Hear That?" Learning to Play Video Games from Audio Cues"**, _accepted at IEEE COG_, 2019. (short paper)
+* Raluca D. Gaina, Matthew Stephenson, **""Did You Hear That?" Learning to Play Video Games from Audio Cues"**, _accepted at IEEE COG_, 2019. (short paper) [(PDF)](assets/pdf/did-you-hear-that.pdf)
 
 * Olve Drageset, Raluca D. Gaina, Diego Perez-Liebana, Mark H.M. Winands, **"Optimising Level Generators for General Video Game AI"**, _accepted at IEEE COG_, 2019.
 

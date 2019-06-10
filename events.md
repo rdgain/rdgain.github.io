@@ -4,7 +4,9 @@ layout: default
 
 # [](#upcoming)UPCOMING EVENTS
 
-**IEEE CoG Conference**, AUG 2019, Queen Mary University of London, London, UK
+**Bits, Bugs & Bots - COA Conference**, 11 JUN 2019, Royal College of Physicians, London, UK [(url)](https://www.coa.co.uk/events/coa-conference-2019)
+<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Invited talk.</div><br />
+**IEEE CoG Conference**, AUG 2019, Queen Mary University of London, London, UK [(url)](https://ieee-cog.org)
 <div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Publicity and Media Chair.</div><br />
 **Dagstuhl Seminar 19511**, DEC 2019, Dagstuhl, Germany
 <div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Invited attendee.</div><br />
