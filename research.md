@@ -14,6 +14,11 @@ Raluca’s latest studies look at a better understanding of RHEA’s inner worki
 
 Related publications: [Full publication list](publications)
 
+# [](#conf-org)CONFERENCE ORGANIZATION
+<!-- * ACM Foundations of Digital Games (FDG) 2020 - Demonstrations Chair -->
+* IEEE Conference on Games (COG) 2019 - Media & Publicity Chair
+* Intelligent Games and Games Intelligence (IGGI) Conference 2018 - Program Chair
+
 # [](#pc-member)PROGRAM COMMITTEE MEMBER
 
 * Machine Learning Journal (MACH) 2019
@@ -21,12 +26,13 @@ Related publications: [Full publication list](publications)
 * IEEE Transactions on Games (TOG) 2019
 * IEEE Transactions on Games (TOG) 2018
 <br/>
+* AAAI Artificial Intelligence for Interactive Digital Entertainment Conference (AIIDE) 2019
 * IEEE Conference on Games (CoG) 2019
-* IEEE Foundations of Digital Games (FDG) 2019
+* ACM Foundations of Digital Games (FDG) 2019
 * AAAI Workshop on Knowledge Extraction from Games (KEG) 2019
 * IEEE Congress on Evolutionary Computation (CEC) 2019
 * Conference of the Spanish Association of Artificial Intelligence (CAEPIA) 2018
-* IEEE Foundations of Digital Games (FDG) 2018
+* ACM Foundations of Digital Games (FDG) 2018
 * IEEE Conference on Computational Intelligence and Games (CIG) 2018
 * IEEE Congress on Evolutionary Computation (CEC) 2018
 * AAAI Workshop on Knowledge Extraction from Games (KEG) 2018
