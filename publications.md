@@ -35,7 +35,13 @@ layout: default
 			<li style="background-color:#daffbe">
 		{% endif %}
 	{% else %}
-    <li>
+		{% if paper.type == "article" %}
+			<li style="border-left: 3px solid #ff6a49">
+		{% elsif paper.type == "inproceedings" %}
+			<li style="border-left: 3px solid #ffbe55">
+		{% else %}
+			<li>
+		{% endif %}
 	{% endif %}
 		<!-- Display citation, IEEE style -->
 		<p>
