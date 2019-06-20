@@ -100,6 +100,7 @@
     booktitle: The 14th AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment
     year: 2018
     pages: 265--267
+    url: https://aaai.org/ocs/index.php/AIIDE/AIIDE18/paper/view/18100
     pdf: true
     abstract: This report presents a tool developed for the analysis and visualisation of Rolling Horizon Evolutionary Algorithms, featuring a GUI which allows integration within the General Video Game AI Framework. Users are able to easily customize the parameters of the agent between runs and observe an in-depth analysis of its performance through various visual information extracted from gameplay data, live while playing the game. This visualisation aims to inform a deeper analysis into algorithm behaviour, in an attempt to justify why they make the decisions they do and improve their performance based on this knowledge.
     highlight: core
@@ -122,14 +123,15 @@
     type: article
     author: Diego Perez-Liebana and Jialin Liu and Ahmed Khalifa and Raluca D. Gaina and Julian Togelius and Simon M. Lucas
     title: "General Video Game AI: a Multi-Track Framework for Evaluating Agents Games and Content Generation Algorithms"
-    journal: CoRR
+    journal: IEEE Transactions on Games
     volume: abs/1802.10363
-    year: 2018
+    year: 2019
+    pages: 1-1 
+    keywords: Games;Sprites (computer);Artificial intelligence;Planning;Benchmark testing;Education;Computational intelligence;artificial intelligence;games;general video game playing;GVGAI;video game description language
+    doi: 10.1109/TG.2019.2901021
+    ISSN: 2475-1502
     arxiv: "http://arxiv.org/abs/1802.10363"
-    eprint: 1802.10363
-    timestamp: "Wed, 29 Aug 2018 17:16:57 +0200"
-    biburl: "https://dblp.org/rec/bib/journals/corr/abs-1802-10363"
-    bibsource: "dblp computer science bibliography, https://dblp.org"
+    url: https://ieeexplore.ieee.org/abstract/document/8664126
     pdf: false
     abstract: General Video Game Playing (GVGP) aims at designing an agent that is capable of playing multiple video games with no human intervention. In 2014, The General Video Game AI (GVGAI) competition framework was created and released with the purpose of providing researchers a common open-source and easy to use platform for testing their AI methods with potentially infinity of games created using Video Game Description Language (VGDL). The framework has been expanded into several tracks during the last few years to meet the demand of different research directions. The agents are required either to play multiple unknown games with or without access to game simulations, or to design new game levels or rules. This survey paper presents the VGDL, the GVGAI framework, existing tracks, and reviews the wide use of GVGAI framework in research, education and competitions five years after its birth. A future plan of framework improvements is also described.
 -   id: sironi2018mctsGVGP
@@ -169,6 +171,7 @@
     pages: 1--4
     year: 2018
     pdf: true
+    arxiv: https://arxiv.org/abs/1901.08129
     abstract: Learning in multi-agent scenarios is a fruitful research direction, but current approaches still show scalability problems in multiple games with general reward settings and different opponent types. The Multi-Agent Reinforcement Learning in MalmÖ (MARLÖ) competition is a new challenge that proposes research in this domain using multiple 3D games. The goal of this contest is to foster research in general agents that can learn across different games and opponent types, proposing a challenge as a milestone in the direction of Artificial General Intelligence.
 -   id: gaina2019thyia
     type: inproceedings
