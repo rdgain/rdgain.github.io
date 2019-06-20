@@ -2,59 +2,117 @@
 layout: default
 ---
 
-**2019**
+<h2>Color legend</h2>
 
-* Raluca D. Gaina, Simon M. Lucas, Diego Perez-Liebana, **"Project Thyia: A Forever Gameplayer"**, _accepted at IEEE COG_, 2019. [(PDF)](assets/pdf/thyia-cog.pdf)
+<div class="pubs"><ul>
+<li style="background-color:#daffbe;width:25%"> Core PhD papers </li>
+<li style="background-color:#d0e8ff;width:25%"> Non-core first-author papers </li>
+<li style="width:25%"> Other papers </li>
+</ul></div>
 
-* Raluca D. Gaina, Matthew Stephenson, **""Did You Hear That?" Learning to Play Video Games from Audio Cues"**, _accepted at IEEE COG_, 2019. (short paper) [(PDF)](assets/pdf/did-you-hear-that.pdf)
+<!-- Group papers by year, display in reverse order (most recent first) -->
+{% assign papers_by_year = site.data.papers | group_by: "year" | sort: "name" | reverse %}
+{% for categ in papers_by_year %}
+  <h2 id="{{ categ.name }}">{{ categ.name }}</h2> <!-- Display current year -->
+  <div class="pubs"><ul>
+  {% for paper in categ.items %}
+	{% if paper.highlight == "first" %}
+	<li style="background-color:#d0e8ff">
+	{% elsif paper.highlight == "core" %}
+	<li style="background-color:#daffbe">
+	{% else %}
+    <li>
+	{% endif %}
+		<!-- Display citation, IEEE style -->
+		<p>
+			{{ paper.author | replace: " and", "," }},
+			<b>"{{ paper.title }}"</b>, 
+			{% if paper.journal %}in  <em>{{ paper.journal }}</em>, {% elsif paper.booktitle %}in <em>{{ paper.booktitle }}</em>, {% endif %}
+			{% if paper.volume %} <strong>{{ paper.volume }}</strong>, {% elsif paper.number %}, <strong>{{ paper.number }}</strong>{% endif %}
+			{% if paper.series %} <strong>{{ paper.series }}</strong>,{% endif %}
+			{% if paper.edition %} <strong>{{ paper.edition }}</strong>,{% endif %}
+			{% if paper.pages %} pp. {{ paper.pages | replace: "--", "-" }}, {% endif %}
+			{% if paper.month %}{{ paper.month }}, {% endif %} {{ paper.year }}.
+		</p>
+		
+		<!-- Print timestamp if available -->
+		{% if paper.timestamp %}{{ paper.timestamp }}<br/>{% endif %}
 
-* Olve Drageset, Raluca D. Gaina, Diego Perez-Liebana, Mark H.M. Winands, **"Optimising Level Generators for General Video Game AI"**, _accepted at IEEE COG_, 2019.
-
-* Alexander Dockhorn, Simon M Lucas, Vanessa Volz, Ivan Bravi, Raluca D. Gaina, Diego Perez-Liebana, **"Learning Local Forward Models on Unforgiving Games"**, _accepted at IEEE COG_, 2019. (short paper)
-
-* Simon M Lucas, Alexander Dockhorn, Vanessa Volz, Chris Bamford, Raluca D. Gaina, Ivan Bravi, Diego Perez-Liebana, Sanaz Mostaghim, Rudolf Kruse, **"A Local Approach to Forward Model Learning: Results on the Game of Life Game"**, _accepted at IEEE COG_, 2019. [(arXiv)](https://arxiv.org/abs/1903.12508)
-
-* Raluca D. Gaina, Simon M. Lucas, Diego Perez-Liebana, **"Tackling Sparse Rewards in Real-Time Games with Statistical Forward Planning Methods"**, _AAAI Conference on Artificial Intelligence (AAAI-19)_, 2019. [(PDF)](assets/pdf/sparse-rewards.pdf) [(BibTex)](assets/bibtex/gaina2018sparse-rewards.bib)
-
-* Simon M Lucas, Jialin Liu, Ivan Bravi, Raluca D. Gaina, John Woodward, Vanessa Volz and Diego Perez-Liebana, **"Efficient Evolutionary Methods for Game Agent Optimisation: Model-Based is Best"**, _Game Simulations Workshop (AAAI)_, 2019. [(arXiv)](https://arxiv.org/abs/1901.00723)
-
-**2018**
-
-* Raluca D. Gaina, Simon M. Lucas, Diego Perez-Liebana, **"VERTIGØ: Visualisation of Rolling Horizon Evolutionary Algorithms in GVGAI"** (demo paper), _AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment (AIIDE)_, p. 265-267, 2018. [(PDF)](assets/pdf/vertigo-visualisation-rolling.pdf) [(AAAI)](https://aaai.org/ocs/index.php/AIIDE/AIIDE18/paper/view/18100) [(BibTex)](assets/bibtex/gaina2018vertigo.bib)
-
-* Diego Perez-Liebana, Katja Hofmann, Sharada Prasanna Mohanty, Noburo Kuno, Andre Kramer, Sam Devlin, Raluca D. Gaina, Daniel Ionita, **"The Multi-Agent Reinforcement Learning in Malmo (MARLO) Competition"**, _Challenges in Machine Learning (CiML; NIPS Workshop)_, 2018. [(PDF)](http://diego-perez.net/papers/MARLO_CiML_NIPS2018.pdf)
-
-* Raluca D. Gaina, Simon M. Lucas, Diego Perez-Liebana, **"General Win Prediction from Agent Experience"**, _IEEE Conference on Computational Intelligence and Games_, p. 1-8, 2018. [(PDF)](assets/pdf/general-win-prediction.pdf) [(IEEEXplore)](https://ieeexplore.ieee.org/document/8490439) [(BibTex)](assets/bibtex/gaina2018win.bib)
-
-* Diego Perez-Liebana, Jialin Liu, Ahmed Khalifa, Raluca D. Gaina, Julian Togelius and Simon M. Lucas, **"General Video Game AI: a Multi-Track Framework for Evaluating Agents, Games and Content Generation Algorithms"**, _arXiv preprint_, 2018. [(PDF)](https://arxiv.org/pdf/1802.10363.pdf) [(arXiv)](http://arxiv.org/abs/1802.10363) [(BibTex)](assets/bibtex/perez2018gvgaisurvey.bib)
-
-* Chiara F. Sironi, Jialin Liu, Diego Perez-Liebana, Raluca D. Gaina, Ivan Bravi, Simon M. Lucas, Mark H.M. Winands, **"Self-Adaptive MCTS for General Video Game Playing"**, _Sim K., Kaufmann P. (eds) Applications of Evolutionary Computation, EvoApplications, Lecture Notes in Computer Science, vol 10784, Springer, Cham._, p. 358-375, 2018. [(PDF)](https://www.researchgate.net/profile/Jialin_Liu13/publication/322539569_Self-Adaptive_MCTS_for_General_Video_Game_Playing/links/5a5f22bea6fdcc68fa9a3ff2/Self-Adaptive-MCTS-for-General-Video-Game-Playing.pdf) [(Springer)](https://link.springer.com/chapter/10.1007/978-3-319-77538-8_25) [(BibTex)](assets/bibtex/sironi2018mctsGVGP.bib)
-
-* Raluca D. Gaina, Adrien Couetoux, Dennis J.N.J. Soemers, Mark H.M. Winands, Tom Vodopivec, Florian Kirchgessner, Jialin Liu, Simon M. Lucas, Diego Perez-Liebana, **"The 2016 Two-Player GVGAI Competition"**, _IEEE Transactions on Games (TOG)_, vol. 10, no. 2, pp. 209-220, 2018. [(PDF)](assets/pdf/GVGAI2P-2017.pdf) [(IEEEXplore)](http://ieeexplore.ieee.org/document/8100955/) [(BibTex)](assets/bibtex/gaina2018gvgai2P.bib)
-
-**2017**
-
-* Raluca D. Gaina, Rokas Volkovas, Carlos Gonzalez Diaz, Rory Davidson, **"Automatic Game Tuning for Strategic Diversity"**, _IEEE Computer Science and Electronic Engineering Conference (CEEC)_, p. 195-200, 2017. [(PDF)](assets/pdf/automatic-game-tuning.pdf) [(IEEEXplore)](http://ieeexplore.ieee.org/document/8101624/) [(BibTex)](assets/bibtex/gaina2017tuning.bib)
-
-* Raluca D. Gaina, Simon M. Lucas, Diego Perez-Liebana, **"Rolling Horizon Evolution Enhancements in General Video Game Playing"**, _IEEE Conference on Computational Intelligence and Games_, p. 88-95, 2017. [(PDF)](assets/pdf/rolling-horizon-enh.pdf) [(IEEEXplore)](http://ieeexplore.ieee.org/document/8080420/) [(BibTex)](assets/bibtex/gaina2017rhhybrids.bib)
-
-* Diego Perez-Liebana, Matthew Stephenson, Raluca D. Gaina, Jochen Renz, Simon M. Lucas **"Introducing Real World Physics and Macro-Actions to General Video Game AI"**, _IEEE Conference on Computational Intelligence and Games_, p.248-255, 2017. [(PDF)](assets/pdf/physics-macro.pdf) [(IEEEXplore)](http://ieeexplore.ieee.org/document/8080443/) [(BibTex)](assets/bibtex/perez2017macro-physics.bib)
-
-* Raluca D. Gaina, Simon M. Lucas, Diego Perez-Liebana, **"Population Seeding Techniques for Rolling Horizon Evolution in General Video Game Playing"**, _Special Session on Computational Intelligence in Games, IEEE Congress on Evolutionary Computation (CEC)_, p. 1956-1963, 2017. [(PDF)](assets/pdf/seeding-cec.pdf) [(IEEEXplore)](http://ieeexplore.ieee.org/document/7969540/) [(BibTex)](assets/bibtex/gaina2017rhseeding.bib)
-
-* Kamolwan Kunanusont, Raluca D. Gaina, Jialin Liu, Diego Perez-Liebana, Simon M. Lucas, **"The N-Tuple Bandit Evolutionary Algorithm for Automatic Game Improvement"**, _Special Session on Computational Intelligence in Games, IEEE Congress on Evolutionary Computation (CEC)_, p. 2201-2208, 2017. [(PDF)](assets/pdf/n-tuple-bandit.pdf) [(IEEEXplore)](http://ieeexplore.ieee.org/document/7969571/) [(BibTex)](assets/bibtex/kunanusont2017ntuple.bib)
-
-* Raluca D. Gaina, Jialin Liu, Simon M. Lucas, Diego Perez-Liebana, **"Analysis of Vanilla Rolling Horizon Evolution Parameters in General Video Game Playing"**, _Squillero G., Sim K. (eds) Applications of Evolutionary Computation, EvoApplications, Lecture Notes in Computer Science, vol. 10199, Springer, Cham._, p. 418-434, 2017. [(PDF)](assets/pdf/analysis-vanilla-rolling.pdf) [(Springer)](https://link.springer.com/chapter/10.1007/978-3-319-55849-3_28) [(BibTex)](assets/bibtex/gaina2017rhanalysis.bib)
-
-**2016**
-
-* Raluca D. Gaina, Diego Perez-Liebana, Simon M. Lucas, **"General Video Game for 2 Players: Framework and Competition"**, _Proceedings of the IEEE Computer Science and Electronic Engineering Conference (CEEC)_, p. 186-191, 2016. [(PDF)](assets/pdf/GVGAI2P-2016.pdf) [(IEEEXplore)](http://ieeexplore.ieee.org/document/7835911/) [(BibTex)](assets/bibtex/gaina2016gvgai2P.bib)
+		<!-- Several buttons to display more info and links -->
+		
+		
+		<div style="float:right">
+			{% if paper.url %}<a href="{{ paper.url }}" target="_blank"><i class="fas fa-link"></i></a>&nbsp; {% endif %}
+			{% if paper.note %}<a data-toggle="collapse" href="javascript:toggleDiv('{{paper.id}}-note')"><i class="fas fa-sticky-note"></i></a>&nbsp; {% endif %}
+			<!-- Arxiv link -->
+			{% if paper.arxiv %}<a href="{{ paper.arxiv }}" target="_blank"><i class="fas fa-file-excel"></i></a>&nbsp; {% endif %}
+			<!-- Link to pdf if on website -->
+			{% if paper.pdf == true %}<a href="/assets/pdf/papers/{{ paper.id }}.pdf" target="_blank"><i class="fas fa-file-pdf"></i></a>&nbsp; {% endif %}
+			<!-- If a link to bib is in the bibtex entry, link to that. Otherwise, display recreated bibtex (see below). -->
+			{% if paper.biburl %}<a href="{{ paper.biburl }}"><i class="fas fa-quote-right"></i></a> 
+			{% else %} <a data-toggle="collapse" href="javascript:toggleDiv('{{paper.id}}-bibtex')"><i class="fas fa-quote-right"></i></a> 
+			{% endif %}
+		</div> 
+		{% if paper.abstract %}<a data-toggle="collapse" href="javascript:toggleDiv('{{paper.id}}-abstract')">[Abstract]</a>{% endif %}
+		{% if paper.issn %}<a data-toggle="collapse" href="javascript:toggleDiv('{{paper.id}}-issn')">[ISSN]</a>{% endif %}
+		{% if paper.isbn %}<a data-toggle="collapse" href="javascript:toggleDiv('{{paper.id}}-isbn')">[ISBN]</a>{% endif %}
+		{% if paper.doi %}<a href="http://dx.doi.org/{{ paper.doi }}" target="_blank">[DOI]</a>{% endif %}
+		
+		<!-- Display information for abstract, note, issn and isbn when toggled -->
+		<div id="{{paper.id}}-abstract" style="display:none" class="collapse"><h5>Abstract</h5><div class="pubcollapse">{{paper.abstract}}</div></div>
+		<div id="{{paper.id}}-note" style="display:none" class="collapse"><h5>Note</h5><div class="pubcollapse">{{paper.note}}</div></div>
+		<div id="{{paper.id}}-issn" style="display:none" class="collapse"><div class="pubcollapse">{{paper.issn}}</div></div>
+		<div id="{{paper.id}}-isbn" style="display:none" class="collapse"><div class="pubcollapse">{{paper.isbn}}</div></div>
+		
+		<!-- Recreate bibtex -->
+		<div id="{{paper.id}}-bibtex" style="display:none" class="collapse"><h5>BibTex</h5>
+			<div class="pubcollapse">
+				@{{paper.type}}&#123;{{paper.id}},<br/>
+				<span style="margin:10px;">author: &#123;{{paper.author}}&#125;,</span><br/>
+				<span style="margin:10px;">title: &#123;&#123;{{paper.title}}&#125;&#125;,</span><br/>
+				<span style="margin:10px;">year: &#123;{{paper.year}}&#125;,</span><br/>
+				{% if paper.journal %} <span style="margin:10px;">journal: &#123;&#123;{{paper.journal}}&#125;&#125;,</span><br/> {% endif %}
+				{% if paper.booktitle %} <span style="margin:10px;">booktitle: &#123;&#123;{{paper.booktitle}}&#125;&#125;,</span><br/> {% endif %}
+				{% if paper.month %} <span style="margin:10px;">month: &#123;{{paper.month}}&#125;,</span><br/> {% endif %}
+				{% if paper.volume %} <span style="margin:10px;">volume: &#123;{{paper.volume}}&#125;,</span><br/> {% endif %}
+				{% if paper.number %} <span style="margin:10px;">number: &#123;{{paper.number}}&#125;,</span><br/> {% endif %}
+				{% if paper.series %} <span style="margin:10px;">series: &#123;{{paper.series}}&#125;,</span><br/> {% endif %}
+				{% if paper.edition %} <span style="margin:10px;">edition: &#123;{{paper.edition}}&#125;,</span><br/> {% endif %}
+				{% if paper.pages %} <span style="margin:10px;">pages: &#123;{{paper.pages}}&#125;,</span><br/> {% endif %}
+				{% if paper.editor %} <span style="margin:10px;">editor: &#123;{{paper.editor}}&#125;,</span><br/> {% endif %}
+				{% if paper.publisher %} <span style="margin:10px;">publisher: &#123;{{paper.publisher}}&#125;,</span><br/> {% endif %}
+				{% if paper.address %} <span style="margin:10px;">address: &#123;{{paper.address}}&#125;,</span><br/> {% endif %}
+				{% if paper.howpublished %} <span style="margin:10px;">howpublished: &#123;{{paper.howpublished}}&#125;,</span><br/> {% endif %}
+				{% if paper.chapter %} <span style="margin:10px;">chapter: &#123;{{paper.chapter}}&#125;,</span><br/> {% endif %}
+				{% if paper.organization %} <span style="margin:10px;">organization: &#123;{{paper.organization}}&#125;,</span><br/> {% endif %}
+				{% if paper.school %} <span style="margin:10px;">school: &#123;{{paper.school}}&#125;,</span><br/> {% endif %}
+				{% if paper.institution %} <span style="margin:10px;">institution: &#123;{{paper.institution}}&#125;,</span><br/> {% endif %}
+				{% if paper.timestamp %} <span style="margin:10px;">timestamp: &#123;{{paper.timestamp}}&#125;,</span><br/> {% endif %}
+				{% if paper.eprint %} <span style="margin:10px;">eprint: &#123;{{paper.eprint}}&#125;,</span><br/> {% endif %}
+				{% if paper.archivePrefix %} <span style="margin:10px;">archivePrefix: &#123;{{paper.archivePrefix}}&#125;,</span><br/> {% endif %}
+				{% if paper.keywords %} <span style="margin:10px;">keywords: &#123;{{paper.keywords}}&#125;,</span><br/> {% endif %}
+				{% if paper.bibsource %} <span style="margin:10px;">bibsource: &#123;{{paper.bibsource}}&#125;,</span><br/> {% endif %}
+				{% if paper.biburl %} <span style="margin:10px;">biburl: &#123;{{paper.biburl}}&#125;,</span><br/> {% endif %}
+				{% if paper.url %} <span style="margin:10px;">url: &#123;{{paper.url}}&#125;,</span><br/> {% endif %}
+				{% if paper.doi %} <span style="margin:10px;">doi: &#123;{{paper.doi}}&#125;,</span><br/> {% endif %}
+				{% if paper.isbn %} <span style="margin:10px;">isbn: &#123;{{paper.isbn}}&#125;,</span><br/> {% endif %}
+				{% if paper.issn %} <span style="margin:10px;">issn: &#123;{{paper.issn}}&#125;,</span><br/> {% endif %}
+				{% if paper.note %} <span style="margin:10px;">note: &#123;{{paper.note}}&#125;,</span><br/> {% endif %}
+				{% if paper.abstract %} <span style="margin:10px;">abstract: &#123;{{paper.abstract}}&#125;,</span><br/> {% endif %}
+				}
+			</div>
+		</div>
+	</li>
+  {% endfor %}
+  </ul></div>
+{% endfor %}
 
 <!---
 ### [](#header-3)Under review
 MoBoGDL
 -->
 
+
 <hr> 
 
-<center><a href="mailto:r.d.gaina@qmul.ac.uk"><img src="assets/images/email.png" width="50" /></a> <a href="https://publists.qmul.ac.uk/userprofile.html?uid=41431&em=false"><img src="assets/images/qmul.jpg" width="50"/></a> <a href="https://www.researchgate.net/profile/Raluca_Gaina"><img src="assets/images/researchgate.png" width="50" /></a> <a href="https://scholar.google.co.uk/citations?user=tC5klQYAAAAJ"><img src="assets/images/gscholar.png" width="50" /></a> <a href="https://www.linkedin.com/in/raluca-gaina-347518114/"><img src="assets/images/linkedin.png" width="50" /></a> <a href="https://twitter.com/b_gum22"></a></center>
+<div class="contactfooter"><a href="mailto:r.d.gaina@qmul.ac.uk"><i class="fas fa-envelope"></i></a> <a href="https://www.researchgate.net/profile/Raluca_Gaina"><i class="fab fa-researchgate"></i></a> <a href="https://scholar.google.co.uk/citations?user=tC5klQYAAAAJ"><i class="fab fa-google"></i></a> <a href="https://www.linkedin.com/in/raluca-gaina-347518114/"><i class="fab fa-linkedin"></i></a> <a href="https://twitter.com/b_gum22"><i class="fab fa-twitter"></i></a> <a href="https://publists.qmul.ac.uk/userprofile.html?uid=41431&em=false"><i class="fas fa-archive"></i></a></div>

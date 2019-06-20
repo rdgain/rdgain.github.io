@@ -14,18 +14,15 @@ Raluca’s latest studies look at a better understanding of RHEA’s inner worki
 
 Related publications: [Full publication list](publications)
 
-# [](#conf-org)CONFERENCE ORGANIZATION
-<!-- * ACM Foundations of Digital Games (FDG) 2020 - Demonstrations Chair -->
-* IEEE Conference on Games (COG) 2019 - Media & Publicity Chair
-* Intelligent Games and Games Intelligence (IGGI) Conference 2018 - Program Chair
-
 # [](#pc-member)PROGRAM COMMITTEE MEMBER
 
+## Journals
 * Machine Learning Journal (MACH) 2019
 * International Computer Games Association Journal (ICGA) 2019
 * IEEE Transactions on Games (TOG) 2019
 * IEEE Transactions on Games (TOG) 2018
-<br/>
+
+## Conferences
 * AAAI Artificial Intelligence for Interactive Digital Entertainment Conference (AIIDE) 2019
 * IEEE Conference on Games (CoG) 2019
 * ACM Foundations of Digital Games (FDG) 2019
@@ -40,4 +37,4 @@ Related publications: [Full publication list](publications)
 
 <hr>
 
-<center><a href="mailto:r.d.gaina@qmul.ac.uk"><img src="assets/images/email.png" width="50" /></a> <a href="https://publists.qmul.ac.uk/userprofile.html?uid=41431&em=false"><img src="assets/images/qmul.jpg" width="50"/></a> <a href="https://www.researchgate.net/profile/Raluca_Gaina"><img src="assets/images/researchgate.png" width="50" /></a> <a href="https://scholar.google.co.uk/citations?user=tC5klQYAAAAJ"><img src="assets/images/gscholar.png" width="50" /></a> <a href="https://www.linkedin.com/in/raluca-gaina-347518114/"><img src="assets/images/linkedin.png" width="50" /></a> <a href="https://twitter.com/b_gum22"></a></center>
+<div class="contactfooter"><a href="mailto:r.d.gaina@qmul.ac.uk"><i class="fas fa-envelope"></i></a> <a href="https://www.researchgate.net/profile/Raluca_Gaina"><i class="fab fa-researchgate"></i></a> <a href="https://scholar.google.co.uk/citations?user=tC5klQYAAAAJ"><i class="fab fa-google"></i></a> <a href="https://www.linkedin.com/in/raluca-gaina-347518114/"><i class="fab fa-linkedin"></i></a> <a href="https://twitter.com/b_gum22"><i class="fab fa-twitter"></i></a> <a href="https://publists.qmul.ac.uk/userprofile.html?uid=41431&em=false"><i class="fas fa-archive"></i></a></div>

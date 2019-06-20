@@ -4,16 +4,19 @@ layout: default
 
 # [](#upcoming)UPCOMING EVENTS
 
-**Bits, Bugs & Bots - COA Conference**, 11 JUN 2019, Royal College of Physicians, London, UK [(url)](https://www.coa.co.uk/events/coa-conference-2019)
-<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Invited talk.</div><br />
-**IEEE CoG Conference**, AUG 2019, Queen Mary University of London, London, UK [(url)](https://ieee-cog.org)
-<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Publicity and Media Chair.</div><br />
+**IEEE CoG Conference**, AUG 2019, Queen Mary University of London, London, UK [(Conference Web)](https://ieee-cog.org)
+<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Publicity and Media Chair.<br />
+Presentation: "Project Thyia: A Forever Gameplayer"<br />
+Presentation: "'Did You Hear That?' Learning to Play Video Games from Audio Cues"<br />
+Other papers: "Optimising Level Generators for General Video Game AI"; "A Local Approach to Forward Model Learning: Results on the Game of Life Game"; "Learning Local Forward Models on Unforgiving Games"</div><br />
 **Dagstuhl Seminar 19511**, DEC 2019, Dagstuhl, Germany
 <div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Invited attendee.</div><br />
 <hr>
 
 # [](#past)EVENTS ATTENDED
 
+**Bits, Bugs & Bots - COA Conference**, 11 JUN 2019, Royal College of Physicians, London, UK [(Conference Web)](https://www.coa.co.uk/events/coa-conference-2019) [(Slides)](assets/pdf/COA19presentation.pdf)
+<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Invited talk.</div><br />
 **IET Faraday Challenge**, MAR 2019, Queen Mary University of London, London, UK [(IET Faraday Challenge Days)](https://faraday-secondary.theiet.org/faraday-challenge-days/)
 <div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Volunteer.</div><br />
 **AAAI Conference**, JAN 2019, Honolulu, Hawaii, USA 
@@ -49,4 +52,4 @@ Presentation: General Video Game AI 2-Player Planning Competition 2017 results. 
 
 <hr>
 
-<center><a href="mailto:r.d.gaina@qmul.ac.uk"><img src="assets/images/email.png" width="50" /></a> <a href="https://publists.qmul.ac.uk/userprofile.html?uid=41431&em=false"><img src="assets/images/qmul.jpg" width="50"/></a> <a href="https://www.researchgate.net/profile/Raluca_Gaina"><img src="assets/images/researchgate.png" width="50" /></a> <a href="https://scholar.google.co.uk/citations?user=tC5klQYAAAAJ"><img src="assets/images/gscholar.png" width="50" /></a> <a href="https://www.linkedin.com/in/raluca-gaina-347518114/"><img src="assets/images/linkedin.png" width="50" /></a> <a href="https://twitter.com/b_gum22"></a></center>
+<div class="contactfooter"><a href="mailto:r.d.gaina@qmul.ac.uk"><i class="fas fa-envelope"></i></a> <a href="https://www.researchgate.net/profile/Raluca_Gaina"><i class="fab fa-researchgate"></i></a> <a href="https://scholar.google.co.uk/citations?user=tC5klQYAAAAJ"><i class="fab fa-google"></i></a> <a href="https://www.linkedin.com/in/raluca-gaina-347518114/"><i class="fab fa-linkedin"></i></a> <a href="https://twitter.com/b_gum22"><i class="fab fa-twitter"></i></a> <a href="https://publists.qmul.ac.uk/userprofile.html?uid=41431&em=false"><i class="fas fa-archive"></i></a></div>
