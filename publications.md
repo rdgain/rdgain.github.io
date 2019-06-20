@@ -15,7 +15,8 @@ layout: default
 {% for categ in papers_by_year %}
   <h2 id="{{ categ.name }}">{{ categ.name }}</h2> <!-- Display current year -->
   <div class="pubs"><ul>
-  {% for paper in categ.items %}
+  {% assign sorted_items = categ.items | sort: "highlight" %}
+  {% for paper in sorted_items %}
 	{% if paper.highlight == "first" %}
 	<li style="background-color:#d0e8ff">
 	{% elsif paper.highlight == "core" %}
