@@ -8,6 +8,8 @@ layout: default
 <li style="background-color:#daffbe;width:25%"> Core PhD papers </li>
 <li style="background-color:#d0e8ff;width:25%"> Non-core first-author papers </li>
 <li style="width:25%"> Other papers </li>
+<li style="border-left: 3px solid #ff6a49; width:25%"> Journal articles </li>
+<li style="border-left: 3px solid #ffbe55; width:25%"> Conference papers </li>
 </ul></div>
 
 <!-- Group papers by year, display in reverse order (most recent first) -->
