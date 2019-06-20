@@ -15,7 +15,7 @@ layout: default
 {% for categ in papers_by_year %}
   <h2 id="{{ categ.name }}">{{ categ.name }}</h2> <!-- Display current year -->
   <div class="pubs"><ul>
-  <! -- Display each paper, ordered by highlight type: core, first, none. Color code based on core/first, also on paper type: article/proceedings -->
+  <!-- Display each paper, ordered by highlight type: core, first, none. Color code based on core/first, also on paper type: article/proceedings -->
   {% assign sorted_items = categ.items | sort: "highlight" %}
   {% for paper in sorted_items %}
 	{% if paper.highlight == "first" %}
