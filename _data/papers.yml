@@ -126,9 +126,11 @@
     author: Diego Perez-Liebana and Jialin Liu and Ahmed Khalifa and Raluca D. Gaina and Julian Togelius and Simon M. Lucas
     title: "General Video Game AI: a Multi-Track Framework for Evaluating Agents Games and Content Generation Algorithms"
     journal: IEEE Transactions on Games
-    volume: abs/1802.10363
     year: 2019
-    pages: 1-1 
+    pages: 195-214
+    volume: 11
+    number: 3
+    month: Sep
     keywords: Games;Sprites (computer);Artificial intelligence;Planning;Benchmark testing;Education;Computational intelligence;artificial intelligence;games;general video game playing;GVGAI;video game description language
     doi: 10.1109/TG.2019.2901021
     ISSN: 2475-1502

@@ -4,17 +4,21 @@ layout: default
 
 # [](#upcoming)UPCOMING EVENTS
 
-**IEEE CoG Conference**, AUG 2019, Queen Mary University of London, London, UK [(Conference Web)](https://ieee-cog.org)
-<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Publicity and Media Chair.<br />
-Presentation: "Project Thyia: A Forever Gameplayer"<br />
-Presentation: "'Did You Hear That?' Learning to Play Video Games from Audio Cues"<br />
-Other papers: "Optimising Level Generators for General Video Game AI"; "A Local Approach to Forward Model Learning: Results on the Game of Life Game"; "Learning Local Forward Models on Unforgiving Games"</div><br />
+**Audio Developers Conference**, NOV 2019, London, UK [(Conference Web)](https://adc19.sched.com)
+<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Talk: "'Did You Hear That?' Learning to Play Vide oGames from Audio Cues".</div><br />
 **Dagstuhl Seminar 19511**, DEC 2019, Dagstuhl, Germany
 <div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Invited attendee.</div><br />
 <hr>
 
 # [](#past)EVENTS ATTENDED
 
+**IGGI Conference**, SEP 2019, University of York, York, UK [(Conference Web)](http://2019.iggi.org.uk)
+<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Talk: "'Did You Hear That?' Learning to Play Vide oGames from Audio Cues".</div><br />
+**IEEE CoG Conference**, AUG 2019, Queen Mary University of London, London, UK [(Conference Web)](https://ieee-cog.org)
+<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Publicity and Media Chair.<br />
+Presentation: "Project Thyia: A Forever Gameplayer"<br />
+Presentation: "'Did You Hear That?' Learning to Play Video Games from Audio Cues"<br />
+Other papers: "Optimising Level Generators for General Video Game AI"; "A Local Approach to Forward Model Learning: Results on the Game of Life Game"; "Learning Local Forward Models on Unforgiving Games"</div><br />
 **Bits, Bugs & Bots - COA Conference**, 11 JUN 2019, Royal College of Physicians, London, UK [(Conference Web)](https://www.coa.co.uk/events/coa-conference-2019) [(Slides)](assets/pdf/COA19presentation.pdf)
 <div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Invited talk.</div><br />
 **IET Faraday Challenge**, MAR 2019, Queen Mary University of London, London, UK [(IET Faraday Challenge Days)](https://faraday-secondary.theiet.org/faraday-challenge-days/)
