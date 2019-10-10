@@ -4,6 +4,14 @@ layout: default
 
 # [](#teaching)TEACHING
 
+**Artificial Intelligence in Games module** (MSc), Autumn 2019, _Queen Mary University of London_<br />
+<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">
+1/2 Lecturer.
+</div><br />
+**Technical Thinking and Writing Workshops** (MSc), 2019, _Queen Mary University of London_<br />
+<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">
+Demonstrator.
+</div><br />
 **Multi-platform Game Development module** (BSc, 3rd Year + MSc), Spring 2019, _Queen Mary University of London_<br />
 <div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">
 Demonstrator.

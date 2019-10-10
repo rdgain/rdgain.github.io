@@ -12,6 +12,10 @@ layout: default
  
 # <i class="fas fa-trophy"></i> [](#awards)AWARDS
 
+**Best PC Member Nomination**, AIIDE, Atlanta, 2019 <br />
+<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic"></div><br />
+**Video Competition**, IEEE CoG, London, 2019 <br />
+<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">2nd Place - <a href="https://youtu.be/ruwH-lsIYcE">Video</a> : Project Thyia: A Forever Gameplayer</div><br />
 **Video Competition**, IEEE CIG, Maastricht, 2018 <br />
 <div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">3rd Place - <a href="https://youtu.be/zq9zaEjspUY">Video</a> : General Win Prediction from Agent Experience</div><br />
 **Best Paper Award Nomination**, IEEE CIG, Maastricht, 2018 <br />
