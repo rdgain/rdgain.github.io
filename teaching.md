@@ -8,7 +8,7 @@ layout: default
 <div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">
 1/2 Lecturer.
 </div><br />
-**Technical Thinking and Writing Workshops** (MSc), 2019, _Queen Mary University of London_<br />
+**Technical Thinking and Writing Workshops** (UG, 3rd Year), 2019, _Queen Mary University of London_<br />
 <div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">
 Demonstrator.
 </div><br />
