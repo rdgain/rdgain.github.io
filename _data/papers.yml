@@ -184,9 +184,12 @@
     highlight: core
     title: "Project Thyia: A Forever Gameplayer"
     author: Raluca D. Gaina and Simon M. Lucas and Diego Perez-Liebana
-    booktitle: accepted at IEEE Conference on Games (COG)
+    booktitle: IEEE Conference on Games (COG)
     year: 2019
     pdf: true
+    pages: 1--8
+    doi: 10.1109/CIG.2019.8848047
+    url: https://ieeexplore.ieee.org/document/8848047
     arxiv: http://arxiv.org/abs/1906.04023
     abstract: "The space of Artificial Intelligence entities is dominated by conversational bots. Some of them fit in our pockets and we take them everywhere we go, or allow them to be a part of human homes. Siri, Alexa, they are recognised as present in our world. But a lot of games research is restricted to existing in the separate realm of software. We enter different worlds when playing games, but those worlds cease to exist once we quit. Similarly, AI game-players are run once on a game (or maybe for longer periods of time, in the case of learning algorithms which need some, still limited, period for training), and they cease to exist once the game ends. But what if they didn’t? What if there existed artificial game-players that continuously played games, learned from their experiences and kept getting better? What if they interacted with the real world and us, humans: livestreaming games, chatting with viewers, accepting suggestions for strategies or games to play, forming opinions on popular game titles? In this paper, we introduce the vision behind a new project called Thyia, which focuses around creating a present, continuous, ‘always-on’, interactive game-player."
 -   id: gaina2019audio
@@ -194,9 +197,12 @@
     highlight: first
     title: "'Did You Hear That?' Learning to Play Video Games from Audio Cues"
     author: Raluca D. Gaina and Matthew Stephenson
-    booktitle: accepted at IEEE Conference on Games (COG)
+    booktitle: IEEE Conference on Games (COG)
     year: 2019
     pdf: true
+    pages: 1--4
+    doi: 10.1109/CIG.2019.8848088
+    url: https://ieeexplore.ieee.org/document/8848088
     arxiv: http://arxiv.org/abs/1906.04027
     abstract: Game-playing AI research has focused for a long time on learning to play video games from visual input or symbolic information. However, humans benefit from a wider array of sensors which we utilise in order to navigate the world around us. In particular, sounds and music are key to how many of us perceive the world and influence the decisions we make. In this paper, we present initial experiments on game-playing agents learning to play video games solely from audio cues. We expand the Video Game Description Language to allow for audio specification, and the General Video Game AI framework to provide new audio games and an API for learning agents to make use of audio observations. We analyse the games and the audio game design process, include initial results with simple Q-Learning agents, and encourage further research in this area.
 -   id: drageset2019generator
@@ -204,8 +210,11 @@
     highlight: none
     title: Optimising Level Generators for General Video Game AI
     author: Olve Drageset and Raluca D. Gaina and Diego Perez-Liebana and Mark H.M. Winands
-    booktitle: accepted at IEEE Conference on Games (COG)
+    booktitle: IEEE Conference on Games (COG)
     year: 2019
+    pages: 1--8
+    doi: 10.1109/CIG.2019.8847961
+    url: https://ieeexplore.ieee.org/document/8847961
     pdf: false
     abstract: "Procedural Content Generation is an active area of research, with more interest being given recently to methods able to produce interesting content in a general context (without task-specific knowledge). To this extent, we focus on procedural level generators within the General Video Game AI framework (GVGAI). This paper proposes several topics of interest. First, a comparison baseline for GVGAI level generators, which is more flexible and robust than the existing alternatives. Second, a composite fitness evaluation function for levels based on AI play-testing. Third, a new parameterized generator, and a Meta Generator for performing parameter search on such generators are introduced. We compare the Meta Generator against random and constructive generator baselines, using the new fitness function, on 3 GVGAI games: Butterflies, Freeway and The Snowman. The Meta Generator is suggested to perform on par with or better than the baselines, depending on the game. Encouraged by these results, the Meta Generator will be submitted to the 2019 GVGAI Level Generation competition."
 -   id: dockhorn2019unforgiving
@@ -213,8 +222,11 @@
     highlight: none
     title: Learning Local Forward Models on Unforgiving Games
     author: Alexander Dockhorn and Simon M Lucas and Vanessa Volz and Ivan Bravi and Raluca D. Gaina and Diego Perez-Liebana
-    booktitle: accepted at IEEE Conference on Games (COG)
+    booktitle: IEEE Conference on Games (COG)
     year: 2019
+    pages: 1--4
+    doi: 10.1109/CIG.2019.8848044
+    url: https://ieeexplore.ieee.org/document/8848044
     pdf: false
     abstract: This paper examines learning approaches for forward models based on local cell transition function. We provide a formal definition of local forward models for which we propose two learning approaches. Our analysis is based on the game Sokoban, where a wrong action can lead to an unsolvable game state. Therefore, an accurate prediction of an  action's resulting state is necessary to avoid this scenario. In contrast to learning the complete state transition function, local forward models allow extracting multiple training examples from a single state transition. In this way, the Hash Set model, as well as the Decision Tree model, quickly learn to predict upcoming state transitions of both the training and the test set. Applying the model using a statistical forward planner showed that the best models can be used to satisfying degree even in cases in which the test levels have not yet been seen. Our evaluation includes an analysis of various local neighbourhood patterns and sizes to test the learners' capabilities in case too few or too many attributes are extracted, of which the latter has shown do degrade the performance of the model learner.   
 -   id: lucas2019gog
@@ -222,8 +234,11 @@
     highlight: none
     title: "A Local Approach to Forward Model Learning: Results on the Game of Life Game"
     author: Simon M Lucas and Alexander Dockhorn and Vanessa Volz and Chris Bamford and Raluca D. Gaina and Ivan Bravi and Diego Perez-Liebana and Sanaz Mostaghim and Rudolf Kruse
-    booktitle: accepted at IEEE Conference on Games (COG)
+    booktitle: IEEE Conference on Games (COG)
     year: 2019
+    pages: 1--8
+    doi: 10.1109/CIG.2019.8848002
+    url: https://ieeexplore.ieee.org/document/8848002
     pdf: false
     arxiv: https://arxiv.org/abs/1903.12508
     abstract: This paper investigates the effect of learning a forward model on the performance of a statistical forward planning agent. We transform Conway's Game of Life simulation into a single-player game where the objective can be either to preserve as much life as possible or to extinguish all life as quickly as possible. In order to learn the forward model of the game, we formulate the problem in a novel way that learns the local cell transition function by creating a set of supervised training data and predicting the next state of each cell in the grid based on its current state and immediate neighbours. Using this method we are able to harvest sufficient data to learn perfect forward models by observing only a few complete state transitions, using either a look-up table, a decision tree, or a neural network. In contrast, learning the complete state transition function is a much harder task and our initial efforts to do this using deep convolutional auto-encoders were less successful. We also investigate the effects of imperfect learned models on prediction errors and game-playing performance, and show that even models with significant errors can provide good performance.
@@ -248,3 +263,15 @@
     pdf: true
     url: http://ieeexplore.ieee.org/document/7835911/
     abstract: This paper presents a new track of the General Video Game AI competition for generic Artiﬁcial Intelligence agents, which features both competitive and cooperative real time stochastic two player games. The aim of the competition is to directly test agents against each other in more complex and dynamic environments, where there is an extra uncertainty in a game, consisting of the behaviour of the other player. The framework, server functionality and general competition setup are analysed and the results of the experiments with several sample controllers are presented. The results indicate that currently Open Loop Monte Carlo Tree Search is the overall leading algorithm on this set of games.
+-   id: gvgaibook2019
+    type: book
+    highlight: none
+    title: "General Video Game Artificial Intelligence"
+    author: Diego Perez-Liebana and Simon M. Lucas and Raluca D. Gaina and Julian Togelius and Ahmed Khalifa and Jialin Liu
+    publisher: Morgan and Claypool Publishers
+    url: https://gaigresearch.github.io/gvgaibook/
+    year: 2019
+    pdf: false
+    ISBN: 9781681736440
+    doi: 10.2200/S00944ED1V01Y201908GCI005
+    abstract: "Research on general video game playing aims at designing agents or content generators that can perform well in multiple video games, possibly without knowing the game in advance and with little to no specific domain knowledge. The general video game AI framework and competition propose a challenge in which researchers can test their favorite AI methods with a potentially infinite number of games created using the Video Game Description Language. The open-source framework has been used since 2014 for running a challenge. Competitors around the globe submit their best approaches that aim to generalize well across games. Additionally, the framework has been used in AI modules by many higher-education institutions as assignments, or as proposed projects for final year (undergraduate and Master's) students and Ph.D. candidates. The present book, written by the developers and organizers of the framework, presents the most interesting highlights of the research performed by the authors during these years in this domain. It showcases work on methods to play the games, generators of content, and video game optimization. It also outlines potential further work in an area that offers multiple research directions for the future."
