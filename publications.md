@@ -8,6 +8,7 @@ layout: default
 <li style="background-color:#daffbe;width:25%"> Core PhD papers </li>
 <li style="background-color:#d0e8ff;width:25%"> Non-core first-author papers </li>
 <li style="width:25%"> Other papers </li>
+<li style="border-left: 3px solid #3BD19C; width:25%"> Books </li>
 <li style="border-left: 3px solid #ff6a49; width:25%"> Journal articles </li>
 <li style="border-left: 3px solid #ffbe55; width:25%"> Conference papers </li>
 </ul></div>
@@ -25,6 +26,8 @@ layout: default
 			<li style="background-color:#d0e8ff; border-left: 3px solid #ff6a49">
 		{% elsif paper.type == "inproceedings" %}
 			<li style="background-color:#d0e8ff; border-left: 3px solid #ffbe55">
+		{% elsif paper.type == "book" %}
+			<li style="background-color:#d0e8ff; border-left: 3px solid #3BD19C">
 		{% else %}
 			<li style="background-color:#d0e8ff">
 		{% endif %}
@@ -33,6 +36,8 @@ layout: default
 			<li style="background-color:#daffbe; border-left: 3px solid #ff6a49">
 		{% elsif paper.type == "inproceedings" %}
 			<li style="background-color:#daffbe; border-left: 3px solid #ffbe55">
+		{% elsif paper.type == "book" %}
+			<li style="background-color:#daffbe; border-left: 3px solid #3BD19C">
 		{% else %}
 			<li style="background-color:#daffbe">
 		{% endif %}
@@ -41,6 +46,8 @@ layout: default
 			<li style="border-left: 3px solid #ff6a49">
 		{% elsif paper.type == "inproceedings" %}
 			<li style="border-left: 3px solid #ffbe55">
+		{% elsif paper.type == "book" %}
+			<li style="border-left: 3px solid #3BD19C">
 		{% else %}
 			<li>
 		{% endif %}
