@@ -92,6 +92,10 @@
     author: Raluca D. Gaina and Simon M. Lucas and Diego Perez-Liebana
     booktitle: AAAI Conference on Artificial Intelligence (AAAI-19)
     year: 2019
+    pages: 1691--1698
+    volume: 33
+    url: https://www.aaai.org/ojs/index.php/AAAI/article/view/3990
+    doi: https://doi.org/10.1609/aaai.v33i01.33011691
     pdf: true
     abstract: One of the issues general AI game players are required to deal with is the different reward systems in the variety of games they are expected to be able to play at a high level. Some games may present plentiful rewards which the agents can use to guide their search for the best solution, whereas others feature sparse reward landscapes that provide little information to the agents. The work presented in this paper focuses on the latter case, which most agents struggle with. Thus, modifications are proposed for two algorithms, Monte Carlo Tree Search and Rolling Horizon Evolutionary Algorithms, aiming at improving performance in this type of games while maintaining overall win rate across those where rewards are plentiful. Results show that longer rollouts and individual lengths, either fixed or responsive to changes in fitness landscape features, lead to a boost of performance in the games during testing without being detrimental to non-sparse reward scenarios.
 -   id: gaina2018vertigo
