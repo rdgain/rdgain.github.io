@@ -18,7 +18,7 @@ I've now finished my first teaching experience for the term: 5 lectures of 2 hou
 
 # Advice received
 
-Let's start first with the advice received through either Twitter or in person, grouped in 4 rough categories:
+Let's start first with the advice received through either Twitter or in person, grouped in 4 rough categories. Find the original thread here: [https://twitter.com/b_gum22/status/1166721916088061957](https://twitter.com/b_gum22/status/1166721916088061957)
 
 ## General teaching
 
