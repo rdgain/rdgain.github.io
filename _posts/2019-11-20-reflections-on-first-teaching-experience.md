@@ -5,10 +5,10 @@ category : [Teaching]
 short_title: Teaching Reflections
 tagline: ": when there were many lessons learned."
 tags : [first, teaching]
-image1: post15/logo_short.png
-image2: post15/logo_medium.png
-image3: post15/logo_long.png
-finalimage: post15/final.png
+image1: post16/logo_short.png
+image2: post16/logo_medium.png
+image3: post16/logo_long.png
+finalimage: post16/final.png
 ---
 {% include JB/setup %}
 
