@@ -12,6 +12,8 @@ layout: default
  
 # <i class="fas fa-trophy"></i> [](#awards)AWARDS
 
+**Best Artifact Award**, AIIDE, Atlanta, 2019 <br />
+<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Paper: Analysis of Statistical Forward Planning Methods in Pommerman (<a href="https://github.com/GAIGResearch/java-pommerman">Artifact</a>)</div><br />
 **Best PC Member Nomination**, AIIDE, Atlanta, 2019 <br />
 <div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic"></div><br />
 **Video Competition**, IEEE CoG, London, 2019 <br />

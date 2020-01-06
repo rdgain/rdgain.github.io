@@ -279,3 +279,16 @@
     ISBN: 9781681736440
     doi: 10.2200/S00944ED1V01Y201908GCI005
     abstract: "Research on general video game playing aims at designing agents or content generators that can perform well in multiple video games, possibly without knowing the game in advance and with little to no specific domain knowledge. The general video game AI framework and competition propose a challenge in which researchers can test their favorite AI methods with a potentially infinite number of games created using the Video Game Description Language. The open-source framework has been used since 2014 for running a challenge. Competitors around the globe submit their best approaches that aim to generalize well across games. Additionally, the framework has been used in AI modules by many higher-education institutions as assignments, or as proposed projects for final year (undergraduate and Master's) students and Ph.D. candidates. The present book, written by the developers and organizers of the framework, presents the most interesting highlights of the research performed by the authors during these years in this domain. It showcases work on methods to play the games, generators of content, and video game optimization. It also outlines potential further work in an area that offers multiple research directions for the future."
+-   id: perez2019pommerman
+    type: inproceedings
+    highlight: none
+    title: "Analysis of Statistical Forward Planning Methods in Pommerman"
+    author: Diego Perez-Liebana and Raluca D. Gaina and Olve Drageset and Ercument Ilhan and Martin Balla and Simon M. Lucas
+    booktitle: Proceedings of the Artificial intelligence and Interactive Digital Entertainment (AIIDE)
+    year: 2019
+    pages: 66--72
+    volume: 15
+    number: 1
+    pdf: false
+    url: https://wvvw.aaai.org/ojs/index.php/AIIDE/article/view/5226
+    abstract: "Pommerman is a complex multi-player and partially observable game where agents try to be the last standing to win. This game poses very interesting challenges to AI, such as collaboration, learning and planning. In this paper, we compare two Statistical Forward Planning algorithms, Monte Carlo Tree Search (MCTS) and Rolling Horizon Evolutionary Algorithm (RHEA) in Pommerman. We provide insights on how the agents actually play the game, inspecting their behaviours to explain their performance. Results show that MCTS outperforms RHEA in several game settings, but leaving room for multiple avenues of future work: tuning these methods, improving opponent modelling, identifying trap moves and introducing of assumptions for partial observability settings."
