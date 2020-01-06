@@ -4,6 +4,7 @@ layout: default
 
 # [](#upcoming)UPCOMING EVENTS
 
+<hr>
 
 # [](#past)EVENTS ATTENDED
 
@@ -11,7 +12,6 @@ layout: default
 <div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Talk: "'Did You Hear That?' Learning to Play Vide oGames from Audio Cues".</div><br />
 **Dagstuhl Seminar 19511**, DEC 2019, Dagstuhl, Germany
 <div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Invited attendee.</div><br />
-<hr>
 **IGGI Conference**, SEP 2019, University of York, York, UK [(Conference Web)](http://2019.iggi.org.uk)
 <div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Talk: "'Did You Hear That?' Learning to Play Vide oGames from Audio Cues".</div><br />
 **IEEE CoG Conference**, AUG 2019, Queen Mary University of London, London, UK [(Conference Web)](https://ieee-cog.org)
