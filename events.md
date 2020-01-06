@@ -4,14 +4,14 @@ layout: default
 
 # [](#upcoming)UPCOMING EVENTS
 
-**Audio Developers Conference**, NOV 2019, London, UK [(Conference Web)](https://adc19.sched.com)
+
+# [](#past)EVENTS ATTENDED
+
+**Audio Developers Conference**, NOV 2019, London, UK [(Conference Web)](https://adc19.sched.com) [(YouTube)](https://youtu.be/EsWG58AZdY8)
 <div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Talk: "'Did You Hear That?' Learning to Play Vide oGames from Audio Cues".</div><br />
 **Dagstuhl Seminar 19511**, DEC 2019, Dagstuhl, Germany
 <div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Invited attendee.</div><br />
 <hr>
-
-# [](#past)EVENTS ATTENDED
-
 **IGGI Conference**, SEP 2019, University of York, York, UK [(Conference Web)](http://2019.iggi.org.uk)
 <div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Talk: "'Did You Hear That?' Learning to Play Vide oGames from Audio Cues".</div><br />
 **IEEE CoG Conference**, AUG 2019, Queen Mary University of London, London, UK [(Conference Web)](https://ieee-cog.org)
@@ -34,7 +34,7 @@ Presentation (Game Simulations Workshop paper): "Efficient Evolutionary Methods 
 <div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Program Chair. Talk: "General Outcome Prediction".</div><br />
 **IEEE Computational Intelligence and Games (CIG)**, AUG 2018, Maastricht, The Netherlands [(Youtube)](https://youtu.be/zq9zaEjspUY)
 <div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Presentation: "General Win Prediction from Agent Experience" paper, Best Paper Award Nominee Session I.</div><br />
-**CogX**, JUN 2018, London, UK, [(Youtube)](https://youtu.be/B4GbuPWlC5Q) [(Youtube-Full-Stream)](https://youtu.be/4Lw1cJdUedU)
+**CogX**, JUN 2018, London, UK, [(YouTube)](https://youtu.be/B4GbuPWlC5Q) [(YouTube-Full-Stream)](https://youtu.be/4Lw1cJdUedU)
 <div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Talk: "Learning to Play: Multi-Agent Reinforcement Learning in Malmo (MARLO) Competition", Research Stage</div><br />
 **Artificial Intelligence & Games Summer School**, MAY 2018, Chania, Greece
 <div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic"></div><br />
@@ -42,7 +42,7 @@ Presentation (Game Simulations Workshop paper): "Efficient Evolutionary Methods 
 <div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Talk: "Planning in Real-time Games with Rolling Horizon Evolution", first ASYNC event by MetaMakers Institute</div><br />
 **IGGI Conference**, SEP 2017, York, UK.
 <div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Talk: "The General Video Game Playing Challenge: Improving RHEA & Playing Beyond Win", with Cristina Guerrero-Romero.</div><br />
-**IEEE Computational Intelligence and Games (CIG)**, AUG 2017, New York, USA, [(Youtube)](https://youtu.be/AUYcafpDaxM) [(Youtube-Full-Stream)](https://youtu.be/0fSK1VI9XNc)
+**IEEE Computational Intelligence and Games (CIG)**, AUG 2017, New York, USA, [(YouTube)](https://youtu.be/AUYcafpDaxM) [(YouTube-Full-Stream)](https://youtu.be/0fSK1VI9XNc)
 <div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Presentation: "Rolling Horizon Evolution Enhancements in General Video Game Playing" paper, Special Session on General Game Playing.</div><br />
 **IEEE Congress on Evolutionary Computation (CEC)**, JUN 2017, San Sebastian, Spain
 <div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Presentation: "Population Initialization Techniques for Rolling Horizon Evolution in General Video Game Playing" paper, Special Session on Computational Intelligence and Games. <br />
