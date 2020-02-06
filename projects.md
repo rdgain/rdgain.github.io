@@ -4,14 +4,15 @@ layout: default
 
 # [](#games)GAMES
 
-[Global Game Jam 2018: Kill the Penguin](https://globalgamejam.org/2018/games/kill-penguin). (under development)<br />
-[Global Game Jam 2017: Flappy McArmbands Goes to London](http://globalgamejam.org/2017/games/flappy-mcarmbands-goes-london).<br />
-[Global Game Jam 2016: Rebirth](http://globalgamejam.org/2016/games/rebirth) -- [final version](https://github.com/rdgain/Rebirth-Game).<br/>
+[Global Game Jam 2020: Flappy McArmbands Saves the World](https://globalgamejam.org/2020/games/flappy-mcarmbands-saves-world-9)<br />
+[Global Game Jam 2018: Kill the Penguin](https://globalgamejam.org/2018/games/kill-penguin) (under development)<br />
+[Global Game Jam 2017: Flappy McArmbands Goes to London](http://globalgamejam.org/2017/games/flappy-mcarmbands-goes-london)<br />
+[Global Game Jam 2016: Rebirth](http://globalgamejam.org/2016/games/rebirth) -- [final version](https://github.com/rdgain/Rebirth-Game)<br/>
 
 
 # [](#org)ORGANIZATION
 
-<!-- * ACM Foundations of Digital Games (FDG) 2020 - Demonstrations Chair -->
+[ACM Foundations of Digital Games (FDG) 2020](http://fdg2020.org/) Demonstrations Chair (2020)</ br>
 [IEEE CoG Conference 2019](http://ieee-cog.org) Publicity & Media Chair (2019)<br/>
 [IGGI Conference 2018](http://2018.iggi.org.uk) Program Chair (2018)<br/>
 [GVGAI 2-Player](http://gvgai.net) track organizer  (2016-2018)<br/>
