@@ -7,6 +7,8 @@ layout: default
  **Raluca D. Gaina** is currently studying for her Ph.D. in Intelligent Games and Games Intelligence at Queen Mary University of London, in the area of rolling horizon evolution in general video game playing, after completing a B.Sc. and M.Sc. in Computer Games at the University of Essex. In 2018, she did a 3 month internship at Microsoft Research Cambridge, working on the Multi-Agent Reinforcement Learning in Malmo Competition ([MARLO](http://aka.ms/marlo)). She was the track organiser of the Two-Player General Video Game AI Competition ([GVGAI](http://gvgai.net/)). Her research interests include general video game playing AI, reinforcement learning and evolutionary computation algorithms. 
  
  Find out more of what I get up to on the [blog](blog). 
+ 
+ Read an interview about my PhD experience [here](https://discoverphds.com/advice/interviews/raluca-gaina/).
 
 <hr>
  
