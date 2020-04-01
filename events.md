@@ -4,9 +4,6 @@ layout: default
 
 # [](#upcoming)UPCOMING EVENTS
 
-**Game Developers Conference**, MAR 2020, San Francisco, USA [(Conference Web)](https://www.gdconf.com/)
-<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic"></div><br />
-
 <hr>
 
 # [](#past)EVENTS ATTENDED

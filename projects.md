@@ -12,7 +12,7 @@ layout: default
 
 # [](#org)ORGANIZATION
 
-[ACM Foundations of Digital Games (FDG) 2020](http://fdg2020.org/) Demonstrations Chair (2020)</ br>
+[ACM Foundations of Digital Games (FDG) 2020](http://fdg2020.org/) Demonstrations Chair (2020)<br/>
 [IEEE CoG Conference 2019](http://ieee-cog.org) Publicity & Media Chair (2019)<br/>
 [IGGI Conference 2018](http://2018.iggi.org.uk) Program Chair (2018)<br/>
 [GVGAI 2-Player](http://gvgai.net) track organizer  (2016-2018)<br/>
