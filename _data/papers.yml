@@ -124,7 +124,7 @@
     pdf: true
     abstract: "The question of whether the correct algorithm is used for the problem at hand usually comes at the end of execution, when the algorithm's ability to solve the problem (or not) can be verified. But what if this question could be answered in advance, with enough notice to make changes in the approach in order for it to be more successful? This paper proposes a general agent performance prediction system, tested in real time within the context of the General Video Game AI framework. It is solely based on agent features, therefore removing potential human bias produced by game-based features observed in known games. Three different models can be queried while playing the game to determine whether the agent will win or lose, based on the current game state: early, mid and late game feature models. The models are trained on 80 games in the framework and tested on 20 new games, for 14 variations of 3 different methods. Results are positive, indicating that there is great scope for predicting the outcome of any given game."
     url: https://ieeexplore.ieee.org/document/8490439
--   id: perez2018gvgaisurvey
+-   id: perez2019gvgaisurvey
     type: article
     highlight: none
     author: Diego Perez-Liebana and Jialin Liu and Ahmed Khalifa and Raluca D. Gaina and Julian Togelius and Simon M. Lucas
@@ -140,7 +140,7 @@
     ISSN: 2475-1502
     arxiv: "http://arxiv.org/abs/1802.10363"
     url: https://ieeexplore.ieee.org/abstract/document/8664126
-    pdf: false
+    pdf: true
     abstract: General Video Game Playing (GVGP) aims at designing an agent that is capable of playing multiple video games with no human intervention. In 2014, The General Video Game AI (GVGAI) competition framework was created and released with the purpose of providing researchers a common open-source and easy to use platform for testing their AI methods with potentially infinity of games created using Video Game Description Language (VGDL). The framework has been expanded into several tracks during the last few years to meet the demand of different research directions. The agents are required either to play multiple unknown games with or without access to game simulations, or to design new game levels or rules. This survey paper presents the VGDL, the GVGAI framework, existing tracks, and reviews the wide use of GVGAI framework in research, education and competitions five years after its birth. A future plan of framework improvements is also described.
 -   id: sironi2018mctsGVGP
     type: inproceedings
@@ -219,7 +219,7 @@
     pages: 1--8
     doi: 10.1109/CIG.2019.8847961
     url: https://ieeexplore.ieee.org/document/8847961
-    pdf: false
+    pdf: true
     abstract: "Procedural Content Generation is an active area of research, with more interest being given recently to methods able to produce interesting content in a general context (without task-specific knowledge). To this extent, we focus on procedural level generators within the General Video Game AI framework (GVGAI). This paper proposes several topics of interest. First, a comparison baseline for GVGAI level generators, which is more flexible and robust than the existing alternatives. Second, a composite fitness evaluation function for levels based on AI play-testing. Third, a new parameterized generator, and a Meta Generator for performing parameter search on such generators are introduced. We compare the Meta Generator against random and constructive generator baselines, using the new fitness function, on 3 GVGAI games: Butterflies, Freeway and The Snowman. The Meta Generator is suggested to perform on par with or better than the baselines, depending on the game. Encouraged by these results, the Meta Generator will be submitted to the 2019 GVGAI Level Generation competition."
 -   id: dockhorn2019unforgiving
     type: inproceedings
@@ -231,7 +231,7 @@
     pages: 1--4
     doi: 10.1109/CIG.2019.8848044
     url: https://ieeexplore.ieee.org/document/8848044
-    pdf: false
+    pdf: true
     abstract: This paper examines learning approaches for forward models based on local cell transition function. We provide a formal definition of local forward models for which we propose two learning approaches. Our analysis is based on the game Sokoban, where a wrong action can lead to an unsolvable game state. Therefore, an accurate prediction of an  action's resulting state is necessary to avoid this scenario. In contrast to learning the complete state transition function, local forward models allow extracting multiple training examples from a single state transition. In this way, the Hash Set model, as well as the Decision Tree model, quickly learn to predict upcoming state transitions of both the training and the test set. Applying the model using a statistical forward planner showed that the best models can be used to satisfying degree even in cases in which the test levels have not yet been seen. Our evaluation includes an analysis of various local neighbourhood patterns and sizes to test the learners' capabilities in case too few or too many attributes are extracted, of which the latter has shown do degrade the performance of the model learner.   
 -   id: lucas2019gog
     type: inproceedings
@@ -243,7 +243,7 @@
     pages: 1--8
     doi: 10.1109/CIG.2019.8848002
     url: https://ieeexplore.ieee.org/document/8848002
-    pdf: false
+    pdf: true
     arxiv: https://arxiv.org/abs/1903.12508
     abstract: This paper investigates the effect of learning a forward model on the performance of a statistical forward planning agent. We transform Conway's Game of Life simulation into a single-player game where the objective can be either to preserve as much life as possible or to extinguish all life as quickly as possible. In order to learn the forward model of the game, we formulate the problem in a novel way that learns the local cell transition function by creating a set of supervised training data and predicting the next state of each cell in the grid based on its current state and immediate neighbours. Using this method we are able to harvest sufficient data to learn perfect forward models by observing only a few complete state transitions, using either a look-up table, a decision tree, or a neural network. In contrast, learning the complete state transition function is a much harder task and our initial efforts to do this using deep convolutional auto-encoders were less successful. We also investigate the effects of imperfect learned models on prediction errors and game-playing performance, and show that even models with significant errors can provide good performance.
 -   id: lucas2019efficient
@@ -253,7 +253,7 @@
     author: Simon M Lucas and Jialin Liu and Ivan Bravi and Raluca D. Gaina and John Woodward and Vanessa Volz and Diego Perez-Liebana
     booktitle: Game Simulations Workshop (AAAI)
     year: 2019
-    pdf: false
+    pdf: true
     arxiv: https://arxiv.org/abs/1901.00723
     abstract: This paper introduces a simple and fast variant of Planet Wars as a test-bed for statistical planning based Game AI agents, and for noisy hyper-parameter optimisation.  Planet Wars is a real-time strategy game with simple rules but complex game-play. The variant introduced in this paper is designed for speed to enable efficient experimentation, and also for a fixed action space to enable practical inter-operability with General Video Game AI agents. If we treat the game as a win-loss game (which is standard), then this leads to challenging noisy optimisation problems both in tuning agents to play the game, and in tuning game parameters. Here we focus on the problem of tuning an agent, and report results using the recently developed N-Tuple Bandit Evolutionary Algorithm and a number of other optimisers, including Sequential Model-based Algorithm Configuration (SMAC). Results indicate that the N-Tuple Bandit Evolutionary Algorithm offers competitive performance as well as insight into the effects of combinations of parameter choices.
 -   id: gaina2016gvgai2p
@@ -289,6 +289,16 @@
     pages: 66--72
     volume: 15
     number: 1
-    pdf: false
+    pdf: true
     url: https://wvvw.aaai.org/ojs/index.php/AIIDE/article/view/5226
     abstract: "Pommerman is a complex multi-player and partially observable game where agents try to be the last standing to win. This game poses very interesting challenges to AI, such as collaboration, learning and planning. In this paper, we compare two Statistical Forward Planning algorithms, Monte Carlo Tree Search (MCTS) and Rolling Horizon Evolutionary Algorithm (RHEA) in Pommerman. We provide insights on how the agents actually play the game, inspecting their behaviours to explain their performance. Results show that MCTS outperforms RHEA in several game settings, but leaving room for multiple avenues of future work: tuning these methods, improving opponent modelling, identifying trap moves and introducing of assumptions for partial observability settings."
+-   id: gaina2020rhea
+    type: article
+    highlight: core
+    author: Raluca D. Gaina and Sam Devlin and Diego Perez-Liebana and Simon M. Lucas
+    title: "Rolling Horizon Evolutionary Algorithms for General Video Game Playing"
+    journal: arxiv:2003.12331
+    year: 2020
+    arxiv: "https://arxiv.org/abs/2003.12331"
+    pdf: true
+    abstract: "Game-playing Evolutionary Algorithms, specifically Rolling Horizon Evolutionary Algorithms, have recently managed to beat the state of the art in performance across many games. However, the best results per game are highly dependent on the specific configuration of modifications and hybrids introduced over several works, each described as parameters in the algorithm. However, the search for the best parameters has been reduced to several human-picked combinations, as the possibility space has grown beyond exhaustive search. This paper presents the state of the art in Rolling Horizon Evolutionary algorithms, combining all modifications described in literature and some additional ones for a large resultant hybrid. It then uses a parameter optimiser, the N-Tuple Bandit Evolutionary Algorithm, to find the best combination of parameters in 20 games with various properties from the General Video Game AI Framework. We highlight the noisy optimisation problem resultant, as both the games and the algorithm being optimised are stochastic. We then analyse the algorithm's parameters and interesting combinations revealed through the parameter optimisation process. Lastly, we show that it is possible to automatically explore a large parameter space and find configurations which outperform the state of the art on several games."
