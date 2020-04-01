@@ -17,12 +17,18 @@ Related publications: [Full publication list](publications)
 # [](#pc-member)PROGRAM COMMITTEE MEMBER
 
 ## Journals
+* IEEE Transactions on Games (TOG) 2020
 * Machine Learning Journal (MACH) 2019
 * International Computer Games Association Journal (ICGA) 2019
 * IEEE Transactions on Games (TOG) 2019
 * IEEE Transactions on Games (TOG) 2018
 
 ## Conferences
+* ACM Foundations of Digital Games (FDG) 2020
+* NeurIPS Competitions 2020
+* Genetic and Evolutionary Computation Conference (GECCO) 2020
+* ACM CHI 2020
+* IEEE Conference on Games (CoG) 2020
 * AAAI Artificial Intelligence for Interactive Digital Entertainment Conference (AIIDE) 2019
 * IEEE Conference on Games (CoG) 2019
 * ACM Foundations of Digital Games (FDG) 2019
