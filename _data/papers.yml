@@ -302,3 +302,17 @@
     arxiv: "https://arxiv.org/abs/2003.12331"
     pdf: true
     abstract: "Game-playing Evolutionary Algorithms, specifically Rolling Horizon Evolutionary Algorithms, have recently managed to beat the state of the art in performance across many games. However, the best results per game are highly dependent on the specific configuration of modifications and hybrids introduced over several works, each described as parameters in the algorithm. However, the search for the best parameters has been reduced to several human-picked combinations, as the possibility space has grown beyond exhaustive search. This paper presents the state of the art in Rolling Horizon Evolutionary algorithms, combining all modifications described in literature and some additional ones for a large resultant hybrid. It then uses a parameter optimiser, the N-Tuple Bandit Evolutionary Algorithm, to find the best combination of parameters in 20 games with various properties from the General Video Game AI Framework. We highlight the noisy optimisation problem resultant, as both the games and the algorithm being optimised are stochastic. We then analyse the algorithm's parameters and interesting combinations revealed through the parameter optimisation process. Lastly, we show that it is possible to automatically explore a large parameter space and find configurations which outperform the state of the art on several games."
+-   id: montoliu2020cards
+    type: inproceedings
+    highlight: none
+    author: Raul Montoliu and Raluca D. Gaina and Diego Perez-Liebana and Daniel Delgado and Simon M. Lucas
+    title: "Efficient Heuristic Policy Optimisation for a Challenging Strategic Card Game"
+    booktitle: International Conference on the Applications of Evolutionary Computation (EvoStar)
+    year: 2020
+    pages: 403--418
+    organization: Springer
+    volume: 12104
+    pdf: true
+    doi: https://doi.org/10.1007/978-3-030-43722-0_26
+    ISBN: 978-3-030-43722-0
+    abstract: "Turn-based multi-action adversarial games are challenging scenarios in which each player turn consists of a sequence of atomic actions. The order in which an AI agent runs these atomic actions may hugely impact the outcome of the turn. One of the main challenges of game artificial intelligence is to design a heuristic function to help agents to select the optimal turn to play, given a particular state of the game. In this paper, we report results using the recently developed N-Tuple Bandit Evolutionary Algorithm to tune the heuristic function parameters. For evaluation, we measure how the tuned heuristic function affects the performance of the state-of-the-art evolutionary algorithm Online Evolution Planning. The multi-action adversarial strategy card game Legends of Code and Magic was used as a testbed. Results indicate that the NTuple Bandit Evolutionary Algorithm can effectively tune the heuristic function parameters to improve the performance of the agent."
