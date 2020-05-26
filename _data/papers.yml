@@ -316,3 +316,21 @@
     doi: https://doi.org/10.1007/978-3-030-43722-0_26
     ISBN: 978-3-030-43722-0
     abstract: "Turn-based multi-action adversarial games are challenging scenarios in which each player turn consists of a sequence of atomic actions. The order in which an AI agent runs these atomic actions may hugely impact the outcome of the turn. One of the main challenges of game artificial intelligence is to design a heuristic function to help agents to select the optimal turn to play, given a particular state of the game. In this paper, we report results using the recently developed N-Tuple Bandit Evolutionary Algorithm to tune the heuristic function parameters. For evaluation, we measure how the tuned heuristic function affects the performance of the state-of-the-art evolutionary algorithm Online Evolution Planning. The multi-action adversarial strategy card game Legends of Code and Magic was used as a testbed. Results indicate that the NTuple Bandit Evolutionary Algorithm can effectively tune the heuristic function parameters to improve the performance of the agent."
+-   id: gaina2020onlinerhea
+    type: inproceedings
+    highlight: core
+    author: Raluca D. Gaina and Chiara F. Sironi and Mark H.M. Winands and Diego Perez-Liebana and Simon M. Lucas
+    title: "Self-Adaptive Rolling Horizon Evolutionary Algorithms for General Video Game Playing"
+    booktitle: "IEEE Conference on Games (CoG)"
+    year: 2020
+    pdf: true
+    abstract: "For general video game playing agents, the biggest challenge is adapting to the wide variety of situations they encounter and responding appropriately. Some success was recently achieved by modifying search-control parameters in agents on-line, during one play-through of a game. We propose adapting such methods for Rolling Horizon Evolutionary Algorithms, which have shown high performance in many different environments, and test the effect of on-line adaptation on the agent’s win rate. On-line tuned agents are able to achieve results comparable to the state of the art, including ﬁrst win rates in hard problems, while employing a more general and highly adaptive approach. We additionally include further insight into the algorithm itself, given by statistics gathered during the tuning process and highlight key parameter choices."
+-   id: perez2020rhneat
+    type: inproceedings
+    highlight: core
+    author: Raluca D. Gaina and Sam Devlin and Diego Perez-Liebana and Simon M. Lucas
+    title: "Rolling Horizon NEAT for General Video Game Playing"
+    booktitle: "IEEE Conference on Games (CoG)"
+    year: 2020
+    pdf: true
+    abstract: "This paper presents a new Statistical Forward Planning (SFP) method, Rolling Horizon NeuroEvolution of Augmenting Topologies (rhNEAT). Unlike traditional Rolling Horizon Evolution, where an evolutionary algorithm is in charge of evolving a sequence of actions, rhNEAT evolves weights and connections of a neural network in real-time, planning several steps ahead before returning an action to execute in the game. Different versions of the algorithm are explored in a collection of 20 GVGAI games, and compared with other SFP methods and state of the art results. Although results are overall not better than other SFP methods, the nature of rhNEAT to adapt to changing game features has allowed to establish new state of the art records in games that other methods have traditionally struggled with. The algorithm proposed here is general and introduces a new way of representing information within rolling horizon evolution techniques."
