@@ -328,7 +328,7 @@
 -   id: perez2020rhneat
     type: inproceedings
     highlight: core
-    author: Raluca D. Gaina and Sam Devlin and Diego Perez-Liebana and Simon M. Lucas
+    author: Diego Perez-Liebana and Muhammad Sajid Alam and Raluca D. Gaina
     title: "Rolling Horizon NEAT for General Video Game Playing"
     booktitle: "IEEE Conference on Games (CoG)"
     year: 2020
