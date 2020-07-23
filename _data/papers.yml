@@ -334,3 +334,12 @@
     year: 2020
     pdf: true
     abstract: "This paper presents a new Statistical Forward Planning (SFP) method, Rolling Horizon NeuroEvolution of Augmenting Topologies (rhNEAT). Unlike traditional Rolling Horizon Evolution, where an evolutionary algorithm is in charge of evolving a sequence of actions, rhNEAT evolves weights and connections of a neural network in real-time, planning several steps ahead before returning an action to execute in the game. Different versions of the algorithm are explored in a collection of 20 GVGAI games, and compared with other SFP methods and state of the art results. Although results are overall not better than other SFP methods, the nature of rhNEAT to adapt to changing game features has allowed to establish new state of the art records in games that other methods have traditionally struggled with. The algorithm proposed here is general and introduces a new way of representing information within rolling horizon evolution techniques."
+-   id: perez2020tribes
+    type: inproceedings
+    highlight: core
+    author: Diego Perez Liebana and Yu-Jhen Hsu and Stavros Emmanouilidis and Bobby Khaleque and Raluca Gaina
+    title: "Tribes: A New Turn-Based Strategy Game for AI"
+    booktitle: "Sixteenth AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment (AIIDE-20)"
+    year: 2020
+    pdf: false
+    abstract: "This paper introduces Tribes, a new turn-based strategy game framework. Tribes is a multi-player, multi-agent, stochastic and partially observable game that involves strategic and tactical combat decisions. A good playing strategy requires the management of a technology tree, build orders and economy. The framework provides a Forward Model, which can be used by Statistical Forward Planning methods. This paper describes the framework and the opportunities for Game AI research it brings. We further provide an analysis on the action space of this game, as well as benchmarking a series of agents (rule based, one step look-ahead, Monte Carlo, Monte Carlo Tree Search, and Rolling Horizon Evolution) to study their relative playing strength. Results show that although some of these agents can play at a decent level, they are still far from human playing strength."
