@@ -12,7 +12,8 @@ layout: default
 
 # [](#org)ORGANIZATION
 
-[ACM Foundations of Digital Games (FDG) 2020](http://fdg2020.org/) Demonstrations Chair (2020)<br/>
+[IEEE Symposium on Games @ SSCI 2020](https://gaigresearch.github.io/games-ssci/) General Chair<br/>
+[ACM Foundations of Digital Games (FDG) 2020](http://fdg2020.org/) Games & Demos Chair (2020)<br/>
 [IEEE CoG Conference 2019](http://ieee-cog.org) Publicity & Media Chair (2019)<br/>
 [IGGI Conference 2018](http://2018.iggi.org.uk) Program Chair (2018)<br/>
 [GVGAI 2-Player](http://gvgai.net) track organizer  (2016-2018)<br/>
@@ -25,9 +26,13 @@ layout: default
 
 # [](#others)OTHERS
 
+[TAG (Tabletop Games Framework)](https://github.com/GAIGResearch/TabletopGames)<br/>
+[Tribes](https://gaigresearch.github.io/projects/Tribes)<br/>
+[Pommerman](https://gaigresearch.github.io/projects/Pommerman)<br/>
 [MARLO (Multi-Agent Reinforcement Learning in Malmo Competition)](http://aka.ms/marlo) task design / Internship at Microsoft Research, Cambridge (APR-JUL 2018)<br/>
 [Intelligent Games and Games Intelligence (IGGI)](http://iggi.org.uk)<br />
 [UoE CSEE Women in Science (Athena Swan)](https://www.essex.ac.uk/csee/about/women-in-science.aspx)<br />
+[GVGAI](https://gaigresearch.github.io/projects/GVGAI)<br />
 
 <hr>
 

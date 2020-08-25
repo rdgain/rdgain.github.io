@@ -24,6 +24,7 @@ Related publications: [Full publication list](publications)
 * IEEE Transactions on Games (TOG) 2018
 
 ## Conferences
+* AAAI Artificial Intelligence for Interactive Digital Entertainment Conference (AIIDE) 2020
 * ACM Foundations of Digital Games (FDG) 2020
 * NeurIPS Competitions 2020
 * Genetic and Evolutionary Computation Conference (GECCO) 2020

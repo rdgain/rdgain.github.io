@@ -4,10 +4,19 @@ layout: default
 
 # [](#upcoming)UPCOMING EVENTS
 
+
+**ECAI Digital Conference**, AUG-SEP 2020, Virtual [(Conference Web)](https://digital.ecai2020.eu/) 
+<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Attendee.</div><br />
+**FDG Conference**, SEP 2020, Virtual [(Conference Web)](http://fdg2020.org/)
+<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Games & Demos Chair.</div><br />
+
 <hr>
 
 # [](#past)EVENTS ATTENDED
 
+**IEEE CoG Conference**, AUG 2020, Virtual [(Conference Web)](https://ieee-cog.org)
+<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Presentation: "Rolling Horizon Evolutionary Algorithms for General Video Game Playing"<br />
+Other papers: "rhNEAT for General Video Game Playing"</div><br />
 **Audio Developers Conference**, NOV 2019, London, UK [(Conference Web)](https://adc19.sched.com) [(YouTube)](https://youtu.be/EsWG58AZdY8)
 <div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Talk: "'Did You Hear That?' Learning to Play Vide oGames from Audio Cues".</div><br />
 **Dagstuhl Seminar 19511**, DEC 2019, Dagstuhl, Germany
