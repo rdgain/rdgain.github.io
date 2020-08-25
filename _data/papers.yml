@@ -8,6 +8,8 @@
     volume: 10199
     pages: 418--434
     pdf: true
+    talkpdf: true
+    talkppt: true
     abstract: Monte Carlo Tree Search techniques have generally dominated General Video Game Playing, but recent research hasstarted looking at Evolutionary Algorithms and their potential at matching Tree Search level of play or even outperforming these methods. Online or Rolling Horizon Evolution is one of the options available to evolve sequences of actions for planning in General Video Game Playing, but no research has been done up to date that explores the capabilities of the vanilla version of this algorithm in multiple games. This study aims to critically analyse the different conﬁgurations regarding population size and individual length in a set of 20 games from the General Video Game AI corpus. Distinctions are made between deterministic and stochastic games, and the implications of using superior time budgets are studied. Results show that there is scope for the use of these techniques, which in some conﬁgurations outperform Monte Carlo Tree Search, and also suggest that further research in these methods could boost their performance.
     url: https://link.springer.com/chapter/10.1007/978-3-319-55849-3_28
 -   id: gaina2017rhhybrids
@@ -23,6 +25,9 @@
     ISSN: 2325-4289
     month: Aug
     pdf: true
+    talkpdf: true
+    talkppt: true
+    youtube: "https://youtu.be/AUYcafpDaxM"
     abstract: "Game AI literature has looked at applying various enhancements to Rolling Horizon Evolutionary methods or creating hybrids with popular tree search methods for an improved performance. However, these techniques have not been analyzed in depth in a general setting under the same conditions and restrictions. This paper proposes a fair juxtaposition of four enhancements applied to different parts of the evolutionary process: bandit-based mutation, a statistical tree for action selection, a shift buffer for population management and additional Monte Carlo simulations at the end of an individual’s evaluation. These methods are studied individually, as well as their hybrids, on a representative subset of 20 games of the General Video Game AI Framework and compared to the vanilla version of the Rolling Horizon Evolutionary Algorithm, in addition to the dominating Monte Carlo Tree Search. The results show that some of the enhancements are able to produce impressive results, while others fall short. Interesting hybrids also emerge, encouraging further research into this problem."
     url: http://ieeexplore.ieee.org/document/8080420/
 -   id: gaina2017rhseeding
@@ -37,6 +42,8 @@
     doi: 10.1109/CEC.2017.7969540
     month: June
     pdf: true
+    talkpdf: true
+    talkppt: true
     url: http://ieeexplore.ieee.org/document/7969540/
     abstract: While Monte Carlo Tree Search and closely related methods have dominated General Video Game Playing, recent research has demonstrated the promise of Rolling Horizon Evolutionary Algorithms as an interesting alternative. However, thereislittleattentionpaidtopopulationinitializationtechniques in the setting of general real-time video games. Therefore, this paper proposes the use of population seeding to improve the performance of Rolling Horizon Evolution and presents the results of two methods, One Step Look Ahead and Monte Carlo Tree Search, tested on 20 games of the General Video Game AI corpus with multiple evolution parameter values (population size and individual length). An in-depth analysis is carried out between the results of the seeding methods and the vanilla Rolling Horizon Evolution. In addition, the paper presents a comparison to a Monte Carlo Tree Search algorithm. The results are promising, with seeding able to boost performance signiﬁcantly over baseline evolution and even match the high level of play obtained by the Monte Carlo Tree Search.
 -   id: gaina2017tuning
@@ -111,6 +118,7 @@
     url: https://aaai.org/ocs/index.php/AIIDE/AIIDE18/paper/view/18100
     pdf: true
     repo: "https://github.com/rdgain/VERTIGO"
+    youtube: "https://youtu.be/0t4xWEIvc1M"
     abstract: This report presents a tool developed for the analysis and visualisation of Rolling Horizon Evolutionary Algorithms, featuring a GUI which allows integration within the General Video Game AI Framework. Users are able to easily customize the parameters of the agent between runs and observe an in-depth analysis of its performance through various visual information extracted from gameplay data, live while playing the game. This visualisation aims to inform a deeper analysis into algorithm behaviour, in an attempt to justify why they make the decisions they do and improve their performance based on this knowledge.
 -   id: gaina2018win
     type: inproceedings
@@ -125,6 +133,9 @@
     ISSN: 2325-4289
     month: Aug
     pdf: true
+    talkppt: true
+    talkpdf: true
+    youtube: "https://youtu.be/zq9zaEjspUY"
     repo: "https://github.com/rdgain/ExperimentData/tree/GeneralWinPred-CIG-18"
     abstract: "The question of whether the correct algorithm is used for the problem at hand usually comes at the end of execution, when the algorithm's ability to solve the problem (or not) can be verified. But what if this question could be answered in advance, with enough notice to make changes in the approach in order for it to be more successful? This paper proposes a general agent performance prediction system, tested in real time within the context of the General Video Game AI framework. It is solely based on agent features, therefore removing potential human bias produced by game-based features observed in known games. Three different models can be queried while playing the game to determine whether the agent will win or lose, based on the current game state: early, mid and late game feature models. The models are trained on 80 games in the framework and tested on 20 new games, for 14 variations of 3 different methods. Results are positive, indicating that there is great scope for predicting the outcome of any given game."
     url: https://ieeexplore.ieee.org/document/8490439
@@ -187,6 +198,7 @@
     year: 2018
     pdf: true
     arxiv: https://arxiv.org/abs/1901.08129
+    youtube: "https://youtu.be/B4GbuPWlC5Q"
     abstract: Learning in multi-agent scenarios is a fruitful research direction, but current approaches still show scalability problems in multiple games with general reward settings and different opponent types. The Multi-Agent Reinforcement Learning in MalmÖ (MARLÖ) competition is a new challenge that proposes research in this domain using multiple 3D games. The goal of this contest is to foster research in general agents that can learn across different games and opponent types, proposing a challenge as a milestone in the direction of Artificial General Intelligence.
 -   id: gaina2019thyia
     type: inproceedings
@@ -200,6 +212,7 @@
     doi: 10.1109/CIG.2019.8848047
     url: https://ieeexplore.ieee.org/document/8848047
     arxiv: http://arxiv.org/abs/1906.04023
+    youtube: "https://youtu.be/ruwH-lsIYcE"
     abstract: "The space of Artificial Intelligence entities is dominated by conversational bots. Some of them fit in our pockets and we take them everywhere we go, or allow them to be a part of human homes. Siri, Alexa, they are recognised as present in our world. But a lot of games research is restricted to existing in the separate realm of software. We enter different worlds when playing games, but those worlds cease to exist once we quit. Similarly, AI game-players are run once on a game (or maybe for longer periods of time, in the case of learning algorithms which need some, still limited, period for training), and they cease to exist once the game ends. But what if they didn’t? What if there existed artificial game-players that continuously played games, learned from their experiences and kept getting better? What if they interacted with the real world and us, humans: livestreaming games, chatting with viewers, accepting suggestions for strategies or games to play, forming opinions on popular game titles? In this paper, we introduce the vision behind a new project called Thyia, which focuses around creating a present, continuous, ‘always-on’, interactive game-player."
 -   id: gaina2019audio
     type: inproceedings
@@ -334,6 +347,9 @@
     booktitle: "IEEE Conference on Games (CoG)"
     year: 2020
     pdf: true
+    talkpdf: true
+    talkppt: true
+    youtube: "https://youtu.be/pTxSJHREpuc"
     repo: "https://github.com/rdgain/ExperimentData/tree/RHEA-Online-Tuning-20"
     abstract: "For general video game playing agents, the biggest challenge is adapting to the wide variety of situations they encounter and responding appropriately. Some success was recently achieved by modifying search-control parameters in agents on-line, during one play-through of a game. We propose adapting such methods for Rolling Horizon Evolutionary Algorithms, which have shown high performance in many different environments, and test the effect of on-line adaptation on the agent’s win rate. On-line tuned agents are able to achieve results comparable to the state of the art, including ﬁrst win rates in hard problems, while employing a more general and highly adaptive approach. We additionally include further insight into the algorithm itself, given by statistics gathered during the tuning process and highlight key parameter choices."
 -   id: perez2020rhneat

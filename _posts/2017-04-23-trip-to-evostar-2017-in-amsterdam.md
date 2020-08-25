@@ -14,7 +14,7 @@ finalimage: post3/cacti.png
 
 Hello and welcome. 
 
-Presentation download: [(PPTX)]({{ site.url }}/assets/ppt/EvoStarPpt.pptx) [(PDF)]({{ site.url }}/assets/pdf/EvoStarPdf.pdf).
+Presentation download: [(PPTX)]({{ site.url }}/assets/ppt/gaina2017rhanalysis.pptx) [(PDF)]({{ site.url }}/assets/pdf/gaina2017rhanalysis.pdf).
 
 This week I had the great opportunity to travel to Amsterdam! It was for my first international conference, EvoStar. I returned yesterday evening and today I was on a train to York. But that's another story for another post. I'll split this one in two parts: the conference and the Amsterdam adventures.
 

@@ -14,7 +14,7 @@ finalimage: post10/finalimage.png
 
 Hello and welcome. 
 
-Presentation: [(PPTX)]({{ site.url }}/assets/ppt/cigPpt.pptx) [(PDF)]({{ site.url }}/assets/pdf/cigPdf.pdf) [(Youtube)](https://youtu.be/AUYcafpDaxM) [(Youtube-Full-Stream)](https://youtu.be/0fSK1VI9XNc)
+Presentation: [(PPTX)]({{ site.url }}/assets/ppt/gaina2017rhhybrids.pptx) [(PDF)]({{ site.url }}/assets/pdf/gaina2017rhhybrids.pdf) [(Youtube)](https://youtu.be/AUYcafpDaxM) [(Youtube-Full-Stream)](https://youtu.be/0fSK1VI9XNc)
 
 (A lot of pictures from NY, still sorting through them. Pictures to come.)
 

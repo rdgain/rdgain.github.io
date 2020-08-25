@@ -14,7 +14,7 @@ finalimage: post8/finalimage.png
 
 Hello and welcome. 
 
-Presentation download: [(PPTX)]({{ site.url }}/assets/ppt/cecPpt.pptx) [(PDF)]({{ site.url }}/assets/pdf/cecPdf.pdf).
+Presentation download: [(PPTX)]({{ site.url }}/assets/ppt/gaina2017rhseeding.pptx) [(PDF)]({{ site.url }}/assets/pdf/gaina2017rhseeding.pdf).
 
 <img style="margin:15px;float:right" src="{{ site.url }}/assets/images/post8/mepresentrh.png" />
 
