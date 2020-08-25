@@ -75,6 +75,8 @@ layout: default
 			{% if paper.note %}<a data-toggle="collapse" href="javascript:toggleDiv('{{paper.id}}-note')"><i class="fas fa-sticky-note"></i></a>&nbsp; {% endif %}
 			<!-- Arxiv link -->
 			{% if paper.arxiv %}<a href="{{ paper.arxiv }}" target="_blank"><i class="fas fa-file-excel"></i></a>&nbsp; {% endif %}
+			<!-- GitHub repo link -->
+			{% if paper.repo %}<a href="{{ paper.repo }}" target="_blank"><i class="fab fa-github"></i></a>&nbsp; {% endif %}
 			<!-- Link to pdf if on website -->
 			{% if paper.pdf == true %}<a href="/assets/pdf/papers/{{ paper.id }}.pdf" target="_blank"><i class="fas fa-file-pdf"></i></a>&nbsp; {% endif %}
 			<!-- If a link to bib is in the bibtex entry, link to that. Otherwise, display recreated bibtex (see below). -->
