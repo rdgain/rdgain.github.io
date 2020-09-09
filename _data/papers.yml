@@ -372,3 +372,15 @@
     pdf: true
     repo: "https://github.com/GAIGResearch/Tribes"
     abstract: "This paper introduces Tribes, a new turn-based strategy game framework. Tribes is a multi-player, multi-agent, stochastic and partially observable game that involves strategic and tactical combat decisions. A good playing strategy requires the management of a technology tree, build orders and economy. The framework provides a Forward Model, which can be used by Statistical Forward Planning methods. This paper describes the framework and the opportunities for Game AI research it brings. We further provide an analysis on the action space of this game, as well as benchmarking a series of agents (rule based, one step look-ahead, Monte Carlo, Monte Carlo Tree Search, and Rolling Horizon Evolution) to study their relative playing strength. Results show that although some of these agents can play at a decent level, they are still far from human playing strength."
+-   id: gaina2020tag
+    type: inproceedings
+    highlight: first
+    author: Raluca D. Gaina and Alexander Dockhorn and Diego Perez-Liebana and Martin Balla and Raul Montoliu
+    title: "TAG: A Tabletop Games Framework"
+    booktitle: "Experimental AI in Games (EXAG), AIIDE 2020 Workshop"
+    year: 2020
+    pdf: false
+    talkpdf: false
+    talkppt: false
+    repo: "https://github.com/GAIGResearch/TabletopGames"
+    abstract: "Tabletop games come in a variety of forms, including board games, card games, and dice games. In recent years, their complexity has considerably increased, with many components, rules that change dynamically through the game, diverse player roles, and a series of control parameters that influence a game's balance. As such, they also encompass novel and intricate challenges for Artificial Intelligence methods, yet research largely focuses on classical board games such as chess and Go. We introduce in this work the Tabletop Games (TAG) framework, which promotes research into general AI in modern tabletop games, facilitating the implementation of new games and AI players, while providing analytics to capture the complexities of the challenges proposed. We include preliminary results with sample AI players, showing some moderate success, with plenty of room for improvement, and discuss further developments and new research directions."
