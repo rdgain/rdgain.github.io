@@ -12,6 +12,7 @@ layout: default
 
 # [](#org)ORGANIZATION
 
+[IEEE CoG Conference 2022(http://ieee-cog.org) Competitions Chair (2022)<br/>
 [IEEE Symposium on Games @ SSCI 2020](https://gaigresearch.github.io/games-ssci/) General Chair (2020)<br/>
 [ACM Foundations of Digital Games (FDG) 2020](http://fdg2020.org/) Games & Demos Chair (2020)<br/>
 [IEEE CoG Conference 2019](http://ieee-cog.org) Publicity & Media Chair (2019)<br/>

@@ -375,12 +375,24 @@
 -   id: gaina2020tag
     type: inproceedings
     highlight: first
-    author: Raluca D. Gaina and Alexander Dockhorn and Diego Perez-Liebana and Martin Balla and Raul Montoliu
+    author: Raluca D. Gaina and Martin Balla and Alexander Dockhorn and Raul Montoliu and Diego Perez-Liebana 
     title: "TAG: A Tabletop Games Framework"
     booktitle: "Experimental AI in Games (EXAG), AIIDE 2020 Workshop"
     year: 2020
-    pdf: false
+    pdf: true
     talkpdf: false
     talkppt: false
     repo: "https://github.com/GAIGResearch/TabletopGames"
     abstract: "Tabletop games come in a variety of forms, including board games, card games, and dice games. In recent years, their complexity has considerably increased, with many components, rules that change dynamically through the game, diverse player roles, and a series of control parameters that influence a game's balance. As such, they also encompass novel and intricate challenges for Artificial Intelligence methods, yet research largely focuses on classical board games such as chess and Go. We introduce in this work the Tabletop Games (TAG) framework, which promotes research into general AI in modern tabletop games, facilitating the implementation of new games and AI players, while providing analytics to capture the complexities of the challenges proposed. We include preliminary results with sample AI players, showing some moderate success, with plenty of room for improvement, and discuss further developments and new research directions."
+-   id: gaina2020tagdesign
+    type: article
+    highlight: first
+    author: Raluca D. Gaina and Martin Balla and Alexander Dockhorn and Raul Montoliu and Diego Perez-Liebana 
+    title: "Design and Implemenation of TAG: A Tabletop Games Framework"
+    journal: arxiv
+    year: 2020
+    pdf: true
+    talkpdf: false
+    talkppt: false
+    repo: "https://github.com/GAIGResearch/TabletopGames"
+    abstract: "This document describes the design and implementation of the Tabletop Games framework (TAG), a Java-based benchmark for developing modern board games for AI research. TAG provides a common skeleton for implementing tabletop games based on a common API for AI agents, a set of components and classes to easily add new games and an import module for defining data in JSON format. At present, this platform includes the implementation of seven different tabletop games that can also be used as an example for further developments. Additionally, TAG also incorporates logging functionality that allows the user to perform a detailed analysis of the game, in terms of action space, branching factor, hidden information, and other measures of interest for Game AI research. The objective of this document is to serve as  a central point where the framework can be described at length. TAG can be downloaded at: https://github.com/GAIGResearch/TabletopGames"
