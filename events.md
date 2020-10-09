@@ -4,16 +4,17 @@ layout: default
 
 # [](#upcoming)UPCOMING EVENTS
 
-
-**ECAI Digital Conference**, AUG-SEP 2020, Virtual [(Conference Web)](https://digital.ecai2020.eu/) 
-<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Attendee.</div><br />
-**FDG Conference**, SEP 2020, Virtual [(Conference Web)](http://fdg2020.org/)
-<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Games & Demos Chair.</div><br />
+**AIIDE Conference**, OCT 2020, Virtual [(Conference Web)](https://webdocs.cs.ualberta.ca/~santanad/aiide/index.html) 
+<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Presentation: "TAG: A Tabletop Games Framework" (EXAG workshop).</div><br />
 
 <hr>
 
 # [](#past)EVENTS ATTENDED
 
+**ECAI Digital Conference**, AUG-SEP 2020, Virtual [(Conference Web)](https://digital.ecai2020.eu/) 
+<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Attendee.</div><br />
+**FDG Conference**, SEP 2020, Virtual [(Conference Web)](http://fdg2020.org/)
+<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Games & Demos Chair.</div><br />
 **IEEE CoG Conference**, AUG 2020, Virtual [(Conference Web)](https://ieee-cog.org)
 <div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Presentation: "Rolling Horizon Evolutionary Algorithms for General Video Game Playing"<br />
 Other papers: "rhNEAT for General Video Game Playing"</div><br />
