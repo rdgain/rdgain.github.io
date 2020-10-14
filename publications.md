@@ -80,9 +80,9 @@ layout: default
 			{% if paper.url or paper.note or paper.repo %}| &nbsp; {% endif %}
 			
 			<!-- Link to presentation pdf if on website -->
-			{% if paper.talkpdf == true %}<a href="/assets/pdf/{{ paper.id }}.pdf" target="_blank"><i class="fas fa-tv"></i></a>&nbsp; {% endif %}
+			{% if paper.talkpdf == true %}<a href="/assets/pdf/{{ paper.id }}.pdf" target="_blank"><i class="fas fa-file-video"></i></a>&nbsp; {% endif %}
 			<!-- Link to presentation ppt if on website -->
-			{% if paper.talkppt == true %}<a href="/assets/ppt/{{ paper.id }}.pdf" target="_blank"><i class="fas fa-file-powerpoint"></i></a>&nbsp; {% endif %}
+			{% if paper.talkppt == true %}<a href="/assets/ppt/{{ paper.id }}.pptx" target="_blank"><i class="fas fa-file-powerpoint"></i></a>&nbsp; {% endif %}
 			<!-- Youtube link -->
 			{% if paper.youtube %}<a href="{{ paper.youtube }}" target="_blank"><i class="fab fa-youtube"></i></a>&nbsp; {% endif %}
 			
