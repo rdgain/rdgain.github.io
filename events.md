@@ -4,6 +4,12 @@ layout: default
 
 # [](#upcoming)UPCOMING EVENTS
 
+**NeurIPS 2020 Conference**, DEC 2020, Virtual [(Conference Web)](https://neurips.cc/) 
+<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Attendee.</div><br />
+**SSCI 2020 Conference**, DEC 2020, Virtual [(Conference Web)](https://gaigresearch.github.io/games-ssci/) 
+<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Chair of the Symposium on Games.</div><br />
+**AIDevWorld 2020 Conference**, OCT 2020, Virtual 
+<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Attendee.</div><br />
 **AIIDE Conference**, OCT 2020, Virtual [(Conference Web)](https://webdocs.cs.ualberta.ca/~santanad/aiide/index.html) 
 <div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Presentation: "TAG: A Tabletop Games Framework" (EXAG workshop).</div><br />
 
