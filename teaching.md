@@ -4,47 +4,51 @@ layout: default
 
 # [](#teaching)TEACHING
 
-**Multi-platform Game Development module** (BSc, 3rd Year + MSc), Autumn 2020, _Queen Mary University of London_<br />
+**[ONLINE] Java Support Classes** development and delivery for Artificial Intelligence in Games (MSc), Autumn 2020, _Queen Mary University of London_<br />
+**[ONLINE] Computational Creativity** (MSc + PhD) module development, Spring 2021, _Queen Mary University of London_<br />
+**MSc Project Supervision**, 2021, _Queen Mary University of London_<br />
+**UG/PG Project Examination**, 2021, _Queen Mary University of London_<br />
+<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">
+Teaching Fellow.
+</div><br />
+**[ONLINE] Multi-platform Game Development** (BSc, 3rd Year + MSc), Autumn 2020, _Queen Mary University of London_<br />
 <div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">
 Senior Demonstrator.
 </div><br />
-**Artificial Intelligence in Games module** (MSc), Autumn 2020, _Queen Mary University of London_<br />
+**[ONLINE] Artificial Intelligence in Games** (MSc), Autumn 2020, _Queen Mary University of London_<br />
 <div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">
 Demonstrator.
 </div><br />
-**Multi-platform Game Development module** (BSc, 3rd Year + MSc), Spring 2020, _Queen Mary University of London_<br />
+**Multi-platform Game Development** (BSc, 3rd Year + MSc) 1/2 module delivery, Spring 2020, _Queen Mary University of London_<br />
+**Artificial Intelligence in Games** (MSc) 1/2 module delivery, Autumn 2019, _Queen Mary University of London_<br />
 <div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">
-1/2 Teaching Fellow.
-</div><br />
-**Artificial Intelligence in Games module** (MSc), Autumn 2019, _Queen Mary University of London_<br />
-<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">
-1/2 Teaching Fellow.
+Teaching Fellow.
 </div><br />
 **Technical Thinking and Writing Workshops** (UG, 3rd Year), Autumn 2019, _Queen Mary University of London_<br />
 <div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">
 Demonstrator.
 </div><br />
-**Multi-platform Game Development module** (BSc, 3rd Year + MSc), Spring 2019, _Queen Mary University of London_<br />
+**Multi-platform Game Development** (BSc, 3rd Year + MSc), Spring 2019, _Queen Mary University of London_<br />
 <div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">
 Demonstrator.
 </div><br />
-**Artificial Intelligence in Games module** (MSc), Autumn 2018, _Queen Mary University of London_<br />
+**Artificial Intelligence in Games** (MSc), Autumn 2018, _Queen Mary University of London_<br />
 <div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">
 Demonstrator.
 </div><br />
-**Software Engineering module** (MSc), Autumn 2018, _Queen Mary University of London_<br />
+**Software Engineering** (MSc), Autumn 2018, _Queen Mary University of London_<br />
 <div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">
 Demonstrator, marking only.
 </div><br />
-**High Level Games Development module** (BSc, 3rd Year + MSc), Autumn 2017, _University of Essex_<br />
+**High Level Games Development** (BSc, 3rd Year + MSc), Autumn 2017, _University of Essex_<br />
 <div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">
 Graduate Lab Assistant.
 </div><br />
-**Game Artificial Intelligence module** (MSc), Autumn 2017, _University of Essex_<br />
+**Game Artificial Intelligence** (MSc), Autumn 2017, _University of Essex_<br />
 <div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">
 Graduate Lab Assistant.
 </div><br />
-**High Level Games Development module** (BSc, 3rd Year + MSc), Autumn 2016, _University of Essex_<br />
+**High Level Games Development** (BSc, 3rd Year + MSc), Autumn 2016, _University of Essex_<br />
 <div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">
 Graduate Lab Assistant, marking only.
 </div><br />

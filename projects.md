@@ -2,6 +2,12 @@
 layout: default
 ---
 
+# [](#research)RESEARCH
+
+[TAG (Tabletop Games Framework)](https://github.com/GAIGResearch/TabletopGames)<br/>
+[Tribes](https://gaigresearch.github.io/projects/Tribes)<br/>
+[Pommerman](https://gaigresearch.github.io/projects/Pommerman)<br/>
+
 # [](#games)GAMES
 
 [Global Game Jam 2020: Flappy McArmbands Saves the World](https://globalgamejam.org/2020/games/flappy-mcarmbands-saves-world-9)<br />
@@ -27,9 +33,6 @@ layout: default
 
 # [](#others)OTHERS
 
-[TAG (Tabletop Games Framework)](https://github.com/GAIGResearch/TabletopGames)<br/>
-[Tribes](https://gaigresearch.github.io/projects/Tribes)<br/>
-[Pommerman](https://gaigresearch.github.io/projects/Pommerman)<br/>
 [MARLO (Multi-Agent Reinforcement Learning in Malmo Competition)](http://aka.ms/marlo)<br/>
 [Intelligent Games and Games Intelligence (IGGI)](http://iggi.org.uk)<br />
 [UoE CSEE Women in Science (Athena Swan)](https://www.essex.ac.uk/csee/about/women-in-science.aspx)<br />

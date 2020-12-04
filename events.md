@@ -6,17 +6,20 @@ layout: default
 
 **NeurIPS 2020 Conference**, DEC 2020, Virtual [(Conference Web)](https://neurips.cc/) 
 <div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Attendee.</div><br />
-**SSCI 2020 Conference**, DEC 2020, Virtual [(Conference Web)](https://gaigresearch.github.io/games-ssci/) 
-<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Chair of the Symposium on Games.</div><br />
-**AIDevWorld 2020 Conference**, OCT 2020, Virtual 
-<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Attendee.</div><br />
-**AIIDE Conference**, OCT 2020, Virtual [(Conference Web)](https://webdocs.cs.ualberta.ca/~santanad/aiide/index.html) 
-<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Presentation: "TAG: A Tabletop Games Framework" (EXAG workshop).</div><br />
+
 
 <hr>
 
 # [](#past)EVENTS ATTENDED
 
+**SSCI 2020 Conference**, DEC 2020, Virtual [(Conference Web)](https://gaigresearch.github.io/games-ssci/) 
+<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Chair of the Symposium on Games.</div><br />
+**EECS Research Week 2020**, NOV 2020, Virtual [(Web)](https://gaigresearch.github.io/2020/11/06/research-week/) 
+<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Speaker.</div><br />
+**AIDevWorld 2020 Conference**, OCT 2020, Virtual 
+<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Attendee.</div><br />
+**AIIDE Conference**, OCT 2020, Virtual [(Conference Web)](https://webdocs.cs.ualberta.ca/~santanad/aiide/index.html) 
+<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Presentation: "TAG: A Tabletop Games Framework" (EXAG workshop).</div><br />
 **ECAI Digital Conference**, AUG-SEP 2020, Virtual [(Conference Web)](https://digital.ecai2020.eu/) 
 <div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Attendee.</div><br />
 **FDG Conference**, SEP 2020, Virtual [(Conference Web)](http://fdg2020.org/)
