@@ -4,7 +4,7 @@ layout: default
 
 # [](#teaching)TEACHING
 
-**[ONLINE] Java Support Classes** development and delivery for Artificial Intelligence in Games (MSc), Autumn 2020, _Queen Mary University of London_<br />
+**[ONLINE] Java Support Classes** development and delivery for AI in Games (MSc), Autumn 2020, _Queen Mary University of London_<br />
 **[ONLINE] Computational Creativity** (MSc + PhD) module development, Spring 2021, _Queen Mary University of London_<br />
 **MSc Project Supervision**, 2021, _Queen Mary University of London_<br />
 **UG/PG Project Examination**, 2021, _Queen Mary University of London_<br />
