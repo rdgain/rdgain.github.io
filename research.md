@@ -17,6 +17,7 @@ Related publications: [Full publication list](publications)
 # [](#pc-member)PROGRAM COMMITTEE MEMBER
 
 ## Journals
+* SN Applied Sciences (SNAS) 2020
 * IEEE Transactions on Games (TOG) 2020
 * Machine Learning Journal (MACH) 2019
 * International Computer Games Association Journal (ICGA) 2019
@@ -24,6 +25,8 @@ Related publications: [Full publication list](publications)
 * IEEE Transactions on Games (TOG) 2018
 
 ## Conferences
+* ACM Foundations of Digital Games (FDG) 2021
+* AAAI 2021
 * AAAI Artificial Intelligence for Interactive Digital Entertainment Conference (AIIDE) 2020
 * ACM Foundations of Digital Games (FDG) 2020
 * NeurIPS Competitions 2020
