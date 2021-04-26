@@ -5,7 +5,7 @@ layout: default
 <h2>Color legend</h2>
 
 <div class="pubs"><ul>
-<li style="background-color:#dbbef7;width:25%"> PhD Thesis </li>
+<li style="background-color:##FFC3BE;width:25%"> PhD Thesis </li>
 <li style="background-color:#daffbe;width:25%"> Core PhD papers </li>
 <li style="background-color:#d0e8ff;width:25%"> Non-core first-author papers </li>
 <li style="width:25%"> Other papers </li>
@@ -43,7 +43,7 @@ layout: default
 			<li style="background-color:#daffbe">
 		{% endif %}
 	{% elsif paper.highlight == "thesis" %}
-		<li style="background-color:#dbbef7; border-left: 3px solid #3BD19C">
+		<li style="background-color:##FFC3BE; border-left: 3px solid #3BD19C">
 	{% else %}
 		{% if paper.type == "article" %}
 			<li style="border-left: 3px solid #ff6a49">
