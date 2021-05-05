@@ -4,7 +4,7 @@ layout: default
 
 
 
-## Introduction
+# Introduction
 
 <p>Hi there! This resource was created specifically for QMUL MSc Project students. If you do not fit in that category, then a lot of these resources will probably be inaccessible or not very useful to you. However, maybe you do find something interesting!</p>
 
@@ -31,7 +31,7 @@ layout: default
 </p>
 
 
-## Links
+# Links
 
 An assortment of other useful links:
 
@@ -59,7 +59,7 @@ An assortment of other useful links:
 	<li> <a href="https://tinytools.directory/">Many tools for writing or others</a> </li>
 </ul>
 
-## Main
+# Main
 		
 <div class="tab">
   <button class="tablinks" onclick="openCity(event, 'Writing Guide')">Writing Guide</button>
