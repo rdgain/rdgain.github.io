@@ -59,8 +59,6 @@ An assortment of other useful links:
 	<li> <a href="https://tinytools.directory/">Many tools for writing or others</a> </li>
 </ul>
 
-<!--{% include intro.html %}-->
-
 ## Main
 		
 <div class="tab">
@@ -133,11 +131,6 @@ An assortment of other useful links:
 	</div>
 
 </div>
-
-<script>
-// Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();
-</script>
 
 
 <hr>
