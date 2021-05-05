@@ -6,9 +6,9 @@ layout: default
 
 # Introduction
 
-<p>Hi there! This resource was created specifically for QMUL MSc Project students. If you do not fit in that category, then a lot of these resources will probably be inaccessible or not very useful to you. However, maybe you do find something interesting!</p>
+<p>Hi there! This resource was created specifically for QMUL MSc Game AI Project students. If you do not fit in that category, then a lot of these resources will probably be inaccessible or not very useful to you. However, maybe you do find something interesting!</p>
 
-<p>For QMUL MSc Project students: this page wishes to offer a helping hand in getting started with your MSc project. It aims to introduce several concepts that are usually assumed you already know. And you might already know all of this, in which case, awesome! The hope is that you find something useful here to take away and use in your project, even if this is just some inspiration.</p>
+<p>For QMUL MSc Game AI Project students: this page wishes to offer a helping hand in getting started with your MSc project. It aims to introduce several concepts that are usually assumed you already know. And you might already know all of this, in which case, awesome! The hope is that you find something useful here to take away and use in your project, even if this is just some inspiration.</p>
 
 <p>The page is structured in several tabs:
 <ul>
