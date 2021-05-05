@@ -59,6 +59,9 @@ An assortment of other useful links:
 	<li> <a href="https://tinytools.directory/">Many tools for writing or others</a> </li>
 </ul>
 
+<img src="/assets/research-guide/new-revolution.jpg"/>
+<br/><br/>
+
 # Main
 		
 <div class="tab">

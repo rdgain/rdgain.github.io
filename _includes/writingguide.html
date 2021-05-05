@@ -1,3 +1,50 @@
-<p>
-In progress...
-</p>
+<h2>Common Feedback & General Tips</h2>
+
+<p>This document compiles some common feedback on reports and some general writing tips, to help you write better assignments/project reports. This is only a brief summary of some main points, if you want to read more on this, check out <a href="https://www.eecs.qmul.ac.uk/~norman/papers/good_writing/Technical%20writing.pdf">this guide for technical writing by Norman Fenton</a>.</p>
+
+<h3>General Report Presentation</h3>
+
+<ul>
+	<li><b> Templates:</b> Make use of the templates given (i.e. don’t alter fonts, sizes, spacing etc.).</li>
+	<li><b> Structure:</b> Structure your report into sections (and sub-sections!), and the sections into paragraphs. A nicely structured report can more easily convey the quality of its contents. However, don’t overdo it either - having only 1 short sentence in a sub-section, for example, is a sign that you’ve added too much structure.</li>
+	<li><b> Language:</b> This is a formal report, avoid colloquial or casual language.</li>
+	<li><b> Padding:</b> Quality over quantity! Avoid unnecessary repetition or padding of any sort (e.g. extra text, repetitive text, stating the obvious, long pieces of code, repetitive images etc.).</li>
+	<li><b> Workflow:</b> See Figure 1 for a diagram depicting workflow for research, which a report should reflect too.</li>
+	<li><b> Precision:</b> Be precise, specific in your language. For example, ”The modifications made the agent better” versus ”The modifications described in Section 5.2 increased the MCTS agent’s average win rate on all game settings tested (see Section 6.1) by 10%” (hint: the second is better in a technical report).</li>
+	<li><b> Reader:</b> When writing a report, think of the reader. Write good text, watch out for grammatical errors and typos. If you can keep them entertained, they’ll read until the end. In other words, don’t be boring (see Figure 2). Don’t write disjoint paragraphs, build a narrative.</li>
+	<li><b> Writing:</b> Start by noting down all ideas you have (bullet points are a great option at this point). Keeping notes as you do the research (development, experiments) is useful to be able to include small details or decisions you make that you may forget about by the end, when you have to do the formal write-up of the process.</li>
+</ul>
+
+<h3>Figures, tables, code</h3>
+<ul>
+	<li><b> Captioning:</b> Any figures (images), tables and code snippets you include should be correctly labelled, captioned and referred to in text. For example, a plot of an AI agent’s win rate could have the caption: <i>Figure 3. Average win rate of the A* agent over 10 runs</i>. Then, in your text you could mention: <i>The win rate of an A* agent was tested in several levels (see Figure 3) and we can observe that [...]</i>. If you don’t refer to them in text, the reader can assume they’re not necessary for the understanding of the report and won’t look at them.</li>
+	<li><b> Code snippets:</b> If you copy-paste your code from your agent to explain what it does, label it as “code snippet” and not pseudo-code. If you write pseudo-code instead, label it as such.</li>
+	<li><b> Margins:</b> Make sure all your figures, tables, code and other materials fit within the margins of the document (nothing should float outside of where the text blocks begin/end).</li>
+</ul>
+
+<h3>References</h3>
+<ul>
+	<li><b> Peer-review:</b> Cite predominantly peer-reviewed papers, articles or books. Include external links or materials in footnotes if needed, references should not be just a link to an external website.</li>
+	<li><b> Critical review:</b> Review literature critically, mention how it relates to your work, identify gaps or issues with previous approaches etc.</li>
+	<li><b> Relevance:</b> Cite work that is relevant to the framework and methods you use. Make sure the references actually make sense. Don’t add references just for the sake of increasing the number of cited works. However, reviewing <i>several</i> different works that use similar methods to what you use and/or similar environments is preferable.</li>
+	<li><b> Referencing style:</b> Make sure you consistently adhere to one (and only one) referencing style: IEEE, Chicago, Harvard, Vancouver, etc. These styles indicate the fields that should be included in a reference and their order, for each type of reference you cite (book, paper, article, etc.). For example, if you follow IEEE referencing style, check out their <a href="https://ieeeauthorcenter.ieee.org/wp-content/uploads/IEEE-Reference-Guide.pdf">IEEE Reference Guide</a>.</li>
+	<li><b> Claims:</b> Make sure to back up any claims you make with either evidence or references.</li>
+	<li><b> Placing:</b> Any references should be placed within sentences [1]. Don’t include the citation in section headers, but in the text. If you talk about one piece of work in a paragraph, in most cases, only one reference either in the beginning or the end is needed (i.e. don’t add the same reference after each sentence in a paragraph).</li>
+	<li><b> Finding literature:</b> If you don’t know where to start looking for references, look up some key words in Google Scholar and read through paper abstracts to identify those possibly relevant to your topic. If that doesn’t give you enough material, a common technique used in reviewing work is checking references on the relevant papers you’ve already found (i.e. those suggested to read in a module lecture notes / lab scripts), and find those papers cited which might be relevant (not all would be, depending on the angle of the work). Tracing through references could result in quite a large collection of literature, make sure to narrow it down to your selected topic. Another resource for this is <b>arXiv</b>, often containing state-of-the-art research, but use these articles sparingly as they are not peer-reviewed.</li>
+</ul>
+
+<h3>Content</h3>
+<ul>
+	<li><b> Why:</b> Why are you doing this research? Just because it is an assignment is not an option (and doesn’t need to be mentioned in your report either). Motivate your work and fit it within the larger research area (introduction, literature review, background). Make the reader understand why what you write is important, especially for the literature review. Let the reader understand where your work fits in the related works and how it fills possible gaps in the literature.</li>
+	<li><b> What:</b> Given your literature review and background information, what are you going to research? Describe the techniques involved in your research (background) and what’s your specific contribution, your approach to answer the research question (methods). </li>
+	<li><b> How:</b> Describe how you are going to apply and test your approach (experimental setup), with sufficient details so that it can be repeated and replicated by external researchers.</li>
+	<li><b> What happened:</b> Present results, plots, tables, output data.</li>
+	<li><b> What does it mean?</b> Analyze the results, discuss why you may have gotten these specific results, and how does this relate to your initial motivation, does it answer your question? It’s okay if it doesn’t, and it’s okay to make speculations as to why something may have happened (further investigation into this ‘why’ can be mentioned as future work).</li>
+	<li><b> Recap:</b> Always conclude a report with a brief summary of what the document describes (the what, the how, and the results discussions), and add notes for further studies that can be done based on the results obtained.</li>
+</ul>
+
+<img src="/assets/research-guide/this-sentence-has-five-words.jpg"/>
+
+<img src="/assets/research-guide/scientific-method.png"/>
+
+<img src="/assets/research-guide/amazon-writers.jpg"/>
