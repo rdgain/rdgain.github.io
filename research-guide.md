@@ -79,15 +79,15 @@ An assortment of other useful links:
 	</div>
 
 	<div id="General" class="tabcontent2">
-		{% include writing-guide.html %}
+		{% include writingguide.html %}
 	</div>
 
 	<div id="Critical Literature Review" class="tabcontent2">
-		{% include writing-lit.html %}
+		{% include writinglit.html %}
 	</div>
 
 	<div id="Other Tools & Tips" class="tabcontent2">
-		{% include writing-other.html %}
+		{% include writingother.html %}
 	</div>
 
 </div>
@@ -102,19 +102,19 @@ An assortment of other useful links:
 	</div>
 
 	<div id="Github" class="tabcontent2">
-		{% include start-github.html %}
+		{% include startgithub.html %}
 	</div>
 
 	<div id="Latex/Overleaf" class="tabcontent2">
-		{% include start-overleaf.html %}
+		{% include startoverleaf.html %}
 	</div>
 
 	<div id="Java" class="tabcontent2">
-		{% include start-java.html %}
+		{% include startjava.html %}
 	</div>
 	
 	<div id="Intellij" class="tabcontent2">
-		{% include start-intellij.html %}
+		{% include startintellij.html %}
 	</div>
 </div>
 
@@ -125,11 +125,11 @@ An assortment of other useful links:
 	</div>
 
 	<div id="Resources" class="tabcontent2">
-		{% include support-resources.html %}
+		{% include supportresources.html %}
 	</div>
 
 	<div id="Twitter" class="tabcontent2">
-		{% include support-twitter.html %}
+		{% include supporttwitter.html %}
 	</div>
 
 </div>
