@@ -1,3 +1,101 @@
-<p>
-In progress...
-</p>
+
+<h2>Basic step-by step instructions:</h2>
+<ol><li> Make an Overleaf account.
+</li><li> Open the dissertation template .zip file as a project.
+</li><li> Add a new <b>.bib</b> file to the project (any name would do, e.g. <b>references.bib</b>).
+</li><li> Edit the <b>.tex</b> file to remove extra information and add your project title and author name.
+</li><li> Add the following at the end of the file, just before the <b>\end{document}</b> command (to include the citing information in the references.bib file):<br/>
+		<i>\bibliographystyle{IEEEtran}</i> <br/>
+		<i>\bibliography{IEEEabrv,references}</i>
+</li><li> Share the Overleaf project with your supervisor.
+</li><li> Add the rest of the contents in your paper.
+</li></ol>
+
+<h2>1. Make an Overleaf account</h2>
+
+<p>Head over to <a href="https://www.overleaf.com/">https://www.overleaf.com/</a> and register! Basic accounts are <b>free</b> (and you should go for this option).</p>
+
+<h3>What is Latex?</h3>
+
+<p><b>LaTeX</b> (pronounced LAY-tek or LAH-tek) is a tool used to create professional-looking documents. It is based on the WYSIWYM (what you see is what you mean) idea, meaning you only have focus on the contents of your document and the computer will take care of the formatting. Instead of spacing out text on a page to control formatting, as with Microsoft Word or LibreOffice Writer, users can enter plain text and let LaTeX take care of the rest.</p>
+
+<h3>What is Overleaf?</h3>
+
+<p><b>Overleaf</b> is an on-line LaTeX edition tool that allows you to create and compile LaTeX documents directly in your web browser and share them easily with collaborators. </p>
+
+<h4>Basic Overleaf project</h4>
+<ul><li> <b>.tex</b> → Source file with Latex code. One file will be the main one being compiled for the project.
+</li><li> <b>.bib</b> → Bibliography file, contains bibtex of one or several works to be cited in the paper.
+</li><li> <b>.cls</b> → Style file, defines how the paper is formatted (think of CSS = cls vs HTML = tex if you're familiar with web development)
+</li><li> <b>.png / .pdf / others</b> → Image files to be displayed in the project
+</li><li> <b>folders</b> → Useful for grouping the different types of files together
+</li></ul>
+
+<h2>2. Open the dissertation template .zip file as a project</h2>
+
+<p>Navigate to your home-page once logged in, click New Project → Upload Project and select the <a href="https://qmplus.qmul.ac.uk/mod/resource/view.php?id=1495698"><b>.zip</b> file downloaded from QMPlus</a>.</p>
+
+<p>After opening the file, you should have a view similar to this:</p>
+
+<img src="/assets/research-guide/overleaf.emf"/><br/>
+Figure 1: Main project view
+
+<p>You can compile this project by clicking the green "Recompile" button, and you should do so after you make changes to the document in order to see these changes reflected in the PDF displayed. There may be errors in compilation, which can be reviewed by clicking the log button next to the compile button.</p>
+
+<h2>3. Add a new .bib file to the project</h2>
+
+<p>In Figure 1 above, the <b>F</b> letter highlights 3 buttons (from left to right): create a new file, create a new folder, or upload a file. Select the first button, input the name as "references.bib" and create it:</p>
+
+<img src="/assets/research-guide/addfile.png"/><br/>
+Figure 2: Creating a file
+
+<p>You can then add BibTeX information from your papers in this new file. To obtain these you can use Google Scholar, clicking the "cite" symbol underneath a paper, and then selectin the BibTeX option:</p>
+
+<img src="/assets/research-guide/scholar.emf"/><br/>
+Figure 3: Obtaining citing BibTex information from Google Scholar
+
+<p>This will open a new browser tab with the code you need to copy into your .bib file, for example:</p>
+<code>
+	@article{ontanon2013survey,
+	  title={A survey of real-time strategy game AI research and competition in StarCraft},
+	  author={Ontan{\'o}n, Santiago and Synnaeve, Gabriel and Uriarte, Alberto and Richoux, Florian and Churchill, David and Preuss, Mike},
+	  journal={IEEE Transactions on Computational Intelligence and AI in games},
+	  volume={5},
+	  number={4},
+	  pages={293--311},
+	  year={2013},
+	  publisher={IEEE}
+	}
+</code>
+
+<p>Which can be cited in your paper using the <b>\cite{ontanon2013survey}</b> command.</p>
+
+<h2>4. Edit the .tex file to remove extra information and add your project title and author name </h2>
+
+<p>In your project files, find the main .tex file (named conference_101719.tex by default) and find the <b>\title{}</b> (<b>A</b> in Fig.1) and <b>\author{}</b> (<b>B</b> in Fig.1) commands. In the author command, several author blocks (<b>C</b> in Fig.1) can be specified, separated by the <b>\and</b> command.</p>
+
+<p>Command <b>\maketitle</b> (<b>D</b> in Fig.1) makes sure all this information is displayed in the PDF of your paper.</p>
+
+<h2>6. Share the Overleaf project with your supervisor </h2>
+
+<p>Find the "Share" button (<b>E</b> in Fig.1) and either input the email address, or create a shareable link and email this yourself instead. Give editing writes for e.g. help with debugging LaTeX.</p>
+
+<h2>7. Add the rest of the contents in your paper </h2>
+
+<p>When you are ready to do so, add the rest of the contents. Some basic commands that will be helpful in structuring this:</p>
+<ul><li> The abstract will go between the brackets of the <b>\abstract</b> command.
+</li><li> <b>\section{Section name}</b> makes a section. Similarly, you can have subsections, or subsubsections, or paragraphs.
+</li><li> <b>\label{Label name}</b> gives a label to a structure (e.g. to a section). You can then refer to this structure with the <b>\ref{Label name}</b> command, which will automatically retrieve the correct numbering even if you rearrange things.
+</li><li> <b>\caption{Caption}</b> adds a caption to a figure, table etc.
+</li><li> <b>\begin{itemize}</b> makes a bullet-point list, where each bullet point starts on a new line with command <b>\item</b>. The bullet-point list must be closed with command <b>\end{itemize}</b>. Similarly, you can have a numbered list (enumerate).
+</li><li> <b>\begin{equation}</b> Eq… <b>\end{equation}</b> makes an equation. You can add math in-line between <b>$</b> symbols.
+</li><li> Underscore (_) in a math block means subscript in latex, and ^ means superscript.
+</li><li> You can force a new line with the <b>\\</b> symbols.
+</li><li> You can import extra packages with needed functionality by using the <b>\usepackage</b> command in the <b>Preamble</b> of the document (anything before the \begin{document} command).
+</li><li> You can include code from other .tex files in your project with the <b>\input</b> command.
+</li></ul>
+
+
+
+<h2>Further Reading</h2>
+<a href="https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes">Learn LaTeX in 30 minutes</a>

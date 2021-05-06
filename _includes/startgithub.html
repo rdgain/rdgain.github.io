@@ -1,3 +1,37 @@
-<p>
-In progress...
-</p>
+<h2>Why?</h2>
+
+<p>Version control is very important for any project you'll undertake. Keeping a history of your project developing not only allows you to see the progress you make and quantify it, but you can also use past milestones to your advantage. Has a new feature you just added broken the system? Revert back. Did you find a bug that you're not sure when it was introduced? Check the history. Do you have multiple options for implementing a feature? Do both in parallel "timelines" of the project and keep the one that works better.</p>
+
+<p>There are many benefits to this concept that you'll slowly discover if you've not worked with version control before!</p>
+
+<h2>Github</h2>
+
+<p>Git and Github are an easy way to manage your project. Changes to different files can be grouped in named <b>commits</b> with a description, which are able to show the differences in the files changed for easy sanity checks. You can <b>push</b> these commits to update the code on the host server, and <b>pull</b> to update your local <b>clone</b> of the <b>repository</b> containing your project. You can develop multiple <b>branches</b> of your project in parallel, so you can test out different features without affecting any stable code you've already developed (and you can later <b>merge</b> these different branches into the <b>master</b> or main branch). </p>
+
+<p>Github additionally includes further project management tools: you can create one or several <b>projects</b> associated with a repository, to keep track of tasks to-do / in-progress / done; you can add a <b>wiki</b> which documents the project across several easily navigable markdown pages. And you can create <b>pull requests</b> to manage the merging of branches, as well as <b>issues</b> for tasks that need to be done, bugs that need to be addressed etc.</p>
+
+<p>Github accounts are free (with limited privileges), or you can <a href="https://docs.hpc.qmul.ac.uk/intro/github-only-account/">request a Github Enterprise account</a> to be created for you with your QMUL account.</p>
+
+<p>If you're unfamiliar with git and command line (or simply prefer a nicer interface), check out <a href="https://desktop.github.com/">Github Desktop</a>.</p>
+
+<h2>Recommended Workflow</h2>
+
+<ol><li> Create a <b>fork if you are working with an existing repository that you are not a collaborator in. This will create a copy of the repository which you own and can use the full tools with. If you are a collaborator in the project, simply <b>clone</b> the repository instead. Use the Github website to make a new repository if you need a new workspace (adding a <b>README</b> file which you can update later with instructions on using your code, and a template <b>.gitignore</b> file depending on your programming language or use case, which specifies which local files will be ignored and not included in the repository on Github), and clone that.
+	</li><li> Create a <b>project</b> in your repository. Add all of your tasks as issues, and these issues to the project.
+	</li><li> Make a new <b>branch</b> for each new feature you are planning to add.
+	</li><li> Create a <b>pull request</b> and link it to an existing issue (if relevant). Add documentation, tasks, goals for the feature you're planning to add.
+	</li><li> Push <b>commits</b> to your branches often - maybe not for every line changed in a file, but if you implement and test a concept that builds up to your feature, push it. It's easier to track things when everything is broken down into small chunks.
+	</li><li> <b>Pull</b> before you start working, to make sure you have the latest changes: especially important if multiple people are working in the same branch. You want to avoid merge conflicts as much as possible.
+	</li><li> Update your branch from the <b>master</b> every so often if there are new changes there.
+	</li><li> Update the pull request with documentation where big changes are achieved / needed.
+	</li><li> When your feature is ready, if you are working in a shared repository, ask others for a <b>review</b> of your code before merging.
+	</li><li> <b>Merge</b> your branch, update the <b>project</b> (if not automatic). Repeat for the rest of the features!
+</li></ol>
+
+<h2>Further Reading<h2>
+
+<ul><li> <a href="https://guides.github.com/activities/hello-world/">Github official guide</a>
+</li><li> <a href="https://www.atlassian.com/git/tutorials/what-is-version-control">Other tutorials</a>
+</li></ul>
+
+<img src="/assets/research-guide/git-model.png"/>
