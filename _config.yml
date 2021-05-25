@@ -8,14 +8,14 @@ highlighter: rouge
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Raluca D. Gaina
+title : Raluca D. Gaina, PhD
 tagline: Site Tagline
 description: 
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-time-machine
 author :
-  name : Raluca D. Gaina, PhD
+  name : Raluca D. Gaina
   email : r.d.gaina@qmul.ac.uk
   github : rdgain
   twitter : b_gum22
