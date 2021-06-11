@@ -2,11 +2,19 @@
 layout: default
 ---
 
-# [](#teaching)TEACHING
+# [](#teaching) Lecturer in Game AI at QMUL (June 2021-)
+
+## Modules
+**[ONLINE] Multi-platform Game Development** (BSc, 3rd Year + MSc), Autumn 2021<br />
+
+## Student supervision
+**MSc Project Supervision**, 2022<br />
+
+# [](#phd)Teaching Experience (during PhD)
 
 **[ONLINE] Java Support Classes** development and delivery for AI in Games (MSc), Autumn 2020, _Queen Mary University of London_<br />
 **[ONLINE] Computational Creativity** (MSc + PhD) module development, Spring 2021, _Queen Mary University of London_<br />
-**MSc Project Supervision**, 2021, _Queen Mary University of London_<br />
+**MSc Project Supervision** (8 students), 2021, _Queen Mary University of London_<br />
 **UG/PG Project Examination**, 2021, _Queen Mary University of London_<br />
 <div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">
 Teaching Fellow.
