@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<img src="assets/images/headshot7.jpg" width="200" style="float:right" /> 
+<img src="assets/images/headshot8.jpg" width="200" style="float:right" />  
 
  **Dr. Raluca D. Gaina** is currently a Lecturer in Game AI at Queen Mary University of London, where she obtained her Ph.D. in Intelligent Games and Games Intelligence in May 2021 (in the area of rolling horizon evolution in general video game playing). She completed a B.Sc. and M.Sc. in Computer Games at the University of Essex in 2015 and 2016, respectively. In 2018, she did a 3 month internship at Microsoft Research Cambridge, working on the Multi-Agent Reinforcement Learning in Malmo Competition ([MARLO](http://aka.ms/marlo)). She was the track organiser of the Two-Player General Video Game AI Competition ([GVGAI](http://gvgai.net/)) 2016-2019 and was the Vice-Chair for Conferences of the IEEE CIS Games Technical Committee in 2020. Her research interests include general video game playing AI, evolutionary algorithms and tabletop games. 
  
