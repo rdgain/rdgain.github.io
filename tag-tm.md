@@ -2,7 +2,10 @@
 layout: default
 ---
 
-<img src="/assets/images/tm1.png" width="100%"/>
+<center><h1>TAG: Terraforming Mars</h1>
+
+<img src="/assets/images/tm1.png" width="50%"/>
+</center>
 
 # Download
 
