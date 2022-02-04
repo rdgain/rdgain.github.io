@@ -5,10 +5,23 @@ layout: default
 # [](#teaching) Lecturer in Game AI at QMUL (June 2021-)
 
 ## Modules
-**[ONLINE] Multi-platform Game Development** (BSc, 3rd Year + MSc), Autumn 2021<br />
+**[Mixed-Mode] Computational Game Design** (MSc), Spring 2022 [module organiser; 1/2 module delivery]<br />
+**[Mixed-Mode] Multi-platform Game Development** (BSc, 3rd Year + MSc), Autumn 2021 [module organiser]<br />
 
 ## Student supervision
-**MSc Project Supervision**, 2022<br />
+**MSc Project Supervision**, 2022. Past projects supervised:<br />
+<ul>
+<li>Proximal Reward Shaping with Action Masking to create a Pacifist NetHack Agent</li>
+<li>Can engagement in boardgames be maximised by using AI to replace random elements?</li>
+<li>TAG: Assessing General Game Playing agents and Partial Information in Stratego.</li>
+<li>Chess Game (Win Prediction)</li>
+<li>Macro Actions for Open World Survival Games</li>
+<li>The Stick and the Carrot: Attempting to Influence Gameplay Strategies of AI Agents in GYM-MicroRTS</li>
+<li>Rolling Horizon Coevolutionary Minimax</li>
+<li>Autosuggestion of text using LSTM on Novel Dataset</li>
+<li>Phasic Policy Gradients in Gym microRTS</li>
+<li>Exploring the Procedural Synthesis of Large-Crowd Noise using Random Noise as a Building Block</li>
+</ul>
 
 # [](#phd)Teaching Experience (during PhD)
 
