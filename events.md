@@ -4,14 +4,28 @@ layout: default
 
 # [](#upcoming)UPCOMING EVENTS
 
-**NeurIPS 2020 Conference**, DEC 2020, Virtual [(Conference Web)](https://neurips.cc/) 
-<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Attendee.</div><br />
-
+**Game AI Meetup**, FEB 2022, London, UK + Virtual [(Meetup Web)](https://www.meetup.com/Game-AI-Meetup-GAIM-of-London/events/281994541/)
+<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Organiser.</div><br />
+**IEEE CoG Conference**, AUG 2022, China/Virtual [(Conference Web)](https://ieee-cog.org/2022)
+<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Competitions Co-Chair.</div><br />
+**AIIDE Conference**, OCT 2022, ? [(Conference Web)]()
+<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Software Track Chair.</div><br />
+**SSCI 2022 Games Special Session**, DEC 2022, ? [(Conference Web)](https://ieeessci2022.org/specialsession_games.html)
+<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">General Co-Chair.</div><br />
 
 <hr>
 
 # [](#past)EVENTS ATTENDED
-
+**AIIDE Conference**, OCT 2021, Virtual [(Conference Web)](https://sites.google.com/view/aiide2021/) 
+<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Poster Presentation: "TAG: Terraforming Mars".</div><br />
+**GAIG Hack 3**, SEP 2021, London, UK + Virtual [(GAIG Group Web)](https://gameai.eecs.qmul.ac.uk/)
+<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Organiser.</div><br />
+**IGGI Conference**, SEP 2021, Virtual [(Conference Web)](https://www.iggi2021.org/)
+<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Keynote: "Tabletop Games and AI".</div><br />
+**IEEE CoG Conference**, AUG 2021, Virtual [(Conference Web)](https://ieee-cog.org/2021)
+<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Attendee.</div><br />
+**NeurIPS 2020 Conference**, DEC 2020, Virtual [(Conference Web)](https://neurips.cc/) 
+<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Attendee.</div><br />
 **SSCI 2020 Conference**, DEC 2020, Virtual [(Conference Web)](https://gaigresearch.github.io/games-ssci/) 
 <div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Chair of the Symposium on Games.</div><br />
 **EECS Research Week 2020**, NOV 2020, Virtual [(Web)](https://gaigresearch.github.io/2020/11/06/research-week/) 
@@ -24,7 +38,7 @@ layout: default
 <div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Attendee.</div><br />
 **FDG Conference**, SEP 2020, Virtual [(Conference Web)](http://fdg2020.org/)
 <div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Games & Demos Chair.</div><br />
-**IEEE CoG Conference**, AUG 2020, Virtual [(Conference Web)](https://ieee-cog.org)
+**IEEE CoG Conference**, AUG 2020, Virtual [(Conference Web)](https://ieee-cog.org/2020)
 <div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Presentation: "Rolling Horizon Evolutionary Algorithms for General Video Game Playing"<br />
 Other papers: "rhNEAT for General Video Game Playing"</div><br />
 **Audio Developers Conference**, NOV 2019, London, UK [(Conference Web)](https://adc19.sched.com) [(YouTube)](https://youtu.be/EsWG58AZdY8)
@@ -33,7 +47,7 @@ Other papers: "rhNEAT for General Video Game Playing"</div><br />
 <div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Invited attendee.</div><br />
 **IGGI Conference**, SEP 2019, University of York, York, UK [(Conference Web)](http://2019.iggi.org.uk)
 <div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Talk: "'Did You Hear That?' Learning to Play Vide oGames from Audio Cues".</div><br />
-**IEEE CoG Conference**, AUG 2019, Queen Mary University of London, London, UK [(Conference Web)](https://ieee-cog.org)
+**IEEE CoG Conference**, AUG 2019, Queen Mary University of London, London, UK [(Conference Web)](https://ieee-cog.org/2019)
 <div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Publicity and Media Chair.<br />
 Presentation: "Project Thyia: A Forever Gameplayer"<br />
 Presentation: "'Did You Hear That?' Learning to Play Video Games from Audio Cues"<br />
