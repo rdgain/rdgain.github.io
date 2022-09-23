@@ -14,6 +14,8 @@ layout: default
  
 # <i class="fas fa-trophy"></i> [](#awards)AWARDS
 
+**QMUL Virtual Learning Environment Expo Innovative Idea Winner**, QMUL, 2022 <br/>
+<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic"><a href="https://elearning.qmul.ac.uk/news/e-learning-newsletter-august-2022/">TELT Newsletter</a></div><br />
 **Best Artifact Award**, AIIDE, Atlanta, 2019 <br />
 <div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Paper: Analysis of Statistical Forward Planning Methods in Pommerman (<a href="https://github.com/GAIGResearch/java-pommerman">Artifact</a>)</div><br />
 **Best PC Member Nomination**, AIIDE, Atlanta, 2019 <br />
