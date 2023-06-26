@@ -433,3 +433,23 @@
     talkppt: false
     repo: "https://github.com/GAIGResearch/TabletopGames"
     abstract: "Cooperation between humans and AI is an area of research explored more frequently in recent literature. Yet environments used for this purpose are generally lacking in complexity. In this paper we describe the first Tabletop Games Framework (TAG) competition designed around the board game Pandemic: a cooperative game where players aim to cure the world of disease. We discuss the many AI challenges introduced through this environment, detail the competition setup, present baseline results for sample AI players and explore the game parameter space for interesting insights, such as the most dominant player roles: the Scientist and the Medic."
+-   id: balla2023pytag
+    type: inproceedings
+    highlight: core
+    author: Martin Balla and George Long and Dominik Jeurissen and James Goodman and Raluca D. Gaina and Diego Perez Liebana 
+    title: "PyTAG: Challenges and Opportunities for Reinforcement Learning in Tabletop Games"
+    booktitle: "Proceedings of the IEEE Conference on Games (CoG 2023)"
+    year: 2023
+    pdf: false
+    talkpdf: false
+    talkppt: false
+    abstract: "In recent years, Game AI research has made important breakthroughs using Reinforcement Learning (RL). Despite this, RL for modern tabletop games has gained little to no attention, even when they offer a range of unique challenges compared to video games. To bridge this gap, we introduce PyTAG, a Python API for interacting with the Tabletop Games framework (TAG). TAG contains a growing set of more than 20 modern tabletop games, with a common API for AI agents. We present techniques for training RL agents in these games and introduce baseline results after training Proximal Policy Optimisation algorithms on a subset of games. Finally, we discuss the unique challenges complex modern tabletop games provide, now open to RL research through PyTAG."
+-   id: gaina2023actionspaces
+    type: article
+    highlight: core
+    author: Raluca D. Gaina and James Goodman and Yu-Jhen Hsu and Diego Perez-Liebana
+    title: "TAG: Structured Action Spaces for Tabletop Games"
+    journal: IEEE Transactions on Games (submitted)
+    year: 2023
+    pdf: false
+    abstract: "Action spaces in games have several properties, but the one discussed most in literature is the size: how large a space is (maximum number of actions available to a player in any game state), or how quickly it grows throughout gameplay. Here, we consider other properties of action spaces that can be customised for a particular game during its implementation, unlike size, which is fixed in the design of the game: structure (flat/combinatorial or deep) and information encapsulated in actions (context-independent or -dependent). We use 3 games from the Tabletop Games Framework as a testbed (``Love Letter'', ``Stratego'' and ``Settlers of Catan''), and show that different setups are preferred in different circumstances, depending on the game and AI player acting, much like human players adapt different decision-making processes depending on the given scenario. In the search of creating meaningful action spaces for games, we conclude with recommendations for future research on game AI."
