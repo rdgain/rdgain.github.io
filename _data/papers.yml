@@ -440,16 +440,40 @@
     title: "PyTAG: Challenges and Opportunities for Reinforcement Learning in Tabletop Games"
     booktitle: "Proceedings of the IEEE Conference on Games (CoG 2023)"
     year: 2023
-    pdf: false
+    pdf: true
     talkpdf: false
     talkppt: false
     abstract: "In recent years, Game AI research has made important breakthroughs using Reinforcement Learning (RL). Despite this, RL for modern tabletop games has gained little to no attention, even when they offer a range of unique challenges compared to video games. To bridge this gap, we introduce PyTAG, a Python API for interacting with the Tabletop Games framework (TAG). TAG contains a growing set of more than 20 modern tabletop games, with a common API for AI agents. We present techniques for training RL agents in these games and introduce baseline results after training Proximal Policy Optimisation algorithms on a subset of games. Finally, we discuss the unique challenges complex modern tabletop games provide, now open to RL research through PyTAG."
--   id: gaina2023actionspaces
-    type: article
+-   id: best2024journeys
+    type: inproceedings
     highlight: core
-    author: Raluca D. Gaina and James Goodman and Yu-Jhen Hsu and Diego Perez-Liebana
-    title: "TAG: Structured Action Spaces for Tabletop Games"
-    journal: IEEE Transactions on Games (submitted)
-    year: 2023
+    author: Best, Toby and Lucas, Simon and Gaina, Raluca
+    title: "‘Journeys in the Dark’-Towards Game Master AI in Complex Board Games"
+    booktitle: Proceedings of the AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment
+    year: 2024
+    volume: 20,
+    number: 1,
+    pages: 2--12,
+    pdf: true
+    abstract: "The Game Master is a player role synonymous with many tabletop games. The asymmetric gameplay of the role provides different opportunities compared to other players, and can be both cooperative and competitive with the other players in the same game. Though complex environments for exploring human and Artificial Intelligence collaboration exist, few focus on the Game Master role's semi-cooperative play. Here, we propose a new complex environment based on the board game `Descent: Journeys in the Dark (Second Edition)', as part of the Tabletop Games Framework, showcasing one-versus-many play, tactical combat, and large, dynamic action and state spaces. We include baseline AI player performance of Monte Carlo Tree Search agents in this game, finding them to be well-adept at considering multiple possible end-game conditions compared to the greedy One Step Look Ahead agents. In-depth analysis reveals interesting behaviours and Hero synergies, with the aim of informing the design of games and AI models to enhance human experience in semi-cooperative environments."
+-   id: nguyen2024unveiling
+    type: inproceedings
+    highlight: core
+    author: Nguyen, Dien and Kritz, Joshua and Gaina, Raluca D and Perez-Liebana, Diego
+    title: "Unveiling modern board games: an ML-based approach to BoardGameGeek data analysis"
+    booktitle: 2024 IEEE Conference on Games (CoG)
+    year: 2024
+    organization: IEEE
+    number: 1,
+    pages: 1--4,
+    pdf: true
+    abstract: "There has been growing interest in modern board games, which have been increasing in complexity with respect to their classic counterparts (e.g. Chess, Go), by utilizing new mechanics and novel ways to interact with them, resulting in richer player interaction. Boardgamegeek.com (BGG) is the biggest forum for board games and it now has registered 191 different mechanics. Users can rate games on the forum and BGG will rank them accordingly.  This work aims to investigate how mechanics relate to player ratings using a Decision Regression Tree (RT) to predict the expected rating based on a game's mechanics. To achieve this we collect mechanics and player ratings data of all ranked games on BGG and train our Regression Tree. After training the RT and further extending it with Random Forest (RF), we use Mean Decrease in Impurity (MDI) and Permutation Feature Importance (PFI) to evaluate how much each mechanic influences the player ratings. We show that, using only game mechanics, Regression Tree and Random Forest can account for 28% and 32% of the variance in games' ratings, respectively. We highlight the interpretability of RT and how it can be used to gain insights into the relationship between game mechanics and player ratings."
+-   id: gutierrez2025playtraces
+    type: inproceedings
+    highlight: none
+    author: Gutierrez Sanchez, Pablo and Gaina, Raluca D and Perez-Liebana, Diego
+    title: "Explanation and Clustering of Playtraces using Temporal Logics"
+    booktitle: ACM Foundations on Digital Games (FDG)
+    year: 2025
     pdf: false
-    abstract: "Action spaces in games have several properties, but the one discussed most in literature is the size: how large a space is (maximum number of actions available to a player in any game state), or how quickly it grows throughout gameplay. Here, we consider other properties of action spaces that can be customised for a particular game during its implementation, unlike size, which is fixed in the design of the game: structure (flat/combinatorial or deep) and information encapsulated in actions (context-independent or -dependent). We use 3 games from the Tabletop Games Framework as a testbed (``Love Letter'', ``Stratego'' and ``Settlers of Catan''), and show that different setups are preferred in different circumstances, depending on the game and AI player acting, much like human players adapt different decision-making processes depending on the given scenario. In the search of creating meaningful action spaces for games, we conclude with recommendations for future research on game AI."
+    abstract: "This paper addresses the challenge of explaining gameplay behaviours and traces in video games using methods based on linear temporal logics (LTL). Applications for this range from classifying a player's game-style to craft personalised user experiences, to exploring the most significant behaviour patterns within a set of trajectories, particularly in the context of data-driven design and quality control assisted by black-box algorithms. We divide the problem into two complementary tasks. First, to infer a temporal characterisation of a registered play-style by means of a predicate in LTL from a set of representative traces and potential counterexamples. Second, to classify a diverse set of traces into groups in order to identify behavioural patterns within the samples. The first problem focuses on recognising what makes a behaviour unique when compared to others, while the second problem seeks to detect meaningful patterns in groups of players. For the first task, we propose a series of heuristic search methods in the LTL predicate space, such as Monte Carlo Tree Search and Grammatical Evolution. For the second, we introduce a new algorithm that clusters traces based on predicates that split them into cohesive sets, demonstrating how the methods of the first problem can be extrapolated to the latter. Both approaches are evaluated with practical experiments on a 3D third-person stealth game developed in Unity 3D, showcasing how these techniques can be used for analysis. Preliminary results obtained with real player traces provide evidence that these methodologies can support a more comprehensive understanding of observed behaviours."

@@ -4,24 +4,56 @@ layout: default
 
 # [](#upcoming)UPCOMING EVENTS
 
-**Game AI Meetup**, FEB 2022, London, UK + Virtual [(Meetup Web)](https://www.meetup.com/Game-AI-Meetup-GAIM-of-London/events/281994541/)
-<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Organiser.</div><br />
-**IEEE CoG Conference**, AUG 2022, China/Virtual [(Conference Web)](https://ieee-cog.org/2022)
-<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Competitions Co-Chair.</div><br />
-**AIIDE Conference**, OCT 2022, ? [(Conference Web)]()
-<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Software Track Chair.</div><br />
-**SSCI 2022 Games Special Session**, DEC 2022, ? [(Conference Web)](https://ieeessci2022.org/specialsession_games.html)
-<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">General Co-Chair.</div><br />
 
 <hr>
 
 # [](#past)EVENTS ATTENDED
+
+**AI And Games Conference**, NOV 2024, London, UK [(Conference Web)](https://www.aiandgamesconference.com/)
+<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Speaker (Tabletop R&D). [(Talk recordings)](https://www.youtube.com/@AIandGamesConference)</div><br />
+**GAIG Hack 8**, SEP 2024, London, UK + Virtual [(GAIG Group Web)](https://gameai.eecs.qmul.ac.uk/)
+<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Organiser.</div><br />
+**IGGI Conference**, SEP 2024, York [(Conference Web)](https://www.iggi2024.org/)
+<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Attendee.</div><br />
+**IEEE CoG Conference**, AUG 2024, Milan, Italy [(Conference Web)](https://2024.ieee-cog.org/)
+<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Attendee, Game AI Session Chair, Speaker.<br />
+Presentation: "Rolling Horizon Evolutionary Algorithms for General Video Game Playing" (Best of TOG session)<br />
+Other papers: "Unveiling modern board games: an ML-based approach to BoardGameGeek data analysis"</div><br />
+**Game AI Meetup**, JUN 2024, London, UK + Virtual [(Meetup Web)](https://www.meetup.com/game-ai-meetup-gaim-of-london/events/300205974/)
+<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Organiser.</div><br />
+**Tabletop R&D Playtest Series**, FEB 2024, London, UK [(Event Web)](https://www.eventbrite.co.uk/e/tabletop-rd-playtest-series-registration-798933420367)
+<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Organiser.</div><br />
+**Game AI Meetup**, FEB 2024, London, UK + Virtual [(Meetup Web)](https://www.meetup.com/game-ai-meetup-gaim-of-london/events/298582990/)
+<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Organiser.</div><br />
+**GAIG Hack 7**, JAN 2024, London, UK + Virtual [(GAIG Group Web)](https://gameai.eecs.qmul.ac.uk/)
+<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Organiser.</div><br />
+**GAIG Hack 6**, SEP 2023, London, UK + Virtual [(GAIG Group Web)](https://gameai.eecs.qmul.ac.uk/)
+<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Organiser.</div><br />
+**IGGI Conference**, SEP 2023, QMUL [(Conference Web)](https://www.iggi2023.org/)
+<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Attendee.</div><br />
+**IEEE CoG Conference**, AUG 2023, Boston, USA [(Conference Web)](https://2023.ieee-cog.org/)
+<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Attendee, Speaker.<br />
+Tutorial: "TAG: Advancements in AI-Driven Tabletop Games"</div><br />
+**Game AI Meetup**, MAR 2023, London, UK + Virtual [(Meetup Web)](https://www.meetup.com/game-ai-meetup-gaim-of-london/events/290369751/)
+<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Organiser.</div><br />
+**GAIG Hack 5**, JAN 2023, London, UK + Virtual [(GAIG Group Web)](https://gameai.eecs.qmul.ac.uk/)
+<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Organiser.</div><br />
+**SSCI 2022 Games Special Session**, DEC 2022, Online [(Conference Web)](https://ieeessci2022.org/specialsession_games.html)
+<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">General Co-Chair.</div><br />
+**AIIDE Conference**, OCT 2022, Online [(Conference Web)]()
+<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Software Track Chair.</div><br />
+**IGGI Conference**, SEP 2022, York [(Conference Web)](https://www.iggi2022.org/)
+<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Attendee.</div><br />
+**GAIG Hack 4**, SEP 2022, London, UK + Virtual [(GAIG Group Web)](https://gameai.eecs.qmul.ac.uk/)
+<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Organiser.</div><br />
+**IEEE CoG Conference**, AUG 2022, China/Virtual [(Conference Web)](https://ieee-cog.org/2022)
+<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Competitions Co-Chair.</div><br />
+**Game AI Meetup**, FEB 2022, London, UK + Virtual [(Meetup Web)](https://www.meetup.com/Game-AI-Meetup-GAIM-of-London/events/281994541/)
+<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Organiser.</div><br />
 **AIIDE Conference**, OCT 2021, Virtual [(Conference Web)](https://sites.google.com/view/aiide2021/) 
 <div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Poster Presentation: "TAG: Terraforming Mars".</div><br />
 **GAIG Hack 3**, SEP 2021, London, UK + Virtual [(GAIG Group Web)](https://gameai.eecs.qmul.ac.uk/)
 <div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Organiser.</div><br />
-**IGGI Conference**, SEP 2021, Virtual [(Conference Web)](https://www.iggi2021.org/)
-<div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Keynote: "Tabletop Games and AI".</div><br />
 **IEEE CoG Conference**, AUG 2021, Virtual [(Conference Web)](https://ieee-cog.org/2021)
 <div style="margin-left:50px; margin-top:-20px; margin-bottom:-10px; color:gray; font-style: italic">Attendee.</div><br />
 **NeurIPS 2020 Conference**, DEC 2020, Virtual [(Conference Web)](https://neurips.cc/) 

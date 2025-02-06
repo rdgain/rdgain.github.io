@@ -5,11 +5,11 @@ layout: default
 # [](#teaching) Lecturer in Game AI at QMUL (June 2021-)
 
 ## Modules
-**[Mixed-Mode] Computational Game Design** (MSc), Spring 2022 [module organiser; 1/2 module delivery]<br />
-**[Mixed-Mode] Multi-platform Game Development** (BSc, 3rd Year + MSc), Autumn 2021 [module organiser]<br />
+**[Mixed-Mode] Computational Game Design** (MSc), Spring 2022-present [module organiser; 1/2 module delivery]<br />
+**[Mixed-Mode] Multi-platform Game Development** (BSc, 3rd Year + MSc), Autumn 2021-present [module organiser]<br />
 
 ## Student supervision
-**MSc Project Supervision**, 2022. Past projects supervised:<br />
+**UG and MSc Project Supervision**, 2022-present. Past projects supervised:<br />
 <ul>
 <li>Proximal Reward Shaping with Action Masking to create a Pacifist NetHack Agent</li>
 <li>Can engagement in boardgames be maximised by using AI to replace random elements?</li>
@@ -21,6 +21,17 @@ layout: default
 <li>Autosuggestion of text using LSTM on Novel Dataset</li>
 <li>Phasic Policy Gradients in Gym microRTS</li>
 <li>Exploring the Procedural Synthesis of Large-Crowd Noise using Random Noise as a Building Block</li>
+<li>Highlight Detection in Tabletop Games</li>
+<li>Decision-Making Strategies in the Asymmetric Environment of Root</li>
+<li>Millport Camp: Developing an Open-World Zombie Shooter Game with Unity</li>
+<li>TAG: Automated Generation of Framework for Novice Game Tutorials</li>
+<li>Procedural Content Generation with Rotating Map Gameplay</li>
+<li>“Milo”- a 2D Point-and-Click Adventure incorporating Procedural Generation for Improved Replayability</li>
+<li>Time Bender Battle - First Person Shooter merged with Time Travel mechanic</li>
+<li>TAG: Digital Implementation and Analysis of Saboteur</li>
+<li>TAG: Enhancing Strategic Decision-Making in no-limit Texas Hold'em Poker through Counterfactual Regret Minimization.</li>
+<li>Using C++ to Develop an Intuitive ECS-Based Game Engine and Editor for the Development of 2D Games</li>
+
 </ul>
 
 # [](#phd)Teaching Experience (during PhD)

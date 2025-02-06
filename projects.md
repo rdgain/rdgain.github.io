@@ -18,6 +18,9 @@ layout: default
 
 # [](#org)ORGANIZATION
 
+[IEEE COG 2025](https://cog2025.inesc-id.pt/) Competitions Co-Chair (2025)<br/>
+[ACM FDG 2025](https://fdg2025.org/) Workshops and Competitions Co-Chair (2025)<br/>
+[IEEE CoG Conference 2023](https://2023.ieee-cog.org/) Publicity Chair (2023)<br/>
 [IEEE CoG Conference 2022](http://ieee-cog.org) Competitions Chair (2022)<br/>
 [IEEE Symposium on Games @ SSCI 2020](https://gaigresearch.github.io/games-ssci/) General Chair (2020)<br/>
 [ACM Foundations of Digital Games (FDG) 2020](http://fdg2020.org/) Games & Demos Chair (2020)<br/>
@@ -27,12 +30,14 @@ layout: default
 
 # [](#tut)TUTORIALS
 
+[TAG: Advancements in AI-Driven Tabletop Games](https://www.tabletoprnd.co.uk/cog23) Tutorial given at _IEEE Conference on Games (COG)_, Boston, USA (AUG 2023)<br/>
 [MARLO (Multi-Agent Reinforcement Learning in Malmo Competition)](https://project.dke.maastrichtuniversity.nl/cig2018/learning-to-play-the-multi-agent-reinforcement-learning-on-malmo-competition/) Tutorial given at _IEEE Conference on Computational Intelligence and Games (CIG)_, Maastricht, The Netherlands (AUG 2018)<br/>
 [GVGAI]() Tutorial given and organized in _Queen Mary University of London_ (19 FEB 2018)<br/>
 [Computational Intelligence for Games: General Video Game AI – 2 Player]() Tutorial assisted at _IEEE Computer Science and Electronic Engineering Conference (CEEC)_, University of Essex (SEP 2016)<br/>
 
 # [](#others)OTHERS
 
+[TAG: Pandemic Competition (IEEE CoG 22](https://tabletopgames.ai/competition/cog2022/)<br/>
 [MARLO (Multi-Agent Reinforcement Learning in Malmo Competition)](http://aka.ms/marlo)<br/>
 [Intelligent Games and Games Intelligence (IGGI)](http://iggi.org.uk)<br />
 [UoE CSEE Women in Science (Athena Swan)](https://www.essex.ac.uk/csee/about/women-in-science.aspx)<br />
