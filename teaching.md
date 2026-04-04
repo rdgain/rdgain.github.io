@@ -9,7 +9,7 @@ layout: default
 **[Mixed-Mode] Multi-platform Game Development** (BSc, 3rd Year + MSc), Autumn 2021-present [module organiser]<br />
 
 ## Student supervision
-**UG and MSc Project Supervision**, 2022-present. Past projects supervised:<br />
+**UG and MSc Project Supervision**, 2022-present. Selected past projects supervised:<br />
 <ul>
 <li>Proximal Reward Shaping with Action Masking to create a Pacifist NetHack Agent</li>
 <li>Can engagement in boardgames be maximised by using AI to replace random elements?</li>
@@ -31,10 +31,15 @@ layout: default
 <li>TAG: Digital Implementation and Analysis of Saboteur</li>
 <li>TAG: Enhancing Strategic Decision-Making in no-limit Texas Hold'em Poker through Counterfactual Regret Minimization.</li>
 <li>Using C++ to Develop an Intuitive ECS-Based Game Engine and Editor for the Development of 2D Games</li>
+<li>Digital Implementation and Research of Everdell</li>
+<li>Implementation and Analysis of Calico within the TAG Framework</li>
+<li>Digital implementation of the tabletop game “Ticket to Ride” with statistical analysis of AI players</li>
+<li>Tabletop Game Development and AI using the TAG Framework</li>
+<li>Data analysis in game Azul for analyzing different AI performance</li>
 
 </ul>
 
-# [](#phd)Teaching Experience (during PhD)
+# [](#other)Other teaching experience
 
 **[ONLINE] Java Support Classes** development and delivery for AI in Games (MSc), Autumn 2020, _Queen Mary University of London_<br />
 **[ONLINE] Computational Creativity** (MSc + PhD) module development, Spring 2021, _Queen Mary University of London_<br />

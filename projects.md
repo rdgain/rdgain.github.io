@@ -2,6 +2,12 @@
 layout: default
 ---
 
+# [](#startup)COMPANY DIRECTOR / CO-FOUNDER : Tabletop R&D
+
+[Tabletop R&D](https://www.tabletoprnd.co.uk/)
+
+Tabletop R&D is a company that offers game designers automatic testing services, via the creation of digital versions of tabletop games. We automatically play games thousands of times and extract in-depth gameplay statistics, to answer broad or specific design questions (such as balanced board setups, winning conditions triggering most/least, the estimated power of individual cards etc.). As a supplemental tool for the game development process, we hope to help developers find solid designs that meet their expectations, so human playtesting time can be used most efficiently to determine subjective aspects such as look and feel, fun and engagement.
+
 # [](#research)RESEARCH
 
 [TAG (Tabletop Games Framework)](https://github.com/GAIGResearch/TabletopGames)<br/>
@@ -18,15 +24,22 @@ layout: default
 
 # [](#org)ORGANIZATION
 
+[IEEE COG 2027]() Publicity Co-Chair (2027)<br/>
+[IEEE COG 2026](https://cog2026.org/) General Co-Chair (2026)<br/>
 [IEEE COG 2025](https://cog2025.inesc-id.pt/) Competitions Co-Chair (2025)<br/>
 [ACM FDG 2025](https://fdg2025.org/) Workshops and Competitions Co-Chair (2025)<br/>
+London Game AI Meetup Organizer (2019 – 2024)<br/>
+[ACM Foundations of Digital Games (FDG) 2023](http://fdg2023.org/) Game AI Track Chair (2023)<br/>
 [IEEE CoG Conference 2023](https://2023.ieee-cog.org/) Publicity Chair (2023)<br/>
 [IEEE CoG Conference 2022](http://ieee-cog.org) Competitions Chair (2022)<br/>
+[AIIDE 2022](https://sites.google.com/view/aiide-2022/) Software Track Chair (2022)<br/>
 [IEEE Symposium on Games @ SSCI 2020](https://gaigresearch.github.io/games-ssci/) General Chair (2020)<br/>
 [ACM Foundations of Digital Games (FDG) 2020](http://fdg2020.org/) Games & Demos Chair (2020)<br/>
 [IEEE CoG Conference 2019](http://ieee-cog.org) Publicity & Media Chair (2019)<br/>
 [IGGI Conference 2018](http://2018.iggi.org.uk) Program Chair (2018)<br/>
 [GVGAI 2-Player](http://gvgai.net) track organizer  (2016-2018)<br/>
+Vice-Chair for Conferences, IEEE CIS Games Technical Committee (2019)<br/>
+Member of IEEE CIS Competitions Sub-Committee (2017-2022)<br/>
 
 # [](#tut)TUTORIALS
 
@@ -35,13 +48,14 @@ layout: default
 [GVGAI]() Tutorial given and organized in _Queen Mary University of London_ (19 FEB 2018)<br/>
 [Computational Intelligence for Games: General Video Game AI – 2 Player]() Tutorial assisted at _IEEE Computer Science and Electronic Engineering Conference (CEEC)_, University of Essex (SEP 2016)<br/>
 
-# [](#others)OTHERS
+# [](#otherp)OTHER PROJECTS
 
-[TAG: Pandemic Competition (IEEE CoG 22](https://tabletopgames.ai/competition/cog2022/)<br/>
+[TAG: Pandemic](https://tabletopgames.ai/competition/cog2022/) TAG: Pandemic Competition Organizer @ CoG 2022<br/>
 [MARLO (Multi-Agent Reinforcement Learning in Malmo Competition)](http://aka.ms/marlo)<br/>
-[Intelligent Games and Games Intelligence (IGGI)](http://iggi.org.uk)<br />
+[IGGI](https://www.iggi-phd.org/) IGGI Research Impact Coordinator (2022-2026)<br/>
 [UoE CSEE Women in Science (Athena Swan)](https://www.essex.ac.uk/csee/about/women-in-science.aspx)<br />
 [GVGAI](https://gaigresearch.github.io/projects/GVGAI)<br />
+[GAMETABLE](http://gametable.network/index.html) UK MC Representative: COST Action GameTable CA22145 (2023-2025)<br/>
 
 <hr>
 

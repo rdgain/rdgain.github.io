@@ -42,6 +42,12 @@ She completed a B.Sc. and M.Sc. in Computer Games at the University of Essex in 
 <hr>
 
 # <i class="fas fa-money-bill-wave"></i> [](#funding)FUNDING
+
+**GRANT: £50K QUEEN MARY IMPACT FUND, QMUL**, 2025 (Tabletop R&D)<br/>
+**GRANT: £50K CREATIVE CATALYST (INNOVATE UK), QMUL**, 2023 (Tabletop R&D)<br/>
+**GRANT: £10K QUEEN MARY IMPACT FUND (IAA), QMUL **, 2023 (Tabletop R&D)<br/>
+**GRANT: £10K QUEEN MARY IMPACT FUND, QMUL**, 2022 (Tabletop R&D)<br/>
+**TAG: Pandemic competition prizes funding secured from IEEE CIS**, 2022<br/>
 **Global Game Jam (GGJ) scholarship for attending the Game Developers Conference (GDC) 2020**, 2020<br/>
 **AAAI Conference on Artificial Intelligence (AAAI-19) Travel Grant Award**, 2019<br/>
 **AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment (AIIDE) Travel Grant Award**, 2018<br/>

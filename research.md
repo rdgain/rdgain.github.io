@@ -2,48 +2,38 @@
 layout: default
 ---
 
-# [](#research-topic)RESEARCH TOPIC
+# [](#research-topic)PhD RESEARCH TOPIC
 
 <b>Rolling Horizon Evolutionary Algorithms for General Video Game Playing</b>
 
-Raluca’s research is focused on Rolling Horizon Evolutionary Algorithms (RHEA), which show promise to outperform the dominating Monte Carlo Tree Search in the area of general video game playing. As a sub-field of Artificial Intelligence, general video game playing aims to design an agent which would achieve high-level play in any given game, thus raising the need to generalize the heuristics used and introduce various machine learning techniques to
-gather information about the previously unknown game. So far, various aspects have been explored in several games, such as the impact of the hyper parameters on performance; population seeding techniques; and other
-algorithm structure modifications previously encountered in literature, now tested in a consistent environment and a general setting. On successful completion, the research aims to bring forward better NPCs and new challenging experiences for players, as well as reliable game testing tools. 
+Raluca’s research was focused on Rolling Horizon Evolutionary Algorithms (RHEA), which show promise to outperform the dominating Monte Carlo Tree Search in the area of general video game playing. As a sub-field of Artificial Intelligence, general video game playing aims to design an agent which would achieve high-level play in any given game, thus raising the need to generalize the heuristics used and introduce various machine learning techniques to gather information about the previously unknown game. Various aspects have been explored in several games, such as the impact of the hyper parameters on performance; population seeding techniques; and other algorithm structure modifications previously encountered in literature, now tested in a consistent environment and a general setting. The research brought forward better game-playing algorithms, a deeper understanding of the use of evolutionary algorithms used in a variety of game-related settings (playing, generating, modelling experiences) and new challenging experiences for players, as well as reliable game testing tools. 
 
-Raluca’s latest studies look at a better understanding of RHEA’s inner workings through feature analysis (including algorithm convergence, sense of danger or fitness landscapes observed), as well as performance prediction based on the agent’s experience while playing the game.
+Raluca’s latest studies during the PhD looked at a better understanding of RHEA’s inner workings through feature analysis (including algorithm convergence, sense of danger or fitness landscapes observed), as well as performance prediction based on the agent’s experience while playing the game.
 
 Related publications: [Full publication list](publications)
 
 # [](#pc-member)PROGRAM COMMITTEE MEMBER
 
 ## Journals
+* IEEE Transactions on Games (TOG) 2018-2025
+* MBE 2023
+* EAAI 2023
 * SN Applied Sciences (SNAS) 2020
-* IEEE Transactions on Games (TOG) 2020
-* Machine Learning Journal (MACH) 2019
+* Machine Learning Journal (MACH) 2019-2022
 * International Computer Games Association Journal (ICGA) 2019
-* IEEE Transactions on Games (TOG) 2019
-* IEEE Transactions on Games (TOG) 2018
 
 ## Conferences
-* ACM Foundations of Digital Games (FDG) 2021
+* IEEE Conference on Games (CoG) 2019-2025
+* AAAI Artificial Intelligence for Interactive Digital Entertainment Conference (AIIDE) 2019-2025
+* ACM Foundations of Digital Games (FDG) 2018-2025
+* ACM CHI 2020, 2023
+* IEEE Congress on Evolutionary Computation (CEC) 2017-2022
 * AAAI 2021
-* AAAI Artificial Intelligence for Interactive Digital Entertainment Conference (AIIDE) 2020
-* ACM Foundations of Digital Games (FDG) 2020
 * NeurIPS Competitions 2020
 * Genetic and Evolutionary Computation Conference (GECCO) 2020
-* ACM CHI 2020
-* IEEE Conference on Games (CoG) 2020
-* AAAI Artificial Intelligence for Interactive Digital Entertainment Conference (AIIDE) 2019
-* IEEE Conference on Games (CoG) 2019
-* ACM Foundations of Digital Games (FDG) 2019
-* AAAI Workshop on Knowledge Extraction from Games (KEG) 2019
-* IEEE Congress on Evolutionary Computation (CEC) 2019
+* AAAI Workshop on Knowledge Extraction from Games (KEG) 2018-2019
 * Conference of the Spanish Association of Artificial Intelligence (CAEPIA) 2018
-* ACM Foundations of Digital Games (FDG) 2018
 * IEEE Conference on Computational Intelligence and Games (CIG) 2018
-* IEEE Congress on Evolutionary Computation (CEC) 2018
-* AAAI Workshop on Knowledge Extraction from Games (KEG) 2018
-* IEEE Congress on Evolutionary Computation (CEC) 2017
 
 <hr>
 
