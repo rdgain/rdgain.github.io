@@ -123,3 +123,15 @@ pre {
     overflow-x: auto;
 
 }
+
+.page-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem 2rem 4rem;
+}
+
+@media (max-width: 768px) {
+    .page-content {
+        padding: 1rem;
+    }
+}
