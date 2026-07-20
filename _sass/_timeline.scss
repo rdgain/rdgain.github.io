@@ -1,0 +1,143 @@
+/* ==========================================================
+   Timeline
+   ========================================================== */
+
+.timeline {
+
+    position: relative;
+    max-width: 900px;
+    margin: 0 auto;
+
+}
+
+.timeline::before {
+
+    content: "";
+    position: absolute;
+    left: 34px;
+    top: 0;
+    bottom: 0;
+    width: 4px;
+    background: #e2e8f0;
+
+}
+
+.timeline-item {
+
+    position: relative;
+    display: flex;
+    gap: 35px;
+    margin-bottom: 60px;
+
+}
+
+.timeline-marker {
+
+    width: 72px;
+    height: 72px;
+
+    flex-shrink: 0;
+
+    border-radius: 50%;
+
+    background: $primary;
+
+    color: white;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    font-weight: 700;
+
+    font-size: 0.9rem;
+
+    position: relative;
+
+    z-index: 2;
+
+    box-shadow: $shadow-small;
+
+}
+
+.timeline-content {
+
+    flex: 1;
+
+    background: white;
+
+    padding: 28px;
+
+    border-radius: $radius-large;
+
+    box-shadow: $shadow-small;
+
+}
+
+.timeline-content:hover {
+
+    box-shadow: $shadow-medium;
+
+}
+
+.timeline-year {
+
+    color: $primary;
+    font-weight: 600;
+    font-size: .9rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+}
+
+.timeline-header h3 {
+
+    margin: 8px 0 18px;
+
+}
+
+.timeline-image {
+
+    width: 100%;
+    border-radius: $radius-medium;
+    margin-bottom: 20px;
+
+}
+
+.timeline-link {
+
+    margin-top: 20px;
+
+}
+
+.timeline-link a {
+
+    font-weight: 600;
+
+}
+
+@media (max-width:900px){
+
+.timeline::before{
+
+display:none;
+
+}
+
+.timeline-item{
+
+flex-direction:column;
+
+gap:20px;
+
+}
+
+.timeline-marker{
+
+margin:auto;
+
+}
+
+}

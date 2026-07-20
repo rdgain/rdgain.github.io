@@ -1,0 +1,83 @@
+<div class="timeline-item">
+
+    <div class="timeline-marker">
+
+        {% if include.icon %}
+
+            <i class="{{ include.icon }}"></i>
+
+        {% else %}
+
+            {{ include.year }}
+
+        {% endif %}
+
+    </div>
+
+    <div class="timeline-content">
+
+        {% if include.image %}
+
+        <img
+            class="timeline-image"
+            src="{{ include.image }}"
+            alt="{{ include.title }}"
+        >
+
+        {% endif %}
+
+        <div class="timeline-header">
+
+            <span class="timeline-year">
+
+                {{ include.year }}
+
+            </span>
+
+            <h3>
+
+                {{ include.title }}
+
+            </h3>
+
+        </div>
+
+        <p>
+
+            {{ include.description }}
+
+        </p>
+
+        {% if include.tags %}
+
+        <div class="project-tags">
+
+            {% assign tags = include.tags | split: "," %}
+
+            {% for tag in tags %}
+
+                <span>{{ tag | strip }}</span>
+
+            {% endfor %}
+
+        </div>
+
+        {% endif %}
+
+        {% if include.link %}
+
+        <p class="timeline-link">
+
+            <a href="{{ include.link }}">
+
+                Learn more →
+
+            </a>
+
+        </p>
+
+        {% endif %}
+
+    </div>
+
+</div>
