@@ -1,0 +1,108 @@
+- id: tag
+
+  featured: true
+
+  title: TAG Framework
+
+  category: Software
+
+  image: /assets/images/projects/tag.jpg
+
+  summary: >
+    AI-powered framework for playtesting tabletop games using autonomous agents
+    and simulation.
+
+  problem: >
+    Tabletop games are difficult to analyse at scale because physical playtests
+    are slow, expensive and difficult to reproduce.
+
+  solution: >
+    Designed and implemented a modular Java framework supporting simulation,
+    AI agents, game state representation and automated analytics.
+
+  impact:
+    - £120k+ Innovate UK funding
+    - Multiple research collaborations
+    - Published in international conferences
+
+  technologies:
+    - Java
+    - AI
+    - Simulation
+    - Game Design
+
+  links:
+    github: https://github.com/rdgain/tag
+    papers: /research
+    website:
+
+
+- id: gvgai
+
+  featured: true
+
+  title: General Video Game AI Research
+
+  category: Research
+
+  image: /assets/images/projects/gvgai.jpg
+
+  summary: >
+    Research into general game-playing agents using Rolling Horizon
+    Evolutionary Algorithms.
+
+  problem: >
+    General game playing requires AI capable of solving previously unseen games.
+
+  solution: >
+    Developed search algorithms, evaluation functions and optimisation
+    techniques for planning under uncertainty.
+
+  impact:
+    - PhD research
+    - Multiple journal publications
+    - International collaborations
+
+  technologies:
+    - Java
+    - Evolutionary Algorithms
+    - MCTS
+    - Optimisation
+
+  links:
+    github:
+    papers: /publications
+    website:
+
+
+- id: tabletop
+
+  featured: true
+
+  title: Tabletop R&D
+
+  category: Company
+
+  image: /assets/images/projects/tabletop.jpg
+
+  summary: >
+    Co-founded a company developing AI technologies for tabletop games.
+
+  problem: >
+    Designers lack scalable methods for balancing and testing tabletop games.
+
+  solution: >
+    Applied simulation, AI and analytics to support modern tabletop design.
+
+  impact:
+    - Co-founder
+    - Research funding
+    - Industry partnerships
+
+  technologies:
+    - Java
+    - AI
+    - Simulation
+
+  links:
+    website: https://tabletoprnd.com

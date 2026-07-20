@@ -18,42 +18,19 @@ description="I build intelligent systems for games, AI playtesting frameworks, s
 %}
 
 {% include components/section-header.html
-
-title="Featured Projects"
-
-subtitle="A selection of projects I'm most proud of."
-
+title="Featured Work"
+subtitle="A selection of projects that best represent my experience."
 %}
 
 <div class="container">
 
-<div class="card-grid grid-3">
+{% assign featured = site.data.portfolio | where: "featured", true %}
 
-{% include components/cards/project-card.html
-title="TAG Framework"
-image="/assets/images/projects/tag.jpg"
-text="AI-powered tabletop simulation framework."
-tech="Java,AI,Simulation"
-link="/projects"
-%}
+{% for project in featured limit:3 %}
 
-{% include components/cards/project-card.html
-title="Research Software"
-image="/assets/images/projects/research.jpg"
-text="Tools developed throughout my PhD."
-tech="Python,Unity"
-link="/projects"
-%}
+{% include components/case-study.html project=project %}
 
-{% include components/cards/project-card.html
-title="Game Development"
-image="/assets/images/projects/game.jpg"
-text="Games and prototypes built over the years."
-tech="Unity,C#,Gameplay"
-link="/projects"
-%}
-
-</div>
+{% endfor %}
 
 </div>
 
