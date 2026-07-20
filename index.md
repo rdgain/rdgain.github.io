@@ -16,17 +16,15 @@ description="I build intelligent systems for games, AI playtesting frameworks, s
 
 %}
 
-<section class="section">
-
-<div class="container">
-
 {% include components/section-header.html
 
 title="Featured Projects"
 
-subtitle="A selection of projects spanning game AI, simulation, procedural generation and tools."
+subtitle="A selection of projects I'm most proud of."
 
 %}
+
+<div class="container">
 
 <div class="card-grid grid-3">
 
@@ -58,8 +56,8 @@ link="/projects"
 
 </div>
 
-</section>
+{% include components/expertise.html %}
 
-<hr>
+{% include components/highlights.html %}
 
-<div class="contactfooter"><a href="mailto:r.d.gaina@qmul.ac.uk"><i class="fas fa-envelope"></i></a> <a href="https://www.researchgate.net/profile/Raluca_Gaina"><i class="fab fa-researchgate"></i></a> <a href="https://scholar.google.co.uk/citations?user=tC5klQYAAAAJ"><i class="fab fa-google"></i></a> <a href="https://www.linkedin.com/in/raluca-gaina-347518114/"><i class="fab fa-linkedin"></i></a> <a href="https://twitter.com/b_gum22"><i class="fab fa-twitter"></i></a> <a href="https://publists.qmul.ac.uk/userprofile.html?uid=41431&em=false"><i class="fas fa-archive"></i></a></div>
+{% include components/social-links.html %}
