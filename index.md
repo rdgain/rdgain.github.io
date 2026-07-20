@@ -60,5 +60,3 @@ link="/projects"
 {% include components/expertise.html %}
 
 {% include components/highlights.html %}
-
-{% include components/social-links.html %}
