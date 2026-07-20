@@ -1,7 +1,9 @@
 ---
-theme :
-  name : bootstrap-3
-layout: bloglayout
+layout: default
 ---
-{% include JB/setup %}
-{% include themes/bootstrap-3/page.html %}
+
+<div class="{% if page.full_width %}container-wide{% else %}container{% endif %} section">
+
+    {{ content }}
+
+</div>
