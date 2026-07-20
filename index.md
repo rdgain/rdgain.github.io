@@ -2,43 +2,19 @@
 layout: default
 ---
 
+{% include components/hero.html
 
-<center><table style="width:100%;border-spacing: 10px; border-collapse: separate;"  cellpadding="5">
-<tr>
-<td><div class="post-container">
-  <img style="width:100%" src="assets/images/index/about.png" />
-  <a href="about">About</a>
-</div></td>
-<td><div class="post-container">
-  <img style="width:100%" src="assets/images/index/research.png" />
-  <a href="research">Research</a>
-</div></td>
-<td><div class="post-container">
-  <img style="width:100%" src="assets/images/index/publications.png" />
-  <a href="publications">Publications</a>
-</div></td>
-</tr>
-<tr>
-<td><div class="post-container">
-  <img style="width:100%" src="assets/images/index/events.png" />
-  <a href="events">Community</a>
-</div></td>
-<td><div class="post-container">
-  <img style="width:100%" src="assets/images/index/teaching.png" />
-  <a href="teaching">Teaching</a>
-</div></td>
-<td><div class="post-container">
-  <img style="width:100%" src="assets/images/index/projects.png" />
-  <a href="projects">Projects</a>
-</div></td>
-</tr>
-<tr>
-<td colspan="3"><div class="post-container">
-  <img style="width:100%" src="assets/images/index/blog.png" />
-  <a href="blog">Blog</a>
-</div></td>
-</tr>
-</table>
+image="/assets/images/headshot8.jpg"
+
+intro="Hi, I'm"
+
+name="Raluca Gaina"
+
+subtitle="AI Engineer • Game AI Researcher • Simulation Systems"
+
+description="I build intelligent systems for games, AI playtesting frameworks, simulation platforms and procedural generation tools. My work combines academic research with practical software engineering to solve complex gameplay and AI challenges."
+
+%}
 
 <hr>
 

@@ -1,0 +1,9 @@
+<a
+    href="{{ include.link }}"
+    class="btn {% if include.style %}btn-{{ include.style }}{% else %}btn-primary{% endif %}"
+    {% if include.target %}target="{{ include.target }}"{% endif %}
+>
+
+    {{ include.text }}
+
+</a>

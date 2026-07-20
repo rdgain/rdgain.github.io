@@ -1,0 +1,61 @@
+<section class="hero">
+
+    <div class="hero-photo">
+
+        <img
+            src="{{ include.image }}"
+            alt="{{ include.name }}"
+        >
+
+    </div>
+
+    <div class="hero-content">
+
+        <p class="hero-intro">
+
+            {{ include.intro }}
+
+        </p>
+
+        <h1>
+
+            {{ include.name }}
+
+        </h1>
+
+        <h2>
+
+            {{ include.subtitle }}
+
+        </h2>
+
+        <p class="hero-description">
+
+            {{ include.description }}
+
+        </p>
+
+        <div class="hero-buttons">
+
+            {% include components/button.html
+                text="Projects"
+                link="/projects"
+            %}
+
+            {% include components/button.html
+                text="Research"
+                link="/research"
+                style="secondary"
+            %}
+
+            {% include components/button.html
+                text="Download CV"
+                link="/assets/files/Raluca_Gaina_CV.pdf"
+                style="secondary"
+            %}
+
+        </div>
+
+    </div>
+
+</section>

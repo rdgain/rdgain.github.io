@@ -1,0 +1,111 @@
+/* ==========================================================
+   Hero
+   ========================================================== */
+
+.hero {
+
+    display: grid;
+
+    grid-template-columns: 300px 1fr;
+
+    gap: 60px;
+
+    align-items: center;
+
+    width: min($content-width, 92%);
+
+    margin: 70px auto 100px;
+
+}
+
+.hero-photo {
+
+    text-align: center;
+
+}
+
+.hero-photo img {
+
+    width: 280px;
+
+    height: 280px;
+
+    object-fit: cover;
+
+    border-radius: 50%;
+
+    border: 6px solid white;
+
+    box-shadow: $shadow-medium;
+
+}
+
+.hero-intro {
+
+    text-transform: uppercase;
+
+    letter-spacing: 2px;
+
+    color: $primary;
+
+    font-size: $fs-sm;
+
+    font-weight: 600;
+
+    margin-bottom: 10px;
+
+}
+
+.hero h1 {
+
+    margin-bottom: 10px;
+
+}
+
+.hero h2 {
+
+    color: $secondary;
+
+    font-weight: 400;
+
+    margin-bottom: 30px;
+
+}
+
+.hero-description {
+
+    font-size: 1.1rem;
+
+    max-width: 750px;
+
+}
+
+@media (max-width: 900px) {
+
+    .hero {
+
+        grid-template-columns: 1fr;
+
+        text-align: center;
+
+        gap: 35px;
+
+        margin: 40px auto 70px;
+
+    }
+
+    .hero-photo img {
+
+        width: 220px;
+
+        height: 220px;
+
+    }
+
+    .hero-buttons {
+
+        justify-content: center;
+
+    }
+
+}

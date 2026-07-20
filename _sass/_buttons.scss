@@ -1,0 +1,77 @@
+/* ==========================================================
+   Buttons
+   ========================================================== */
+
+.btn {
+
+    display: inline-flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    padding: 12px 28px;
+
+    border-radius: $radius-medium;
+
+    font-weight: 600;
+
+    text-decoration: none;
+
+    cursor: pointer;
+
+    transition: $transition;
+
+    border: 2px solid transparent;
+
+    font-size: $fs-md;
+
+}
+
+.btn-primary {
+
+    background: $primary;
+
+    color: white;
+
+}
+
+.btn-primary:hover {
+
+    background: $primary-dark;
+
+    color: white;
+
+    transform: translateY(-2px);
+
+}
+
+.btn-secondary {
+
+    background: transparent;
+
+    color: $primary;
+
+    border-color: $primary;
+
+}
+
+.btn-secondary:hover {
+
+    background: $primary;
+
+    color: white;
+
+}
+
+.hero-buttons {
+
+    display: flex;
+
+    gap: 15px;
+
+    flex-wrap: wrap;
+
+    margin-top: 35px;
+
+}
