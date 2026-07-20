@@ -12,7 +12,8 @@
 
     align-items: center;
 
-    width: min($content-width, 92%);
+    width: 92%;
+    max-width: $content-width;
 
     margin: 70px auto 100px;
 

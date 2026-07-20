@@ -10,17 +10,19 @@
 
 .container {
 
-    width: min($content-width, 92%);
-
-    margin: auto;
+    width: 92%;
+    max-width: $content-width;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
 .narrow {
 
-    width: min(850px, 92%);
-
-    margin: auto;
+    width: 92%;
+    max-width: 850px;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
