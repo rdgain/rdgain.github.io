@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Home
 ---
 
 {% include components/hero.html

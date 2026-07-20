@@ -1,0 +1,136 @@
+/* ==========================================================
+   Theme Shell
+   ========================================================== */
+
+body {
+
+    font-family: 'Inter', $font-body;
+    background: $background;
+    color: $text;
+
+}
+
+.page-content {
+
+    min-height: calc(100vh - 180px);
+
+}
+
+/* ==========================================================
+   Header
+   ========================================================== */
+
+.site-header {
+
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+    background: rgba(255,255,255,.92);
+
+    backdrop-filter: blur(12px);
+
+    border-bottom: 1px solid $border;
+
+}
+
+.header-inner {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 18px 0;
+
+}
+
+.site-brand {
+
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: $text;
+
+}
+
+.site-nav {
+
+    display: flex;
+    align-items: center;
+    gap: 24px;
+
+}
+
+.site-nav a {
+
+    color: $secondary;
+    font-weight: 500;
+
+}
+
+.site-nav a:hover {
+
+    color: $primary;
+
+}
+
+.nav-cv {
+
+    padding: 10px 18px;
+    border-radius: $radius-medium;
+    background: $primary;
+    color: white !important;
+
+}
+
+.nav-cv:hover {
+
+    background: $primary-dark;
+
+}
+
+/* ==========================================================
+   Footer
+   ========================================================== */
+
+.site-footer {
+
+    margin-top: 100px;
+    padding: 50px 0;
+    border-top: 1px solid $border;
+
+    background: white;
+
+    text-align: center;
+
+}
+
+.site-footer p {
+
+    color: $text-light;
+    margin-top: 25px;
+    margin-bottom: 0;
+
+}
+
+/* ==========================================================
+   Responsive
+   ========================================================== */
+
+@media (max-width: 900px) {
+
+    .header-inner {
+
+        flex-direction: column;
+        gap: 15px;
+
+    }
+
+    .site-nav {
+
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 14px;
+
+    }
+
+}
