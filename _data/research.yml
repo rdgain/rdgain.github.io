@@ -1,0 +1,295 @@
+topics:
+
+  - id: rhea
+
+    featured: true
+
+    title: Rolling Horizon Evolutionary Algorithms
+
+    short: RHEA
+
+    years: "2016–2021"
+
+    image: /assets/images/research/rhea.jpg
+
+    tagline: >
+      Planning algorithms capable of playing previously unseen games.
+
+    summary: >
+      My PhD focused on Rolling Horizon Evolutionary Algorithms (RHEA),
+      investigating their use for General Video Game Playing and comparing
+      them against Monte Carlo Tree Search. The work explored how
+      evolutionary planning methods can efficiently solve unknown games
+      without game-specific heuristics.
+
+    motivation: >
+      General Video Game Playing requires agents that can quickly adapt to
+      completely new games. Traditional search methods perform well, but
+      evolutionary approaches offer a flexible alternative capable of
+      balancing exploration and exploitation.
+
+    contributions:
+
+      - Comprehensive study of RHEA hyperparameters.
+
+      - Population seeding techniques.
+
+      - Algorithm structure improvements.
+
+      - Feature analysis of agent behaviour.
+
+      - Convergence analysis.
+
+      - Performance prediction during gameplay.
+
+      - Fitness landscape analysis.
+
+    impact:
+
+      - PhD Thesis
+
+      - Multiple journal publications
+
+      - International collaborations
+
+      - Used as foundation for later research
+
+    technologies:
+
+      - Evolutionary Algorithms
+      - Search
+      - Java
+      - Optimisation
+
+    publications:
+
+    portfolio:
+      - gvgai
+
+
+  - id: gvgai
+
+    featured: true
+
+    title: General Video Game AI
+
+    short: GVGAI
+
+    years: "2016–Present"
+
+    image: /assets/images/research/gvgai.jpg
+
+    tagline: >
+      Artificial intelligence capable of playing unseen games.
+
+    summary: >
+      General Video Game AI investigates algorithms capable of achieving
+      high-quality gameplay across many different games without
+      game-specific knowledge.
+
+    contributions:
+
+      - Rolling Horizon Evolutionary Algorithms
+
+      - Monte Carlo Tree Search
+
+      - General game benchmarks
+
+      - AI competitions
+
+      - Performance evaluation
+
+    impact:
+
+      - Numerous publications
+
+      - Competition organisation
+
+      - International collaborations
+
+    technologies:
+
+      - Java
+
+      - MCTS
+
+      - Evolutionary Algorithms
+
+      - Planning
+
+    publications:
+
+    portfolio:
+      - gvgai
+
+
+  - id: game-ai
+
+    featured: true
+
+    title: Artificial Intelligence for Games
+
+    years: "2016–Present"
+
+    image: /assets/images/research/game-ai.jpg
+
+    tagline: >
+      Intelligent agents that play, analyse and improve games.
+
+    summary: >
+      Research spanning search, planning, optimisation and learning for
+      game-playing agents and automated game analysis.
+
+    focus:
+
+      - Game Playing
+
+      - Planning
+
+      - Reinforcement Learning
+
+      - Search
+
+      - AI Evaluation
+
+    technologies:
+
+      - Java
+
+      - Python
+
+      - Unity
+
+      - Machine Learning
+
+
+  - id: tabletop
+
+    featured: true
+
+    title: AI for Tabletop Games
+
+    years: "2022–Present"
+
+    image: /assets/images/research/tabletop.jpg
+
+    tagline: >
+      Bringing modern AI techniques to tabletop game design.
+
+    summary: >
+      Research into simulation, automated playtesting and intelligent
+      decision support for tabletop games through the TAG Framework and
+      Tabletop R&D.
+
+    motivation: >
+      Tabletop games remain largely underserved by modern AI tools despite
+      their complexity and commercial importance.
+
+    contributions:
+
+      - TAG Framework
+
+      - Automated playtesting
+
+      - Statistical analysis
+
+      - AI benchmarking
+
+      - Digital implementations
+
+    impact:
+
+      - £120k+ Innovate UK funding
+
+      - Tabletop R&D
+
+      - Multiple publications
+
+      - Industry collaborations
+
+    technologies:
+
+      - Java
+
+      - Simulation
+
+      - Evolutionary Algorithms
+
+      - Monte Carlo Tree Search
+
+    portfolio:
+      - tag
+
+
+  - id: procedural-generation
+
+    featured: true
+
+    title: Procedural Content Generation
+
+    years: "2018–Present"
+
+    image: /assets/images/research/pcg.jpg
+
+    tagline: >
+      Automatically generating game content using computational methods.
+
+    summary: >
+      Research into evolutionary and optimisation techniques for creating
+      game content and improving replayability.
+
+    technologies:
+
+      - Evolutionary Computation
+
+      - Optimisation
+
+      - Machine Learning
+
+      - Search
+
+
+  - id: explainable-ai
+
+    featured: false
+
+    title: Explainable and Interpretable AI
+
+    years: "2020–Present"
+
+    image:
+
+    summary: >
+      Understanding why game-playing agents behave as they do through
+      feature analysis, behaviour visualisation and performance prediction.
+
+    technologies:
+
+      - Explainable AI
+
+      - Machine Learning
+
+      - Analytics
+
+
+  - id: player-modelling
+
+    featured: false
+
+    title: Player Modelling and Experience
+
+    years: "2019–Present"
+
+    image:
+
+    summary: >
+      Investigating how computational methods can analyse player behaviour
+      and improve gameplay experiences.
+
+    technologies:
+
+      - Machine Learning
+
+      - Data Analysis
+
+      - Optimisation

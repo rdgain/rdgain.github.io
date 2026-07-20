@@ -1,0 +1,300 @@
+modules:
+
+  - id: computational-game-design
+
+    featured: true
+
+    title: Computational Game Design
+
+    level: MSc
+    mode: Mixed Mode
+
+    institution: Queen Mary University of London
+
+    years: "2022–2026"
+
+    role: Module Organiser
+
+    contribution: 50% module delivery
+
+    description: >
+      Designed and delivered half of the MSc Computational Game Design
+      module, covering computational approaches to game design,
+      procedural generation and AI-assisted design.
+
+    topics:
+      - Procedural Content Generation
+      - Computational Game Design
+      - Game AI
+      - Evolutionary Algorithms
+
+    technologies:
+      - Unity
+      - Java
+      - Python
+
+    image:
+
+
+  - id: multi-platform-game-development
+
+    featured: true
+
+    title: Multi-platform Game Development
+
+    level: BSc (Year 3) & MSc
+    mode: Mixed Mode
+
+    institution: Queen Mary University of London
+
+    years: "2021–2026"
+
+    role: Module Organiser
+
+    description: >
+      Led the module covering software architecture, gameplay systems,
+      Unity development and cross-platform game engineering.
+
+    topics:
+      - Unity
+      - Gameplay Programming
+      - Software Architecture
+      - Game Development
+
+    technologies:
+      - Unity
+      - C#
+
+    image:
+
+
+supervision:
+
+  featured: true
+
+  title: Undergraduate & MSc Project Supervision
+
+  years: "2022–2026"
+
+  institution: Queen Mary University of London
+
+  description: >
+    Supervised undergraduate and postgraduate dissertations spanning
+    Game AI, machine learning, procedural generation, simulation,
+    computer vision and software engineering.
+
+  project_count: 25+
+
+  example_projects:
+
+    - Proximal Reward Shaping with Action Masking for a Pacifist NetHack Agent
+
+    - AI Replacement of Randomness in Board Games
+
+    - "TAG: Assessing General Game Playing Agents in Stratego"
+
+    - Chess Win Prediction
+
+    - Macro Actions for Open World Survival Games
+
+    - Gameplay Strategy Influence in Gym-MicroRTS
+
+    - Rolling Horizon Coevolutionary Minimax
+
+    - LSTM-based Text Autosuggestion
+
+    - Phasic Policy Gradients in Gym-MicroRTS
+
+    - Procedural Synthesis of Large Crowd Noise
+
+    - Highlight Detection in Tabletop Games
+
+    - Decision-Making in Root
+
+    - Millport Camp – Open World Zombie Shooter
+
+    - "TAG: Automatic Tutorial Generation"
+
+    - Procedural Content Generation with Rotating Maps
+
+    - Milo – Procedural Point-and-Click Adventure
+
+    - Time Bender Battle
+
+    - "TAG: Digital Implementation of Saboteur"
+
+    - "TAG: Counterfactual Regret Minimization for Texas Hold'em"
+
+    - ECS-based 2D Game Engine in C++
+
+    - Digital Implementation of Everdell
+
+    - "TAG: Calico Implementation and Analysis"
+
+    - Ticket to Ride AI Statistical Analysis
+
+    - Tabletop Game Development with TAG
+
+    - Azul AI Data Analysis
+
+  topics:
+
+    - Game AI
+    - Reinforcement Learning
+    - Evolutionary Algorithms
+    - Simulation
+    - Procedural Content Generation
+    - Computer Vision
+    - Machine Learning
+    - Game Development
+
+
+experience:
+
+  - year: "2021"
+
+    title: Computational Creativity
+
+    institution: Queen Mary University of London
+
+    level: MSc & PhD
+
+    role: Module Development
+
+    delivery: Online
+
+
+  - year: "2021"
+
+    title: Java Support Classes
+
+    institution: Queen Mary University of London
+
+    level: MSc
+
+    role: Lecturer
+
+    delivery: Online
+
+
+  - year: "2021"
+
+    title: MSc Project Supervision
+
+    institution: Queen Mary University of London
+
+    role: Supervisor
+
+    students: 8
+
+
+  - year: "2021"
+
+    title: UG & PG Project Examination
+
+    institution: Queen Mary University of London
+
+    role: Teaching Fellow
+
+
+  - year: "2020"
+
+    title: Multi-platform Game Development
+
+    institution: Queen Mary University of London
+
+    role: Senior Demonstrator
+
+    delivery: Online
+
+
+  - year: "2020"
+
+    title: Artificial Intelligence in Games
+
+    institution: Queen Mary University of London
+
+    role: Demonstrator
+
+    delivery: Online
+
+
+  - year: "2020"
+
+    title: Multi-platform Game Development
+
+    institution: Queen Mary University of London
+
+    role: Teaching Fellow
+
+
+  - year: "2019"
+
+    title: Artificial Intelligence in Games
+
+    institution: Queen Mary University of London
+
+    role: Teaching Fellow
+
+
+  - year: "2019"
+
+    title: Technical Thinking and Writing Workshops
+
+    institution: Queen Mary University of London
+
+    role: Demonstrator
+
+
+  - year: "2019"
+
+    title: Multi-platform Game Development
+
+    institution: Queen Mary University of London
+
+    role: Demonstrator
+
+
+  - year: "2018"
+
+    title: Artificial Intelligence in Games
+
+    institution: Queen Mary University of London
+
+    role: Demonstrator
+
+
+  - year: "2018"
+
+    title: Software Engineering
+
+    institution: Queen Mary University of London
+
+    role: Demonstrator (Marking)
+
+
+  - year: "2017"
+
+    title: High Level Games Development
+
+    institution: University of Essex
+
+    role: Graduate Lab Assistant
+
+
+  - year: "2017"
+
+    title: Game Artificial Intelligence
+
+    institution: University of Essex
+
+    role: Graduate Lab Assistant
+
+
+  - year: "2016"
+
+    title: High Level Games Development
+
+    institution: University of Essex
+
+    role: Graduate Lab Assistant (Marking)

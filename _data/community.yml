@@ -1,0 +1,275 @@
+leadership:
+
+  - id: ieee-cog-2027
+    featured: true
+    title: IEEE Conference on Games
+    role: Publicity Co-Chair
+    year: 2027
+    location:
+    website:
+    image:
+
+  - id: ieee-cog-2026
+    featured: true
+    title: IEEE Conference on Games
+    role: General Co-Chair
+    year: 2026
+    location: Madrid, Spain
+    website: https://cog2026.org/
+    image:
+
+  - id: ieee-cog-2025
+    featured: true
+    title: IEEE Conference on Games
+    role: Competitions Co-Chair
+    year: 2025
+    website: https://cog2025.inesc-id.pt/
+
+  - id: fdg-2025
+    featured: true
+    title: ACM Foundations of Digital Games
+    role: Workshops & Competitions Co-Chair
+    year: 2025
+    website: https://fdg2025.org/
+
+  - id: london-game-ai
+    featured: true
+    title: London Game AI Meetup
+    role: Organiser
+    years: "2019–2024"
+
+  - id: fdg-2023
+    title: ACM Foundations of Digital Games
+    role: Game AI Track Chair
+    year: 2023
+
+  - id: ieee-cog-2023
+    title: IEEE Conference on Games
+    role: Publicity Chair
+    year: 2023
+
+  - id: ieee-cog-2022
+    title: IEEE Conference on Games
+    role: Competitions Chair
+    year: 2022
+
+  - id: aiide-2022
+    title: AIIDE
+    role: Software Track Chair
+    year: 2022
+
+  - id: ssci-games-2020
+    title: IEEE Symposium on Games @ SSCI
+    role: General Chair
+    year: 2020
+
+  - id: fdg-2020
+    title: ACM Foundations of Digital Games
+    role: Games & Demos Chair
+    year: 2020
+
+  - id: ieee-cog-2019
+    title: IEEE Conference on Games
+    role: Publicity & Media Chair
+    year: 2019
+
+  - id: iggi-2018
+    title: IGGI Conference
+    role: Program Chair
+    year: 2018
+
+  - id: gvgai-competition
+    title: GVGAI 2-Player Competition
+    role: Track Organiser
+    years: "2016–2018"
+
+  - id: ieee-cis
+    title: IEEE CIS Games Technical Committee
+    role: Vice Chair for Conferences
+    years: "2019"
+
+  - id: competitions-subcommittee
+    title: IEEE CIS Competitions Sub-Committee
+    role: Member
+    years: "2017–2022"
+
+
+tutorials:
+
+  - title: TAG – Advancements in AI-Driven Tabletop Games
+    conference: IEEE Conference on Games
+    year: 2023
+    location: Boston, USA
+
+  - title: MARLO Competition
+    conference: IEEE CIG
+    year: 2018
+    location: Maastricht, Netherlands
+
+  - title: General Video Game AI
+    conference: Queen Mary University of London
+    year: 2018
+
+  - title: General Video Game AI – 2 Player
+    conference: CEEC
+    year: 2016
+    role: Tutorial Assistant
+
+
+invited_talks:
+
+  - title: AI And Games Conference
+    year: 2024
+    role: Speaker
+    topic: Tabletop R&D
+
+  - title: Audio Developers Conference
+    year: 2019
+    topic: Did You Hear That? Learning to Play Video Games from Audio Cues
+
+  - title: Bits, Bugs & Bots
+    year: 2019
+    role: Invited Talk
+
+  - title: CogX
+    year: 2018
+    topic: MARLO Competition
+
+  - title: IET Christmas Lecture
+    year: 2018
+    role: Invited Speaker
+
+  - title: ASYNC Research on AI & Games
+    year: 2017
+    topic: Planning in Real-time Games with Rolling Horizon Evolution
+
+
+reviewing:
+
+  journals:
+
+    - IEEE Transactions on Games
+    - Machine Learning Journal
+    - SN Applied Sciences
+    - Engineering Applications of Artificial Intelligence
+    - Mathematical Biosciences and Engineering
+    - International Computer Games Association Journal
+
+  conferences:
+
+    - IEEE Conference on Games
+    - AIIDE
+    - Foundations of Digital Games
+    - CHI
+    - IEEE Congress on Evolutionary Computation
+    - AAAI
+    - NeurIPS Competitions
+    - GECCO
+    - KEG Workshop
+    - CAEPIA
+    - IEEE CIG
+
+
+professional_service:
+
+  - organisation: IGGI
+    role: Research Impact Coordinator
+    years: "2022–2026"
+
+  - organisation: COST Action GameTable
+    role: UK MC Representative
+    years: "2023–2025"
+
+  - organisation: Athena Swan
+    role: Women in Science Representative
+
+
+events:
+
+  - year: 2024
+    title: IEEE Conference on Games
+    location: Milan, Italy
+    roles:
+      - Speaker
+      - Session Chair
+    talks:
+      - Rolling Horizon Evolutionary Algorithms for General Video Game Playing
+    featured: true
+
+  - year: 2023
+    title: IEEE Conference on Games
+    location: Boston, USA
+    roles:
+      - Tutorial Presenter
+    talks:
+      - TAG: Advancements in AI-Driven Tabletop Games
+    featured: true
+
+  - year: 2021
+    title: AIIDE
+    location: Virtual
+    talks:
+      - TAG: Terraforming Mars
+    featured: false
+
+  - year: 2020
+    title: IEEE Conference on Games
+    location: Virtual
+    talks:
+      - Rolling Horizon Evolutionary Algorithms for General Video Game Playing
+      - rhNEAT for General Video Game Playing
+    featured: true
+
+  - year: 2019
+    title: IEEE Conference on Games
+    location: London, UK
+    roles:
+      - Publicity Chair
+      - Speaker
+    talks:
+      - Project Thyia
+      - Did You Hear That?
+    featured: true
+
+  - year: 2019
+    title: AAAI
+    location: Honolulu, USA
+    talks:
+      - Tackling Sparse Rewards in Real-Time Games
+      - Efficient Evolutionary Methods for Game Agent Optimisation
+    featured: true
+
+  - year: 2018
+    title: IEEE CIG
+    location: Maastricht, Netherlands
+    talks:
+      - General Win Prediction from Agent Experience
+    featured: true
+
+  - year: 2017
+    title: IEEE CIG
+    location: New York, USA
+    talks:
+      - Rolling Horizon Evolution Enhancements in General Video Game Playing
+    featured: true
+
+  - year: 2017
+    title: IEEE CEC
+    location: San Sebastián, Spain
+    talks:
+      - Population Initialization Techniques for Rolling Horizon Evolution
+    featured: false
+
+  - year: 2017
+    title: EvoStar
+    location: Amsterdam, Netherlands
+    talks:
+      - Analysis of Vanilla Rolling Horizon Evolution Parameters
+    featured: false
+
+  - year: 2016
+    title: CEEC
+    location: Colchester, UK
+    talks:
+      - General Video Game for 2 Players
+    featured: false

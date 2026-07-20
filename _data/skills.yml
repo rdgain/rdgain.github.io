@@ -1,0 +1,27 @@
+- category: Languages
+
+  skills:
+
+    - Java
+    - Python
+    - C#
+
+- category: AI
+
+  skills:
+
+    - Evolutionary Algorithms
+    - Reinforcement Learning
+    - Monte Carlo Tree Search
+    - Procedural Generation
+    - Large Language Models
+    - Agentic AI
+
+- category: Game Development
+
+  skills:
+
+    - Unity
+    - LibGDX
+    - Game AI
+    - Gameplay Programming

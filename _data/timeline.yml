@@ -1,0 +1,149 @@
+- id: undergraduate
+
+  year: "2015"
+  title: BSc Computer Games
+  organisation: University of Essex
+  image: /assets/images/timeline/essex.jpg
+
+  description: >
+    Obtained degree in BSc Computer Games, developing a strong interest in
+    artificial intelligence, algorithms and games.
+
+  technologies:
+    - Java
+    - Python
+    - Unity
+    - C#
+    - Algorithms
+    - Game Development
+
+  featured: false
+
+
+- id: masters
+
+  year: "2016"
+
+  title: MSc Computer Games
+
+  organisation: Queen Mary University of London
+
+  image: /assets/images/timeline/qmul.jpg
+
+  description: >
+    Completed an MSc specialising in Computer Games, providing
+    the foundation for later research in Game AI.
+
+  technologies:
+    - Machine Learning
+    - AI
+    - Java
+    - Python
+    - Unity
+    - C#
+    - Algorithms
+    - Game Development
+
+  featured: true
+
+
+- id: phd
+
+  year: "2016–2021"
+
+  title: PhD – Intelligent Games & Games Intelligence
+
+  organisation: Queen Mary University of London
+
+  image: /assets/images/timeline/phd.jpg
+
+  description: >
+    Conducted research into Rolling Horizon Evolutionary Algorithms,
+    General Video Game AI and search techniques for intelligent agents.
+
+  technologies:
+    - Evolutionary Algorithms
+    - MCTS
+    - Java
+    - Game AI
+
+  featured: true
+
+  portfolio:
+    - gvgai
+    - tag
+
+
+- id: lecturer
+
+  year: "2021–2026"
+
+  title: Lecturer in Game AI
+
+  organisation: Queen Mary University of London
+
+  image: /assets/images/timeline/lecturer.jpg
+
+  description: >
+    Taught Game Development and Computational Game Design, 
+    supervised undergraduate and postgraduate research,
+    designed new modules and secured research funding.
+
+  technologies:
+    - Unity
+    - AI
+    - Teaching
+    - Research
+
+  featured: true
+
+  teaching:
+    - game-development
+    - computational-game-design
+    - dissertation
+
+
+- id: tabletop
+
+  year: "2023"
+
+  title: Co-founded Tabletop R&D
+
+  organisation: Tabletop R&D
+
+  image: /assets/images/timeline/tag.jpg
+
+  description: >
+    Co-founded a research company developing AI-powered testing services
+    for tabletop board games.
+
+  technologies:
+    - Simulation
+    - Java
+    - AI
+
+  featured: true
+
+  portfolio:
+    - tag
+
+
+- id: industry
+
+  year: "2026"
+
+  title: Transition into Industry
+
+  organisation: Spain
+
+  image:
+
+  description: >
+    Seeking opportunities to apply research expertise to real-world AI,
+    simulation and game development challenges.
+
+  technologies:
+    - AI Engineering
+    - Simulation
+
+  featured: true
