@@ -3,8 +3,6 @@ layout: default
 ---
 
 
-<a href="http://feeds.feedburner.com/rdgain" rel="alternate" type="application/rss+xml"><img src="//feedburner.google.com/fb/images/pub/feed-icon16x16.png" alt="" style="vertical-align:middle;border:0"/></a>&nbsp;<a href="http://feeds.feedburner.com/rdgain" rel="alternate" type="application/rss+xml">Subscribe in a reader</a> for work updates and new [blog](blog) posts.
-
 <center><table style="width:100%;border-spacing: 10px; border-collapse: separate;"  cellpadding="5">
 <tr>
 <td><div class="post-container">
@@ -23,7 +21,7 @@ layout: default
 <tr>
 <td><div class="post-container">
   <img style="width:100%" src="assets/images/index/events.png" />
-  <a href="events">Events</a>
+  <a href="events">Community</a>
 </div></td>
 <td><div class="post-container">
   <img style="width:100%" src="assets/images/index/teaching.png" />

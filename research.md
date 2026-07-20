@@ -12,9 +12,36 @@ Raluca’s latest studies during the PhD looked at a better understanding of RHE
 
 Related publications: [Full publication list](publications)
 
-# [](#pc-member)PROGRAM COMMITTEE MEMBER
+# [] (#activities)PROFESSIONAL activities
+## ORGANIZATION
 
-## Journals
+[IEEE COG 2027]() Publicity Co-Chair (2027)<br/>
+[IEEE COG 2026](https://cog2026.org/) General Co-Chair (2026)<br/>
+[IEEE COG 2025](https://cog2025.inesc-id.pt/) Competitions Co-Chair (2025)<br/>
+[ACM FDG 2025](https://fdg2025.org/) Workshops and Competitions Co-Chair (2025)<br/>
+London Game AI Meetup Organizer (2019 – 2024)<br/>
+[ACM Foundations of Digital Games (FDG) 2023](http://fdg2023.org/) Game AI Track Chair (2023)<br/>
+[IEEE CoG Conference 2023](https://2023.ieee-cog.org/) Publicity Chair (2023)<br/>
+[IEEE CoG Conference 2022](http://ieee-cog.org) Competitions Chair (2022)<br/>
+[AIIDE 2022](https://sites.google.com/view/aiide-2022/) Software Track Chair (2022)<br/>
+[IEEE Symposium on Games @ SSCI 2020](https://gaigresearch.github.io/games-ssci/) General Chair (2020)<br/>
+[ACM Foundations of Digital Games (FDG) 2020](http://fdg2020.org/) Games & Demos Chair (2020)<br/>
+[IEEE CoG Conference 2019](http://ieee-cog.org) Publicity & Media Chair (2019)<br/>
+[IGGI Conference 2018](http://2018.iggi.org.uk) Program Chair (2018)<br/>
+[GVGAI 2-Player](http://gvgai.net) track organizer  (2016-2018)<br/>
+Vice-Chair for Conferences, IEEE CIS Games Technical Committee (2019)<br/>
+Member of IEEE CIS Competitions Sub-Committee (2017-2022)<br/>
+
+## TUTORIALS
+
+[TAG: Advancements in AI-Driven Tabletop Games](https://www.tabletoprnd.co.uk/cog23) Tutorial given at _IEEE Conference on Games (COG)_, Boston, USA (AUG 2023)<br/>
+[MARLO (Multi-Agent Reinforcement Learning in Malmo Competition)](https://project.dke.maastrichtuniversity.nl/cig2018/learning-to-play-the-multi-agent-reinforcement-learning-on-malmo-competition/) Tutorial given at _IEEE Conference on Computational Intelligence and Games (CIG)_, Maastricht, The Netherlands (AUG 2018)<br/>
+[GVGAI]() Tutorial given and organized in _Queen Mary University of London_ (19 FEB 2018)<br/>
+[Computational Intelligence for Games: General Video Game AI – 2 Player]() Tutorial assisted at _IEEE Computer Science and Electronic Engineering Conference (CEEC)_, University of Essex (SEP 2016)<br/>
+
+## PROGRAM COMMITTEE MEMBER
+
+### Journals
 * IEEE Transactions on Games (TOG) 2018-2025
 * MBE 2023
 * EAAI 2023
@@ -22,7 +49,7 @@ Related publications: [Full publication list](publications)
 * Machine Learning Journal (MACH) 2019-2022
 * International Computer Games Association Journal (ICGA) 2019
 
-## Conferences
+### Conferences
 * IEEE Conference on Games (CoG) 2019-2025
 * AAAI Artificial Intelligence for Interactive Digital Entertainment Conference (AIIDE) 2019-2025
 * ACM Foundations of Digital Games (FDG) 2018-2025
@@ -34,6 +61,12 @@ Related publications: [Full publication list](publications)
 * AAAI Workshop on Knowledge Extraction from Games (KEG) 2018-2019
 * Conference of the Spanish Association of Artificial Intelligence (CAEPIA) 2018
 * IEEE Conference on Computational Intelligence and Games (CIG) 2018
+
+## other
+
+[IGGI](https://www.iggi-phd.org/) IGGI Research Impact Coordinator (2022-2026)<br/>
+[UoE CSEE Women in Science (Athena Swan)](https://www.essex.ac.uk/csee/about/women-in-science.aspx)<br />
+[GAMETABLE](http://gametable.network/index.html) UK MC Representative: COST Action GameTable CA22145 (2023-2025)<br/>
 
 <hr>
 
