@@ -14,31 +14,71 @@ publication record, with links to papers, presentations, repositories and
 additional material where available.
 </p>
 
+<div class="publication-stats">
+
+    <div class="stat">
+
+        <div class="number">
+
+            {{ site.data.papers.size }}
+
+        </div>
+
+        <div class="label">
+
+            Publications
+
+        </div>
+
+    </div>
+
+    <div class="stat">
+
+        <div class="number">
+
+            {{ site.data.papers | where:"type","article" | size }}
+
+        </div>
+
+        <div class="label">
+
+            Journal Articles
+
+        </div>
+
+    </div>
+
+    <div class="stat">
+
+        <div class="number">
+
+            {{ site.data.papers | where:"type","inproceedings" | size }}
+
+        </div>
+
+        <div class="label">
+
+            Conference Papers
+
+        </div>
+
+    </div>
+
+</div>
+
 {% include publications/filters.html %}
-
-{% assign papers_by_year = site.data.papers | group_by:"year" | sort:"name" | reverse %}
-
-{% for year in papers_by_year %}
-
-<section class="publication-year">
-
-<h2>{{ year.name }}</h2>
 
 <div class="publication-list">
 
-{% assign sorted = year.items | sort:"highlight" %}
+{% assign papers = site.data.papers | sort: "year" | reverse %}
 
-{% for paper in sorted %}
+{% for paper in papers %}
 
-{% include publications/publication-card.html paper=paper %}
+    {% include publications/publication-card.html paper=paper %}
 
 {% endfor %}
 
 </div>
-
-</section>
-
-{% endfor %}
 
 <hr>
 

@@ -55,28 +55,8 @@ function filterPublications() {
 
     });
 
-    updateYearHeadings();
-
 }
 
-function updateYearHeadings() {
-
-    document.querySelectorAll(".publication-year")
-        .forEach(section => {
-
-            const visibleCards =
-                section.querySelectorAll(
-                    '.publication-card:not([style*="display: none"])'
-                );
-
-            section.style.display =
-                visibleCards.length
-                ? ""
-                : "none";
-
-        });
-
-}
 
 searchBox.addEventListener(
     "input",

@@ -106,17 +106,39 @@
 
 }
 
-.publication-year {
+.publication-stats {
 
-    margin-bottom: 4rem;
+    display: flex;
+    gap: 2rem;
+    margin: 2rem 0 3rem;
+    flex-wrap: wrap;
 
 }
 
-.publication-year h2 {
+.stat {
 
-    margin-bottom: 1.5rem;
-    padding-bottom: .5rem;
-    border-bottom: 2px solid #ececec;
+    background: #f7f9fc;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 1.25rem 2rem;
+    min-width: 150px;
+    text-align: center;
+
+}
+
+.stat .number {
+
+    font-size: 2rem;
+    font-weight: 700;
+    color: #2f6fff;
+
+}
+
+.stat .label {
+
+    margin-top: .4rem;
+    color: #666;
+    font-size: .9rem;
 
 }
 
