@@ -1,10 +1,9 @@
 <div class="publication-card"
-
      data-title="{{ paper.title | downcase }}"
      data-authors="{{ paper.author | downcase }}"
      data-type="{{ paper.type }}"
-     data-venue="{% if paper.journal %}{{ paper.journal | downcase }}{% elsif paper.booktitle %}{{ paper.booktitle | downcase }}{% endif %}"
-     data-tags="{% for tag in paper.tags %}{{ tag }}|{% endfor %}">
+     data-year="{{ paper.year }}"
+     data-tags="{% for tag in paper.tags %}{{ tag }}{% unless forloop.last %}|{% endunless %}{% endfor %}">
 
     <div class="publication-header">
 
@@ -127,7 +126,7 @@ doi={ {{paper.doi}} }{% endif %}
 
     </details>
 
-    {% endif %}
+    {% endunless %}
 
     <div class="publication-links">
 

@@ -7,7 +7,7 @@
         <input
             id="publication-search"
             type="text"
-            placeholder="Search title, author or venue...">
+            placeholder="Search publications...">
 
     </div>
 
@@ -23,47 +23,4 @@
 
 </div>
 
-<div id="publication-tags">
-
-    <button class="publication-tag active"
-            data-tag="all">
-
-        All
-
-    </button>
-
-    {% assign tags = "" | split: "" %}
-
-    {% for paper in site.data.papers %}
-
-        {% if paper.tags %}
-
-            {% for tag in paper.tags %}
-
-                {% unless tags contains tag %}
-
-                    {% assign tags = tags | push: tag %}
-
-                {% endunless %}
-
-            {% endfor %}
-
-        {% endif %}
-
-    {% endfor %}
-
-    {% assign tags = tags | sort %}
-
-    {% for tag in tags %}
-
-        <button
-            class="publication-tag"
-            data-tag="{{ tag }}">
-
-            {{ tag }}
-
-        </button>
-
-    {% endfor %}
-
-</div>
+<div id="publication-tags"></div>
