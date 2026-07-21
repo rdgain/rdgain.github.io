@@ -1,0 +1,217 @@
+<div class="publication-card"
+
+     data-title="{{ paper.title | downcase }}"
+     data-authors="{{ paper.author | downcase }}"
+     data-type="{{ paper.type }}"
+     data-venue="{% if paper.journal %}{{ paper.journal | downcase }}{% elsif paper.booktitle %}{{ paper.booktitle | downcase }}{% endif %}"
+     data-tags="{% for tag in paper.tags %}{{ tag }}|{% endfor %}">
+
+    <div class="publication-header">
+
+    <div class="publication-title">
+
+        <h3>{{ paper.title }}</h3>
+
+        <div class="publication-venue">
+
+            {% if paper.journal %}
+                <em>{{ paper.journal }}</em>
+            {% elsif paper.booktitle %}
+                <em>{{ paper.booktitle }}</em>
+            {% endif %}
+
+            <span class="publication-year-badge">
+
+                {{ paper.year }}
+
+            </span>
+
+        </div>
+
+    </div>
+
+    <div class="publication-pills">
+
+            {% case paper.type %}
+
+            {% when "article" %}
+            <span class="publication-pill type journal">Journal</span>
+
+            {% when "inproceedings" %}
+            <span class="publication-pill type conference">Conference</span>
+
+            {% when "book" %}
+            <span class="publication-pill type book">Book</span>
+
+            {% when "phdthesis" %}
+            <span class="publication-pill type thesis">Thesis</span>
+
+            {% endcase %}
+
+            {% if paper.highlight == "core" %}
+            <span class="publication-pill highlight">Core Research</span>
+            {% endif %}
+
+            {% if paper.highlight == "first" %}
+            <span class="publication-pill highlight">First Author</span>
+            {% endif %}
+
+            {% for tag in paper.tags %}
+            <span class="publication-pill">
+
+                {{ tag }}
+
+            </span>
+            {% endfor %}
+
+        </div>
+
+    </div>
+
+
+    <div class="publication-authors">
+
+        {{ paper.author }}
+
+    </div>
+
+    {% if paper.abstract %}
+
+    <details>
+
+        <summary>Abstract</summary>
+
+        <p>
+
+            {{ paper.abstract }}
+
+        </p>
+
+    </details>
+
+    {% endif %}
+
+    {% if paper.note %}
+
+    <details>
+
+        <summary>Notes</summary>
+
+        <p>
+
+            {{ paper.note }}
+
+        </p>
+
+    </details>
+
+    {% endif %}
+
+    {% unless paper.biburl %}
+
+    <details>
+
+        <summary>BibTeX</summary>
+
+<pre>
+@{{paper.type}}{ {{paper.id}},
+author={ {{paper.author}} },
+title={ {{paper.title}} },
+year={ {{paper.year}} }{% if paper.journal %},
+journal={ {{paper.journal}} }{% endif %}{% if paper.booktitle %},
+booktitle={ {{paper.booktitle}} }{% endif %}{% if paper.pages %},
+pages={ {{paper.pages}} }{% endif %}{% if paper.doi %},
+doi={ {{paper.doi}} }{% endif %}
+}
+</pre>
+
+    </details>
+
+    {% endif %}
+
+    <div class="publication-links">
+
+    {% if paper.pdf %}
+    <a class="publication-action primary"
+       href="/assets/pdf/papers/{{paper.id}}.pdf"
+       target="_blank">
+        <i class="fas fa-file-pdf"></i>
+        <span>PDF</span>
+    </a>
+    {% endif %}
+
+    {% if paper.repo %}
+    <a class="publication-action primary"
+       href="{{paper.repo}}"
+       target="_blank">
+        <i class="fab fa-github"></i>
+        <span>Code</span>
+    </a>
+    {% endif %}
+
+    {% if paper.youtube %}
+    <a class="publication-action primary"
+       href="{{paper.youtube}}"
+       target="_blank">
+        <i class="fab fa-youtube"></i>
+        <span>Talk</span>
+    </a>
+    {% endif %}
+
+    {% if paper.talkpdf %}
+    <a class="publication-action"
+       href="/assets/pdf/{{paper.id}}.pdf"
+       target="_blank">
+        <i class="fas fa-chalkboard"></i>
+        <span>Slides</span>
+    </a>
+    {% endif %}
+
+    {% if paper.talkppt %}
+    <a class="publication-action"
+       href="/assets/ppt/{{paper.id}}.pptx"
+       target="_blank">
+        <i class="fas fa-file-powerpoint"></i>
+        <span>PPT</span>
+    </a>
+    {% endif %}
+
+    {% if paper.url %}
+    <a class="publication-action"
+       href="{{paper.url}}"
+       target="_blank">
+        <i class="fas fa-globe"></i>
+        <span>Publisher</span>
+    </a>
+    {% endif %}
+
+    {% if paper.arxiv %}
+    <a class="publication-action"
+       href="{{paper.arxiv}}"
+       target="_blank">
+        <i class="fas fa-archive"></i>
+        <span>arXiv</span>
+    </a>
+    {% endif %}
+
+    {% if paper.doi %}
+    <a class="publication-action"
+       href="https://doi.org/{{paper.doi}}"
+       target="_blank">
+        <i class="fas fa-link"></i>
+        <span>DOI</span>
+    </a>
+    {% endif %}
+
+    {% if paper.biburl %}
+    <a class="publication-action"
+       href="{{paper.biburl}}"
+       target="_blank">
+        <i class="fas fa-quote-right"></i>
+        <span>BibTeX</span>
+    </a>
+    {% endif %}
+
+</div>
+
+</div>

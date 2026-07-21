@@ -12,6 +12,8 @@
     talkppt: true
     abstract: Monte Carlo Tree Search techniques have generally dominated General Video Game Playing, but recent research hasstarted looking at Evolutionary Algorithms and their potential at matching Tree Search level of play or even outperforming these methods. Online or Rolling Horizon Evolution is one of the options available to evolve sequences of actions for planning in General Video Game Playing, but no research has been done up to date that explores the capabilities of the vanilla version of this algorithm in multiple games. This study aims to critically analyse the different conﬁgurations regarding population size and individual length in a set of 20 games from the General Video Game AI corpus. Distinctions are made between deterministic and stochastic games, and the implications of using superior time budgets are studied. Results show that there is scope for the use of these techniques, which in some conﬁgurations outperform Monte Carlo Tree Search, and also suggest that further research in these methods could boost their performance.
     url: https://link.springer.com/chapter/10.1007/978-3-319-55849-3_28
+    tags:
+        - Evolutionary Algorithms
 -   id: gaina2017rhhybrids
     type: inproceedings
     highlight: core
@@ -30,6 +32,8 @@
     youtube: "https://youtu.be/AUYcafpDaxM"
     abstract: "Game AI literature has looked at applying various enhancements to Rolling Horizon Evolutionary methods or creating hybrids with popular tree search methods for an improved performance. However, these techniques have not been analyzed in depth in a general setting under the same conditions and restrictions. This paper proposes a fair juxtaposition of four enhancements applied to different parts of the evolutionary process: bandit-based mutation, a statistical tree for action selection, a shift buffer for population management and additional Monte Carlo simulations at the end of an individual’s evaluation. These methods are studied individually, as well as their hybrids, on a representative subset of 20 games of the General Video Game AI Framework and compared to the vanilla version of the Rolling Horizon Evolutionary Algorithm, in addition to the dominating Monte Carlo Tree Search. The results show that some of the enhancements are able to produce impressive results, while others fall short. Interesting hybrids also emerge, encouraging further research into this problem."
     url: http://ieeexplore.ieee.org/document/8080420/
+    tags:
+        - Evolutionary Algorithms
 -   id: gaina2017rhseeding
     type: inproceedings
     highlight: core
@@ -46,6 +50,8 @@
     talkppt: true
     url: http://ieeexplore.ieee.org/document/7969540/
     abstract: While Monte Carlo Tree Search and closely related methods have dominated General Video Game Playing, recent research has demonstrated the promise of Rolling Horizon Evolutionary Algorithms as an interesting alternative. However, thereislittleattentionpaidtopopulationinitializationtechniques in the setting of general real-time video games. Therefore, this paper proposes the use of population seeding to improve the performance of Rolling Horizon Evolution and presents the results of two methods, One Step Look Ahead and Monte Carlo Tree Search, tested on 20 games of the General Video Game AI corpus with multiple evolution parameter values (population size and individual length). An in-depth analysis is carried out between the results of the seeding methods and the vanilla Rolling Horizon Evolution. In addition, the paper presents a comparison to a Monte Carlo Tree Search algorithm. The results are promising, with seeding able to boost performance signiﬁcantly over baseline evolution and even match the high level of play obtained by the Monte Carlo Tree Search.
+    tags:
+        - Evolutionary Algorithms
 -   id: gaina2017tuning
     type: inproceedings
     highlight: first
@@ -61,6 +67,8 @@
     pdf: true
     abstract: "Finding the ideal game parameters is a common problem solved by game designers by manually tweaking game parameters. The aim is to ensure the desired gameplay outcomes for a speciﬁc game, a tedious process which could be alleviated through the use of Artiﬁcial Intelligence: using automatic game tuning. This paper presents an example of this process and introduces the concept of simulation based ﬁtness evaluation focused on strategic diversity. A simple but effective Random Mutation Hill Climber algorithm is used to evolve a Zelda inspired game, by ensuring that agents using distinct heuristics are capable of achieving similar degrees of ﬁtness. Two versions of the same game are presented to human players and their gameplay data is analyzed to identify whether they indeed ﬁnd slightly more varied paths to the goal in the game evolved to be the more strategically diverse. Although the evolutionary process yields promising results, the human trials are unable to conclude a statistically signiﬁcant difference between the two variants."
     url: http://ieeexplore.ieee.org/document/8101624/
+    tags:
+        - Procedural Content Generation
 -   id: kunanusont2017ntuple
     type: inproceedings
     highlight: none
@@ -75,6 +83,9 @@
     pdf: true
     url: http://ieeexplore.ieee.org/document/7969571/
     abstract: "This paper describes a new evolutionary algorithm that is especially well suited to AI-Assisted Game Design. The approach adopted in this paper is to use observations of AI agents playing the game to estimate the game's quality. Some of best agents for this purpose are General Video Game AI agents, since they can be deployed directly on a new game without game-speciﬁc tuning; these agents tend to be based on stochastic algorithms which give robust but noisy results and tend to be expensive to run. This motivates the main contribution of the paper: the development of the novel N-Tuple Bandit Evolutionary Algorithm, where a model is used to estimate the ﬁtness of unsampled points and a bandit approach is used to balance exploration and exploitation of the search space. Initial results on optimising a Space Battle game variant suggest that the algorithm offers far more robust results than the Random Mutation Hill Climber and a Biased Mutation variant, which are themselves known to offer competitive performance across a range of problems. Subjective observations are also given by human players on the nature of the evolved games, which indicate a preference towards games generated by the N-Tuple algorithm."
+    tags:
+        - Evolutionary Algorithms
+        - Game Design
 -   id: gaina2018gvgai2P
     type: article
     highlight: first
@@ -93,6 +104,9 @@
     pdf: true
     repo: "https://github.com/GAIGResearch/GVGAI"
     abstract: This paper showcases the setting and results of the ﬁrst Two-Player General Video Game AI competition, which ran in 2016 at the IEEE World Congress on Computational Intelligence and the IEEE Conference on Computational Intelligence and Games. The challenges for the general game AI agents are expanded in this track from the single-player version, looking at direct player interaction in both competitive and cooperative environments of various types and degrees of difﬁculty. The focus is on the agents not only handling multiple problems, but also having to account for another intelligent entity in the game, who is expected to work towards their own goals (winning the game). This other player will possibly interact with ﬁrst agent in a more engaging way than the environment or any non-playing character may do. The top competition entries are analyzed in detail and the performance of all agents is compared across the four sets of games. The results validate the competition system in assessing generality, as well as showing Monte Carlo Tree Search continuing to dominate by winning the overall Championship. However, this approach is closely followed by Rolling Horizon Evolutionary Algorithms, employed by the winner of the second leg of the contest. 
+    tags:
+        - Competitions
+        - GVGAI
 -   id: gaina2019sparse-rewards
     type: inproceedings
     highlight: core
@@ -107,6 +121,9 @@
     pdf: true
     repo: "https://github.com/rdgain/ExperimentData/tree/SparseRewards"
     abstract: One of the issues general AI game players are required to deal with is the different reward systems in the variety of games they are expected to be able to play at a high level. Some games may present plentiful rewards which the agents can use to guide their search for the best solution, whereas others feature sparse reward landscapes that provide little information to the agents. The work presented in this paper focuses on the latter case, which most agents struggle with. Thus, modifications are proposed for two algorithms, Monte Carlo Tree Search and Rolling Horizon Evolutionary Algorithms, aiming at improving performance in this type of games while maintaining overall win rate across those where rewards are plentiful. Results show that longer rollouts and individual lengths, either fixed or responsive to changes in fitness landscape features, lead to a boost of performance in the games during testing without being detrimental to non-sparse reward scenarios.
+    tags:
+        - Search & Planning
+        - GVGAI
 -   id: gaina2018vertigo
     type: inproceedings
     highlight: core
@@ -120,6 +137,8 @@
     repo: "https://github.com/rdgain/VERTIGO"
     youtube: "https://youtu.be/0t4xWEIvc1M"
     abstract: This report presents a tool developed for the analysis and visualisation of Rolling Horizon Evolutionary Algorithms, featuring a GUI which allows integration within the General Video Game AI Framework. Users are able to easily customize the parameters of the agent between runs and observe an in-depth analysis of its performance through various visual information extracted from gameplay data, live while playing the game. This visualisation aims to inform a deeper analysis into algorithm behaviour, in an attempt to justify why they make the decisions they do and improve their performance based on this knowledge.
+    tags:
+        - Evolutionary Algorithms
 -   id: gaina2018win
     type: inproceedings
     highlight: first
@@ -139,6 +158,8 @@
     repo: "https://github.com/rdgain/ExperimentData/tree/GeneralWinPred-CIG-18"
     abstract: "The question of whether the correct algorithm is used for the problem at hand usually comes at the end of execution, when the algorithm's ability to solve the problem (or not) can be verified. But what if this question could be answered in advance, with enough notice to make changes in the approach in order for it to be more successful? This paper proposes a general agent performance prediction system, tested in real time within the context of the General Video Game AI framework. It is solely based on agent features, therefore removing potential human bias produced by game-based features observed in known games. Three different models can be queried while playing the game to determine whether the agent will win or lose, based on the current game state: early, mid and late game feature models. The models are trained on 80 games in the framework and tested on 20 new games, for 14 variations of 3 different methods. Results are positive, indicating that there is great scope for predicting the outcome of any given game."
     url: https://ieeexplore.ieee.org/document/8490439
+    tags:
+        - Machine Learning
 -   id: perez2019gvgaisurvey
     type: article
     highlight: none
@@ -158,6 +179,8 @@
     pdf: true
     repo: "https://github.com/GAIGResearch/GVGAI"
     abstract: General Video Game Playing (GVGP) aims at designing an agent that is capable of playing multiple video games with no human intervention. In 2014, The General Video Game AI (GVGAI) competition framework was created and released with the purpose of providing researchers a common open-source and easy to use platform for testing their AI methods with potentially infinity of games created using Video Game Description Language (VGDL). The framework has been expanded into several tracks during the last few years to meet the demand of different research directions. The agents are required either to play multiple unknown games with or without access to game simulations, or to design new game levels or rules. This survey paper presents the VGDL, the GVGAI framework, existing tracks, and reviews the wide use of GVGAI framework in research, education and competitions five years after its birth. A future plan of framework improvements is also described.
+    tags:
+        - GVGAI
 -   id: sironi2018mctsGVGP
     type: inproceedings
     highlight: none
@@ -173,6 +196,10 @@
     pdf: true
     abstract:  Monte-Carlo Tree Search (MCTS) has shown particular success in General Game Playing (GGP) and General Video Game Playing (GVGP) and many enhancements and variants have been developed. Recently, an on-line adaptive parameter tuning mechanism for MCTS agents has been proposed that almost achieves the same performance as off-line tuning in GGP. In this paper we apply the same approach to GVGP and use the popular General Video Game AI (GVGAI) framework, in which the time allowed to make a decision is only 40ms. We design three Self-Adaptive MCTS (SA-MCTS) agents that optimize on-line the parameters of a standard non-Self-Adaptive MCTS agent of GVGAI. The three agents select the parameter values using Naïve Monte-Carlo, an Evolutionary Algorithm and an N-Tuple Bandit Evolutionary Algorithm respectively, and are tested on 20 single-player games of GVGAI. The SA-MCTS agents achieve more robust results on the tested games. With the same time setting, they perform similarly to the baseline standard MCTS agent in the games for which the baseline agent performs well, and significantly improve the win rate in the games for which the baseline agent performs poorly. As validation, we also test the performance of non-Self-Adaptive MCTS instances that use the most sampled parameter settings during the on-line tuning of each of the three SA-MCTS agents for each game. Results show that these parameter settings improve the win rate on the games Wait for Breakfast and Escape by 4 times and 150 times, respectively.
     url: https://link.springer.com/chapter/10.1007/978-3-319-77538-8_25
+    tags:
+        - Search & Planning
+        - MCTS
+        - GVGAI
 -   id: perez2017macro-physics
     type: inproceedings
     highlight: core
@@ -188,6 +215,8 @@
     pdf: true
     url: http://ieeexplore.ieee.org/document/8080443/
     abstract: "The General Video Game AI Framework has featured multiple games and several tracks since the ﬁrst competition in 2014. Although the games of the framework are very assorted in nature, there is an underlying commonality with respect to the physics that govern the game: all of them are based on a grid where the sprites make discrete movements, which is not expressive enough to cover any meaningful physics. This paper introduces an enhanced physics system that brings real-world physics such as friction, inertia and other forces to the framework. We also introduce macro-actions for the ﬁrst time in GVGAI in two different controllers, Rolling Horizon Evolution and Monte Carlo Tree Search. Their usefulness is demonstrated inanewsetofgamesthatexploitsthesenewphysicsfeatures.Our results show that macro-actions can help controllers in certain situations and games, although there is a strong dependency on the game played when selecting which conﬁguration ﬁts best."
+    tags:
+        - GVGAI
 -   id: perez2018multi
     type: inproceedings
     highlight: none
@@ -200,6 +229,9 @@
     arxiv: https://arxiv.org/abs/1901.08129
     youtube: "https://youtu.be/B4GbuPWlC5Q"
     abstract: Learning in multi-agent scenarios is a fruitful research direction, but current approaches still show scalability problems in multiple games with general reward settings and different opponent types. The Multi-Agent Reinforcement Learning in MalmÖ (MARLÖ) competition is a new challenge that proposes research in this domain using multiple 3D games. The goal of this contest is to foster research in general agents that can learn across different games and opponent types, proposing a challenge as a milestone in the direction of Artificial General Intelligence.
+    tags:
+        - Competitions 
+        - Reinforcement Learning
 -   id: gaina2019thyia
     type: inproceedings
     highlight: core
@@ -214,6 +246,8 @@
     arxiv: http://arxiv.org/abs/1906.04023
     youtube: "https://youtu.be/ruwH-lsIYcE"
     abstract: "The space of Artificial Intelligence entities is dominated by conversational bots. Some of them fit in our pockets and we take them everywhere we go, or allow them to be a part of human homes. Siri, Alexa, they are recognised as present in our world. But a lot of games research is restricted to existing in the separate realm of software. We enter different worlds when playing games, but those worlds cease to exist once we quit. Similarly, AI game-players are run once on a game (or maybe for longer periods of time, in the case of learning algorithms which need some, still limited, period for training), and they cease to exist once the game ends. But what if they didn’t? What if there existed artificial game-players that continuously played games, learned from their experiences and kept getting better? What if they interacted with the real world and us, humans: livestreaming games, chatting with viewers, accepting suggestions for strategies or games to play, forming opinions on popular game titles? In this paper, we introduce the vision behind a new project called Thyia, which focuses around creating a present, continuous, ‘always-on’, interactive game-player."
+    tags:
+        - Evolutionary Algorithms
 -   id: gaina2019audio
     type: inproceedings
     highlight: first
@@ -228,6 +262,9 @@
     arxiv: http://arxiv.org/abs/1906.04027
     repo: "https://github.com/rdgain/GVGAI-Sound"
     abstract: Game-playing AI research has focused for a long time on learning to play video games from visual input or symbolic information. However, humans benefit from a wider array of sensors which we utilise in order to navigate the world around us. In particular, sounds and music are key to how many of us perceive the world and influence the decisions we make. In this paper, we present initial experiments on game-playing agents learning to play video games solely from audio cues. We expand the Video Game Description Language to allow for audio specification, and the General Video Game AI framework to provide new audio games and an API for learning agents to make use of audio observations. We analyse the games and the audio game design process, include initial results with simple Q-Learning agents, and encourage further research in this area.
+    tags:
+        - Machine Learning 
+        - Audio
 -   id: drageset2019generator
     type: inproceedings
     highlight: none
@@ -240,6 +277,8 @@
     url: https://ieeexplore.ieee.org/document/8847961
     pdf: true
     abstract: "Procedural Content Generation is an active area of research, with more interest being given recently to methods able to produce interesting content in a general context (without task-specific knowledge). To this extent, we focus on procedural level generators within the General Video Game AI framework (GVGAI). This paper proposes several topics of interest. First, a comparison baseline for GVGAI level generators, which is more flexible and robust than the existing alternatives. Second, a composite fitness evaluation function for levels based on AI play-testing. Third, a new parameterized generator, and a Meta Generator for performing parameter search on such generators are introduced. We compare the Meta Generator against random and constructive generator baselines, using the new fitness function, on 3 GVGAI games: Butterflies, Freeway and The Snowman. The Meta Generator is suggested to perform on par with or better than the baselines, depending on the game. Encouraged by these results, the Meta Generator will be submitted to the 2019 GVGAI Level Generation competition."
+    tags:
+        - Procedural Content Generation
 -   id: dockhorn2019unforgiving
     type: inproceedings
     highlight: none
@@ -252,6 +291,9 @@
     url: https://ieeexplore.ieee.org/document/8848044
     pdf: true
     abstract: This paper examines learning approaches for forward models based on local cell transition function. We provide a formal definition of local forward models for which we propose two learning approaches. Our analysis is based on the game Sokoban, where a wrong action can lead to an unsolvable game state. Therefore, an accurate prediction of an  action's resulting state is necessary to avoid this scenario. In contrast to learning the complete state transition function, local forward models allow extracting multiple training examples from a single state transition. In this way, the Hash Set model, as well as the Decision Tree model, quickly learn to predict upcoming state transitions of both the training and the test set. Applying the model using a statistical forward planner showed that the best models can be used to satisfying degree even in cases in which the test levels have not yet been seen. Our evaluation includes an analysis of various local neighbourhood patterns and sizes to test the learners' capabilities in case too few or too many attributes are extracted, of which the latter has shown do degrade the performance of the model learner.   
+    tags:
+        - Machine Learning
+        - Forward Models
 -   id: lucas2019gog
     type: inproceedings
     highlight: none
@@ -265,6 +307,9 @@
     pdf: true
     arxiv: https://arxiv.org/abs/1903.12508
     abstract: This paper investigates the effect of learning a forward model on the performance of a statistical forward planning agent. We transform Conway's Game of Life simulation into a single-player game where the objective can be either to preserve as much life as possible or to extinguish all life as quickly as possible. In order to learn the forward model of the game, we formulate the problem in a novel way that learns the local cell transition function by creating a set of supervised training data and predicting the next state of each cell in the grid based on its current state and immediate neighbours. Using this method we are able to harvest sufficient data to learn perfect forward models by observing only a few complete state transitions, using either a look-up table, a decision tree, or a neural network. In contrast, learning the complete state transition function is a much harder task and our initial efforts to do this using deep convolutional auto-encoders were less successful. We also investigate the effects of imperfect learned models on prediction errors and game-playing performance, and show that even models with significant errors can provide good performance.
+    tags:
+        - Machine Learning
+        - Forward Models
 -   id: lucas2019efficient
     type: inproceedings
     highlight: none
@@ -275,6 +320,8 @@
     pdf: true
     arxiv: https://arxiv.org/abs/1901.00723
     abstract: This paper introduces a simple and fast variant of Planet Wars as a test-bed for statistical planning based Game AI agents, and for noisy hyper-parameter optimisation.  Planet Wars is a real-time strategy game with simple rules but complex game-play. The variant introduced in this paper is designed for speed to enable efficient experimentation, and also for a fixed action space to enable practical inter-operability with General Video Game AI agents. If we treat the game as a win-loss game (which is standard), then this leads to challenging noisy optimisation problems both in tuning agents to play the game, and in tuning game parameters. Here we focus on the problem of tuning an agent, and report results using the recently developed N-Tuple Bandit Evolutionary Algorithm and a number of other optimisers, including Sequential Model-based Algorithm Configuration (SMAC). Results indicate that the N-Tuple Bandit Evolutionary Algorithm offers competitive performance as well as insight into the effects of combinations of parameter choices.
+    tags:
+        - Evolutionary Algorithms
 -   id: gaina2016gvgai2p
     type: inproceedings
     highlight: first
@@ -287,6 +334,9 @@
     url: "http://ieeexplore.ieee.org/document/7835911/"
     repo: "https://github.com/GAIGResearch/GVGAI"
     abstract: This paper presents a new track of the General Video Game AI competition for generic Artiﬁcial Intelligence agents, which features both competitive and cooperative real time stochastic two player games. The aim of the competition is to directly test agents against each other in more complex and dynamic environments, where there is an extra uncertainty in a game, consisting of the behaviour of the other player. The framework, server functionality and general competition setup are analysed and the results of the experiments with several sample controllers are presented. The results indicate that currently Open Loop Monte Carlo Tree Search is the overall leading algorithm on this set of games.
+    tags:
+        - GVGAI
+        - Competitions
 -   id: gvgaibook2019
     type: book
     highlight: none
@@ -300,6 +350,8 @@
     doi: 10.2200/S00944ED1V01Y201908GCI005
     repo: "https://github.com/GAIGResearch/GVGAI"
     abstract: "Research on general video game playing aims at designing agents or content generators that can perform well in multiple video games, possibly without knowing the game in advance and with little to no specific domain knowledge. The general video game AI framework and competition propose a challenge in which researchers can test their favorite AI methods with a potentially infinite number of games created using the Video Game Description Language. The open-source framework has been used since 2014 for running a challenge. Competitors around the globe submit their best approaches that aim to generalize well across games. Additionally, the framework has been used in AI modules by many higher-education institutions as assignments, or as proposed projects for final year (undergraduate and Master's) students and Ph.D. candidates. The present book, written by the developers and organizers of the framework, presents the most interesting highlights of the research performed by the authors during these years in this domain. It showcases work on methods to play the games, generators of content, and video game optimization. It also outlines potential further work in an area that offers multiple research directions for the future."
+    tags:
+        - GVGAI
 -   id: perez2019pommerman
     type: inproceedings
     highlight: none
@@ -314,6 +366,8 @@
     url: "https://wvvw.aaai.org/ojs/index.php/AIIDE/article/view/5226"
     repo: "https://github.com/GAIGResearch/java-pommerman"
     abstract: "Pommerman is a complex multi-player and partially observable game where agents try to be the last standing to win. This game poses very interesting challenges to AI, such as collaboration, learning and planning. In this paper, we compare two Statistical Forward Planning algorithms, Monte Carlo Tree Search (MCTS) and Rolling Horizon Evolutionary Algorithm (RHEA) in Pommerman. We provide insights on how the agents actually play the game, inspecting their behaviours to explain their performance. Results show that MCTS outperforms RHEA in several game settings, but leaving room for multiple avenues of future work: tuning these methods, improving opponent modelling, identifying trap moves and introducing of assumptions for partial observability settings."
+    tags:
+        - Search & Planning
 -   id: gaina2020rhea
     type: article
     highlight: core
@@ -325,6 +379,8 @@
     pdf: true
     repo: "https://github.com/rdgain/ExperimentData/tree/NTBEA-RHEA-2019"
     abstract: "Game-playing Evolutionary Algorithms, specifically Rolling Horizon Evolutionary Algorithms, have recently managed to beat the state of the art in performance across many games. However, the best results per game are highly dependent on the specific configuration of modifications and hybrids introduced over several works, each described as parameters in the algorithm. However, the search for the best parameters has been reduced to several human-picked combinations, as the possibility space has grown beyond exhaustive search. This paper presents the state of the art in Rolling Horizon Evolutionary algorithms, combining all modifications described in literature and some additional ones for a large resultant hybrid. It then uses a parameter optimiser, the N-Tuple Bandit Evolutionary Algorithm, to find the best combination of parameters in 20 games with various properties from the General Video Game AI Framework. We highlight the noisy optimisation problem resultant, as both the games and the algorithm being optimised are stochastic. We then analyse the algorithm's parameters and interesting combinations revealed through the parameter optimisation process. Lastly, we show that it is possible to automatically explore a large parameter space and find configurations which outperform the state of the art on several games."
+    tags:
+        - Evolutionary Algorithms
 -   id: montoliu2020cards
     type: inproceedings
     highlight: none
@@ -339,6 +395,9 @@
     doi: https://doi.org/10.1007/978-3-030-43722-0_26
     ISBN: 978-3-030-43722-0
     abstract: "Turn-based multi-action adversarial games are challenging scenarios in which each player turn consists of a sequence of atomic actions. The order in which an AI agent runs these atomic actions may hugely impact the outcome of the turn. One of the main challenges of game artificial intelligence is to design a heuristic function to help agents to select the optimal turn to play, given a particular state of the game. In this paper, we report results using the recently developed N-Tuple Bandit Evolutionary Algorithm to tune the heuristic function parameters. For evaluation, we measure how the tuned heuristic function affects the performance of the state-of-the-art evolutionary algorithm Online Evolution Planning. The multi-action adversarial strategy card game Legends of Code and Magic was used as a testbed. Results indicate that the NTuple Bandit Evolutionary Algorithm can effectively tune the heuristic function parameters to improve the performance of the agent."
+    tags:
+        - Evolutionary Algorithms
+        - Tabletop Board Games
 -   id: gaina2020onlinerhea
     type: inproceedings
     highlight: core
@@ -352,6 +411,8 @@
     youtube: "https://youtu.be/pTxSJHREpuc"
     repo: "https://github.com/rdgain/ExperimentData/tree/RHEA-Online-Tuning-20"
     abstract: "For general video game playing agents, the biggest challenge is adapting to the wide variety of situations they encounter and responding appropriately. Some success was recently achieved by modifying search-control parameters in agents on-line, during one play-through of a game. We propose adapting such methods for Rolling Horizon Evolutionary Algorithms, which have shown high performance in many different environments, and test the effect of on-line adaptation on the agent’s win rate. On-line tuned agents are able to achieve results comparable to the state of the art, including ﬁrst win rates in hard problems, while employing a more general and highly adaptive approach. We additionally include further insight into the algorithm itself, given by statistics gathered during the tuning process and highlight key parameter choices."
+    tags:
+        - Evolutionary Algorithms
 -   id: perez2020rhneat
     type: inproceedings
     highlight: core
@@ -362,6 +423,8 @@
     pdf: true
     repo: "https://github.com/GAIGResearch/rhNEAT"
     abstract: "This paper presents a new Statistical Forward Planning (SFP) method, Rolling Horizon NeuroEvolution of Augmenting Topologies (rhNEAT). Unlike traditional Rolling Horizon Evolution, where an evolutionary algorithm is in charge of evolving a sequence of actions, rhNEAT evolves weights and connections of a neural network in real-time, planning several steps ahead before returning an action to execute in the game. Different versions of the algorithm are explored in a collection of 20 GVGAI games, and compared with other SFP methods and state of the art results. Although results are overall not better than other SFP methods, the nature of rhNEAT to adapt to changing game features has allowed to establish new state of the art records in games that other methods have traditionally struggled with. The algorithm proposed here is general and introduces a new way of representing information within rolling horizon evolution techniques."
+    tags:
+        - Evolutionary Algorithms
 -   id: perez2020tribes
     type: inproceedings
     highlight: none
@@ -372,6 +435,9 @@
     pdf: true
     repo: "https://github.com/GAIGResearch/Tribes"
     abstract: "This paper introduces Tribes, a new turn-based strategy game framework. Tribes is a multi-player, multi-agent, stochastic and partially observable game that involves strategic and tactical combat decisions. A good playing strategy requires the management of a technology tree, build orders and economy. The framework provides a Forward Model, which can be used by Statistical Forward Planning methods. This paper describes the framework and the opportunities for Game AI research it brings. We further provide an analysis on the action space of this game, as well as benchmarking a series of agents (rule based, one step look-ahead, Monte Carlo, Monte Carlo Tree Search, and Rolling Horizon Evolution) to study their relative playing strength. Results show that although some of these agents can play at a decent level, they are still far from human playing strength."
+    tags:
+        - Search & Planning
+        - Multiagent
 -   id: gaina2020tag
     type: inproceedings
     highlight: first
@@ -384,6 +450,8 @@
     talkppt: true
     repo: "https://github.com/GAIGResearch/TabletopGames"
     abstract: "Tabletop games come in a variety of forms, including board games, card games, and dice games. In recent years, their complexity has considerably increased, with many components, rules that change dynamically through the game, diverse player roles, and a series of control parameters that influence a game's balance. As such, they also encompass novel and intricate challenges for Artificial Intelligence methods, yet research largely focuses on classical board games such as chess and Go. We introduce in this work the Tabletop Games (TAG) framework, which promotes research into general AI in modern tabletop games, facilitating the implementation of new games and AI players, while providing analytics to capture the complexities of the challenges proposed. We include preliminary results with sample AI players, showing some moderate success, with plenty of room for improvement, and discuss further developments and new research directions."
+    tags:
+        - Tabletop Board Games
 -   id: gaina2020tagdesign
     type: article
     highlight: first
@@ -397,6 +465,8 @@
     talkppt: false
     repo: "https://github.com/GAIGResearch/TabletopGames"
     abstract: "This document describes the design and implementation of the Tabletop Games framework (TAG), a Java-based benchmark for developing modern board games for AI research. TAG provides a common skeleton for implementing tabletop games based on a common API for AI agents, a set of components and classes to easily add new games and an import module for defining data in JSON format. At present, this platform includes the implementation of seven different tabletop games that can also be used as an example for further developments. Additionally, TAG also incorporates logging functionality that allows the user to perform a detailed analysis of the game, in terms of action space, branching factor, hidden information, and other measures of interest for Game AI research. The objective of this document is to serve as  a central point where the framework can be described at length. TAG can be downloaded at: https://github.com/GAIGResearch/TabletopGames"
+    tags:
+        - Tabletop Board Games
 -   id: gaina2021phd
     type: phdthesis
     highlight: thesis
@@ -409,6 +479,10 @@
     talkpdf: false
     talkppt: false
     abstract: "General video game playing aims to design an artificial agent capable of rational thought, which would achieve high-level play in any game, thus needing to remove domain knowledge and introduce techniques to gather information and statistics about the previously unknown game. While Monte Carlo Tree Search has dominated the area, Rolling Horizon Evolutionary Algorithms (RHEA) were shown in early work to have the potential of reaching an even better performance. This thesis presents a series of experiments carried out to analyse the performance and behaviour of RHEA, which evolves, online, a sequence of actions to play in a game. We analyse its various properties and parameters, as well as combinations with other algorithms. Results obtained are favourable and outperform previous state-of-the-art in several games. A deeper visual analysis tool, VERTIGO, was created to enable the capture of statistics live during any of the games within the General Video Game AI framework. The features extracted were also used to predict RHEA's performance, with great results even from the very early stages of a game. The multitude of parameters resulting from the several studies led to work on automatic optimisation, using the N-Tuple Bandit Evolutionary Algorithm and several other simpler methods. The algorithm's parameters were tuned both offline and online with mixed results, but high promise is found in helping the algorithm generalise better across a wider range of games, and even observe first win rates in extremely difficult environments. Applications of the algorithm in different games are also explored: RHEA is very aggressive in Pommerman, competitive in Tribes and a top contender in tabletop and real-life physics-simulating games. The thesis finally discusses new research directions and how RHEA could interact with humans and other artificial systems within the context of a present, continuous, 'always-on', interactive game-playing entity."
+    tags:
+        - Evolutionary Algorithms
+        - GVGAI 
+        - Tabletop Board Games
 -   id: gaina2021terraforming
     type: inproceedings
     highlight: first
@@ -421,6 +495,8 @@
     talkppt: false
     repo: "https://github.com/GAIGResearch/TabletopGames"
     abstract: "Games and Artificial Intelligence (AI) have had a tight relationship for many years. A multitude of games have been used as environments in which AI players can learn to act and interact with others or the game mechanics directly; used as optimisation problems; used as generators of large amounts of data which can be analysed to learn about the game, or about the players; or used as containers of content which can be automatically generated by AI methods. Yet many of these environments have been very simple and limited in scope. We propose here a much more complex environment based on the boardgame Terraforming Mars, implemented as part of the Tabletop Games Framework: a very large and dynamic action space, hidden information, large amounts of content, resource management and high variability make this problem domain stand out in the current landscape and a very interesting problem for AI methods of multiple domains. We include results of baseline AI game-players in this game and in-depth analysis of the game itself, together with an exploration of problem complexity, challenges and opportunities."
+    tags:
+        - Tabletop Board Games
 -   id: gaina2022pandemic
     type: inproceedings
     highlight: first
@@ -433,6 +509,9 @@
     talkppt: false
     repo: "https://github.com/GAIGResearch/TabletopGames"
     abstract: "Cooperation between humans and AI is an area of research explored more frequently in recent literature. Yet environments used for this purpose are generally lacking in complexity. In this paper we describe the first Tabletop Games Framework (TAG) competition designed around the board game Pandemic: a cooperative game where players aim to cure the world of disease. We discuss the many AI challenges introduced through this environment, detail the competition setup, present baseline results for sample AI players and explore the game parameter space for interesting insights, such as the most dominant player roles: the Scientist and the Medic."
+    tags:
+        - Tabletop Board Games
+        - Competitions
 -   id: balla2023pytag
     type: inproceedings
     highlight: core
@@ -444,6 +523,9 @@
     talkpdf: false
     talkppt: false
     abstract: "In recent years, Game AI research has made important breakthroughs using Reinforcement Learning (RL). Despite this, RL for modern tabletop games has gained little to no attention, even when they offer a range of unique challenges compared to video games. To bridge this gap, we introduce PyTAG, a Python API for interacting with the Tabletop Games framework (TAG). TAG contains a growing set of more than 20 modern tabletop games, with a common API for AI agents. We present techniques for training RL agents in these games and introduce baseline results after training Proximal Policy Optimisation algorithms on a subset of games. Finally, we discuss the unique challenges complex modern tabletop games provide, now open to RL research through PyTAG."
+    tags:
+        - Tabletop Board Games
+        - Reinforcement Learning
 -   id: best2024journeys
     type: inproceedings
     highlight: core
@@ -456,6 +538,9 @@
     pages: 2--12,
     pdf: true
     abstract: "The Game Master is a player role synonymous with many tabletop games. The asymmetric gameplay of the role provides different opportunities compared to other players, and can be both cooperative and competitive with the other players in the same game. Though complex environments for exploring human and Artificial Intelligence collaboration exist, few focus on the Game Master role's semi-cooperative play. Here, we propose a new complex environment based on the board game `Descent: Journeys in the Dark (Second Edition)', as part of the Tabletop Games Framework, showcasing one-versus-many play, tactical combat, and large, dynamic action and state spaces. We include baseline AI player performance of Monte Carlo Tree Search agents in this game, finding them to be well-adept at considering multiple possible end-game conditions compared to the greedy One Step Look Ahead agents. In-depth analysis reveals interesting behaviours and Hero synergies, with the aim of informing the design of games and AI models to enhance human experience in semi-cooperative environments."
+    tags:
+        - Tabletop Board Games
+        - Game Master AI
 -   id: nguyen2024unveiling
     type: inproceedings
     highlight: core
@@ -468,6 +553,9 @@
     pages: 1--4,
     pdf: true
     abstract: "There has been growing interest in modern board games, which have been increasing in complexity with respect to their classic counterparts (e.g. Chess, Go), by utilizing new mechanics and novel ways to interact with them, resulting in richer player interaction. Boardgamegeek.com (BGG) is the biggest forum for board games and it now has registered 191 different mechanics. Users can rate games on the forum and BGG will rank them accordingly.  This work aims to investigate how mechanics relate to player ratings using a Decision Regression Tree (RT) to predict the expected rating based on a game's mechanics. To achieve this we collect mechanics and player ratings data of all ranked games on BGG and train our Regression Tree. After training the RT and further extending it with Random Forest (RF), we use Mean Decrease in Impurity (MDI) and Permutation Feature Importance (PFI) to evaluate how much each mechanic influences the player ratings. We show that, using only game mechanics, Regression Tree and Random Forest can account for 28% and 32% of the variance in games' ratings, respectively. We highlight the interpretability of RT and how it can be used to gain insights into the relationship between game mechanics and player ratings."
+    tags:
+        - Tabletop Board Games
+        - Machine Learning
 -   id: gutierrez2025playtraces
     type: inproceedings
     highlight: none
@@ -477,6 +565,9 @@
     year: 2025
     pdf: false
     abstract: "This paper addresses the challenge of explaining gameplay behaviours and traces in video games using methods based on linear temporal logics (LTL). Applications for this range from classifying a player's game-style to craft personalised user experiences, to exploring the most significant behaviour patterns within a set of trajectories, particularly in the context of data-driven design and quality control assisted by black-box algorithms. We divide the problem into two complementary tasks. First, to infer a temporal characterisation of a registered play-style by means of a predicate in LTL from a set of representative traces and potential counterexamples. Second, to classify a diverse set of traces into groups in order to identify behavioural patterns within the samples. The first problem focuses on recognising what makes a behaviour unique when compared to others, while the second problem seeks to detect meaningful patterns in groups of players. For the first task, we propose a series of heuristic search methods in the LTL predicate space, such as Monte Carlo Tree Search and Grammatical Evolution. For the second, we introduce a new algorithm that clusters traces based on predicates that split them into cohesive sets, demonstrating how the methods of the first problem can be extrapolated to the latter. Both approaches are evaluated with practical experiments on a 3D third-person stealth game developed in Unity 3D, showcasing how these techniques can be used for analysis. Preliminary results obtained with real player traces provide evidence that these methodologies can support a more comprehensive understanding of observed behaviours."
+    tags:
+        - Tabletop Board Games
+        - Explainable AI
 -   id: eberhardinger2025code
     type: article
     highlight: none
@@ -487,3 +578,6 @@
     year: 2025
     pdf: false
     abstract: Large language models (LLMs) have shown impressive capabilities in generating program code, opening exciting opportunities for applying program synthesis to games. In this work, we explore the potential of LLMs to write usable code for a wide range of gaming applications, focusing on two programming languages, Python and Java. We use a hill-climbing algorithm, where the mutations and seeds of the initial programs are controlled by LLMs. For Python, the framework covers various game-related tasks, including five miniature versions of Atari games, ten levels of Baba is You, an environment inspired by Asteroids, and a maze generation task. For Java, the framework contains 12 games from the TAG tabletop games framework. Across 29 tasks, we evaluated 11 language models for generating Python and Java code. Our findings suggest that the performance of LLMs depends more on the task than on model size. In addition, the experiments show that running the program search algorithm multiple times with fewer iterations is better than a single run with more iterations.
+    tags:
+        - Tabletop Board Games
+        - LLM 
