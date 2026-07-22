@@ -1,0 +1,388 @@
+/* ==========================================================
+   Research Page
+   ========================================================== */
+
+.research-page {
+
+    max-width: 1100px;
+    margin: 0 auto;
+
+}
+
+/* ==========================================================
+   Sections
+   ========================================================== */
+
+.research-page section {
+
+    margin: 4rem 0;
+
+}
+
+.research-page h2 {
+
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: 700;
+
+}
+
+/* ==========================================================
+   Hero
+   ========================================================== */
+
+.research-hero {
+
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 3rem;
+    align-items: start;
+    margin-bottom: 4rem;
+
+}
+
+.research-intro h1 {
+
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+
+}
+
+.research-intro .lead {
+
+    font-size: 1.25rem;
+    line-height: 1.7;
+    color: #555;
+    margin-bottom: 1.5rem;
+
+}
+
+.research-intro p {
+
+    line-height: 1.8;
+    margin-bottom: 1.2rem;
+
+}
+
+/* ==========================================================
+   Stats
+   ========================================================== */
+
+.research-stats {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+
+}
+
+.research-stats .stat {
+
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 1.5rem;
+    text-align: center;
+    transition: .2s;
+
+}
+
+.research-stats .stat:hover {
+
+    transform: translateY(-3px);
+
+}
+
+.research-stats .number {
+
+    font-size: 2rem;
+    font-weight: 700;
+    color: #2563eb;
+
+}
+
+.research-stats .label {
+
+    margin-top: .4rem;
+    color: #666;
+    font-size: .95rem;
+
+}
+
+/* ==========================================================
+   Theme Grid
+   ========================================================== */
+
+.theme-grid {
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+
+}
+
+.theme-card {
+
+    display: flex;
+    flex-direction: column;
+
+    background: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 14px;
+    padding: 1.75rem;
+
+    box-shadow: 0 4px 12px rgba(0,0,0,.05);
+    transition: .2s;
+
+}
+
+.theme-card:hover {
+
+    transform: translateY(-4px);
+    box-shadow: 0 10px 28px rgba(0,0,0,.08);
+
+}
+
+.theme-card h3 {
+
+    margin-top: 0;
+    margin-bottom: 1rem;
+
+}
+
+.theme-card p {
+
+    flex: 1;
+    color: #555;
+    line-height: 1.7;
+
+}
+
+.theme-card a {
+
+    margin-top: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+
+}
+
+/* ==========================================================
+   Theme Tags
+   ========================================================== */
+
+.theme-tags {
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+    margin-top: 1rem;
+
+}
+
+.theme-tags span {
+
+    background: #eef4ff;
+    color: #2f6fff;
+
+    border-radius: 999px;
+
+    padding: .35rem .8rem;
+
+    font-size: .82rem;
+    font-weight: 600;
+
+}
+
+/* ==========================================================
+   Theme Counts
+   ========================================================== */
+
+.theme-count {
+
+    display: inline-block;
+
+    margin-left: .6rem;
+
+    padding: .2rem .6rem;
+
+    border-radius: 999px;
+
+    background: #f3f4f6;
+
+    color: #666;
+
+    font-size: .8rem;
+    font-weight: 500;
+
+}
+
+/* ==========================================================
+   Featured Projects
+   ========================================================== */
+
+.project-feature-grid {
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+
+}
+
+.project-feature {
+
+    background: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 14px;
+
+    padding: 2rem;
+
+    box-shadow: 0 4px 12px rgba(0,0,0,.05);
+
+    transition: .2s;
+
+}
+
+.project-feature:hover {
+
+    transform: translateY(-4px);
+
+}
+
+.project-feature h3 {
+
+    margin-top: 0;
+
+}
+
+.project-feature p {
+
+    color: #555;
+    line-height: 1.8;
+
+}
+
+/* ==========================================================
+   Leadership
+   ========================================================== */
+
+.leadership-grid {
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+
+}
+
+.leadership-grid > div {
+
+    background: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 14px;
+
+    padding: 2rem;
+
+    box-shadow: 0 4px 12px rgba(0,0,0,.05);
+
+}
+
+.leadership-grid h3 {
+
+    margin-top: 0;
+    margin-bottom: 1rem;
+
+}
+
+.leadership-grid ul {
+
+    margin: 0;
+    padding-left: 1.2rem;
+
+}
+
+.leadership-grid li {
+
+    margin-bottom: .75rem;
+    line-height: 1.6;
+
+}
+
+/* ==========================================================
+   Bottom CTA
+   ========================================================== */
+
+.research-publications {
+
+    text-align: center;
+    margin-top: 4rem;
+
+}
+
+.button-primary {
+
+    display: inline-block;
+
+    background: #2563eb;
+    color: white !important;
+
+    padding: .9rem 1.8rem;
+
+    border-radius: 10px;
+
+    text-decoration: none;
+    font-weight: 600;
+
+    transition: .2s;
+
+}
+
+.button-primary:hover {
+
+    background: #1d4ed8;
+    transform: translateY(-2px);
+
+}
+
+/* ==========================================================
+   Responsive
+   ========================================================== */
+
+@media (max-width: 900px) {
+
+    .research-hero {
+
+        grid-template-columns: 1fr;
+
+    }
+
+    .research-stats {
+
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .research-stats {
+
+        grid-template-columns: 1fr;
+
+    }
+
+    .theme-grid,
+    .project-feature-grid,
+    .leadership-grid {
+
+        grid-template-columns: 1fr;
+
+    }
+
+    .research-intro h1 {
+
+        font-size: 2rem;
+
+    }
+
+}
