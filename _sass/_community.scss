@@ -1,0 +1,95 @@
+.community-page {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.community-page section {
+    margin: 4rem 0;
+}
+
+.community-page h2 {
+    margin-bottom: 2rem;
+}
+
+.community-hero {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 3rem;
+    margin-bottom: 4rem;
+}
+
+.community-intro .lead {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #555;
+}
+
+.community-stats {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.community-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+}
+
+.community-card {
+    background: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 14px;
+    padding: 2rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,.05);
+}
+
+.community-card h3 {
+    margin-top: 0;
+}
+
+.community-card p,
+.community-card li {
+    line-height: 1.7;
+    color: #555;
+}
+
+.community-card ul {
+    margin-bottom: 0;
+}
+
+.community-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+    margin-top: 1rem;
+}
+
+.community-tags span {
+    background: #eef4ff;
+    color: #2f6fff;
+    border-radius: 999px;
+    padding: .35rem .8rem;
+    font-size: .82rem;
+    font-weight: 600;
+}
+
+@media (max-width: 900px) {
+    .community-hero {
+        grid-template-columns: 1fr;
+    }
+
+    .community-stats {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .community-stats {
+        grid-template-columns: 1fr;
+    }
+
+    .community-grid {
+        grid-template-columns: 1fr;
+    }
+}
