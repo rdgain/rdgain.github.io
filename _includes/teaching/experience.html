@@ -1,0 +1,47 @@
+<section>
+
+<h2>Teaching Experience</h2>
+
+<div class="experience-list">
+
+{% for item in site.data.teaching.experience %}
+
+<div class="experience-item">
+
+<div class="experience-year">
+
+{{ item.years }}
+
+</div>
+
+<div class="experience-content">
+
+<h3>{{ item.module }}</h3>
+
+<p>
+
+<strong>{{ item.role }}</strong>
+
+{{ item.institution }}
+
+</p>
+
+{% if item.notes %}
+
+<p>
+
+{{ item.notes }}
+
+</p>
+
+{% endif %}
+
+</div>
+
+</div>
+
+{% endfor %}
+
+</div>
+
+</section>

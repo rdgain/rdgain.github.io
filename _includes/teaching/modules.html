@@ -1,0 +1,39 @@
+<section>
+
+<h2>Module Leadership</h2>
+
+<div class="module-grid">
+
+{% for module in site.data.teaching.modules %}
+
+<div class="module-card">
+
+<h3>{{ module.name }}</h3>
+
+<div class="module-meta">
+
+<span>{{ module.level }}</span>
+
+<span>{{ module.years }}</span>
+
+</div>
+
+<p>
+
+<strong>Role:</strong> {{ module.role }}
+
+</p>
+
+<p>
+
+{{ module.description }}
+
+</p>
+
+</div>
+
+{% endfor %}
+
+</div>
+
+</section>
