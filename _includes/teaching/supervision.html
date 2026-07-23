@@ -1,20 +1,46 @@
 <section>
 
-<h2>Student Supervision</h2>
+<h2>Research Projects Mentored</h2>
 
 <p>
 
 I have supervised undergraduate and postgraduate dissertations covering
-Game AI, reinforcement learning, procedural content generation, tabletop
-games, simulation, game engines and machine learning.
+reinforcement learning, game AI, tabletop games, machine learning,
+simulation, game engines and procedural content generation.
 
 </p>
 
-<div class="project-tags">
+<div class="student-project-grid">
 
 {% for project in site.data.teaching.projects %}
 
-<span>{{ project.title }}</span>
+<div class="student-project-card">
+
+<h3>{{ project.title }}</h3>
+
+<div class="student-subtitle">
+
+{{ project.subtitle }}
+
+</div>
+
+<p>
+
+{{ project.summary }}
+
+</p>
+
+<div class="student-tags">
+
+{% for tag in project.tags %}
+
+<span>{{ tag }}</span>
+
+{% endfor %}
+
+</div>
+
+</div>
 
 {% endfor %}
 

@@ -123,6 +123,87 @@
 
 }
 
+.student-project-grid{
+
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:2rem;
+
+    margin-top:2rem;
+
+}
+
+.student-project-card{
+
+    background:white;
+    border:1px solid #e5e7eb;
+    border-radius:14px;
+
+    padding:1.75rem;
+
+    box-shadow:0 4px 12px rgba(0,0,0,.05);
+
+    transition:.2s;
+
+}
+
+.student-project-card:hover{
+
+    transform:translateY(-4px);
+
+}
+
+.student-project-card h3{
+
+    margin:0;
+
+}
+
+.student-subtitle{
+
+    color:#2563eb;
+
+    font-weight:600;
+
+    margin:.5rem 0 1rem;
+
+}
+
+.student-project-card p{
+
+    line-height:1.7;
+
+    color:#555;
+
+}
+
+.student-tags{
+
+    display:flex;
+    flex-wrap:wrap;
+    gap:.5rem;
+
+    margin-top:1rem;
+
+}
+
+.student-tags span{
+
+    background:#eef4ff;
+
+    color:#2563eb;
+
+    border-radius:999px;
+
+    padding:.35rem .8rem;
+
+    font-size:.82rem;
+
+    font-weight:600;
+
+}
+
+
 @media (max-width:900px){
 
     .teaching-hero{

@@ -85,68 +85,136 @@ supervision:
 
   project_count: 25+
 
-  example_projects:
+  projects:
 
-    - Proximal Reward Shaping with Action Masking for a Pacifist NetHack Agent
+  - title: Pacifist NetHack Agent
+    subtitle: Proximal Reward Shaping with Action Masking
+    tags:
+      - Reinforcement Learning
+      - NetHack
+      - Deep RL
+    summary: >
+      Investigated reward shaping techniques for creating non-violent
+      reinforcement learning agents in NetHack.
 
-    - AI Replacement of Randomness in Board Games
+  - title: AI for Board Game Engagement
+    subtitle: Replacing Randomness with AI
+    tags:
+      - Tabletop Games
+      - AI
+      - Player Modelling
+    summary: >
+      Explored whether AI-controlled mechanics can improve player engagement
+      compared with traditional random elements.
 
-    - "TAG: Assessing General Game Playing Agents in Stratego"
+  - title: Stratego AI in TAG
+    subtitle: Partial Information Search
+    tags:
+      - TAG
+      - Tabletop Games
+      - Search
+    summary: >
+      Implemented and evaluated General Game Playing agents for Stratego
+      within the TAG Framework.
 
-    - Chess Win Prediction
+  - title: Chess Win Prediction
+    subtitle: Machine Learning
+    tags:
+      - Machine Learning
+      - Chess
+      - Data Analysis
+    summary: >
+      Developed predictive models estimating game outcomes from board state.
 
-    - Macro Actions for Open World Survival Games
+  - title: Macro Actions for Survival Games
+    subtitle: Decision Making
+    tags:
+      - Planning
+      - Game AI
+    summary: >
+      Investigated temporal abstractions for AI agents in open-world survival
+      games.
 
-    - Gameplay Strategy Influence in Gym-MicroRTS
+  - title: Gym-MicroRTS Strategy Learning
+    subtitle: Reinforcement Learning
+    tags:
+      - Reinforcement Learning
+      - MicroRTS
+    summary: >
+      Explored reward shaping techniques to influence strategic behaviour.
 
-    - Rolling Horizon Coevolutionary Minimax
+  - title: RHCA Minimax
+    subtitle: Rolling Horizon Coevolution
+    tags:
+      - Evolutionary Algorithms
+      - Search
+    summary: >
+      Extended Rolling Horizon algorithms to competitive adversarial domains.
 
-    - LSTM-based Text Autosuggestion
+  - title: LSTM Text Prediction
+    subtitle: Neural Networks
+    tags:
+      - Deep Learning
+      - NLP
+    summary: >
+      Built an autosuggestion system using recurrent neural networks.
 
-    - Phasic Policy Gradients in Gym-MicroRTS
+  - title: Highlight Detection in Tabletop Games
+    subtitle: Gameplay Analytics
+    tags:
+      - Computer Vision
+      - Tabletop Games
+    summary: >
+      Detected automatically interesting gameplay moments from game logs.
 
-    - Procedural Synthesis of Large Crowd Noise
+  - title: Root Decision Making
+    subtitle: Asymmetric Games
+    tags:
+      - Tabletop Games
+      - Search
+    summary: >
+      Studied AI strategies for asymmetric board games.
 
-    - Highlight Detection in Tabletop Games
+  - title: Zombie Shooter
+    subtitle: Unity Game Development
+    tags:
+      - Unity
+      - Game Development
+    summary: >
+      Developed an open-world zombie survival game in Unity.
 
-    - Decision-Making in Root
+  - title: Texas Hold'em AI
+    subtitle: Counterfactual Regret Minimisation
+    tags:
+      - CFR
+      - Poker
+      - Game Theory
+    summary: >
+      Investigated modern poker AI techniques for strategic play.
 
-    - Millport Camp – Open World Zombie Shooter
+  - title: ECS Game Engine
+    subtitle: C++
+    tags:
+      - C++
+      - Engine Programming
+    summary: >
+      Designed a complete ECS-based 2D game engine and editor.
 
-    - "TAG: Automatic Tutorial Generation"
+  - title: Everdell AI
+    subtitle: TAG Framework
+    tags:
+      - TAG
+      - Tabletop Games
+    summary: >
+      Digital implementation and AI analysis of Everdell.
 
-    - Procedural Content Generation with Rotating Maps
-
-    - Milo – Procedural Point-and-Click Adventure
-
-    - Time Bender Battle
-
-    - "TAG: Digital Implementation of Saboteur"
-
-    - "TAG: Counterfactual Regret Minimization for Texas Hold'em"
-
-    - ECS-based 2D Game Engine in C++
-
-    - Digital Implementation of Everdell
-
-    - "TAG: Calico Implementation and Analysis"
-
-    - Ticket to Ride AI Statistical Analysis
-
-    - Tabletop Game Development with TAG
-
-    - Azul AI Data Analysis
-
-  topics:
-
-    - Game AI
-    - Reinforcement Learning
-    - Evolutionary Algorithms
-    - Simulation
-    - Procedural Content Generation
-    - Computer Vision
-    - Machine Learning
-    - Game Development
+  - title: Ticket to Ride AI
+    subtitle: Statistical Analysis
+    tags:
+      - Tabletop Games
+      - Data Analysis
+    summary: >
+      Digital implementation with comparative evaluation of AI players.
 
 
 experience:
