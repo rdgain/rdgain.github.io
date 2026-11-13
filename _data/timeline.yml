@@ -3,7 +3,7 @@
   year: "2015"
   title: BSc Computer Games
   organisation: University of Essex
-  image: /assets/images/timeline/essex.jpg
+  image:
 
   description: >
     Obtained degree in BSc Computer Games, developing a strong interest in
@@ -28,7 +28,7 @@
 
   organisation: Queen Mary University of London
 
-  image: /assets/images/timeline/qmul.jpg
+  image:
 
   description: >
     Completed an MSc specialising in Computer Games, providing
@@ -55,7 +55,7 @@
 
   organisation: Queen Mary University of London
 
-  image: /assets/images/timeline/phd.jpg
+  image:
 
   description: >
     Conducted research into Rolling Horizon Evolutionary Algorithms,
@@ -82,7 +82,7 @@
 
   organisation: Queen Mary University of London
 
-  image: /assets/images/timeline/lecturer.jpg
+  image:
 
   description: >
     Taught Game Development and Computational Game Design, 
@@ -111,7 +111,7 @@
 
   organisation: Tabletop R&D
 
-  image: /assets/images/timeline/tag.jpg
+  image:
 
   description: >
     Co-founded a research company developing AI-powered testing services

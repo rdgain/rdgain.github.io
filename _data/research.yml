@@ -10,7 +10,7 @@ topics:
 
     years: "2016–2021"
 
-    image: /assets/images/research/rhea.jpg
+    image: /assets/images/projects/rhea.png
 
     tagline: >
       Planning algorithms capable of playing previously unseen games.
@@ -77,7 +77,7 @@ topics:
 
     years: "2016–Present"
 
-    image: /assets/images/research/gvgai.jpg
+    image: /assets/images/projects/gvgai.png
 
     tagline: >
       Artificial intelligence capable of playing unseen games.
@@ -131,7 +131,7 @@ topics:
 
     years: "2016–Present"
 
-    image: /assets/images/research/game-ai.jpg
+    image: /assets/images/projects/gvgai.png
 
     tagline: >
       Intelligent agents that play, analyse and improve games.
@@ -171,7 +171,7 @@ topics:
 
     years: "2022–Present"
 
-    image: /assets/images/research/tabletop.jpg
+    image: /assets/images/projects/tag.png
 
     tagline: >
       Bringing modern AI techniques to tabletop game design.
@@ -229,7 +229,7 @@ topics:
 
     years: "2018–Present"
 
-    image: /assets/images/research/pcg.jpg
+    image:
 
     tagline: >
       Automatically generating game content using computational methods.

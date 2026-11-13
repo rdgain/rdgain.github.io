@@ -6,7 +6,7 @@
 
   category: Software
 
-  image: /assets/images/projects/tag.jpg
+  image: /assets/images/projects/tag.png
 
   summary: >
     AI-powered framework for playtesting tabletop games using autonomous agents
@@ -45,7 +45,7 @@
 
   category: Research
 
-  image: /assets/images/projects/gvgai.jpg
+  image: /assets/images/projects/gvgai.png
 
   summary: >
     Research into general game-playing agents using Rolling Horizon
@@ -83,7 +83,7 @@
 
   category: Company
 
-  image: /assets/images/projects/tabletop.jpg
+  image: /assets/images/projects/tabletoprnd.png
 
   summary: >
     Co-founded a company developing AI technologies for tabletop games.

@@ -3,7 +3,7 @@
     <div class="case-study-image">
 
         <img
-            src="{{ include.project.image }}"
+            src="{{ include.project.image | relative_url }}"
             alt="{{ include.project.title }}"
         >
 
@@ -103,7 +103,7 @@
 
             <a
                 class="btn btn-secondary"
-                href="{{ include.project.links.papers }}"
+                href="{{ include.project.links.papers | relative_url }}"
             >
 
                 Publications

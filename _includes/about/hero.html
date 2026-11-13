@@ -2,7 +2,7 @@
 
     <div class="about-photo">
 
-        <img src="/assets/images/headshot8.jpg"
+        <img src="{{ '/assets/images/headshot8.jpg' | relative_url }}"
              alt="Raluca Gaina">
 
     </div>
@@ -38,7 +38,7 @@
 
         <div class="hero-buttons">
 
-            <a class="button primary" href="/assets/files/CV.pdf">
+            <a class="button primary" href="{{ site.data.links.cv | relative_url }}">
 
                 Download CV
 

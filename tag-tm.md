@@ -11,9 +11,7 @@ layout: default
 
 The code for running Terraforming Mars in TAG is publicly available in the <a href="https://github.com/GAIGResearch/TabletopGames">TAG Github repository</a>.
 
-You can also download a .jar executable file here: <a href="">DOWNLOAD</a>.
-
-Paper PDF: <a href="https://rdgain.github.io/assets/pdf/papers/gaina2021terraforming.pdf">DOWNLOAD</a>.
+The paper is available as a <a href="{{ '/assets/pdf/papers/gaina2021terraforming.pdf' | relative_url }}">PDF download</a>.
 
 ## Abstract
 

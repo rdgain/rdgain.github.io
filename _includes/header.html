@@ -8,14 +8,14 @@
 
     <nav class="site-nav">
 
-      <a href="/about">About</a>
-      <a href="/projects">Projects</a>
-      <a href="/research">Research</a>
-      <a href="/teaching">Teaching</a>
-      <a href="/publications">Publications</a>
-      <a href="/community">Community</a>
+      <a href="{{ '/about' | relative_url }}">About</a>
+      <a href="{{ '/projects' | relative_url }}">Projects</a>
+      <a href="{{ '/research' | relative_url }}">Research</a>
+      <a href="{{ '/teaching' | relative_url }}">Teaching</a>
+      <a href="{{ '/publications' | relative_url }}">Publications</a>
+      <a href="{{ '/community' | relative_url }}">Community</a>
 
-      <a href="/assets/files/Raluca_Gaina_CV.pdf"
+      <a href="{{ site.data.links.cv | relative_url }}"
          class="nav-cv">
          CV
       </a>

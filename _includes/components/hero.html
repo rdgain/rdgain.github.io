@@ -3,7 +3,7 @@
     <div class="hero-photo">
 
         <img
-            src="{{ include.image }}"
+            src="{{ include.image | relative_url }}"
             alt="{{ include.name }}"
         >
 
@@ -50,7 +50,7 @@
 
             {% include components/button.html
                 text="Download CV"
-                link="/assets/files/Raluca_Gaina_CV.pdf"
+                link=site.data.links.cv
                 style="secondary"
             %}
 
