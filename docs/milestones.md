@@ -170,7 +170,105 @@ Keep all other portfolio groups, including GVGAI, in **More Projects**. Preserve
 - Case-study navigation is keyboard-accessible, routes are unique, and the overview remains usable on narrow mobile screens.
 - Current projects content and links are retained or intentionally migrated; no unrelated site pages, data models or dependencies are changed as part of this milestone.
 
-**Status:** In progress. The Projects overview now uses the four supplied thumbnails and includes the selected featured projects, draft summaries and skill tags, plus a More Projects grid. Four case-study routes and a shared detail template are in place, based on the publication and project evidence. The homepage and `/portfolio/` dataset remain unchanged. The content validator passes and Jekyll recognizes all five `/projects/` routes, but the full build stops at the previously documented Sass `variables` import issue. Personal contribution details still need confirmation before public release.
+**Status:** In progress. The Projects overview now uses the four supplied thumbnails and includes the selected featured projects, draft summaries and skill tags, plus a More Projects grid. Four case-study routes and a shared detail template are in place, based on the publication and project evidence. The homepage and `/portfolio/` dataset remain unchanged. The content validator passes and Jekyll recognizes all five `/projects/` routes, but the full build stops at the previously documented Sass `variables` import issue. 
+
+## Milestone 8: Align the recruiter landing page
+
+### Goal
+
+Make the first page recruiters see consistent with the current Projects portfolio and provide a short route into the work most relevant to their role.
+
+### Proposed work
+
+- Replace the homepage's legacy featured-project selection with the four Projects-page selections, in the same order: LLM program search, Tabletop R&D, TAG and RHEA. Reuse the canonical project records rather than maintaining another set of summaries.
+- Add three concise role-oriented entry points—AI/LLM, Data Science and Game Development—that take visitors to matching projects or apply matching project filters. Keep one shared portfolio and do not duplicate project content into separate pages.
+- Preserve the main homepage value statement, CV and existing research links while making the project and role paths visible without scrolling through the full page.
+- Check any metrics and claims shown in the home-page project cards against the current project records and supporting evidence.
+
+### Acceptance criteria
+
+- The homepage and `/projects/` agree on the four featured projects and their order.
+- Each role-oriented entry point leads to relevant projects and can be used with a keyboard and on mobile.
+- Project summaries shown on the homepage use the same canonical content as `/projects/` or are explicitly shorter variants maintained in that data.
+- No duplicate project records are introduced in `_data/portfolio.yml` or another data file solely to support the homepage.
+
+**Status:** Proposed. See the recruiter-specific paths in [recruiter-review.md](recruiter-review.md).
+
+## Milestone 9: Add skill-based project discovery
+
+### Goal
+
+Let recruiters find projects that demonstrate a particular skill, method or kind of work, without relying on a long, unstructured list of tags.
+
+### Proposed work
+
+- Define a controlled vocabulary and categories for languages/frameworks, AI and data methods, game/product domains, and delivery/leadership skills. Review `_data/skills.yml` and `_data/projects_page.yml` together and consolidate synonyms or inconsistent capitalization where they mean the same thing.
+- Map each project to the skills it demonstrates. Keep a small set of high-signal tags on overview cards and make the complete relevant technology/method list available on case-study pages.
+- Add project search and filters for skill, project type and evidence type (for example: case study, publication, source code, playable demo). Build them from the canonical project data rather than a separate hand-maintained index.
+- Provide a clear reset control, selected-filter state, and result count. Ensure controls have accessible names, work by keyboard, and remain usable on narrow screens.
+- Check that filtering does not hide a project from a role-oriented entry point unexpectedly; document how combined filters behave.
+
+### Acceptance criteria
+
+- A visitor can locate projects by a normalized skill and by project/evidence type.
+- Skills shown as filters are backed by at least one project record, and each project tag is a skill or method actually evidenced by that project.
+- Filter state and results are understandable to keyboard and screen-reader users; reset restores the full list.
+- The existing featured and More Projects sections remain understandable when filters are unused or when no results match.
+- The implementation reuses current YAML data and adds no dependency without a clear maintenance need.
+
+**Status:** Proposed. Discovery recommendations are detailed in [recruiter-review.md](recruiter-review.md).
+
+## Milestone 10: Strengthen project case studies and proof
+
+### Goal
+
+Make each project page fast to evaluate by showing role, scope, technical decisions and verifiable outcomes, with demonstrations or artifacts where available.
+
+### Proposed work
+
+- Add a consistent “At a glance” block to featured case studies with role/ownership, dates, team size, project status, core technologies and direct links. Keep individual contributions distinct from team outcomes.
+- Expand the LLM program-search case study with a system/benchmark diagram, the author's implementation boundaries, evaluation criteria, baseline, key quantitative results, run variability and limitations. Add a short UI demonstration or screenshots if shareable.
+- Expand Rebirth with a playable Unity 6 web build or gameplay video, controls/platform information, game loop, selected design decisions and a clear split between the original six-teammate coursework and the later solo modernization work.
+- Expand Boardgame Data Analysis and Gameplay Trace Analysis with data sources, sample/experiment scale, methods, validation, metrics, result visuals, limitations and direct reproducibility/code links where shareable.
+- Add concise technical evidence to the remaining featured stories: TAG's framework scope and current scale; RHEA's tested settings, baselines and measured outcomes; Tabletop R&D's verified client, product, funding and deployment evidence.
+- Replace general archive links on More Projects entries with the specific publication, source repository, demo or case-study URL that supports the card. Use an explicit note where evidence cannot be made public.
+- Pair conceptual thumbnails with real product screenshots, plots, diagrams or demonstrations when available, and label illustrations so they are not mistaken for product evidence.
+
+### Acceptance criteria
+
+- Each featured case study contains the at-a-glance role/team/time/stack fields, problem, approach, individual contribution and outcomes.
+- Every impact statement is supported by a public artifact or confirmed by the author; team and individual contributions are clearly separated.
+- LLM program search and Rebirth each have a direct demonstration or a clear, specific reason one cannot be shared.
+- Data-oriented case studies report their data, method, evaluation and limitations rather than only naming the research topic.
+- Each More Projects card links directly to relevant evidence, not only to the generic publications archive when a specific source is available.
+- All local artifacts and routes resolve; pages remain usable on mobile and with keyboard navigation.
+
+**Status:** Proposed. Recruiter-specific evidence requests and suggested review order are in [recruiter-review.md](recruiter-review.md).
+
+## Milestone 11: Reconcile profile claims and contact paths
+
+### Goal
+
+Make experience, impact figures, CV routing and contact details consistent and easy to verify across the recruiter journey.
+
+### Proposed work
+
+- Reconcile publication totals on Home and Research with the Publications data, and make the same current count appear wherever a count is used. Define whether the count includes all record types.
+- Reconcile teaching-duration statements on Home and Teaching; state the dates or scope used for each figure.
+- Verify funding totals, currency, award attribution and whether amounts represent awarded, raised or delivered funding. Use one consistent phrasing and link to supporting evidence where possible.
+- Review the current AI CV and the available game-development/general CV files. Link to role-specific versions only if they are current, accurate and intentionally public; otherwise maintain one canonical CV and align its summary and skills with the site.
+- Add a direct contact action to the primary recruiter paths (home, Projects and case studies), using the configured Gmail address and existing profile/contact components.
+- Check role titles, years, technology labels and capitalization across Home, About, Research, Projects, Teaching and Publications.
+
+### Acceptance criteria
+
+- Publication and teaching totals are consistent across pages and have a clear counting basis.
+- Funding claims use verified amounts and consistent currency/attribution language.
+- CV links resolve to the intended current documents; no obsolete CV or inactive contact address is presented.
+- A recruiter can reach an explicit contact action from Home, Projects and any featured case study.
+- The site passes a content and local-reference check after the wording and links are reconciled.
+
+**Status:** Proposed. Identified inconsistencies and contact/CV recommendations are recorded in [recruiter-review.md](recruiter-review.md).
 
 ## Suggested order
 
@@ -181,5 +279,9 @@ Keep all other portfolio groups, including GVGAI, in **More Projects**. Preserve
 5. Add local content validation and consider CI build validation.
 6. Document data conventions and make targeted Sass/content-model cleanup.
 7. Expand the projects portfolio, following the featured-project and case-study plan in [portfolio-planning.md](portfolio-planning.md).
+8. Align the homepage featured work and recruiter entry points (Milestone 8).
+9. Establish a consistent skill vocabulary and add project discovery filters (Milestone 9).
+10. Strengthen featured case studies, demonstrations and project evidence (Milestone 10).
+11. Reconcile profile metrics, CV links and contact paths (Milestone 11).
 
 For visual changes, manually review the pages affected by the change at desktop and narrow mobile widths. Do not modify generated files in `_site/`, upgrade the locked Jekyll stack, or publish changes as part of these milestones without explicit authorization.
