@@ -13,8 +13,4 @@ title: Research
 
 {% include research/leadership.html %}
 
-<hr>
-
-{% include components/social-links.html class="contactfooter" %}
-
 </div>

@@ -39,8 +39,3 @@ Find instructions for playing the game in the application. Alternatively, full g
 #### Alternative
 
 If you wish to explore different modes to run the framework, check out the `src\main\java\evaluation` package, and the <a href="https://github.com/GAIGResearch/TabletopGames/wiki/Running-the-Framework">TAG Wiki entry</a> for running the framework.
-
-
-<hr>
-
-{% include components/social-links.html class="contactfooter" archive=true %}

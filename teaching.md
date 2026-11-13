@@ -13,8 +13,4 @@ title: Teaching
 
 {% include teaching/experience.html %}
 
-<hr>
-
-{% include components/social-links.html class="contactfooter" %}
-
 </div>

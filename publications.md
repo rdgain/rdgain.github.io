@@ -68,7 +68,11 @@ additional material where available.
 
 {% include publications/filters.html %}
 
-<div class="publication-list">
+<h2 class="visually-hidden" id="publication-list-heading">Publication list</h2>
+
+<p id="publication-counter" class="publication-counter" role="status" aria-live="polite" aria-atomic="true"></p>
+
+<div class="publication-list" id="publication-list" aria-labelledby="publication-list-heading">
 
 {% assign papers = site.data.papers | sort: "year" | reverse %}
 
@@ -79,10 +83,6 @@ additional material where available.
 {% endfor %}
 
 </div>
-
-<hr>
-
-{% include components/social-links.html class="contactfooter" archive=true %}
 
 <script src="{{ '/assets/js/publications.js' | relative_url }}"></script>
 

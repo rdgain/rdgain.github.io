@@ -4,6 +4,8 @@ title: Portfolio
 permalink: /portfolio/
 ---
 
+<h1 class="visually-hidden">Portfolio</h1>
+
 {% include components/section-header.html
 
 title="Portfolio"

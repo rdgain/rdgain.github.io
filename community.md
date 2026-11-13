@@ -15,8 +15,4 @@ title: Community
 
 {% include community/program-committee.html %}
 
-<hr>
-
-{% include components/social-links.html class="contactfooter" %}
-
 </div>

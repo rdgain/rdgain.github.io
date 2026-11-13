@@ -26,6 +26,15 @@
     gap: 1rem;
 }
 
+.projects-stats .project-languages {
+    font-size: 1rem;
+    line-height: 1.25;
+}
+
+.project-languages span {
+    display: block;
+}
+
 .featured-projects {
     display: flex;
     flex-direction: column;

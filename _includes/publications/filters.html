@@ -2,16 +2,27 @@
 
     <div class="publication-search">
 
-        <i class="fas fa-search"></i>
+        <label for="publication-search">Search publications</label>
 
-        <input
-            id="publication-search"
-            type="text"
-            placeholder="Search publications...">
+        <div class="publication-search-field">
+
+            <i class="fas fa-search" aria-hidden="true"></i>
+
+            <input
+                id="publication-search"
+                type="text"
+                placeholder="Search publications..."
+                aria-controls="publication-list">
+
+        </div>
 
     </div>
 
-    <select id="publication-type">
+    <div class="publication-type-filter">
+
+        <label for="publication-type">Publication type</label>
+
+        <select id="publication-type" aria-controls="publication-list">
 
         <option value="all">All publications</option>
         <option value="article">Journal articles</option>
@@ -19,8 +30,10 @@
         <option value="book">Books</option>
         <option value="phdthesis">Theses</option>
 
-    </select>
+        </select>
+
+    </div>
 
 </div>
 
-<div id="publication-tags"></div>
+<div id="publication-tags" role="group" aria-label="Filter publications by subject"></div>

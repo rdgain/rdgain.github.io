@@ -2,6 +2,7 @@
     href="{{ include.link | relative_url }}"
     class="btn {% if include.style %}btn-{{ include.style }}{% else %}btn-primary{% endif %}"
     {% if include.target %}target="{{ include.target }}"{% endif %}
+    {% if include.target == "_blank" %}rel="noopener noreferrer"{% endif %}
 >
 
     {{ include.text }}

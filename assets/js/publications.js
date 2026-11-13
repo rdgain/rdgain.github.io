@@ -8,6 +8,8 @@ document.addEventListener("DOMContentLoaded", function () {
     const typeSelect = document.getElementById("publication-type");
     const tagContainer = document.getElementById("publication-tags");
 
+    if (!searchInput || !typeSelect || !tagContainer) return;
+
     let selectedTag = "all";
 
     //----------------------------------------------------
@@ -37,6 +39,8 @@ document.addEventListener("DOMContentLoaded", function () {
         const button = document.createElement("button");
 
         button.className = "publication-tag";
+        button.type = "button";
+        button.setAttribute("aria-pressed", value === "all" ? "true" : "false");
 
         if (value === "all")
             button.classList.add("active");
@@ -46,10 +50,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
         button.addEventListener("click", function () {
 
-            document.querySelectorAll(".publication-tag")
-                .forEach(b => b.classList.remove("active"));
+            tagContainer.querySelectorAll(".publication-tag").forEach(tagButton => {
+                tagButton.classList.remove("active");
+                tagButton.setAttribute("aria-pressed", "false");
+            });
 
             button.classList.add("active");
+            button.setAttribute("aria-pressed", "true");
 
             selectedTag = value;
 
@@ -148,6 +155,9 @@ document.addEventListener("DOMContentLoaded", function () {
             counter.id = "publication-counter";
 
             counter.className = "publication-counter";
+            counter.setAttribute("role", "status");
+            counter.setAttribute("aria-live", "polite");
+            counter.setAttribute("aria-atomic", "true");
 
             const list =
                 document.querySelector(".publication-list");

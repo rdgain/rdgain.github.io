@@ -9,8 +9,4 @@ title: Projects
 
 {% include projects/featured.html %}
 
-<hr>
-
-{% include components/social-links.html class="contactfooter" %}
-
 </div>
