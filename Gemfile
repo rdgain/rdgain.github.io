@@ -1,6 +1,6 @@
+
 source "https://rubygems.org"
 
-gemspec
-gem "jekyll", "~> 3.1"
-gem "jekyll-sitemap"
-gem "pygments.rb"
+gem "github-pages", group: :jekyll_plugins
+gem "csv"
+gem "bigdecimal"
