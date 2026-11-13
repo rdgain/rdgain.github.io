@@ -1,1 +1,21 @@
-Sorry this page does not exist =(
+---
+layout: default
+title: Page not found
+permalink: /404.html
+---
+
+<div class="container section narrow">
+
+  <h1>Page not found</h1>
+
+  <p>The page you requested could not be found. Use one of these links to continue.</p>
+
+  <p><a href="{{ '/' | relative_url }}">Return to the home page</a></p>
+
+  <ul>
+    {% for item in site.navigation %}
+    <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+    {% endfor %}
+  </ul>
+
+</div>

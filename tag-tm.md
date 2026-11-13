@@ -4,7 +4,7 @@ layout: default
 
 <center><h1><u>TAG: Terraforming Mars</u></h1>
 
-<img src="/assets/images/tm1.png" width="70%"/>
+<img src="{{ '/assets/images/tm1.png' | relative_url }}" width="70%"/>
 </center>
 
 ## Download

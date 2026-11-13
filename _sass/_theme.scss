@@ -73,6 +73,13 @@ body {
 
 }
 
+.site-nav a[aria-current="page"] {
+
+    color: $primary;
+    font-weight: 700;
+
+}
+
 .nav-cv {
 
     padding: 10px 18px;

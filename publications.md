@@ -84,6 +84,6 @@ additional material where available.
 
 {% include components/social-links.html class="contactfooter" archive=true %}
 
-<script src="/assets/js/publications.js"></script>
+<script src="{{ '/assets/js/publications.js' | relative_url }}"></script>
 
 </div>

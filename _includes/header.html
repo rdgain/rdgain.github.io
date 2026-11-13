@@ -6,14 +6,11 @@
       {{ site.title }}
     </a>
 
-    <nav class="site-nav">
+    <nav class="site-nav" aria-label="Main navigation">
 
-      <a href="{{ '/about' | relative_url }}">About</a>
-      <a href="{{ '/projects' | relative_url }}">Projects</a>
-      <a href="{{ '/research' | relative_url }}">Research</a>
-      <a href="{{ '/teaching' | relative_url }}">Teaching</a>
-      <a href="{{ '/publications' | relative_url }}">Publications</a>
-      <a href="{{ '/community' | relative_url }}">Community</a>
+      {% for item in site.navigation %}
+      <a href="{{ item.url | relative_url }}" {% if page.url == item.url %}aria-current="page"{% endif %}>{{ item.title }}</a>
+      {% endfor %}
 
       <a href="{{ site.data.links.cv | relative_url }}"
          class="nav-cv">
