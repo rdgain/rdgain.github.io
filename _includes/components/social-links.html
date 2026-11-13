@@ -1,33 +1,49 @@
-<div class="social-links">
+{% assign contact_class = include.class | default: "" %}
 
-<a href="{{ site.data.links.email }}">
+<div class="social-links{% if contact_class != empty %} {{ contact_class }}{% endif %}">
+
+<a href="mailto:{{ site.author.email }}" aria-label="Email {{ site.author.name }}">
 
 <i class="fas fa-envelope"></i>
 
 </a>
 
-<a href="{{ site.data.links.github }}">
+<a href="{{ site.data.links.github }}" aria-label="GitHub profile">
 
 <i class="fab fa-github"></i>
 
 </a>
 
-<a href="{{ site.data.links.linkedin }}">
+<a href="{{ site.data.links.linkedin }}" aria-label="LinkedIn profile">
 
 <i class="fab fa-linkedin"></i>
 
 </a>
 
-<a href="{{ site.data.links.scholar }}">
+<a href="{{ site.data.links.scholar }}" aria-label="Google Scholar profile">
 
 <i class="fas fa-graduation-cap"></i>
 
 </a>
 
-<a href="{{ site.data.links.researchgate }}">
+<a href="{{ site.data.links.researchgate }}" aria-label="ResearchGate profile">
 
 <i class="fab fa-researchgate"></i>
 
 </a>
+
+<a href="{{ site.data.links.twitter }}" aria-label="Twitter profile">
+
+<i class="fab fa-twitter"></i>
+
+</a>
+
+{% if include.archive %}
+<a href="{{ site.data.links.publications_archive }}" aria-label="Publications archive">
+
+<i class="fas fa-archive"></i>
+
+</a>
+{% endif %}
 
 </div>
