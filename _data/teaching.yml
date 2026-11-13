@@ -70,6 +70,8 @@ modules:
 
 supervision:
 
+  id: project-supervision
+
   featured: true
 
   title: Undergraduate & MSc Project Supervision

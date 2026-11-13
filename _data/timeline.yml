@@ -98,9 +98,9 @@
   featured: true
 
   teaching:
-    - game-development
+    - multi-platform-game-development
     - computational-game-design
-    - dissertation
+    - project-supervision
 
 
 - id: tabletop

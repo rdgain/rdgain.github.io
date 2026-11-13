@@ -35,6 +35,7 @@ show_downloads: false
 
 exclude:
   - README.md
+  - docs
   - Rakefile
   - changelog.md
   - Gemfile.lock

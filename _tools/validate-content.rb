@@ -110,14 +110,53 @@ required_fields(research_topics, %w[id title summary], "_data/research.yml topic
 unique_ids(research_topics, "_data/research.yml topics", errors)
 
 teaching = data["teaching"]
+teaching_ids = []
 if teaching.is_a?(Hash)
   modules = teaching["modules"]
   required_fields(modules, %w[id title institution years role description], "_data/teaching.yml modules", errors)
   unique_ids(modules, "_data/teaching.yml modules", errors)
+  teaching_ids.concat(Array(modules).filter_map { |record| record["id"] if record.is_a?(Hash) })
   required_fields(teaching["experience"], %w[title year institution role description], "_data/teaching.yml experience", errors)
   supervision = teaching["supervision"]
-  required_fields([supervision], %w[title years institution description], "_data/teaching.yml supervision", errors) unless supervision.nil?
+  unless supervision.nil?
+    required_fields([supervision], %w[id title years institution description], "_data/teaching.yml supervision", errors)
+    teaching_ids << supervision["id"] if supervision.is_a?(Hash) && supervision["id"]
+  end
 end
+
+links = data["links"]
+required_fields([links], %w[github linkedin researchgate scholar cv twitter], "_data/links.yml", errors) if links
+
+skills = data["skills"]
+required_fields(skills, %w[category skills], "_data/skills.yml", errors)
+
+portfolio_ids = Array(portfolio).filter_map { |record| record["id"] if record.is_a?(Hash) }
+paper_ids = Array(papers).filter_map { |record| record["id"] if record.is_a?(Hash) }
+
+def validate_references(records, fields, allowed_ids, label, errors)
+  return unless records.is_a?(Array)
+
+  records.each_with_index do |record, index|
+    next unless record.is_a?(Hash)
+
+    fields.each do |field|
+      Array(record[field]).each do |reference|
+        next if allowed_ids.include?(reference)
+
+        errors << "#{label}[#{index}]: #{field} references unknown id #{reference.inspect}"
+      end
+    end
+  end
+end
+
+validate_references(research_topics, %w[portfolio], portfolio_ids, "_data/research.yml topics", errors)
+validate_references(research_topics, %w[publications], paper_ids, "_data/research.yml topics", errors)
+
+timeline = data["timeline"]
+required_fields(timeline, %w[id year title organisation description], "_data/timeline.yml", errors)
+unique_ids(timeline, "_data/timeline.yml", errors)
+validate_references(timeline, %w[portfolio], portfolio_ids, "_data/timeline.yml", errors)
+validate_references(timeline, %w[teaching], teaching_ids, "_data/timeline.yml", errors)
 
 if errors.empty?
   puts "Content validation passed (YAML syntax, required fields, and unique IDs)."
