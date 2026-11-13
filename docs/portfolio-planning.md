@@ -2,7 +2,7 @@
 
 ## Scope and guardrails
 
-This document began as a plan; Milestone 7 implementation is now in progress. The Projects overview has a page-specific data source and More Projects section, and each featured project has a case-study route. The homepage and `/portfolio/` dataset remain unchanged. The four supplied thumbnails are mapped to LLM program search for games, Tabletop R&D, TAG and RHEA. Individual role details remain marked for confirmation. Implementation status is tracked in [milestones.md](milestones.md), Milestone 7.
+This document began as a plan; Milestone 7 implementation is now in progress. The Projects overview and featured case studies now use one page-specific data source with a More Projects section. The homepage and `/portfolio/` dataset remain unchanged. The four supplied thumbnails are mapped to LLM program search for games, Tabletop R&D, TAG and RHEA. Shared project details and links are stored once; case-study-specific evidence is nested under each featured entry. Individual role details remain marked for confirmation. Implementation status is tracked in [milestones.md](milestones.md), Milestone 7.
 
 ## Publication analysis
 

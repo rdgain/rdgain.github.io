@@ -1,21 +1,22 @@
-{% assign study = site.data.project_case_studies[include.id] %}
+{% assign project = site.data.projects_page.featured | where: "id", include.id | first %}
+{% assign study = project.case_study %}
 
 <div class="project-case-study">
   <nav class="project-breadcrumbs" aria-label="Breadcrumb">
     <a href="{{ '/projects/' | relative_url }}">Projects</a>
     <span aria-hidden="true">/</span>
-    <span aria-current="page">{{ study.title | escape }}</span>
+    <span aria-current="page">{{ project.title | escape }}</span>
   </nav>
 
   <article>
     <header class="project-case-study-header">
-      <p class="project-category">{{ study.category | escape }}</p>
-      <h1>{{ study.title | escape }}</h1>
+      <p class="project-category">{{ project.category | escape }}</p>
+      <h1>{{ project.title | escape }}</h1>
       <p class="project-case-study-summary">{{ study.summary | escape }}</p>
     </header>
 
     <figure class="project-case-study-image">
-      <img src="{{ study.image | relative_url }}" alt="{{ study.image_alt | escape }}">
+      <img src="{{ project.image | relative_url }}" alt="{{ project.image_alt | escape }}">
       <figcaption>Project illustration.</figcaption>
     </figure>
 
@@ -52,7 +53,7 @@
       <section aria-labelledby="project-skills">
         <h2 id="project-skills">Skills and methods</h2>
         <ul class="project-tags">
-          {% for technology in study.technologies %}
+        {% for technology in project.technologies %}
           <li>{{ technology | escape }}</li>
           {% endfor %}
         </ul>
@@ -61,12 +62,14 @@
       <section aria-labelledby="project-reading">
         <h2 id="project-reading">Related work and links</h2>
         <ul class="project-case-study-links">
-          {% for publication in study.publications %}
+          {% for link in project.links %}
+          {% unless link.type == 'case_study' %}
           <li>
-            <a href="{% if publication.url contains '://' %}{{ publication.url }}{% else %}{{ publication.url | relative_url }}{% endif %}"{% if publication.url contains '://' %} target="_blank" rel="noopener noreferrer"{% endif %}>
-              {{ publication.label | escape }}
+            <a href="{% if link.url contains '://' %}{{ link.url }}{% else %}{{ link.url | relative_url }}{% endif %}"{% if link.url contains '://' %} target="_blank" rel="noopener noreferrer"{% endif %}>
+              {{ link.label | escape }}
             </a>
           </li>
+          {% endunless %}
           {% endfor %}
         </ul>
       </section>

@@ -5,7 +5,12 @@
 
   <div class="featured-projects">
     {% for project in project_data.featured %}
+    {% assign case_study_link = project.links | where: "type", "case_study" | first %}
     <article class="featured-project{% unless project.image %} featured-project-no-image{% endunless %}">
+      {% if case_study_link %}
+      <a class="featured-project-hit-area" href="{{ case_study_link.url | relative_url }}" aria-label="View case study: {{ project.title | escape }}"></a>
+      {% endif %}
+
       {% if project.image %}
       <div class="project-image">
         <img src="{{ project.image | relative_url }}" alt="{{ project.image_alt | escape }}" loading="lazy">
@@ -23,20 +28,10 @@
           {% endfor %}
         </ul>
 
-        <ul class="project-links" aria-label="{{ project.title | escape }} links">
-          {% for link in project.links %}
-          {% assign link_url = link[1] %}
-          {% assign link_label = link[0] | append: '_label' %}
-          {% assign label = project.links[link_label] %}
-          {% unless link[0] contains '_label' %}
-          <li>
-            <a href="{% if link_url contains '://' %}{{ link_url }}{% else %}{{ link_url | relative_url }}{% endif %}"{% if link_url contains '://' %} target="_blank" rel="noopener noreferrer"{% endif %}>
-              {{ label | default: link[0] | replace: '_', ' ' | capitalize | escape }}
-            </a>
-          </li>
-          {% endunless %}
-          {% endfor %}
-        </ul>
+        {% if case_study_link %}
+        <p class="featured-project-cta" aria-hidden="true">View case study <span>→</span></p>
+        {% endif %}
+
       </div>
     </article>
     {% endfor %}
@@ -62,16 +57,11 @@
 
       <ul class="project-links" aria-label="{{ project.title | escape }} links">
         {% for link in project.links %}
-        {% assign link_url = link[1] %}
-        {% assign link_label_key = link[0] | append: '_label' %}
-        {% assign label = project.links[link_label_key] %}
-        {% unless link[0] contains '_label' %}
         <li>
-          <a href="{% if link_url contains '://' %}{{ link_url }}{% else %}{{ link_url | relative_url }}{% endif %}"{% if link_url contains '://' %} target="_blank" rel="noopener noreferrer"{% endif %}>
-            {{ label | default: link[0] | replace: '_', ' ' | capitalize | escape }}
+          <a href="{% if link.url contains '://' %}{{ link.url }}{% else %}{{ link.url | relative_url }}{% endif %}"{% if link.url contains '://' %} target="_blank" rel="noopener noreferrer"{% endif %}>
+            {{ link.label | escape }}
           </a>
         </li>
-        {% endunless %}
         {% endfor %}
       </ul>
     </article>
