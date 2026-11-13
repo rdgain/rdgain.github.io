@@ -1,0 +1,77 @@
+{% assign study = site.data.project_case_studies[include.id] %}
+
+<div class="project-case-study">
+  <nav class="project-breadcrumbs" aria-label="Breadcrumb">
+    <a href="{{ '/projects/' | relative_url }}">Projects</a>
+    <span aria-hidden="true">/</span>
+    <span aria-current="page">{{ study.title | escape }}</span>
+  </nav>
+
+  <article>
+    <header class="project-case-study-header">
+      <p class="project-category">{{ study.category | escape }}</p>
+      <h1>{{ study.title | escape }}</h1>
+      <p class="project-case-study-summary">{{ study.summary | escape }}</p>
+    </header>
+
+    <figure class="project-case-study-image">
+      <img src="{{ study.image | relative_url }}" alt="{{ study.image_alt | escape }}">
+      <figcaption>Project illustration.</figcaption>
+    </figure>
+
+    <div class="project-case-study-body">
+      <section aria-labelledby="why-this-project">
+        <h2 id="why-this-project">Why this project is interesting</h2>
+        <p>{{ study.why_it_matters | escape }}</p>
+      </section>
+
+      <section aria-labelledby="project-problem">
+        <h2 id="project-problem">The problem</h2>
+        <p>{{ study.problem | escape }}</p>
+      </section>
+
+      <section aria-labelledby="project-approach">
+        <h2 id="project-approach">Approach</h2>
+        <p>{{ study.approach | escape }}</p>
+      </section>
+
+      <section aria-labelledby="personal-contribution">
+        <h2 id="personal-contribution">My contribution</h2>
+        <p>{{ study.role | escape }}</p>
+      </section>
+
+      <section aria-labelledby="project-outcomes">
+        <h2 id="project-outcomes">Outcomes and evidence</h2>
+        <ul>
+          {% for outcome in study.outcomes %}
+          <li>{{ outcome | escape }}</li>
+          {% endfor %}
+        </ul>
+      </section>
+
+      <section aria-labelledby="project-skills">
+        <h2 id="project-skills">Skills and methods</h2>
+        <ul class="project-tags">
+          {% for technology in study.technologies %}
+          <li>{{ technology | escape }}</li>
+          {% endfor %}
+        </ul>
+      </section>
+
+      <section aria-labelledby="project-reading">
+        <h2 id="project-reading">Related work and links</h2>
+        <ul class="project-case-study-links">
+          {% for publication in study.publications %}
+          <li>
+            <a href="{% if publication.url contains '://' %}{{ publication.url }}{% else %}{{ publication.url | relative_url }}{% endif %}"{% if publication.url contains '://' %} target="_blank" rel="noopener noreferrer"{% endif %}>
+              {{ publication.label | escape }}
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+      </section>
+
+      <p class="project-case-study-return"><a href="{{ '/projects/' | relative_url }}">Back to all projects</a></p>
+    </div>
+  </article>
+</div>

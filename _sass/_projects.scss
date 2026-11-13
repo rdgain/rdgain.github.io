@@ -53,6 +53,10 @@
     box-shadow: 0 4px 12px rgba(0,0,0,.05);
 }
 
+.featured-project-no-image {
+    grid-template-columns: 1fr;
+}
+
 .project-image img {
     width: 100%;
     border-radius: 10px;
@@ -61,6 +65,15 @@
 
 .project-content h3 {
     margin-top: 0;
+}
+
+.project-category {
+    margin: 0 0 .5rem;
+    color: #53657a;
+    font-size: .8rem;
+    font-weight: 700;
+    letter-spacing: .04em;
+    text-transform: uppercase;
 }
 
 .project-content p {
@@ -73,9 +86,11 @@
     flex-wrap: wrap;
     gap: .5rem;
     margin: 1rem 0;
+    padding: 0;
+    list-style: none;
 }
 
-.project-tags span {
+.project-tags li {
     background: #eef4ff;
     color: #2563eb;
     border-radius: 999px;
@@ -86,13 +101,129 @@
 
 .project-links {
     display: flex;
+    flex-wrap: wrap;
     gap: 1rem;
     margin-top: 1rem;
+    padding: 0;
+    list-style: none;
 }
 
 .project-links a {
     font-weight: 600;
     text-decoration: none;
+}
+
+.more-projects-intro {
+    max-width: 48rem;
+    color: #555;
+}
+
+.more-project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.25rem;
+    margin-top: 1.5rem;
+}
+
+.more-project-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1.5rem;
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 14px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, .04);
+}
+
+.more-project-card h3 {
+    margin: 0 0 .5rem;
+}
+
+.more-project-card > p:not(.project-category) {
+    color: #555;
+    line-height: 1.6;
+}
+
+.more-project-card .project-links {
+    margin-top: auto;
+    padding-top: .5rem;
+}
+
+.project-case-study {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1rem 1.25rem 4rem;
+}
+
+.project-breadcrumbs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+    margin-bottom: 2rem;
+    color: #53657a;
+    font-size: .9rem;
+}
+
+.project-case-study-header {
+    max-width: 760px;
+    margin-bottom: 2rem;
+}
+
+.project-case-study-header h1 {
+    margin: .25rem 0 1rem;
+}
+
+.project-case-study-summary {
+    color: #4b5563;
+    font-size: 1.2rem;
+    line-height: 1.7;
+}
+
+.project-case-study-image {
+    margin: 0 0 2.5rem;
+}
+
+.project-case-study-image img {
+    display: block;
+    width: 100%;
+    max-height: 34rem;
+    object-fit: cover;
+    border-radius: 14px;
+}
+
+.project-case-study-image figcaption {
+    margin-top: .5rem;
+    color: #53657a;
+    font-size: .85rem;
+}
+
+.project-case-study-body {
+    max-width: 760px;
+}
+
+.project-case-study-body section {
+    margin: 2rem 0;
+}
+
+.project-case-study-body h2 {
+    margin-bottom: .5rem;
+}
+
+.project-case-study-body p,
+.project-case-study-body li {
+    line-height: 1.7;
+}
+
+.project-case-study-links {
+    display: grid;
+    gap: .6rem;
+    padding-left: 1.25rem;
+}
+
+.project-case-study-return {
+    margin-top: 3rem;
+    font-weight: 700;
 }
 
 @media (max-width: 900px) {

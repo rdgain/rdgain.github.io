@@ -10,4 +10,4 @@ Thumbs.db
 .rvmrc
 .sass-cache/
 /AGENTS.md
-/docs
+!/docs/
