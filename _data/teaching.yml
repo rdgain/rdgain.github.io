@@ -218,221 +218,83 @@ supervision:
 
 
 experience:
-
-  - year: "2021"
-
-    title: Computational Creativity
-
-    institution: Queen Mary University of London
-
-    level: MSc & PhD
-
-    role: Module Development
-
-    delivery: Online
-
-    description: >
-      Designed practical lab materials and coursework for the Computational Creativity module for MSc
-      and PhD students, covering computational approaches to creativity,
-      generative systems and AI-assisted design.
-
-
-  - year: "2021"
-
-    title: Java Support Classes
-
-    institution: Queen Mary University of London
-
-    level: MSc
-
-    role: Lecturer
-
-    delivery: Online
-
-    description: >
-      Delivered Java support classes for MSc students, covering object-oriented programming,
-      data structures and algorithms, taught around implementing a simple game engine, AI gameplay and visualisation in Java.
-
-
-  - year: "2021"
-
-    title: MSc Project Supervision
-
-    institution: Queen Mary University of London
-
-    role: Supervisor
-
-    students: 8
-
-    description: >
-      Supervised MSc projects spanning Game AI, machine learning, procedural generation,
-      simulation, computer vision and software engineering.
-
-
-  - year: "2021"
-
-    title: UG & PG Project Examination
-
-    institution: Queen Mary University of London
-
-    role: Teaching Fellow
-
-    description: >
-      Examined undergraduate and postgraduate dissertations spanning Game AI, machine learning,
-      procedural generation, simulation, computer vision and software engineering.
-
-
-  - year: "2020"
-
-    title: Multi-platform Game Development
-
-    institution: Queen Mary University of London
-
-    role: Senior Demonstrator
-
-    delivery: Online
-
-    description: >
-      Delivered practical lab sessions for the Multi-platform Game Development module,
-      covering gameplay systems, Unity development and cross-platform game engineering.
-      Coordinated and supported other demonstrators, and provided feedback to students on their coursework.
-      Coordinated teams of students for group projects, and provided guidance on project management and collaboration.
-
-
-  - year: "2020"
-
-    title: Artificial Intelligence in Games
-
-    institution: Queen Mary University of London
-
-    role: Demonstrator
-
-    delivery: Online
-
-    description: >
-      Delivered practical lab sessions for the Artificial Intelligence in Games module,
-      covering search, planning, machine learning and procedural generation.
-      Assessed student work and provided feedback.
-
-
-  - year: "2020"
-
-    title: Multi-platform Game Development
-
-    institution: Queen Mary University of London
-
-    role: Teaching Fellow
-
-    description: >
-      Delivered practical lab sessions and lectures for the Multi-platform Game Development module,
-      covering gameplay systems, Unity development and cross-platform game engineering.
-      Coordinated and supported demonstrators, and provided feedback to students on their coursework, project management and collaboration.
-
-
-  - year: "2019"
-
-    title: Artificial Intelligence in Games
-
-    institution: Queen Mary University of London
-
-    role: Teaching Fellow
-
-    description: >
-      Delivered practical lab sessions and lectures for the Artificial Intelligence in Games module,
-      covering search, planning, machine learning and procedural generation.
-      Assessed student work and provided feedback.
-
-
-  - year: "2019"
-
-    title: Technical Thinking and Writing Workshops
-
-    institution: Queen Mary University of London
-
-    role: Demonstrator
-
-    description: >
-      Delivered workshops for MSc students on technical thinking and writing,
-      covering effective communication, problem-solving and critical thinking skills.
-
-
-  - year: "2019"
-
-    title: Multi-platform Game Development
-
-    institution: Queen Mary University of London
-
-    role: Demonstrator
-
-    description: >
-      Delivered practical lab sessions for the Multi-platform Game Development module,
-      covering gameplay systems, Unity development and cross-platform game engineering.
-      Assessed student work and provided feedback.
-
-
-  - year: "2018"
-
-    title: Artificial Intelligence in Games
-
-    institution: Queen Mary University of London
-
-    role: Demonstrator
-
-    description: >
-      Delivered practical lab sessions for the Artificial Intelligence in Games module,
-      covering search, planning, machine learning and procedural generation.
-      Assessed student work and provided feedback.
-
-
-  - year: "2018"
-
-    title: Software Engineering
-
-    institution: Queen Mary University of London
-
-    role: Demonstrator (Marking)
-
-    description: >
-      Assisted with marking and providing feedback for the Software Engineering module,
-      covering software development methodologies, design patterns and best practices.
-
-
-  - year: "2017"
-
-    title: High Level Games Development
-
-    institution: University of Essex
-
-    role: Graduate Lab Assistant
-
-    description: >
-      Delivered practical lab sessions for the High Level Games Development module,
-      covering gameplay systems, Unity development and cross-platform game engineering.
-      Provided feedback to students on their coursework.
-
-
-  - year: "2017"
-
-    title: Game Artificial Intelligence
-
-    institution: University of Essex
-
-    role: Graduate Lab Assistant
-
-    description: >
-      Delivered practical lab sessions for the Game Artificial Intelligence module,
-      covering search, planning, machine learning and procedural generation.
-      Provided feedback to students on their coursework.
-
-
-  - year: "2016"
-
-    title: High Level Games Development
-
-    institution: University of Essex
-
-    role: Graduate Lab Assistant (Marking)
-
-    description: >
-      Assisted with marking and providing feedback for the High Level Games Development module,
-      covering gameplay systems, Unity development and cross-platform game engineering.
+    - year: "2021"
+      title: Computational Creativity
+      institution: Queen Mary University of London
+      level: MSc & PhD
+      role: Module Development
+      delivery: Online
+      description: >
+        Designed practical labs and coursework on computational creativity,
+        generative systems and AI-assisted design.
+
+    - year: "2021"
+      title: Java Support Classes
+      institution: Queen Mary University of London
+      level: MSc
+      role: Lecturer
+      delivery: Online
+      description: >
+        Taught object-oriented programming, data structures and algorithms
+        through Java game-engine, gameplay AI and visualisation exercises.
+
+    - year: "2021"
+      title: MSc Project Supervision & UG/PG Project Examination
+      institution: Queen Mary University of London
+      role: Supervisor & Examiner
+      students: 8
+      description: >
+        Supervised eight MSc projects and examined undergraduate and
+        postgraduate dissertations in Game AI, machine learning, procedural
+        generation, simulation, computer vision and software engineering.
+
+    - year: "2019-2020"
+      title: Multi-platform Game Development
+      institution: Queen Mary University of London
+      role: Teaching Fellow, Senior Demonstrator & Demonstrator
+      description: >
+        Delivered practical labs and lectures on gameplay systems, Unity and
+        cross-platform development. Coordinated demonstrators and student
+        project teams, and supported coursework, project collaboration and
+        student feedback.
+
+    - year: "2018-2020"
+      title: Artificial Intelligence in Games
+      institution: Queen Mary University of London
+      role: Teaching Fellow & Demonstrator
+      description: >
+        Delivered practical labs and lectures on search, planning, machine
+        learning and procedural generation, and assessed student work.
+
+    - year: "2019"
+      title: Technical Thinking and Writing Workshops
+      institution: Queen Mary University of London
+      role: Demonstrator
+      level: MSc
+      description: >
+        Led workshops on technical communication, problem-solving and critical
+        thinking.
+
+    - year: "2018"
+      title: Software Engineering
+      institution: Queen Mary University of London
+      role: Demonstrator (Marking)
+      description: >
+        Marked coursework and provided feedback on software development
+        methods, design patterns and engineering practices.
+
+    - year: "2016-2017"
+      title: High Level Games Development
+      institution: University of Essex
+      role: Graduate Lab Assistant & Marker
+      description: >
+        Supported practical game-development labs and marked coursework,
+        covering gameplay systems and Unity development.
+
+    - year: "2017"
+      title: Game Artificial Intelligence
+      institution: University of Essex
+      role: Graduate Lab Assistant
+      description: >
+        Led practical labs on search, planning, machine learning and procedural
+        generation, and provided coursework feedback.
