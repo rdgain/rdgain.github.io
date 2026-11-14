@@ -1,0 +1,11 @@
+{% assign display_skill_ids = include.project.skill_ids | slice: 0, include.limit %}
+<ul class="project-tags" aria-label="Key skills and methods">
+  {% for skill_id in display_skill_ids %}
+    {% for group in site.data.skills %}
+      {% assign skill = group.skills | where: "id", skill_id | first %}
+      {% if skill %}
+      <li>{{ skill.label | escape }}</li>
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+</ul>

@@ -1,12 +1,108 @@
 {% assign project_data = site.data.projects_page %}
+{% assign all_projects = project_data.featured | concat: project_data.more %}
+{% assign category_values = "" %}
+{% assign evidence_values = "" %}
+{% for project in all_projects %}
+  {% assign category_values = category_values | append: project.category | append: "|" %}
+  {% for link in project.links %}
+    {% assign evidence_values = evidence_values | append: link.type | append: "|" %}
+  {% endfor %}
+{% endfor %}
+{% assign project_categories = category_values | split: "|" | uniq | sort %}
+{% assign evidence_types = evidence_values | split: "|" | uniq | sort %}
 
-<section aria-labelledby="featured-projects-heading">
+<section class="project-discovery" aria-labelledby="project-discovery-heading">
+  <h2 id="project-discovery-heading">Find a Project</h2>
+  <p>Search names, summaries, methods or technologies. Filters combine with AND; homepage role links open the unfiltered project list.</p>
+
+  <div class="project-filter-controls">
+    <div class="project-filter-field">
+      <label for="project-search">Search projects</label>
+      <input id="project-search" type="search" autocomplete="off" placeholder="Name, method, or technology">
+    </div>
+
+    <div class="project-filter-field">
+      <label for="project-skill">Skill or method</label>
+      <select id="project-skill">
+        <option value="all">Any skill or method</option>
+        {% for group in site.data.skills %}
+        <optgroup label="{{ group.category | escape }}">
+          {% for skill in group.skills %}
+            {% assign skill_is_used = false %}
+            {% for project in all_projects %}
+              {% if project.skill_ids contains skill.id %}
+                {% assign skill_is_used = true %}
+                {% break %}
+              {% endif %}
+            {% endfor %}
+            {% if skill_is_used %}
+            <option value="{{ skill.id | escape }}">{{ skill.label | escape }}</option>
+            {% endif %}
+          {% endfor %}
+        </optgroup>
+        {% endfor %}
+      </select>
+    </div>
+
+    <div class="project-filter-field">
+      <label for="project-type">Project type</label>
+      <select id="project-type">
+        <option value="all">Any project type</option>
+        {% for category in project_categories %}
+        <option value="{{ category | escape }}">{{ category | escape }}</option>
+        {% endfor %}
+      </select>
+    </div>
+
+    <div class="project-filter-field">
+      <label for="project-evidence">Evidence type</label>
+      <select id="project-evidence">
+        <option value="all">Any evidence type</option>
+        {% for evidence_type in evidence_types %}
+        <option value="{{ evidence_type | escape }}">
+          {% case evidence_type %}
+            {% when "case_study" %}Case study
+            {% when "repository" %}Source code
+            {% when "publication" %}Publication
+            {% when "research" %}Research page
+            {% when "website" %}Website
+            {% else %}{{ evidence_type | replace: "_", " " | capitalize }}
+          {% endcase %}
+        </option>
+        {% endfor %}
+      </select>
+    </div>
+
+    <button class="project-filter-reset" id="project-filter-reset" type="button">Reset filters</button>
+  </div>
+
+  <p class="project-filter-count" id="project-filter-count" role="status" aria-live="polite" aria-atomic="true">
+    Showing {{ all_projects.size }} projects.
+  </p>
+  <p class="project-no-results" id="project-no-results" hidden>No projects match these filters. Reset the filters to see all projects.</p>
+  <noscript><p>Project filters require JavaScript; all projects are shown below.</p></noscript>
+</section>
+
+<section data-project-section aria-labelledby="featured-projects-heading">
   <h2 id="featured-projects-heading">Featured Projects</h2>
 
   <div class="featured-projects">
     {% for project in project_data.featured %}
     {% assign case_study_link = project.links | where: "type", "case_study" | first %}
-    <article id="{{ project.id | escape }}" class="featured-project{% unless project.image %} featured-project-no-image{% endunless %}" tabindex="-1">
+    {% assign project_evidence = "" %}
+    {% assign project_technologies = project.technologies | join: " " %}
+    {% capture project_search_text %}{{ project.title }} {{ project.category }} {{ project.summary }} {{ project_technologies }}{% endcapture %}
+    {% for link in project.links %}
+      {% assign project_evidence = project_evidence | append: link.type | append: "|" %}
+    {% endfor %}
+    <article
+      id="{{ project.id | escape }}"
+      class="project-card featured-project{% unless project.image %} featured-project-no-image{% endunless %}"
+      data-project-category="{{ project.category | escape }}"
+      data-project-skills="{{ project.skill_ids | join: "|" | escape }}"
+      data-project-evidence="{{ project_evidence | escape }}"
+      data-project-search="{{ project_search_text | strip | escape }}"
+      tabindex="-1">
       {% if case_study_link %}
       <a class="featured-project-hit-area" href="{{ case_study_link.url | relative_url }}" aria-label="View case study: {{ project.title | escape }}"></a>
       {% endif %}
@@ -23,11 +119,7 @@
         <h3>{{ project.title | escape }}</h3>
         <p>{{ project.summary | escape }}</p>
 
-        <ul class="project-tags" aria-label="Skills and methods">
-          {% for technology in project.technologies %}
-          <li>{{ technology | escape }}</li>
-          {% endfor %}
-        </ul>
+        {% include projects/skill-tags.html project=project limit=3 %}
 
         {% if case_study_link %}
         <p class="featured-project-cta" aria-hidden="true">View case study <span>→</span></p>
@@ -39,22 +131,40 @@
   </div>
 </section>
 
-<section class="more-projects" aria-labelledby="more-projects-heading">
+<section class="more-projects" data-project-section aria-labelledby="more-projects-heading">
   <h2 id="more-projects-heading">More Projects</h2>
   <p class="more-projects-intro">Selected research and software projects across game AI, simulation, data analysis and game design.</p>
 
   <div class="more-project-grid">
     {% for project in project_data.more %}
-    <article id="{{ project.id | escape }}" class="more-project-card">
+    {% assign project_evidence = "" %}
+    {% assign project_technologies = project.technologies | join: " " %}
+    {% capture project_search_text %}{{ project.title }} {{ project.category }} {{ project.summary }} {{ project_technologies }}{% endcapture %}
+    {% for link in project.links %}
+      {% assign project_evidence = project_evidence | append: link.type | append: "|" %}
+    {% endfor %}
+    <article
+      id="{{ project.id | escape }}"
+      class="project-card more-project-card"
+      data-project-category="{{ project.category | escape }}"
+      data-project-skills="{{ project.skill_ids | join: "|" | escape }}"
+      data-project-evidence="{{ project_evidence | escape }}"
+      data-project-search="{{ project_search_text | strip | escape }}">
       <p class="project-category">{{ project.category | escape }}</p>
       <h3>{{ project.title | escape }}</h3>
       <p>{{ project.summary | escape }}</p>
 
-      <ul class="project-tags" aria-label="Skills and methods">
-        {% for technology in project.technologies %}
-        <li>{{ technology | escape }}</li>
-        {% endfor %}
-      </ul>
+      {% include projects/skill-tags.html project=project limit=3 %}
+      {% if project.technologies and project.technologies.size > 0 %}
+      <details class="project-full-skills">
+        <summary>All skills and methods</summary>
+        <ul>
+          {% for technology in project.technologies %}
+          <li>{{ technology | escape }}</li>
+          {% endfor %}
+        </ul>
+      </details>
+      {% endif %}
 
       <ul class="project-links" aria-label="{{ project.title | escape }} links">
         {% for link in project.links %}

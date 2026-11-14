@@ -2,13 +2,35 @@ featured:
   - id: llm-program-search
     title: LLM Program Search for Games
     category: Research highlight
+    skill_ids:
+      - large-language-models
+      - program-search
+      - benchmarking
+      - game-ai
+      - hill-climbing
+      - python
+      - java
+      - software-engineering
+      - user-interface-design
+      - data-analysis
+      - evolutionary-algorithms
+      - experimental-evaluation
+      - experimental-design
+      - heuristic-optimization
+      - optimization
+      - planning-search
+      - ai-playtesting
+      - card-game-ai
+      - tabletop-games
+      - large-codebase-engineering
+      - open-source
     image: /assets/images/projects/LLM-thumb.png
     image_alt: Illustration of an LLM guiding code toward several different game environments
     summary: >
       Benchmarked LLM-guided program search across 29 game-related tasks in
       Python and Java, evaluating 11 language models and multiple search runs.
     technologies:
-      - Large language models (LLMs)
+      - Large language models
       - Program search
       - Hill climbing
       - Python
@@ -53,6 +75,36 @@ featured:
   - id: tabletop-rnd
     title: Tabletop R&D
     category: AI-assisted game testing
+    skill_ids:
+      - ai-playtesting
+      - simulation
+      - game-ai
+      - tabletop-games
+      - product-development
+      - java
+      - r
+      - entrepreneurship
+      - stakeholder-communication
+      - software-engineering
+      - user-interface-design
+      - full-stack-development
+      - code-review
+      - backend-development
+      - game-systems
+      - game-engineering
+      - game-development
+      - card-game-ai
+      - statistical-analysis
+      - planning-search
+      - monte-carlo-tree-search
+      - interpretability
+      - gameplay-analytics
+      - explainable-ai
+      - experimental-design
+      - experimental-evaluation
+      - data-visualization
+      - data-analysis
+      - large-codebase-engineering
     image: /assets/images/projects/TRD-thumb.png
     image_alt: Tabletop board with simulated player moves and AI analytics
     summary: >
@@ -109,6 +161,30 @@ featured:
   - id: tag
     title: "TAG: Tabletop Games Framework"
     category: General AI for tabletop games
+    skill_ids:
+      - game-ai
+      - game-systems
+      - tabletop-games
+      - java
+      - simulation
+      - software-engineering
+      - open-source
+      - user-interface-design
+      - gameplay-analytics
+      - large-codebase-engineering
+      - benchmarking
+      - data-analysis
+      - forward-models
+      - ai-playtesting
+      - card-game-ai
+      - competition-design
+      - game-development
+      - game-engineering
+      - general-game-playing
+      - backend-development
+      - code-review
+      - full-stack-development
+      - team-leadership
     image: /assets/images/projects/TAG-thumb.png
     image_alt: Tabletop game board connected to code, AI agents and game analytics
     summary: >
@@ -120,10 +196,10 @@ featured:
       - Game AI
       - Simulation
       - Open source
-      - Software design and engineering
-      - Large codebase design and maintenance
+      - Software engineering
+      - Large-codebase engineering
       - User interface design
-      - Game metrics and analysis
+      - Gameplay analytics
     links:
       - label: View case study
         url: /projects/tag/
@@ -176,6 +252,26 @@ featured:
   - id: rhea
     title: Rolling Horizon Evolutionary Algorithms
     category: Game AI research
+    skill_ids:
+      - game-ai
+      - evolutionary-algorithms
+      - planning-search
+      - benchmarking
+      - experimental-design
+      - experimental-evaluation
+      - algorithm-design
+      - java
+      - python
+      - simulation
+      - statistical-analysis
+      - gameplay-analytics
+      - general-game-playing
+      - optimization
+      - monte-carlo-tree-search
+      - machine-learning
+      - backend-development
+      - tabletop-games
+      - ai-playtesting
     image: /assets/images/projects/RHEA-thumb.png
     image_alt: Candidate action paths evolving through a game state
     summary: >
@@ -194,9 +290,9 @@ featured:
       - Statistical analysis
       - Algorithm design and implementation
       - General Game Playing
-      - Optimisation
-      - MCTS
-      - Machine Learning
+      - Optimization
+      - Monte Carlo Tree Search
+      - Machine learning
     links:
       - label: View case study
         url: /projects/rhea/
@@ -247,13 +343,24 @@ more:
   - id: typescript-rpg-creator
     title: TypeScript RPG Character Creator and AI Chat
     category: Full-stack AI application
+    skill_ids:
+      - agentic-ai
+      - large-language-models
+      - typescript
+      - react
+      - full-stack-development
+      - backend-development
+      - web-development
+      - user-interface-design
+      - rpg-systems
+      - software-engineering
     summary: >
       Built an RPG character creator and LLM-powered chat application using
       TypeScript and React, with an agentic AI workflow. Full project ownership.
     technologies:
       - TypeScript
       - React
-      - Large language models (LLMs)
+      - Large language models
       - Agentic AI workflows
       - Full-stack development
       - RPG systems
@@ -265,6 +372,19 @@ more:
   - id: rebirth-game
     title: Rebirth
     category: Unity game development
+    skill_ids:
+      - game-development
+      - game-design
+      - game-systems
+      - game-engineering
+      - unity
+      - c-sharp
+      - team-leadership
+      - agentic-ai
+      - software-engineering
+      - user-interface-design
+      - backend-development
+      - full-stack-development
     summary: >
       A 2D game begun during Global Game Jam 2016 and completed as university
       coursework with six teammates. I led game design and engineering, then solely
@@ -288,6 +408,29 @@ more:
   - id: gvgai
     title: General Video Game AI
     category: Framework and benchmark
+    skill_ids:
+      - game-ai
+      - benchmarking
+      - planning-search
+      - general-game-playing
+      - monte-carlo-tree-search
+      - java
+      - php
+      - sql
+      - backend-development
+      - web-development
+      - game-design
+      - 2d-game-art
+      - competition-design
+      - large-codebase-engineering
+      - open-source
+      - software-engineering
+      - game-development
+      - game-systems
+      - game-engineering
+      - evolutionary-algorithms
+      - simulation
+      - multi-agent-systems
     summary: >
       Research and software around agents that play previously unseen games,
       including benchmark environments, competitions and planning methods.
@@ -295,14 +438,14 @@ more:
       - Game AI
       - Benchmarking
       - Planning
-      - MCTS
+      - Monte Carlo Tree Search
       - Java
-      - PhP
+      - PHP
       - SQL
-      - Backend
+      - Backend development
       - Web development
       - Game design
-      - 2D sprite artwork
+      - 2D game art
     links:
       - label: Publications
         url: /publications/
@@ -314,6 +457,13 @@ more:
   - id: vertigo
     title: VERTIGO
     category: Research tool
+    skill_ids:
+      - data-visualization
+      - gameplay-analytics
+      - game-ai
+      - evolutionary-algorithms
+      - java
+      - user-interface-design
     summary: >
       A visualization tool for examining how Rolling Horizon Evolutionary
       Algorithms behave while playing games in the GVGAI framework.
@@ -335,6 +485,15 @@ more:
   - id: tribes
     title: Tribes
     category: Strategy-game AI environment
+    skill_ids:
+      - game-ai
+      - game-systems
+      - planning-search
+      - forward-models
+      - multi-agent-systems
+      - experimental-evaluation
+      - user-interface-design
+      - 2d-game-art
     summary: >
       A turn-based strategy environment for studying planning in a stochastic,
       partially observable game with technology, economy and tactical decisions.
@@ -345,7 +504,7 @@ more:
       - Multi-agent systems
       - Evaluation
       - User interface design
-      - 2D sprite artwork
+      - 2D game art
     links:
       - label: Publications
         url: /publications/
@@ -357,6 +516,13 @@ more:
   - id: pommerman
     title: Pommerman
     category: Multi-agent planning
+    skill_ids:
+      - game-ai
+      - planning-search
+      - multi-agent-systems
+      - experimental-evaluation
+      - algorithm-design
+      - user-interface-design
     summary: >
       An experimental study of statistical forward-planning methods in a
       competitive multi-agent game environment.
@@ -378,6 +544,13 @@ more:
   - id: ai-assisted-game-design
     title: AI-assisted Game Design
     category: Game design and optimization
+    skill_ids:
+      - game-ai
+      - evolutionary-algorithms
+      - game-design
+      - optimization
+      - procedural-content-generation
+      - simulation
     summary: >
       Research applying evolutionary search and simulation-based evaluation to
       game tuning, strategic diversity and level generation.
@@ -394,6 +567,15 @@ more:
   - id: marlo
     title: MARLO Competition
     category: Competition and evaluation
+    skill_ids:
+      - reinforcement-learning
+      - multi-agent-systems
+      - competition-design
+      - game-design
+      - python
+      - java
+      - code-review
+      - large-codebase-engineering
     summary: >
       Multi-agent reinforcement-learning competition work based on the MalmO
       game-playing environment, with Microsoft Research.
@@ -404,8 +586,8 @@ more:
       - Game design
       - Python
       - Java
-      - Code reviews
-      - Large codebase integration
+      - Code review
+      - Large-codebase engineering
     links:
       - label: Publications
         url: /publications/
@@ -417,6 +599,12 @@ more:
   - id: board-game-data
     title: Boardgame Data Analysis
     category: Data science
+    skill_ids:
+      - data-analysis
+      - machine-learning
+      - interpretability
+      - statistical-analysis
+      - tabletop-games
     summary: >
       Interpretable machine-learning analysis of how tabletop-game mechanics
       relate to player ratings.
@@ -432,6 +620,13 @@ more:
   - id: gameplay-trace-analysis
     title: Gameplay Trace Analysis
     category: Explainable AI
+    skill_ids:
+      - explainable-ai
+      - temporal-logic
+      - planning-search
+      - gameplay-analytics
+      - game-ai
+      - java
     summary: >
       Methods for describing play styles with temporal logic and grouping
       gameplay traces to identify behavioural patterns.
@@ -449,6 +644,12 @@ more:
   - id: legends-of-code-and-magic
     title: Legends of Code and Magic
     category: Card-game agents
+    skill_ids:
+      - card-game-ai
+      - heuristic-optimization
+      - evolutionary-algorithms
+      - experimental-design
+      - game-ai
     summary: >
       Research on heuristic-policy optimization for agents playing a strategic
       collectible card game.

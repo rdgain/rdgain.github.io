@@ -10,3 +10,5 @@ title: Projects
 {% include projects/featured.html %}
 
 </div>
+
+<script src="{{ '/assets/js/projects.js' | relative_url }}" defer></script>

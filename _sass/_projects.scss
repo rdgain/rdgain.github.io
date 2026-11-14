@@ -7,6 +7,87 @@
     margin: 4rem 0;
 }
 
+.project-discovery {
+    padding: 1.5rem;
+    background: #f8fbff;
+    border: 1px solid #dfe7f1;
+    border-radius: 14px;
+}
+
+.project-discovery h2 {
+    margin-bottom: .5rem;
+}
+
+.project-discovery > p {
+    color: #53657a;
+}
+
+.project-filter-controls {
+    display: grid;
+    grid-template-columns: minmax(12rem, 2fr) repeat(3, minmax(9rem, 1fr)) auto;
+    gap: .85rem;
+    align-items: end;
+}
+
+.project-filter-field {
+    display: flex;
+    min-width: 0;
+    flex-direction: column;
+    gap: .35rem;
+}
+
+.project-filter-field label {
+    font-size: .88rem;
+    font-weight: 700;
+}
+
+.project-filter-field input,
+.project-filter-field select {
+    width: 100%;
+    min-height: 2.7rem;
+    padding: .5rem .65rem;
+    border: 1px solid #b8c5d6;
+    border-radius: 7px;
+    background: #fff;
+    color: #1f2937;
+    font: inherit;
+    font-size: .9rem;
+}
+
+.project-filter-reset {
+    min-height: 2.7rem;
+    padding: .5rem .8rem;
+    border: 1px solid #53657a;
+    border-radius: 7px;
+    background: #fff;
+    color: #26374a;
+    font: inherit;
+    font-size: .9rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.project-filter-reset:hover {
+    border-color: #2563eb;
+    color: #1d4ed8;
+}
+
+.project-filter-count {
+    margin: 1rem 0 0;
+    color: #26374a !important;
+    font-weight: 700;
+}
+
+.project-no-results {
+    margin: .75rem 0 0;
+    color: #26374a !important;
+}
+
+.project-card[hidden],
+.projects-page section[hidden] {
+    display: none !important;
+}
+
 .projects-hero {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -127,6 +208,21 @@
     padding: .35rem .8rem;
     font-size: .82rem;
     font-weight: 600;
+}
+
+.project-full-skills {
+    margin: .25rem 0 1rem;
+    color: #53657a;
+    font-size: .9rem;
+}
+
+.project-full-skills summary {
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.project-full-skills ul {
+    margin: .5rem 0 0;
 }
 
 .project-links {
@@ -270,10 +366,22 @@
     .projects-stats {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .project-filter-controls {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
 }
 
 @media (max-width: 640px) {
     .more-project-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .project-discovery {
+        padding: 1rem;
+    }
+
+    .project-filter-controls {
         grid-template-columns: 1fr;
     }
 }

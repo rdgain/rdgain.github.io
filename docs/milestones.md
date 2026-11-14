@@ -206,7 +206,7 @@ Let recruiters find projects that demonstrate a particular skill, method or kind
 - Map each project to the skills it demonstrates. Keep a small set of high-signal tags on overview cards and make the complete relevant technology/method list available on case-study pages.
 - Add project search and filters for skill, project type and evidence type (for example: case study, publication, source code, playable demo). Build them from the canonical project data rather than a separate hand-maintained index.
 - Provide a clear reset control, selected-filter state, and result count. Ensure controls have accessible names, work by keyboard, and remain usable on narrow screens.
-- Check that filtering does not hide a project from a role-oriented entry point unexpectedly; document how combined filters behave.
+- Combine search, skill, project type and evidence filters using explicit AND behavior. Ensure homepage role links still open their target projects with filters cleared, and explain the interaction.
 
 ### Acceptance criteria
 
@@ -216,7 +216,7 @@ Let recruiters find projects that demonstrate a particular skill, method or kind
 - The existing featured and More Projects sections remain understandable when filters are unused or when no results match.
 - The implementation reuses current YAML data and adds no dependency without a clear maintenance need.
 
-**Status:** Proposed. Discovery recommendations are detailed in [recruiter-review.md](recruiter-review.md).
+**Status:** In progress. Added a categorized skill vocabulary and project skill IDs, with three high-signal tags per overview card and the full technology/method list retained on featured case studies and available in expandable details on More Projects cards. The Projects page now builds skill, project-category and evidence filters from the canonical records; search and selected filters combine with AND, reset restores all projects, and the live result count and empty-state message are accessible. Homepage role links open the unfiltered list and remain anchored to their relevant projects. Content validation, generated references, and a generated-page check pass; manual browser/keyboard review remains. See [recruiter-review.md](recruiter-review.md) for the discovery recommendations.
 
 ## Milestone 10: Strengthen project case studies and proof
 

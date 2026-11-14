@@ -129,9 +129,33 @@ required_fields([links], %w[github linkedin researchgate scholar cv twitter], "_
 
 skills = data["skills"]
 required_fields(skills, %w[category skills], "_data/skills.yml", errors)
+skill_records = []
+if skills.is_a?(Array)
+  skills.each_with_index do |group, index|
+    next unless group.is_a?(Hash)
+
+    required_fields(group["skills"], %w[id label], "_data/skills.yml[#{index}] skills", errors)
+    skill_records.concat(Array(group["skills"]).select { |skill| skill.is_a?(Hash) })
+  end
+end
+unique_ids(skill_records, "_data/skills.yml skills", errors)
+
+projects_page = data["projects_page"]
+project_records = []
+if projects_page.is_a?(Hash)
+  %w[featured more].each do |group|
+    records = projects_page[group]
+    required_fields(records, %w[id title category summary skill_ids], "_data/projects_page.yml #{group}", errors)
+    project_records.concat(Array(records).select { |record| record.is_a?(Hash) })
+  end
+else
+  errors << "_data/projects_page.yml: expected a mapping"
+end
+unique_ids(project_records, "_data/projects_page.yml projects", errors)
 
 portfolio_ids = Array(portfolio).filter_map { |record| record["id"] if record.is_a?(Hash) }
 paper_ids = Array(papers).filter_map { |record| record["id"] if record.is_a?(Hash) }
+skill_ids = skill_records.filter_map { |skill| skill["id"] if skill.is_a?(Hash) }
 
 def validate_references(records, fields, allowed_ids, label, errors)
   return unless records.is_a?(Array)
@@ -151,6 +175,46 @@ end
 
 validate_references(research_topics, %w[portfolio], portfolio_ids, "_data/research.yml topics", errors)
 validate_references(research_topics, %w[publications], paper_ids, "_data/research.yml topics", errors)
+validate_references(project_records, %w[skill_ids], skill_ids, "_data/projects_page.yml projects", errors)
+
+if project_records.any?
+  used_skill_ids = []
+  supported_evidence_types = %w[case_study demo publication repository research website]
+
+  project_records.each_with_index do |project, index|
+    next unless project.is_a?(Hash)
+
+    project_skill_ids = project["skill_ids"]
+    unless project_skill_ids.is_a?(Array) && !project_skill_ids.empty?
+      errors << "_data/projects_page.yml projects[#{index}]: skill_ids must be a non-empty list"
+      next
+    end
+
+    used_skill_ids.concat(project_skill_ids)
+    if project_skill_ids.uniq.length != project_skill_ids.length
+      errors << "_data/projects_page.yml projects[#{index}]: duplicate skill IDs"
+    end
+
+    links = project["links"]
+    unless links.is_a?(Array)
+      errors << "_data/projects_page.yml projects[#{index}]: links must be a list"
+      next
+    end
+
+    required_fields(links, %w[label url type], "_data/projects_page.yml projects[#{index}] links", errors)
+    links.each do |link|
+      next unless link.is_a?(Hash) && link["type"]
+      next if supported_evidence_types.include?(link["type"])
+
+      errors << "_data/projects_page.yml projects[#{index}]: unsupported evidence type #{link['type'].inspect}"
+    end
+  end
+
+  unused_skills = skill_ids - used_skill_ids.uniq
+  unless unused_skills.empty?
+    errors << "_data/skills.yml: skills not assigned to a project: #{unused_skills.join(", ")}"
+  end
+end
 
 timeline = data["timeline"]
 required_fields(timeline, %w[id year title organisation description], "_data/timeline.yml", errors)

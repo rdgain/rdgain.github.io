@@ -1,27 +1,129 @@
-- category: Languages
-
+- category: Languages & frameworks
   skills:
+    - id: c-sharp
+      label: C#
+    - id: java
+      label: Java
+    - id: php
+      label: PHP
+    - id: python
+      label: Python
+    - id: r
+      label: R
+    - id: react
+      label: React
+    - id: sql
+      label: SQL
+    - id: typescript
+      label: TypeScript
+    - id: unity
+      label: Unity
 
-    - Java
-    - Python
-    - C#
-
-- category: AI
-
+- category: AI & data methods
   skills:
+    - id: agentic-ai
+      label: Agentic AI
+    - id: algorithm-design
+      label: Algorithm design
+    - id: benchmarking
+      label: Benchmarking
+    - id: data-analysis
+      label: Data analysis
+    - id: data-visualization
+      label: Data visualization
+    - id: evolutionary-algorithms
+      label: Evolutionary algorithms
+    - id: experimental-design
+      label: Experimental design
+    - id: experimental-evaluation
+      label: Experimental evaluation
+    - id: explainable-ai
+      label: Explainable AI
+    - id: forward-models
+      label: Forward models
+    - id: game-ai
+      label: Game AI
+    - id: gameplay-analytics
+      label: Gameplay analytics
+    - id: heuristic-optimization
+      label: Heuristic optimization
+    - id: hill-climbing
+      label: Hill climbing
+    - id: interpretability
+      label: Interpretability
+    - id: large-language-models
+      label: Large language models
+    - id: machine-learning
+      label: Machine learning
+    - id: monte-carlo-tree-search
+      label: Monte Carlo Tree Search
+    - id: multi-agent-systems
+      label: Multi-agent systems
+    - id: optimization
+      label: Optimization
+    - id: planning-search
+      label: Planning and search
+    - id: procedural-content-generation
+      label: Procedural content generation
+    - id: program-search
+      label: Program search
+    - id: reinforcement-learning
+      label: Reinforcement learning
+    - id: simulation
+      label: Simulation
+    - id: statistical-analysis
+      label: Statistical analysis
+    - id: temporal-logic
+      label: Temporal logic
 
-    - Evolutionary Algorithms
-    - Reinforcement Learning
-    - Monte Carlo Tree Search
-    - Procedural Generation
-    - Large Language Models
-    - Agentic AI
-
-- category: Game Development
-
+- category: Game & product domains
   skills:
+    - id: ai-playtesting
+      label: AI playtesting
+    - id: card-game-ai
+      label: Card-game AI
+    - id: competition-design
+      label: Competition design
+    - id: game-design
+      label: Game design
+    - id: game-development
+      label: Game development
+    - id: game-engineering
+      label: Game engineering
+    - id: game-systems
+      label: Game systems
+    - id: general-game-playing
+      label: General game playing
+    - id: rpg-systems
+      label: RPG systems
+    - id: tabletop-games
+      label: Tabletop games
 
-    - Unity
-    - LibGDX
-    - Game AI
-    - Gameplay Programming
+- category: Software delivery & leadership
+  skills:
+    - id: 2d-game-art
+      label: 2D game art
+    - id: backend-development
+      label: Backend development
+    - id: code-review
+      label: Code review
+    - id: entrepreneurship
+      label: Entrepreneurship
+    - id: full-stack-development
+      label: Full-stack development
+    - id: large-codebase-engineering
+      label: Large-codebase engineering
+    - id: open-source
+      label: Open source
+    - id: product-development
+      label: Product development
+    - id: software-engineering
+      label: Software engineering
+    - id: stakeholder-communication
+      label: Stakeholder communication
+    - id: team-leadership
+      label: Team leadership
+    - id: user-interface-design
+      label: User interface design
+    - id: web-development
+      label: Web development
