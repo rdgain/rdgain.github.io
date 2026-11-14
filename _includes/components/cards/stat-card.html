@@ -1,6 +1,6 @@
 <div class="stat-card">
 
-    <div class="stat-number">
+    <div class="stat-number{% if include.number_class %} {{ include.number_class | escape }}{% endif %}">
 
         {{ include.number }}
 
