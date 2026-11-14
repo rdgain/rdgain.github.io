@@ -192,7 +192,7 @@ Make the first page recruiters see consistent with the current Projects portfoli
 - Project summaries shown on the homepage use the same canonical content as `/projects/` or are explicitly shorter variants maintained in that data.
 - No duplicate project records are introduced in `_data/portfolio.yml` or another data file solely to support the homepage.
 
-**Status:** Proposed. See the recruiter-specific paths in [recruiter-review.md](recruiter-review.md).
+**Status:** In progress. The homepage provides four concise role-oriented mini-cards, each led by its matching Projects-page highlight and followed by smaller links to related projects. Project titles are drawn from the shared project data; no duplicate project records were introduced. Links scroll past the sticky header and visually identify the matching project card. See the recruiter-specific paths in [recruiter-review.md](recruiter-review.md).
 
 ## Milestone 9: Add skill-based project discovery
 

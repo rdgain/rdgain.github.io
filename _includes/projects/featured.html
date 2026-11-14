@@ -6,7 +6,7 @@
   <div class="featured-projects">
     {% for project in project_data.featured %}
     {% assign case_study_link = project.links | where: "type", "case_study" | first %}
-    <article class="featured-project{% unless project.image %} featured-project-no-image{% endunless %}">
+    <article id="{{ project.id | escape }}" class="featured-project{% unless project.image %} featured-project-no-image{% endunless %}" tabindex="-1">
       {% if case_study_link %}
       <a class="featured-project-hit-area" href="{{ case_study_link.url | relative_url }}" aria-label="View case study: {{ project.title | escape }}"></a>
       {% endif %}
@@ -19,6 +19,7 @@
 
       <div class="project-content">
         <p class="project-category">{{ project.category | escape }}</p>
+        <span class="project-target-notice">Suggested project for this role</span>
         <h3>{{ project.title | escape }}</h3>
         <p>{{ project.summary | escape }}</p>
 
@@ -44,7 +45,7 @@
 
   <div class="more-project-grid">
     {% for project in project_data.more %}
-    <article class="more-project-card">
+    <article id="{{ project.id | escape }}" class="more-project-card">
       <p class="project-category">{{ project.category | escape }}</p>
       <h3>{{ project.title | escape }}</h3>
       <p>{{ project.summary | escape }}</p>

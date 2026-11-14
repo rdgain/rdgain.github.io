@@ -18,19 +18,79 @@ description="I build intelligent systems for games, AI playtesting frameworks, s
 %}
 
 {% include components/section-header.html
-title="Featured Work"
-subtitle="A selection of projects that best represent my experience."
+title="Explore by Role"
+subtitle="Jump to a project highlight on the Projects page."
 %}
 
-<div class="container">
+<div class="container recruiter-homepage">
 
-{% assign featured = site.data.portfolio | where: "featured", true %}
+  <div class="role-entry-grid" aria-label="Featured projects by role">
+    {% assign all_projects = site.data.projects_page.featured | concat: site.data.projects_page.more %}
 
-{% for project in featured limit:3 %}
+    {% assign project = all_projects | where: "id", "llm-program-search" | first %}
+    {% assign related_project_ids = "typescript-rpg-creator,rhea" | split: "," %}
+    <div class="role-entry">
+      <span class="role-entry-label">Agentic AI / LLM</span>
+      <a class="role-entry-primary" href="{{ '/projects/#' | append: project.id | relative_url }}">{{ project.title | escape }}</a>
+      <p class="role-entry-related">
+        Also:
+        {% for related_id in related_project_ids %}
+          {% assign related_project = all_projects | where: "id", related_id | first %}
+          {% if related_project %}
+            <a href="{{ '/projects/#' | append: related_project.id | relative_url }}">{{ related_project.title | escape }}</a>{% unless forloop.last %}, {% endunless %}
+          {% endif %}
+        {% endfor %}
+      </p>
+    </div>
 
-{% include components/case-study.html project=project %}
+    {% assign project = all_projects | where: "id", "tabletop-rnd" | first %}
+    {% assign related_project_ids = "board-game-data,vertigo,rhea" | split: "," %}
+    <div class="role-entry">
+      <span class="role-entry-label">Data Science</span>
+      <a class="role-entry-primary" href="{{ '/projects/#' | append: project.id | relative_url }}">{{ project.title | escape }}</a>
+      <p class="role-entry-related">
+        Also:
+        {% for related_id in related_project_ids %}
+          {% assign related_project = all_projects | where: "id", related_id | first %}
+          {% if related_project %}
+            <a href="{{ '/projects/#' | append: related_project.id | relative_url }}">{{ related_project.title | escape }}</a>{% unless forloop.last %}, {% endunless %}
+          {% endif %}
+        {% endfor %}
+      </p>
+    </div>
 
-{% endfor %}
+    {% assign project = all_projects | where: "id", "tag" | first %}
+    {% assign related_project_ids = "rebirth-game,tribes,gvgai,tabletop-rnd" | split: "," %}
+    <div class="role-entry">
+      <span class="role-entry-label">Game Development</span>
+      <a class="role-entry-primary" href="{{ '/projects/#' | append: project.id | relative_url }}">{{ project.title | escape }}</a>
+      <p class="role-entry-related">
+        Also:
+        {% for related_id in related_project_ids %}
+          {% assign related_project = all_projects | where: "id", related_id | first %}
+          {% if related_project %}
+            <a href="{{ '/projects/#' | append: related_project.id | relative_url }}">{{ related_project.title | escape }}</a>{% unless forloop.last %}, {% endunless %}
+          {% endif %}
+        {% endfor %}
+      </p>
+    </div>
+
+    {% assign project = all_projects | where: "id", "rhea" | first %}
+    {% assign related_project_ids = "tag,tabletop-rnd,gvgai,typescript-rpg-creator" | split: "," %}
+    <div class="role-entry">
+      <span class="role-entry-label">AI / Software Engineering</span>
+      <a class="role-entry-primary" href="{{ '/projects/#' | append: project.id | relative_url }}">{{ project.title | escape }}</a>
+      <p class="role-entry-related">
+        Also:
+        {% for related_id in related_project_ids %}
+          {% assign related_project = all_projects | where: "id", related_id | first %}
+          {% if related_project %}
+            <a href="{{ '/projects/#' | append: related_project.id | relative_url }}">{{ related_project.title | escape }}</a>{% unless forloop.last %}, {% endunless %}
+          {% endif %}
+        {% endfor %}
+      </p>
+    </div>
+  </div>
 
 </div>
 
