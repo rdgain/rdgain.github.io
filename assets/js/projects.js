@@ -2,13 +2,12 @@ document.addEventListener("DOMContentLoaded", function () {
     const cards = Array.from(document.querySelectorAll(".project-card"));
     const searchInput = document.getElementById("project-search");
     const skillSelect = document.getElementById("project-skill");
-    const typeSelect = document.getElementById("project-type");
     const evidenceSelect = document.getElementById("project-evidence");
     const resetButton = document.getElementById("project-filter-reset");
     const countStatus = document.getElementById("project-filter-count");
     const noResults = document.getElementById("project-no-results");
 
-    if (!cards.length || !searchInput || !skillSelect || !typeSelect || !evidenceSelect ||
+    if (!cards.length || !searchInput || !skillSelect || !evidenceSelect ||
         !resetButton || !countStatus || !noResults) {
         return;
     }
@@ -19,7 +18,6 @@ document.addEventListener("DOMContentLoaded", function () {
     function filterProjects() {
         const query = searchInput.value.trim().toLocaleLowerCase();
         const selectedSkill = skillSelect.value;
-        const selectedType = typeSelect.value;
         const selectedEvidence = evidenceSelect.value;
         let visibleCount = 0;
 
@@ -29,9 +27,8 @@ document.addEventListener("DOMContentLoaded", function () {
             const evidence = (card.dataset.projectEvidence || "").split("|");
             const matchesSearch = !query || searchContent.includes(query);
             const matchesSkill = selectedSkill === "all" || skills.includes(selectedSkill);
-            const matchesType = selectedType === "all" || card.dataset.projectCategory === selectedType;
             const matchesEvidence = selectedEvidence === "all" || evidence.includes(selectedEvidence);
-            const visible = matchesSearch && matchesSkill && matchesType && matchesEvidence;
+            const visible = matchesSearch && matchesSkill && matchesEvidence;
 
             card.hidden = !visible;
             if (visible) visibleCount += 1;
@@ -47,14 +44,13 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     searchInput.addEventListener("input", filterProjects);
-    [skillSelect, typeSelect, evidenceSelect].forEach(function (select) {
+    [skillSelect, evidenceSelect].forEach(function (select) {
         select.addEventListener("change", filterProjects);
     });
 
     resetButton.addEventListener("click", function () {
         searchInput.value = "";
         skillSelect.value = "all";
-        typeSelect.value = "all";
         evidenceSelect.value = "all";
         filterProjects();
     });

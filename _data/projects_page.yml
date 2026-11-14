@@ -7,7 +7,6 @@ featured:
       - program-search
       - benchmarking
       - game-ai
-      - hill-climbing
       - python
       - java
       - software-engineering
@@ -91,7 +90,6 @@ featured:
       - code-review
       - backend-development
       - game-systems
-      - game-engineering
       - game-development
       - card-game-ai
       - statistical-analysis
@@ -179,7 +177,6 @@ featured:
       - card-game-ai
       - competition-design
       - game-development
-      - game-engineering
       - general-game-playing
       - backend-development
       - code-review
@@ -376,7 +373,6 @@ more:
       - game-development
       - game-design
       - game-systems
-      - game-engineering
       - unity
       - c-sharp
       - team-leadership
@@ -427,7 +423,6 @@ more:
       - software-engineering
       - game-development
       - game-systems
-      - game-engineering
       - evolutionary-algorithms
       - simulation
       - multi-agent-systems

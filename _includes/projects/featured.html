@@ -1,14 +1,11 @@
 {% assign project_data = site.data.projects_page %}
 {% assign all_projects = project_data.featured | concat: project_data.more %}
-{% assign category_values = "" %}
 {% assign evidence_values = "" %}
 {% for project in all_projects %}
-  {% assign category_values = category_values | append: project.category | append: "|" %}
   {% for link in project.links %}
     {% assign evidence_values = evidence_values | append: link.type | append: "|" %}
   {% endfor %}
 {% endfor %}
-{% assign project_categories = category_values | split: "|" | uniq | sort %}
 {% assign evidence_types = evidence_values | split: "|" | uniq | sort %}
 
 <section class="project-discovery" aria-labelledby="project-discovery-heading">
@@ -40,16 +37,6 @@
             {% endif %}
           {% endfor %}
         </optgroup>
-        {% endfor %}
-      </select>
-    </div>
-
-    <div class="project-filter-field">
-      <label for="project-type">Project type</label>
-      <select id="project-type">
-        <option value="all">Any project type</option>
-        {% for category in project_categories %}
-        <option value="{{ category | escape }}">{{ category | escape }}</option>
         {% endfor %}
       </select>
     </div>
@@ -98,7 +85,6 @@
     <article
       id="{{ project.id | escape }}"
       class="project-card featured-project{% unless project.image %} featured-project-no-image{% endunless %}"
-      data-project-category="{{ project.category | escape }}"
       data-project-skills="{{ project.skill_ids | join: "|" | escape }}"
       data-project-evidence="{{ project_evidence | escape }}"
       data-project-search="{{ project_search_text | strip | escape }}"
@@ -146,7 +132,6 @@
     <article
       id="{{ project.id | escape }}"
       class="project-card more-project-card"
-      data-project-category="{{ project.category | escape }}"
       data-project-skills="{{ project.skill_ids | join: "|" | escape }}"
       data-project-evidence="{{ project_evidence | escape }}"
       data-project-search="{{ project_search_text | strip | escape }}">

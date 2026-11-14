@@ -204,19 +204,19 @@ Let recruiters find projects that demonstrate a particular skill, method or kind
 
 - Define a controlled vocabulary and categories for languages/frameworks, AI and data methods, game/product domains, and delivery/leadership skills. Review `_data/skills.yml` and `_data/projects_page.yml` together and consolidate synonyms or inconsistent capitalization where they mean the same thing.
 - Map each project to the skills it demonstrates. Keep a small set of high-signal tags on overview cards and make the complete relevant technology/method list available on case-study pages.
-- Add project search and filters for skill, project type and evidence type (for example: case study, publication, source code, playable demo). Build them from the canonical project data rather than a separate hand-maintained index.
+- Add project search and filters for skill and evidence type (for example: case study, publication, source code, playable demo). Build them from the canonical project data rather than a separate hand-maintained index.
 - Provide a clear reset control, selected-filter state, and result count. Ensure controls have accessible names, work by keyboard, and remain usable on narrow screens.
-- Combine search, skill, project type and evidence filters using explicit AND behavior. Ensure homepage role links still open their target projects with filters cleared, and explain the interaction.
+- Combine search, skill and evidence filters using explicit AND behavior. Ensure homepage role links still open their target projects with filters cleared, and explain the interaction.
 
 ### Acceptance criteria
 
-- A visitor can locate projects by a normalized skill and by project/evidence type.
+- A visitor can locate projects by a normalized skill and evidence type.
 - Skills shown as filters are backed by at least one project record, and each project tag is a skill or method actually evidenced by that project.
 - Filter state and results are understandable to keyboard and screen-reader users; reset restores the full list.
 - The existing featured and More Projects sections remain understandable when filters are unused or when no results match.
 - The implementation reuses current YAML data and adds no dependency without a clear maintenance need.
 
-**Status:** In progress. Added a categorized skill vocabulary and project skill IDs, with three high-signal tags per overview card and the full technology/method list retained on featured case studies and available in expandable details on More Projects cards. The Projects page now builds skill, project-category and evidence filters from the canonical records; search and selected filters combine with AND, reset restores all projects, and the live result count and empty-state message are accessible. Homepage role links open the unfiltered list and remain anchored to their relevant projects. Content validation, generated references, and a generated-page check pass; manual browser/keyboard review remains. See [recruiter-review.md](recruiter-review.md) for the discovery recommendations.
+**Status:** Complete. Added a categorized skill vocabulary and project skill IDs, with three high-signal tags per overview card and the full technology/method list retained on featured case studies and available in expandable details on More Projects cards. Skill and evidence filters are built from canonical project records; search and selected filters combine with AND, reset restores all projects, and the live result count and empty-state message are accessible. Homepage role links open the unfiltered list and remain anchored to their relevant projects. Co-occurring Game engineering/Game development skills were consolidated; program search and hill climbing now share one filter label. Other identical-coverage skills remain separate where they represent distinct capabilities. The project-type filter was removed. Content validation, generated references, and generated-page checks pass, and the manual browser review is complete. See [recruiter-review.md](recruiter-review.md) for the discovery recommendations.
 
 ## Milestone 10: Strengthen project case studies and proof
 

@@ -47,8 +47,6 @@
       label: Gameplay analytics
     - id: heuristic-optimization
       label: Heuristic optimization
-    - id: hill-climbing
-      label: Hill climbing
     - id: interpretability
       label: Interpretability
     - id: large-language-models
@@ -88,8 +86,6 @@
       label: Game design
     - id: game-development
       label: Game development
-    - id: game-engineering
-      label: Game engineering
     - id: game-systems
       label: Game systems
     - id: general-game-playing
