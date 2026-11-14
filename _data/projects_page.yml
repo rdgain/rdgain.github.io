@@ -244,7 +244,7 @@ featured:
       outcomes:
         - A public Java framework and source repository support repeatable AI research in modern tabletop games.
         - The framework paper introduced sample AI players and outlined research directions; it also notes substantial room for improvement.
-        - Related studies have used TAG for individual games and AI tasks; add specific examples and verified adoption evidence as appropriate.
+        - Related studies have used TAG for individual games and AI tasks.
 
   - id: rhea
     title: Rolling Horizon Evolutionary Algorithms
