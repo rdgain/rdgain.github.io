@@ -12,24 +12,29 @@ subtitle="A few numbers that summarise my experience."
 
 <div class="stat-grid">
 
+{% assign publication_count = site.data.papers.size %}
+{% assign teaching_since = site.data.teaching.teaching_since %}
+{% assign teaching_period = teaching_since | prepend: "Since " %}
+{% assign supervised_projects = site.data.teaching.supervision.project_count %}
+
 {% include components/cards/stat-card.html
-number="30+"
-label="Publications"
+number=publication_count
+label="Publication records"
 %}
 
 {% include components/cards/stat-card.html
-number="10+"
-label="Years Teaching"
+number=teaching_period
+label="Teaching activity"
 %}
 
 {% include components/cards/stat-card.html
 number="£120k+"
-label="Research Funding"
+label="R&D Funding Raised"
 %}
 
 {% include components/cards/stat-card.html
-number="20+"
-label="Students Supervised"
+number=supervised_projects
+label="Projects Supervised"
 %}
 
 </div>

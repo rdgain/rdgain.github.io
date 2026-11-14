@@ -23,7 +23,7 @@ The most valuable changes would be:
 ### Strong evidence already present
 
 - **LLM program search:** the study spans 29 tasks and 11 models across Python and Java. The current project data also describes hands-on work connecting LLM interaction to the TAG codebase, extracting the TAG API, prompt engineering, and building a UI to run the benchmark, inspect results and generated code, and guide further search.
-- **Tabletop R&D:** the site describes co-founding and directing the company, AI-assisted tabletop testing, more than £120k in research and development funding, and named clients.
+- **Tabletop R&D:** the site describes co-founding and directing the company, AI-assisted tabletop testing, over £120k raised for R&D through Innovate UK and Queen Mary Innovation, and named clients.
 - **TAG:** the current case study describes leadership of the framework and contributions to its core game structure, API, agent interaction, game running, interfaces and metrics. It also reports more than 60 game titles.
 - **RHEA:** the case study describes leadership across algorithm and experimental design, implementation, evaluation, analysis, publications, student supervision and the PhD thesis.
 - **Recent applied work:** More Projects includes the TypeScript/React RPG character creator and LLM chat application with full project ownership, and Rebirth, including the original team context, lead design and engineering role, later Unity 6 modernization and web build using Codex.

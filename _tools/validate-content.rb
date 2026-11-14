@@ -112,6 +112,11 @@ unique_ids(research_topics, "_data/research.yml topics", errors)
 teaching = data["teaching"]
 teaching_ids = []
 if teaching.is_a?(Hash)
+  required_fields([teaching], %w[teaching_since], "_data/teaching.yml", errors)
+  unless teaching["teaching_since"].to_s.match?(/\A\d{4}\z/)
+    errors << "_data/teaching.yml: teaching_since must be a four-digit year"
+  end
+
   modules = teaching["modules"]
   required_fields(modules, %w[id title institution years role description], "_data/teaching.yml modules", errors)
   unique_ids(modules, "_data/teaching.yml modules", errors)

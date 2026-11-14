@@ -14,6 +14,11 @@ publication record, with links to papers, presentations, repositories and
 additional material where available.
 </p>
 
+<p class="publication-scope">
+The total includes every record type in the archive: journal articles,
+conference papers, books and doctoral theses.
+</p>
+
 <div class="publication-stats">
 
     <div class="stat">
@@ -26,7 +31,7 @@ additional material where available.
 
         <div class="label">
 
-            Publications
+            Publication records
 
         </div>
 

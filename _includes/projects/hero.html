@@ -1,3 +1,6 @@
+{% assign rhea_topic = site.data.research.topics | where: "id", "rhea" | first %}
+{% assign research_since = rhea_topic.years | split: "–" | first %}
+
 <section class="projects-hero">
 
 <div class="projects-intro">
@@ -21,13 +24,15 @@ automation and intelligent decision making.
 
 </p>
 
+{% include components/contact-cta.html text="Contact me about project work" %}
+
 </div>
 
 <div class="projects-stats">
 
 <div class="stat">
-<div class="number">10+</div>
-<div class="label">Years Building AI</div>
+<div class="number">Since {{ research_since }}</div>
+<div class="label">Game AI work</div>
 </div>
 
 <div class="stat">

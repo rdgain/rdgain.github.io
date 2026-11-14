@@ -13,6 +13,7 @@
       <p class="project-category">{{ project.category | escape }}</p>
       <h1>{{ project.title | escape }}</h1>
       <p class="project-case-study-summary">{{ study.summary | escape }}</p>
+      {% include components/contact-cta.html text="Contact me about this project" %}
     </header>
 
     <figure class="project-case-study-image">

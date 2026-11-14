@@ -268,7 +268,7 @@ Make experience, impact figures, CV routing and contact details consistent and e
 - A recruiter can reach an explicit contact action from Home, Projects and any featured case study.
 - The site passes a content and local-reference check after the wording and links are reconciled.
 
-**Status:** Proposed. Identified inconsistencies and contact/CV recommendations are recorded in [recruiter-review.md](recruiter-review.md).
+**Status:** Complete. Home, Research and Publications use the same 37-record archive count and define its scope. Home and Teaching use the same teaching start year and supervised-project count from `_data/teaching.yml`; role wording and research technology labels are aligned, and explicit email actions are present on Home, Projects and featured case studies. Funding claims consistently say over £120k was raised for R&D through Innovate UK and Queen Mary Innovation, as confirmed by the author; no public evidence URL was supplied. The AI CV remains the sole linked CV and the author confirmed that it is current and accurate; alternate CV files remain unlinked.
 
 ## Suggested order
 

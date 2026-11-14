@@ -1,0 +1,2 @@
+{% assign contact_text = include.text | default: "Contact Raluca" %}
+<a class="btn btn-secondary contact-cta" href="mailto:{{ site.author.email }}">{{ contact_text | escape }}</a>

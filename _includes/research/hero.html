@@ -1,3 +1,6 @@
+{% assign rhea_topic = site.data.research.topics | where: "id", "rhea" | first %}
+{% assign research_since = rhea_topic.years | split: "–" | first %}
+
 <section class="research-hero">
 
     <div class="research-intro">
@@ -31,20 +34,20 @@
 
         <div class="stat">
 
-            <div class="number">35+</div>
+            <div class="number">{{ site.data.papers.size }}</div>
 
             <div class="label">
-                Publications
+                Publication records
             </div>
 
         </div>
 
         <div class="stat">
 
-            <div class="number">10+</div>
+            <div class="number">Since {{ research_since }}</div>
 
             <div class="label">
-                Years in Game AI
+                Game AI research
             </div>
 
         </div>
@@ -61,10 +64,10 @@
 
         <div class="stat">
 
-            <div class="number">120k+</div>
+            <div class="number">£120k+</div>
 
             <div class="label">
-                Research Funding
+                R&amp;D Funding Raised
             </div>
 
         </div>
