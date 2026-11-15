@@ -1,6 +1,6 @@
 - id: undergraduate
 
-  year: "2015"
+  year: "2012-2015"
   title: BSc Computer Games
   organisation: University of Essex
   image:
@@ -17,12 +17,12 @@
     - Algorithms
     - Game Development
 
-  featured: false
+  featured: true
 
 
 - id: masters
 
-  year: "2016"
+  year: "2015-2016"
 
   title: MSc Computer Games
 
@@ -46,6 +46,9 @@
 
   featured: true
 
+  portfolio:
+    - rebirth-game
+
 
 - id: phd
 
@@ -66,12 +69,17 @@
     - MCTS
     - Java
     - Game AI
+    - Unity
+    - LLM
+    - Game design and development
+    - Data science and research
 
   featured: true
 
   portfolio:
     - gvgai
     - tag
+    - rhea
 
 
 - id: lecturer
@@ -125,7 +133,7 @@
   featured: true
 
   portfolio:
-    - tag
+    - tabletop-rnd
 
 
 - id: industry
