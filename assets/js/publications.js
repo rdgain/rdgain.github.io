@@ -6,11 +6,18 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const searchInput = document.getElementById("publication-search");
     const typeSelect = document.getElementById("publication-type");
+    const projectSelect = document.getElementById("publication-project");
     const tagContainer = document.getElementById("publication-tags");
+    const noResults = document.getElementById("publication-no-results");
 
-    if (!searchInput || !typeSelect || !tagContainer) return;
+    if (!searchInput || !typeSelect || !projectSelect || !tagContainer) return;
 
     let selectedTag = "all";
+
+    const requestedProject = new URLSearchParams(window.location.search).get("project");
+    if (requestedProject && Array.from(projectSelect.options).some(option => option.value === requestedProject)) {
+        projectSelect.value = requestedProject;
+    }
 
     //----------------------------------------------------
     // Build tag buttons automatically
@@ -86,6 +93,9 @@ document.addEventListener("DOMContentLoaded", function () {
         const type =
             typeSelect.value;
 
+        const project =
+            projectSelect.value;
+
         let visible = 0;
 
         cards.forEach(card => {
@@ -107,6 +117,11 @@ document.addEventListener("DOMContentLoaded", function () {
                     .split("|")
                     .map(t => t.trim());
 
+            const projects =
+                (card.dataset.projects || "")
+                    .split("|")
+                    .filter(Boolean);
+
             const tagString = tags.join(" ").toLowerCase();
 
 			const matchesSearch =
@@ -124,10 +139,15 @@ document.addEventListener("DOMContentLoaded", function () {
                 selectedTag === "all" ||
                 tags.includes(selectedTag);
 
+            const matchesProject =
+                project === "all" ||
+                projects.includes(project);
+
             const show =
                 matchesSearch &&
                 matchesType &&
-                matchesTag;
+                matchesTag &&
+                matchesProject;
 
             card.style.display = show ? "" : "none";
 
@@ -137,6 +157,15 @@ document.addEventListener("DOMContentLoaded", function () {
         });
 
         updateCounter(visible);
+        if (noResults) {
+            noResults.hidden = visible !== 0;
+            if (visible === 0) {
+                noResults.textContent =
+                    project !== "all" && search === "" && type === "all" && selectedTag === "all"
+                        ? "No publications are currently linked to " + projectSelect.options[projectSelect.selectedIndex].text + "."
+                        : "No publications match the current search and filters.";
+            }
+        }
 
     }
 
@@ -180,6 +209,8 @@ document.addEventListener("DOMContentLoaded", function () {
     searchInput.addEventListener("input", filterCards);
 
     typeSelect.addEventListener("change", filterCards);
+
+    projectSelect.addEventListener("input", filterCards);
 
     //----------------------------------------------------
     // Initial filter

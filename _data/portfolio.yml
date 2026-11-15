@@ -33,7 +33,7 @@
 
   links:
     github: https://github.com/rdgain/tag
-    papers: /research
+    papers: /research/?project=tag
     website:
 
 
@@ -71,7 +71,7 @@
 
   links:
     github:
-    papers: /publications
+    papers: /research/?project=gvgai
     website:
 
 

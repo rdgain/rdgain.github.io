@@ -2,7 +2,7 @@
 
 ## Scope
 
-This is a content and discoverability review of the current site, written from three hypothetical hiring perspectives. It covers the home, About, Projects and case-study pages, Research, Publications, Skills data, Teaching and the CV links. It is a set of recommendations only; no site changes are made here. No specific job descriptions were supplied, so the feedback focuses on the evidence each type of hiring team commonly needs to assess.
+This is a content and discoverability review of the site, written from three hypothetical hiring perspectives. It covers the home, About, Projects and case-study pages, Research, Skills data, Teaching and the CV links. It records review findings and recommendations; the live site has since changed. No specific job descriptions were supplied, so the feedback focuses on the evidence each type of hiring team commonly needs to assess.
 
 ## Executive assessment
 
@@ -28,16 +28,15 @@ The most valuable changes would be:
 - **RHEA:** the case study describes leadership across algorithm and experimental design, implementation, evaluation, analysis, publications, student supervision and the PhD thesis.
 - **Recent applied work:** More Projects includes the TypeScript/React RPG character creator and LLM chat application with full project ownership, and Rebirth, including the original team context, lead design and engineering role, later Unity 6 modernization and web build using Codex.
 
-These are persuasive signals, but they are split across the Projects overview, case studies, About page, Research page and More Projects cards. Bringing the most role-relevant evidence into a predictable structure would make it easier to assess.
+These are persuasive signals, now grouped across the Projects overview, case studies, shared Expertise section, Community and More Projects cards.
 
 ### Discoverability and consistency issues
 
-- The home page selects up to three projects from `_data/portfolio.yml` (TAG, GVGAI and Tabletop R&D), while the Projects page's featured set is LLM program search, Tabletop R&D, TAG and RHEA. A recruiter landing on the home page can miss the LLM, RHEA, TypeScript and Rebirth evidence.
-- The Projects page shows skill tags but has no search or filter. The tags are a mixture of languages, methods, roles, product skills and broad areas, and project entries vary considerably in tag count.
-- `_data/skills.yml` provides a separate skills list, but the visible expertise sections are hard-coded and project tags are maintained in the Projects data. This makes it harder to maintain a consistent vocabulary or build a reliable skill filter.
-- Several More Projects cards point to the general Publications page rather than the specific paper, repository, demo or case study that proves the card's claims. The Boardgame Data Analysis and Gameplay Trace Analysis cards, for example, have brief summaries and skill labels but no detailed case studies.
-- The Publications page does support search, type selection and subject-tag filters. Those controls help locate papers, but they do not answer the recruiter question “Which project demonstrates this skill?”
-- Experience figures differ by page: Home says 30+ publications while Research says 35+ and the publication list is data-driven; Home says 10+ years teaching while Teaching says 7+. Funding also appears in multiple places. Reconcile each figure to a single current source and state what it counts.
+- The Projects page's featured set is LLM program search, Tabletop R&D, TAG and RHEA, with other projects available below.
+- Project search, skill/evidence filters and the controlled vocabulary in `_data/skills.yml` now support discovery across project entries.
+- Several More Projects cards point to the general Research page rather than the specific paper, repository, demo or case study that proves the card's claims. The Boardgame Data Analysis and Gameplay Trace Analysis cards, for example, have brief summaries and skill labels but no detailed case studies.
+- The Research page supports search, type selection, subject tags and project filtering. Each Projects entry links to its relevant publication results.
+- Experience figures and funding wording were reconciled in Milestone 11; see [milestones.md](milestones.md).
 - The main CV link points to the AI CV. Recruiters for game development roles may benefit from a clear route to the game-development CV if that version remains current.
 
 ## 1. AI company recruiter: LLMs, agentic systems and AI engineering
@@ -101,9 +100,9 @@ Rebirth → TypeScript RPG Character Creator and AI Chat → TAG → selected RH
 
 ### Priority 1: Make the first click relevant
 
-- Align the homepage featured-work section with the four featured projects already selected for Projects: LLM program search, Tabletop R&D, TAG and RHEA.
-- Add three short role-oriented entry points or filter presets (AI/LLM, Data Science, Game Development) that reveal matching projects without creating three copies of the same portfolio.
-- Add an accessible project search and filters for skills, project type and evidence type. Reuse the project records rather than hard-coding another set of cards. Include a clear reset control and result count; keep keyboard and mobile behavior straightforward.
+- Keep the homepage Expertise cards concise and link each to a few relevant projects instead of restoring a separate role-entry grid.
+- Keep project search and skill/evidence filters accessible and backed by canonical project data; project type is intentionally not a filter.
+- Keep project-specific publication links available from each Projects entry and preserve the selected project when opening Research.
 
 ### Priority 2: Make each case study easy to evaluate
 
@@ -115,9 +114,9 @@ Create one controlled skill vocabulary for technologies, methods and broader cap
 
 ### Priority 4: Improve confidence and consistency
 
-- Reconcile publication, teaching and funding totals across Home, Research, Teaching and case studies. Add a short definition or evidence link beside prominent numbers.
-- Link directly to selected CV variants if they are current and intended for different role families; otherwise keep one canonical CV and ensure its headline and skills match the target roles.
-- Add a direct contact action near the top-level hiring paths, not only in the footer or About page.
+- Keep publication, teaching and funding totals aligned across Home, Projects, Teaching and Research, with definitions or evidence near prominent figures.
+- Keep one canonical CV unless additional versions are confirmed current and intentionally public.
+- Keep a direct contact action near the top-level hiring paths, not only in the footer or About page.
 - Keep conceptual thumbnails, but pair them with real evidence—screenshots, result plots, demos or repository links—so recruiters can distinguish illustration from the implemented product.
 
 ## Suggested order

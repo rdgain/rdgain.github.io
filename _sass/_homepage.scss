@@ -1,74 +1,31 @@
-.role-entry-grid {
-    display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    gap: .75rem;
-    margin: 2rem 0 3rem;
-}
-
-.role-entry {
-    display: flex;
-    flex-direction: column;
-    gap: .45rem;
-    padding: 1rem 1.15rem;
-    border: 1px solid #dfe7f1;
-    border-radius: 12px;
-    background: #f8fbff;
-    transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease;
-}
-
-.role-entry:hover,
-.role-entry:focus-within {
-    transform: translateY(-2px);
-    border-color: #8ab4ff;
-    box-shadow: 0 10px 20px rgba(37, 99, 235, .08);
-}
-
-.role-entry-primary {
-    color: #1f2937;
-    font-size: 1rem;
-    font-weight: 700;
-    line-height: 1.3;
-}
-
-.role-entry-primary:hover {
-    color: #2563eb;
-    text-decoration: none;
-}
-
-.role-entry-primary:focus-visible,
-.role-entry-related a:focus-visible {
-    border-radius: 2px;
-}
-
-.role-entry-label {
-    font-size: .75rem;
-    font-weight: 700;
-    letter-spacing: .08em;
-    text-transform: uppercase;
-    color: #3b82f6;
-}
-
-.role-entry-related {
-    margin: 0;
+.expertise-links {
+    margin: 1rem 0 0;
+    overflow-wrap: anywhere;
     color: #53657a;
-    font-size: .78rem;
+    font-size: .85rem;
     line-height: 1.5;
 }
 
-.role-entry-related a {
-    color: #53657a;
-    font-size: inherit;
+.expertise-links span {
+    display: block;
+    margin-bottom: .25rem;
+    font-weight: 700;
 }
 
-.role-entry-related a:hover {
+.expertise-links a {
+    display: inline;
+    color: #53657a;
+}
+
+.expertise-links a:hover {
     color: #2563eb;
 }
 
-.featured-project[id] {
+.project-card[id] {
     scroll-margin-top: 9rem;
 }
 
-.featured-project:target {
+.project-card:target {
     border-color: #3b82f6;
     box-shadow: 0 0 0 3px rgba(59, 130, 246, .2), 0 8px 20px rgba(15, 23, 42, .1);
 }
@@ -148,12 +105,8 @@
 
 @media (max-width:900px){
 
-    .featured-project[id] {
+    .project-card[id] {
         scroll-margin-top: 12rem;
-    }
-
-    .role-entry-grid {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
     .expertise-grid{
@@ -162,10 +115,4 @@
 
     }
 
-}
-
-@media (max-width:480px) {
-    .role-entry-grid {
-        grid-template-columns: 1fr;
-    }
 }

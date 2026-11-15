@@ -51,7 +51,6 @@
             {% when "case_study" %}Case study
             {% when "repository" %}Source code
             {% when "publication" %}Publication
-            {% when "research" %}Research page
             {% when "website" %}Website
             {% else %}{{ evidence_type | replace: "_", " " | capitalize }}
           {% endcase %}
@@ -101,7 +100,7 @@
 
       <div class="project-content">
         <p class="project-category">{{ project.category | escape }}</p>
-        <span class="project-target-notice">Suggested project for this role</span>
+        <span class="project-target-notice">Related expertise</span>
         <h3>{{ project.title | escape }}</h3>
         <p>{{ project.summary | escape }}</p>
 
@@ -110,6 +109,8 @@
         {% if case_study_link %}
         <p class="featured-project-cta" aria-hidden="true">View case study <span>→</span></p>
         {% endif %}
+
+        <p class="featured-project-publications">{% include projects/publication-filter-link.html project=project %}</p>
 
       </div>
     </article>
@@ -153,12 +154,15 @@
 
       <ul class="project-links" aria-label="{{ project.title | escape }} links">
         {% for link in project.links %}
+        {% unless link.type == "publication" and link.url contains "/research/" %}
         <li>
           <a href="{% if link.url contains '://' %}{{ link.url }}{% else %}{{ link.url | relative_url }}{% endif %}"{% if link.url contains '://' %} target="_blank" rel="noopener noreferrer"{% endif %}>
             {{ link.label | escape }}
           </a>
         </li>
+        {% endunless %}
         {% endfor %}
+        <li>{% include projects/publication-filter-link.html project=project %}</li>
       </ul>
     </article>
     {% endfor %}

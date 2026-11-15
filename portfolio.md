@@ -1,21 +1,15 @@
 ---
-layout: page
+layout: default
 title: Portfolio
 permalink: /portfolio/
 ---
 
-<h1 class="visually-hidden">Portfolio</h1>
+<div class="page-content projects-page">
 
-{% include components/section-header.html
+{% include projects/hero.html %}
 
-title="Portfolio"
+{% include projects/featured.html %}
 
-subtitle="Selected projects demonstrating my work across AI, simulation, games and research."
+</div>
 
-%}
-
-{% for project in site.data.portfolio %}
-
-{% include components/case-study.html project=project %}
-
-{% endfor %}
+<script src="{{ '/assets/js/projects.js' | relative_url }}" defer></script>

@@ -2,6 +2,8 @@ featured:
   - id: llm-program-search
     title: LLM Program Search for Games
     category: Research highlight
+    publication_ids:
+      - eberhardinger2025code
     skill_ids:
       - large-language-models
       - program-search
@@ -74,6 +76,11 @@ featured:
   - id: tabletop-rnd
     title: Tabletop R&D
     category: AI-assisted game testing
+    publication_ids:
+      - gaina2021terraforming
+      - gaina2022pandemic
+      - balla2023pytag
+      - best2024journeys
     skill_ids:
       - ai-playtesting
       - simulation
@@ -126,7 +133,7 @@ featured:
         url: https://www.tabletoprnd.com
         type: website
       - label: Related tabletop-game research
-        url: /publications/
+        url: /research/?project=tabletop-rnd
         type: publication
     case_study:
       summary: >
@@ -159,6 +166,13 @@ featured:
   - id: tag
     title: "TAG: Tabletop Games Framework"
     category: General AI for tabletop games
+    publication_ids:
+      - gaina2020tag
+      - gaina2020tagdesign
+      - gaina2021terraforming
+      - gaina2022pandemic
+      - balla2023pytag
+      - best2024journeys
     skill_ids:
       - game-ai
       - game-systems
@@ -249,6 +263,19 @@ featured:
   - id: rhea
     title: Rolling Horizon Evolutionary Algorithms
     category: Game AI research
+    years: "2016–2021"
+    publication_ids:
+      - gaina2017rhanalysis
+      - gaina2017rhhybrids
+      - gaina2017rhseeding
+      - gaina2018vertigo
+      - gaina2018win
+      - gaina2019thyia
+      - lucas2019efficient
+      - gaina2020rhea
+      - gaina2020onlinerhea
+      - perez2020rhneat
+      - gaina2021phd
     skill_ids:
       - game-ai
       - evolutionary-algorithms
@@ -294,14 +321,8 @@ featured:
       - label: View case study
         url: /projects/rhea/
         type: case_study
-      - label: Research themes
-        url: /research/
-        type: research
       - label: Rolling Horizon Evolutionary Algorithms for General Video Game Playing
         url: https://arxiv.org/abs/2003.12331
-        type: publication
-      - label: Publications
-        url: /publications/
         type: publication
     case_study:
       summary: >
@@ -340,6 +361,7 @@ more:
   - id: typescript-rpg-creator
     title: TypeScript RPG Character Creator and AI Chat
     category: Full-stack AI application
+    publication_ids: []
     skill_ids:
       - agentic-ai
       - large-language-models
@@ -369,6 +391,7 @@ more:
   - id: rebirth-game
     title: Rebirth
     category: Unity game development
+    publication_ids: []
     skill_ids:
       - game-development
       - game-design
@@ -404,6 +427,27 @@ more:
   - id: gvgai
     title: General Video Game AI
     category: Framework and benchmark
+    publication_ids:
+      - gaina2017rhanalysis
+      - gaina2017rhhybrids
+      - gaina2017rhseeding
+      - gaina2018gvgai2P
+      - gaina2018win
+      - gaina2019sparse-rewards
+      - gaina2019thyia
+      - gaina2019audio
+      - perez2019gvgaisurvey
+      - sironi2018mctsGVGP
+      - perez2017macro-physics
+      - drageset2019generator
+      - dockhorn2019unforgiving
+      - lucas2019gog
+      - gaina2016gvgai2p
+      - gvgaibook2019
+      - gaina2020rhea
+      - gaina2020onlinerhea
+      - perez2020rhneat
+      - gaina2021phd
     skill_ids:
       - game-ai
       - benchmarking
@@ -442,8 +486,8 @@ more:
       - Game design
       - 2D game art
     links:
-      - label: Publications
-        url: /publications/
+      - label: Research
+        url: /research/
         type: publication
       - label: Source code
         url: https://github.com/gaigresearch/gvgai
@@ -452,6 +496,8 @@ more:
   - id: vertigo
     title: VERTIGO
     category: Research tool
+    publication_ids:
+      - gaina2018vertigo
     skill_ids:
       - data-visualization
       - gameplay-analytics
@@ -470,8 +516,8 @@ more:
       - Evolutionary algorithms
       - Game AI
     links:
-      - label: Publications
-        url: /publications/
+      - label: Research
+        url: /research/
         type: publication
       - label: Source code
         url: https://github.com/rdgain/VERTIGO
@@ -480,6 +526,8 @@ more:
   - id: tribes
     title: Tribes
     category: Strategy-game AI environment
+    publication_ids:
+      - perez2020tribes
     skill_ids:
       - game-ai
       - game-systems
@@ -501,8 +549,8 @@ more:
       - User interface design
       - 2D game art
     links:
-      - label: Publications
-        url: /publications/
+      - label: Research
+        url: /research/
         type: publication
       - label: Source code
         url: https://github.com/GAIGResearch/Tribes
@@ -511,6 +559,8 @@ more:
   - id: pommerman
     title: Pommerman
     category: Multi-agent planning
+    publication_ids:
+      - perez2019pommerman
     skill_ids:
       - game-ai
       - planning-search
@@ -529,8 +579,8 @@ more:
       - Algorithm design
       - User interface design
     links:
-      - label: Publications
-        url: /publications/
+      - label: Research
+        url: /research/
         type: publication
       - label: Source code
         url: https://github.com/rdgain/java-pommerman
@@ -539,6 +589,10 @@ more:
   - id: ai-assisted-game-design
     title: AI-assisted Game Design
     category: Game design and optimization
+    publication_ids:
+      - gaina2017tuning
+      - kunanusont2017ntuple
+      - drageset2019generator
     skill_ids:
       - game-ai
       - evolutionary-algorithms
@@ -555,13 +609,15 @@ more:
       - Optimization
       - Procedural content generation
     links:
-      - label: Publications
-        url: /publications/
+      - label: Research
+        url: /research/
         type: publication
 
   - id: marlo
     title: MARLO Competition
     category: Competition and evaluation
+    publication_ids:
+      - perez2018multi
     skill_ids:
       - reinforcement-learning
       - multi-agent-systems
@@ -584,8 +640,8 @@ more:
       - Code review
       - Large-codebase engineering
     links:
-      - label: Publications
-        url: /publications/
+      - label: Research
+        url: /research/
         type: publication
       - label: Blog post
         url: https://www.microsoft.com/en-us/research/blog/marlo-competition-2018/
@@ -594,6 +650,8 @@ more:
   - id: board-game-data
     title: Boardgame Data Analysis
     category: Data science
+    publication_ids:
+      - nguyen2024unveiling
     skill_ids:
       - data-analysis
       - machine-learning
@@ -608,13 +666,15 @@ more:
       - Data analysis
       - Interpretability
     links:
-      - label: Publications
-        url: /publications/
+      - label: Research
+        url: /research/
         type: publication
 
   - id: gameplay-trace-analysis
     title: Gameplay Trace Analysis
     category: Explainable AI
+    publication_ids:
+      - gutierrez2025playtraces
     skill_ids:
       - explainable-ai
       - temporal-logic
@@ -632,13 +692,15 @@ more:
       - Game analytics
       - Java
     links:
-      - label: Publications
-        url: /publications/
+      - label: Research
+        url: /research/
         type: publication
 
   - id: legends-of-code-and-magic
     title: Legends of Code and Magic
     category: Card-game agents
+    publication_ids:
+      - montoliu2020cards
     skill_ids:
       - card-game-ai
       - heuristic-optimization
@@ -654,8 +716,8 @@ more:
       - Card-game AI
       - Experimental design
     links:
-      - label: Publications
-        url: /publications/
+      - label: Research
+        url: /research/
         type: publication
       - label: Competition website
         url: https://www.codingame.com/contests/legends-of-code-and-magic

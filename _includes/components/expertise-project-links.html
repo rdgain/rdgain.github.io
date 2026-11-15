@@ -1,0 +1,11 @@
+{% assign projects = site.data.projects_page.featured | concat: site.data.projects_page.more %}
+{% assign project_ids = include.ids | split: "," %}
+<p class="expertise-links">
+  <span>Portfolio:</span>
+  {% for project_id in project_ids %}
+    {% assign project = projects | where: "id", project_id | first %}
+    {% if project %}
+      <a href="{{ '/portfolio/#' | append: project.id | relative_url }}">{{ project.title | escape }}</a>{% unless forloop.last %}, {% endunless %}
+    {% endif %}
+  {% endfor %}
+</p>

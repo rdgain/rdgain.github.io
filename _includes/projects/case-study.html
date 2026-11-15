@@ -3,7 +3,7 @@
 
 <div class="project-case-study">
   <nav class="project-breadcrumbs" aria-label="Breadcrumb">
-    <a href="{{ '/projects/' | relative_url }}">Projects</a>
+    <a href="{{ '/portfolio/' | relative_url }}">Portfolio</a>
     <span aria-hidden="true">/</span>
     <span aria-current="page">{{ project.title | escape }}</span>
   </nav>
@@ -64,7 +64,7 @@
         <h2 id="project-reading">Related work and links</h2>
         <ul class="project-case-study-links">
           {% for link in project.links %}
-          {% unless link.type == 'case_study' %}
+          {% unless link.type == 'case_study' or link.url contains '/research/' %}
           <li>
             <a href="{% if link.url contains '://' %}{{ link.url }}{% else %}{{ link.url | relative_url }}{% endif %}"{% if link.url contains '://' %} target="_blank" rel="noopener noreferrer"{% endif %}>
               {{ link.label | escape }}
@@ -72,10 +72,11 @@
           </li>
           {% endunless %}
           {% endfor %}
+          <li>{% include projects/publication-filter-link.html project=project %}</li>
         </ul>
       </section>
 
-      <p class="project-case-study-return"><a href="{{ '/projects/' | relative_url }}">Back to all projects</a></p>
+      <p class="project-case-study-return"><a href="{{ '/portfolio/' | relative_url }}">Back to portfolio</a></p>
     </div>
   </article>
 </div>

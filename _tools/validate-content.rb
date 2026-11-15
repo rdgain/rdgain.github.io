@@ -104,11 +104,6 @@ portfolio = data["portfolio"]
 required_fields(portfolio, %w[id title category summary], "_data/portfolio.yml", errors)
 unique_ids(portfolio, "_data/portfolio.yml", errors)
 
-research = data["research"]
-research_topics = research.is_a?(Hash) ? research["topics"] : nil
-required_fields(research_topics, %w[id title summary], "_data/research.yml topics", errors)
-unique_ids(research_topics, "_data/research.yml topics", errors)
-
 teaching = data["teaching"]
 teaching_ids = []
 if teaching.is_a?(Hash)
@@ -150,7 +145,7 @@ project_records = []
 if projects_page.is_a?(Hash)
   %w[featured more].each do |group|
     records = projects_page[group]
-    required_fields(records, %w[id title category summary skill_ids], "_data/projects_page.yml #{group}", errors)
+    required_fields(records, %w[id title category summary skill_ids publication_ids], "_data/projects_page.yml #{group}", errors)
     project_records.concat(Array(records).select { |record| record.is_a?(Hash) })
   end
 else
@@ -178,13 +173,12 @@ def validate_references(records, fields, allowed_ids, label, errors)
   end
 end
 
-validate_references(research_topics, %w[portfolio], portfolio_ids, "_data/research.yml topics", errors)
-validate_references(research_topics, %w[publications], paper_ids, "_data/research.yml topics", errors)
 validate_references(project_records, %w[skill_ids], skill_ids, "_data/projects_page.yml projects", errors)
+validate_references(project_records, %w[publication_ids], paper_ids, "_data/projects_page.yml projects", errors)
 
 if project_records.any?
   used_skill_ids = []
-  supported_evidence_types = %w[case_study demo publication repository research website]
+  supported_evidence_types = %w[case_study demo publication repository website]
 
   project_records.each_with_index do |project, index|
     next unless project.is_a?(Hash)
@@ -198,6 +192,15 @@ if project_records.any?
     used_skill_ids.concat(project_skill_ids)
     if project_skill_ids.uniq.length != project_skill_ids.length
       errors << "_data/projects_page.yml projects[#{index}]: duplicate skill IDs"
+    end
+
+    publication_ids = project["publication_ids"]
+    unless publication_ids.is_a?(Array)
+      errors << "_data/projects_page.yml projects[#{index}]: publication_ids must be a list"
+      next
+    end
+    if publication_ids.uniq.length != publication_ids.length
+      errors << "_data/projects_page.yml projects[#{index}]: duplicate publication IDs"
     end
 
     links = project["links"]

@@ -1,94 +1,18 @@
 ---
 layout: default
-title: Publications
+title: Publications archive moved
 ---
 
-<div class="page-content publications-page">
-
-<h1>Publications</h1>
-
-<p class="page-intro">
-My research spans Artificial Intelligence, Game AI, Evolutionary Computation,
-Simulation, Tabletop Games and Machine Learning. This page contains my complete
-publication record, with links to papers, presentations, repositories and
-additional material where available.
-</p>
-
-<p class="publication-scope">
-The total includes every record type in the archive: journal articles,
-conference papers, books and doctoral theses.
-</p>
-
-<div class="publication-stats">
-
-    <div class="stat">
-
-        <div class="number">
-
-            {{ site.data.papers.size }}
-
-        </div>
-
-        <div class="label">
-
-            Publication records
-
-        </div>
-
-    </div>
-
-    <div class="stat">
-
-        <div class="number">
-
-            {{ site.data.papers | where:"type","article" | size }}
-
-        </div>
-
-        <div class="label">
-
-            Journal Articles
-
-        </div>
-
-    </div>
-
-    <div class="stat">
-
-        <div class="number">
-
-            {{ site.data.papers | where:"type","inproceedings" | size }}
-
-        </div>
-
-        <div class="label">
-
-            Conference Papers
-
-        </div>
-
-    </div>
-
+<div class="page-content narrow">
+  <h1>Publications archive moved</h1>
+  <p>The publications archive is now part of the Research page. Your project filter will be preserved when possible.</p>
+  <p><a id="research-handoff" href="{{ '/research/' | relative_url }}">Go to Research</a></p>
 </div>
 
-{% include publications/filters.html %}
-
-<h2 class="visually-hidden" id="publication-list-heading">Publication list</h2>
-
-<p id="publication-counter" class="publication-counter" role="status" aria-live="polite" aria-atomic="true"></p>
-
-<div class="publication-list" id="publication-list" aria-labelledby="publication-list-heading">
-
-{% assign papers = site.data.papers | sort: "year" | reverse %}
-
-{% for paper in papers %}
-
-    {% include publications/publication-card.html paper=paper %}
-
-{% endfor %}
-
-</div>
-
-<script src="{{ '/assets/js/publications.js' | relative_url }}"></script>
-
-</div>
+<script>
+  (function () {
+    var destination = "{{ '/research/' | relative_url }}" + window.location.search + window.location.hash;
+    document.getElementById("research-handoff").href = destination;
+    window.location.replace(destination);
+  }());
+</script>

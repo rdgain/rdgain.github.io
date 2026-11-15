@@ -1,3 +1,4 @@
+{% assign publication_projects = site.data.projects_page.featured | concat: site.data.projects_page.more %}
 <div class="publication-toolbar">
 
     <div class="publication-search">
@@ -34,6 +35,23 @@
 
     </div>
 
+    <div class="publication-project-filter">
+
+        <label for="publication-project">Project</label>
+
+        <select id="publication-project" aria-controls="publication-list">
+
+        <option value="all">All projects</option>
+        {% for project in publication_projects %}
+        <option value="{{ project.id | escape }}">{{ project.title | escape }}</option>
+        {% endfor %}
+
+        </select>
+
+    </div>
+
 </div>
+
+<noscript><p>Publication search and filters require JavaScript; all publications are shown below.</p></noscript>
 
 <div id="publication-tags" role="group" aria-label="Filter publications by subject"></div>

@@ -33,7 +33,8 @@
 }
 
 .publication-search label,
-.publication-type-filter label {
+.publication-type-filter label,
+.publication-project-filter label {
 
     display: block;
     margin-bottom: .4rem;
@@ -49,6 +50,12 @@
 }
 
 .publication-type-filter {
+
+    min-width: 220px;
+
+}
+
+.publication-project-filter {
 
     min-width: 220px;
 
@@ -81,7 +88,8 @@
 
 }
 
-#publication-type {
+#publication-type,
+#publication-project {
 
     padding: .9rem 1rem;
     border: 1px solid #ddd;
@@ -406,6 +414,19 @@
 
 }
 
+.publication-no-results {
+
+    margin: 0 0 1rem;
+    color: #53657a;
+
+}
+
+.publication-no-results[hidden] {
+
+    display: none;
+
+}
+
 @media (max-width: 800px) {
 
     .publication-toolbar {
@@ -427,7 +448,14 @@
 
     }
 
-    #publication-type {
+    .publication-project-filter {
+
+        width: 100%;
+
+    }
+
+    #publication-type,
+    #publication-project {
 
         width: 100%;
 

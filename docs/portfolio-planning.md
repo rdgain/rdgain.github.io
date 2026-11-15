@@ -2,7 +2,7 @@
 
 ## Scope and guardrails
 
-This document began as a plan; Milestone 7 implementation is now in progress. The Projects overview and featured case studies now use one page-specific data source with a More Projects section. The homepage and `/portfolio/` dataset remain unchanged. The four supplied thumbnails are mapped to LLM program search for games, Tabletop R&D, TAG and RHEA. Shared project details and links are stored once; case-study-specific evidence is nested under each featured entry. Individual role details remain marked for confirmation. Implementation status is tracked in [milestones.md](milestones.md), Milestone 7.
+This document began as a plan for the Projects overview and featured case studies; that overview now serves as the Portfolio page at `/portfolio/`. It uses one page-specific data source with a More Projects section. The four supplied thumbnails are mapped to LLM program search for games, Tabletop R&D, TAG and RHEA. Shared project details and links are stored once; case-study-specific evidence is nested under each featured entry. Individual role details remain marked for confirmation. Implementation status is tracked in [milestones.md](milestones.md), Milestone 7.
 
 ## Publication analysis
 
@@ -69,7 +69,7 @@ Preserve the current Featured Projects card appearance, but use this selected or
 
 **Implemented:** each featured overview card has an explicit “View case study” link to a separate page. These routes provide shareable URLs and room for recruiter-focused detail. External links (website, repository, paper) remain separate actions; the whole card is not an ambiguous click target.
 
-Proposed routes can follow `/projects/<project-slug>/`, subject to a route-collision check before implementation. Retain `/projects/` as the overview and `/portfolio/` as its existing separate route unless a later route review decides otherwise.
+Case-study routes use `/projects/<project-slug>/`. A later route review replaced the former separate `/portfolio/` page with the Projects overview; `/projects/` now hands off to `/portfolio/`.
 
 ## Representative image plan
 
@@ -87,7 +87,7 @@ Suggested art directions:
 - **Tribes:** a fictional strategy map with resource routes, technology progression and multi-agent decisions.
 - **Other projects:** use a visual representing the research question (audio signals, card-game decision trees, game traces, or board-game data) rather than a fabricated product interface.
 
-The four supplied assets are stored as `LLM-thumb.png`, `TRD-thumb.png`, `TAG-thumb.png`, and `RHEA-thumb.png` under `assets/images/projects/`. The Projects overview and matching case-study pages use these thumbnails with descriptive alt text. The earlier project artwork remains in place and was not overwritten.
+The four supplied assets are stored as `LLM-thumb.png`, `TRD-thumb.png`, `TAG-thumb.png`, and `RHEA-thumb.png` under `assets/images/projects/`. The Portfolio overview and matching case-study pages use these thumbnails with descriptive alt text. The earlier project artwork remains in place and was not overwritten.
 
 ## Implementation sequence after review
 

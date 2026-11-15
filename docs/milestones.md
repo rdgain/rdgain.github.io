@@ -53,7 +53,7 @@ Make the primary routes easier to maintain and resolve known uncertainty about o
 
 ### Proposed work
 
-- Create a route inventory for active pages, support/reference pages, experiments and error handling. Include `/portfolio/` separately from `/projects/`.
+- Create a route inventory for active pages, support/reference pages, experiments and error handling. Record `/portfolio/` as the active portfolio and `/projects/` as its legacy handoff.
 - Keep `exp.html` and the Terraforming Mars material unchanged; not active, but should remain accessible; keep decisions explicit and avoid deleting pages before checking inbound links.
 - Move the primary nav list into `_config.yml` and render it through Liquid, preserving accessible navigation labels and a current-page indicator.
 - Apply `relative_url` consistently to internal navigation and asset links so a future non-empty `baseurl` does not break them.
@@ -170,7 +170,7 @@ Keep all other portfolio groups, including GVGAI, in **More Projects**. Preserve
 - Case-study navigation is keyboard-accessible, routes are unique, and the overview remains usable on narrow mobile screens.
 - Current projects content and links are retained or intentionally migrated; no unrelated site pages, data models or dependencies are changed as part of this milestone.
 
-**Status:** In progress. The Projects overview now uses the four supplied thumbnails and includes the selected featured projects, draft summaries and skill tags, plus a More Projects grid. Four case-study routes and a shared detail template are in place, based on the publication and project evidence. The homepage and `/portfolio/` dataset remain unchanged. The content validator passes and Jekyll recognizes all five `/projects/` routes, but the full build stops at the previously documented Sass `variables` import issue. 
+**Status:** In progress. The four featured projects, More Projects grid and four case-study routes are implemented. The overview is now served as Portfolio at `/portfolio/`; `/projects/` hands off to it, and detail routes remain under `/projects/<slug>/`. The content validator and Jekyll build pass.
 
 ## Milestone 8: Align the recruiter landing page
 
@@ -270,6 +270,30 @@ Make experience, impact figures, CV routing and contact details consistent and e
 
 **Status:** Complete. Home, Research and Publications use the same 37-record archive count and define its scope. Home and Teaching use the same teaching start year and supervised-project count from `_data/teaching.yml`; role wording and research technology labels are aligned, and explicit email actions are present on Home, Projects and featured case studies. Funding claims consistently say over £120k was raised for R&D through Innovate UK and Queen Mary Innovation, as confirmed by the author; no public evidence URL was supplied. The AI CV remains the sole linked CV and the author confirmed that it is current and accurate; alternate CV files remain unlinked.
 
+## Milestone 12: Consolidate recruiter-facing discovery
+
+### Goal
+
+Reduce repeated content while keeping role-relevant projects, research evidence, publications and community leadership easy to find.
+
+### Proposed work
+
+- Replace the homepage role-entry cards with the existing Expertise cards, adding direct links to relevant project evidence.
+- Remove the standalone Research overview and consolidate publication discovery into the Research archive, while keeping project content on Portfolio and leadership evidence on Community.
+- Reuse the same Expertise content on About instead of maintaining a separate, inconsistent “What I Do” section.
+- Add project-aware publication filtering, with a project filter on Research and a preselected project link from every project record.
+
+### Acceptance criteria
+
+- Home has one concise expertise section with useful links to relevant project evidence and no duplicated role-entry section.
+- About and Home describe the same expertise using the same content.
+- Research is the single publication archive in primary navigation, without a duplicate Research overview; project and leadership evidence remains discoverable on Portfolio and Community.
+- The Research project filter works from direct query-string links, and every Portfolio entry links to its filtered publication results.
+- Project-to-publication references are validated against the canonical project and publication IDs; no-results states are clear for projects with no linked publications.
+- The site passes content, generated-reference and build validation.
+
+**Status:** In progress. Home retains the shared Expertise cards while About no longer duplicates them. The Research page now hosts the publication archive and project filter; `/publications/` remains as a query-preserving legacy handoff. Project-to-publication associations and per-project links are implemented. Content validation, generated-reference checks, generated page assertions, and the Jekyll build pass; a manual visual review remains.
+
 ## Suggested order
 
 1. Fix and verify local asset/route references.
@@ -283,5 +307,6 @@ Make experience, impact figures, CV routing and contact details consistent and e
 9. Establish a consistent skill vocabulary and add project discovery filters (Milestone 9).
 10. Strengthen featured case studies, demonstrations and project evidence (Milestone 10).
 11. Reconcile profile metrics, CV links and contact paths (Milestone 11).
+12. Consolidate recruiter-facing discovery across Expertise, Portfolio, Research and Community (Milestone 12).
 
 For visual changes, manually review the pages affected by the change at desktop and narrow mobile widths. Do not modify generated files in `_site/`, upgrade the locked Jekyll stack, or publish changes as part of these milestones without explicit authorization.

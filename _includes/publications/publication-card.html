@@ -1,8 +1,17 @@
+{% assign publication_projects = site.data.projects_page.featured | concat: site.data.projects_page.more %}
+{% assign matching_project_ids = "" %}
+{% for project in publication_projects %}
+    {% if project.publication_ids contains paper.id %}
+        {% assign matching_project_ids = matching_project_ids | append: project.id | append: "|" %}
+    {% endif %}
+{% endfor %}
+{% assign matching_project_ids = matching_project_ids | split: "|" | join: "|" %}
 <div class="publication-card"
      data-title="{{ paper.title | downcase }}"
      data-authors="{{ paper.author | downcase }}"
      data-type="{{ paper.type }}"
      data-year="{{ paper.year }}"
+     data-projects="{{ matching_project_ids | escape }}"
      data-tags="{% for tag in paper.tags %}{{ tag }}{% unless forloop.last %}|{% endunless %}{% endfor %}">
 
     <div class="publication-header">

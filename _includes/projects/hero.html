@@ -1,11 +1,11 @@
-{% assign rhea_topic = site.data.research.topics | where: "id", "rhea" | first %}
-{% assign research_since = rhea_topic.years | split: "–" | first %}
+{% assign rhea_project = site.data.projects_page.featured | where: "id", "rhea" | first %}
+{% assign projects_since = rhea_project.years | split: "–" | first %}
 
 <section class="projects-hero">
 
 <div class="projects-intro">
 
-<h1>Projects & Software</h1>
+<h1>Portfolio</h1>
 
 <p class="lead">
 
@@ -31,7 +31,7 @@ automation and intelligent decision making.
 <div class="projects-stats">
 
 <div class="stat">
-<div class="number stat-period-number">Since {{ research_since }}</div>
+<div class="number stat-period-number">Since {{ projects_since }}</div>
 <div class="label">Game AI work</div>
 </div>
 
