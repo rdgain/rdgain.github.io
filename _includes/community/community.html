@@ -62,3 +62,47 @@ programme's communication and wider impact into the Game AI research community.
 </div>
 
 </section>
+
+<section id="invited-talks">
+
+<h2>Invited Talks</h2>
+
+<div class="community-grid">
+
+{% for talk in site.data.community.invited_talks %}
+<article class="community-card">
+
+<h3>{{ talk.title | escape }}</h3>
+
+<p>{{ talk.year }}</p>
+
+{% if talk.location %}
+<p><strong>Location:</strong> {{ talk.location | escape }}</p>
+{% endif %}
+
+{% if talk.topic %}
+<p>{{ talk.topic | escape }}</p>
+{% endif %}
+
+{% if talk.series %}
+<p>
+    Part of the
+    {{ talk.series | escape }}
+    {% if talk.organiser %}by <a href="{{ talk.series_url | escape }}" target="_blank" rel="noopener noreferrer">{{ talk.organiser | escape }}</a>{% endif %}.
+</p>
+{% endif %}
+
+{% if talk.url %}
+<p>
+    <a href="{{ talk.url | escape }}" target="_blank" rel="noopener noreferrer">
+        Watch talk
+    </a>
+</p>
+{% endif %}
+
+</article>
+{% endfor %}
+
+</div>
+
+</section>

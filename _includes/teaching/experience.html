@@ -20,10 +20,19 @@
         {% if item.institution %}<span>{{ item.institution }}</span>{% endif %}
         {% if item.level %}<span class="experience-detail">{{ item.level }}</span>{% endif %}
         {% if item.delivery %}<span class="experience-detail">{{ item.delivery }}</span>{% endif %}
+        {% if item.contribution %}<span class="experience-detail">{{ item.contribution }}</span>{% endif %}
         {% if item.students %}<span class="experience-detail">{{ item.students }} students</span>{% endif %}
     </p>
 
     <p class="experience-description">{{ item.description | default: item.notes | default: "Short description to be added." }}</p>
+
+    {% if item.url %}
+    <p class="experience-link">
+        <a href="{{ item.url | escape }}" target="_blank" rel="noopener noreferrer">
+            {{ item.link_label | default: "More information" | escape }}
+        </a>
+    </p>
+    {% endif %}
 
 </article>
 

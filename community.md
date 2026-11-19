@@ -7,6 +7,8 @@ title: Community
 
 {% include community/hero.html %}
 
+{% include community/awards.html %}
+
 {% include community/leadership.html %}
 
 {% include community/community.html %}

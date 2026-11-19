@@ -10,9 +10,13 @@ title: Research
 <p class="page-intro">
 My research spans Artificial Intelligence, Game AI, Evolutionary Computation,
 Simulation, Tabletop Games and Machine Learning. This page brings together my
-publication record, with links to papers, presentations, repositories and
+PhD supervisions and publication record, with links to papers, presentations, repositories and
 additional material where available.
 </p>
+
+{% include research/phd-supervision.html %}
+
+<h2>Publications</h2>
 
 <p class="publication-scope">
 The total number of publications includes every record type in the archive: journal articles,

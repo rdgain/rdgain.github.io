@@ -1,80 +1,28 @@
 <section>
 
-<h2>Tutorials & Workshops</h2>
+<h2>Tutorials, Workshops &amp; Demos</h2>
 
 <div class="community-grid">
 
-<div class="community-card">
+{% for item in site.data.community.tutorials %}
+<article class="community-card">
 
-<h3>TAG Framework</h3>
+<h3>{{ item.title | escape }}</h3>
 
-<p>
-
-IEEE Conference on Games (2023)
-
-</p>
-
-<p>
-
-AI-driven tabletop games and simulation.
-
-</p>
-
+<div class="community-tags">
+    <span>{{ item.type | escape }}</span>
 </div>
 
-<div class="community-card">
-
-<h3>MARLO Competition</h3>
-
 <p>
-
-IEEE CIG (2018)
-
+    {{ item.conference | escape }} · {{ item.year }} · {{ item.location | escape }}
 </p>
 
-<p>
+{% if item.description %}
+<p class="community-event-description">{{ item.description | escape }}</p>
+{% endif %}
 
-Multi-Agent Reinforcement Learning in Minecraft.
-
-</p>
-
-</div>
-
-<div class="community-card">
-
-<h3>General Video Game AI</h3>
-
-<p>
-
-Queen Mary University of London (2018)
-
-</p>
-
-<p>
-
-Hands-on introduction to General Video Game AI research.
-
-</p>
-
-</div>
-
-<div class="community-card">
-
-<h3>Computational Intelligence for Games</h3>
-
-<p>
-
-University of Essex (2016)
-
-</p>
-
-<p>
-
-Tutorial assistant for General Video Game AI.
-
-</p>
-
-</div>
+</article>
+{% endfor %}
 
 </div>
 

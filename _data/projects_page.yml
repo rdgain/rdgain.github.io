@@ -11,6 +11,7 @@ featured:
       - game-ai
       - python
       - java
+      - object-oriented-design-patterns
       - software-engineering
       - user-interface-design
       - data-analysis
@@ -36,6 +37,7 @@ featured:
       - Hill climbing
       - Python
       - Java
+      - Object-oriented design patterns
       - Benchmarking
     links:
       - label: View case study
@@ -88,6 +90,7 @@ featured:
       - tabletop-games
       - product-development
       - java
+      - object-oriented-design-patterns
       - r
       - entrepreneurship
       - stakeholder-communication
@@ -117,6 +120,7 @@ featured:
       designers test gameplay and explore game balance.
     technologies:
       - Java
+      - Object-oriented design patterns
       - R
       - AI playtesting
       - Simulation
@@ -149,14 +153,18 @@ featured:
         gameplay outcomes.
       approach: >
         The project combines digital representations of tabletop games, simulation
-        and AI agents to run and analyse gameplay. More details and example
+        and AI agents to run and analyse gameplay. We created digital twins of
+        physical games and ran thousands of simulations to analyse gameplay,
+        explore game balance and inform design decisions. More details and example
         projects are available on the company website and in related publications.
       role: >
-        My role as co-founder and director focused on business development, as well as
-        product design and research coordination. I have worked on several specific projects, as well as implementing
-        new tools for fast and cohesive imlementations of new games and AI agents. I have coordinated
-        technical developments in the UK Creative Catalyst programme and represented the company at many trade shows
-        and conferences, including UK Games Expo and Spiel Essen.
+        As co-founder and director, I focused on business development, product design
+        and research coordination. I defined product direction, the technical roadmap
+        and AI integration strategy, and led the transition toward a SaaS product with
+        user-facing tools. I also implemented tools to make development of new games
+        and AI agents faster and more consistent, coordinated technical developments
+        in the UK Creative Catalyst programme, and represented the company at trade
+        shows and conferences including UK Games Expo and Spiel Essen.
       outcomes:
         - Co-founded and directed Tabletop R&D.
         - The current product direction is focused on AI-assisted tabletop playtesting and balance analysis.
@@ -178,6 +186,7 @@ featured:
       - game-systems
       - tabletop-games
       - java
+      - object-oriented-design-patterns
       - simulation
       - software-engineering
       - open-source
@@ -203,6 +212,7 @@ featured:
       supporting shared experiments, simulation and game analytics.
     technologies:
       - Java
+      - Object-oriented design patterns
       - Game systems
       - Game AI
       - Simulation
@@ -285,6 +295,7 @@ featured:
       - experimental-evaluation
       - algorithm-design
       - java
+      - object-oriented-design-patterns
       - python
       - simulation
       - statistical-analysis
@@ -304,6 +315,7 @@ featured:
       evaluation across game environments.
     technologies:
       - Java
+      - Object-oriented design patterns
       - Python
       - Benchmarking
       - Evolutionary algorithms
@@ -455,6 +467,9 @@ more:
       - general-game-playing
       - monte-carlo-tree-search
       - java
+      - object-oriented-design-patterns
+      - mysql
+      - linux-unix
       - php
       - sql
       - backend-development
@@ -471,16 +486,21 @@ more:
       - simulation
       - multi-agent-systems
     summary: >
-      Research and software around agents that play previously unseen games,
-      including benchmark environments, competitions and planning methods.
+      Framework and competition work for agents that play previously unseen
+      games. My MSc project developed the two-player competition and a related
+      MCTS coursework controller; I also organized the competition and worked
+      on its game sets, framework, website and server.
     technologies:
       - Game AI
       - Benchmarking
       - Planning
       - Monte Carlo Tree Search
       - Java
+      - Object-oriented design patterns
       - PHP
       - SQL
+      - MySQL
+      - Linux/Unix
       - Backend development
       - Web development
       - Game design
@@ -504,6 +524,7 @@ more:
       - game-ai
       - evolutionary-algorithms
       - java
+      - object-oriented-design-patterns
       - user-interface-design
     summary: >
       A visualization tool for examining how Rolling Horizon Evolutionary
@@ -513,6 +534,7 @@ more:
       - User interface design
       - Game analytics
       - Java
+      - Object-oriented design patterns
       - Evolutionary algorithms
       - Game AI
     links:
@@ -558,7 +580,7 @@ more:
 
   - id: pommerman
     title: Pommerman
-    category: Multi-agent planning
+    category: Multi-agent planning and simulation
     publication_ids:
       - perez2019pommerman
     skill_ids:
@@ -567,24 +589,61 @@ more:
       - multi-agent-systems
       - experimental-evaluation
       - algorithm-design
+      - java
+      - object-oriented-design-patterns
       - user-interface-design
     summary: >
-      An experimental study of statistical forward-planning methods in a
-      competitive multi-agent game environment.
+      Developed a Java version of Pommerman for statistical forward-planning
+      agents and scenario modifications with Queen Mary and DSTL. This work
+      builds on an earlier OpDST collaboration with Queen Mary, the Alan Turing
+      Institute and DSTL, where I contributed framework engineering,
+      experimental design, and results analysis and reporting.
     technologies:
+      - Java
+      - Python
       - Planning and search
       - Multi-agent systems
       - Game AI
       - Experimental evaluation
       - Algorithm design
+      - Object-oriented design patterns
       - User interface design
     links:
+      - label: View case study
+        url: /projects/pommerman/
+        type: case_study
       - label: Research
         url: /research/
         type: publication
       - label: Source code
         url: https://github.com/rdgain/java-pommerman
         type: repository
+    case_study:
+      summary: >
+        A Java implementation of Pommerman for research with statistical
+        forward-planning agents, developed in collaboration with DSTL.
+      why_it_matters: >
+        Pommerman provides a competitive, partially observable multi-agent
+        environment for evaluating planning methods. The research needed a
+        Java environment compatible with its agent implementations and
+        configurable scenarios.
+      problem: >
+        The available Pommerman framework was written in Python, while the
+        statistical forward-planning research stack used Java. The project
+        required a compatible implementation and scenario modifications for
+        controlled experiments.
+      approach: >
+        Developed a Java version of the Python Pommerman framework and modified
+        scenarios to support integration with statistical forward-planning
+        agents. The project followed an earlier OpDST collaboration.
+      role: >
+        For Pommerman, I worked on the Java framework and scenario
+        modifications. In the earlier OpDST collaboration with Queen Mary, the
+        Alan Turing Institute and DSTL, my contribution covered framework
+        engineering, experimental design, and results analysis and reporting.
+      outcomes:
+        - A Java Pommerman environment enabled integration with statistical forward-planning agents.
+        - The associated study compared MCTS and RHEA in multiple Pommerman settings.
 
   - id: ai-assisted-game-design
     title: AI-assisted Game Design
@@ -625,11 +684,14 @@ more:
       - game-design
       - python
       - java
+      - object-oriented-design-patterns
+      - xml
       - code-review
       - large-codebase-engineering
     summary: >
-      Multi-agent reinforcement-learning competition work based on the MalmO
-      game-playing environment, with Microsoft Research.
+      Developed the MARLO competition during a Microsoft Research internship,
+      designing and building competition games in Python and Java with
+      procedural content generation and code reviews.
     technologies:
       - Reinforcement learning
       - Multi-agent systems
@@ -637,6 +699,9 @@ more:
       - Game design
       - Python
       - Java
+      - XML
+      - Object-oriented design patterns
+      - Procedural content generation
       - Code review
       - Large-codebase engineering
     links:
@@ -682,6 +747,7 @@ more:
       - gameplay-analytics
       - game-ai
       - java
+      - object-oriented-design-patterns
     summary: >
       Methods for describing play styles with temporal logic and grouping
       gameplay traces to identify behavioural patterns.
@@ -691,6 +757,7 @@ more:
       - Search
       - Game analytics
       - Java
+      - Object-oriented design patterns
     links:
       - label: Research
         url: /research/
@@ -722,3 +789,102 @@ more:
       - label: Competition website
         url: https://www.codingame.com/contests/legends-of-code-and-magic
         type: website
+
+  - id: travelapp
+    title: TravelApp Traffic-Incident Feed
+    category: Data and backend engineering
+    publication_ids: []
+    skill_ids:
+      - backend-development
+      - data-analysis
+      - software-engineering
+    summary: >
+      Worked on the University of Essex, Visteon UK and Essex County Council
+      TravelApp, setting up and maintaining accurate traffic-incident data for
+      its Android and iOS route-planning application.
+    technologies:
+      - Backend data integration
+      - Traffic-incident feeds
+      - Android and iOS application support
+    links: []
+
+  - id: gameai-group-website
+    title: Game AI Group Website Redesign
+    category: Web development
+    publication_ids: []
+    skill_ids:
+      - web-development
+      - front-end-development
+      - html-css
+      - javascript
+      - jekyll-liquid
+      - git
+      - software-engineering
+    summary: >
+      Redesigned the Queen Mary Game AI Group website in 2019 using GitHub
+      Pages, making it easier to update and improving research communication.
+    technologies:
+      - Jekyll
+      - Liquid
+      - Git
+      - HTML
+      - CSS
+      - JavaScript
+      - Front-end development
+    links:
+      - label: Live website
+        url: https://gaigresearch.github.io/
+        type: website
+
+  - id: city-of-kalux
+    title: City of Kalux
+    category: Undergraduate game project
+    publication_ids: []
+    skill_ids:
+      - game-development
+      - game-design
+      - java
+      - front-end-development
+      - object-oriented-design-patterns
+      - backend-development
+      - software-engineering
+    summary: >
+      A detective game created for my BSc final-year project featuring AI navigation. 
+    technologies: 
+      - Java
+      - A*
+    links: []
+
+  - id: personal-website-redesign
+    title: Personal Website Redesign
+    category: Agentic AI and web development
+    publication_ids: []
+    skill_ids:
+      - agentic-ai
+      - web-development
+      - front-end-development
+      - html-css
+      - javascript
+      - jekyll-liquid
+      - git
+      - software-engineering
+      - user-interface-design
+      - llm
+    summary: >
+      Refreshed this portfolio's design and clarified its content with an
+      agentic AI workflow.
+    technologies:
+      - Agentic AI
+      - Jekyll
+      - Liquid
+      - HTML
+      - CSS
+      - JavaScript
+      - Git
+    links:
+      - label: Live website
+        url: /
+        type: website
+      - label: Source code
+        url: https://github.com/rdgain/rdgain.github.io
+        type: repository

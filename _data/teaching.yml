@@ -220,6 +220,38 @@ supervision:
     summary: >
       Digital implementation with comparative evaluation of AI players.
 
+phd_supervision:
+
+  - name: Toby Best
+    topic: AI game master for tabletop games
+    profiles:
+      - label: Google Scholar profile
+        url: https://scholar.google.com/citations?hl=en&user=IMVoLycAAAAJ
+      - label: IGGI profile
+        url: https://www.iggi-phd.org/people/toby-best
+    papers:
+      - title: "Why Choose You?-Exploring Attitudes Towards Starter Pokémon"
+        year: 2023
+        url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IMVoLycAAAAJ&citation_for_view=IMVoLycAAAAJ:u-x6o8ySG0sC
+      - title: "‘Journeys in the Dark’-Towards Game Master AI in Complex Board Games"
+        year: 2024
+        url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IMVoLycAAAAJ&citation_for_view=IMVoLycAAAAJ:d1gkVwhDpl0C
+
+  - name: Joshua Kritz
+    topic: Synergy in tabletop games
+    profiles:
+      - label: Google Scholar profile
+        url: https://scholar.google.com/citations?user=AcBz6k0AAAAJ&hl=en&oi=ao
+      - label: IGGI profile
+        url: https://www.iggi-phd.org/people/joshua-kritz
+    papers:
+      - title: "When 1+ 1 does not equal 2: Synergy in games"
+        year: 2025
+        url: https://arxiv.org/abs/2502.10304
+      - title: "Unveiling modern board games: an ML-based approach to BoardGameGeek data analysis"
+        year: 2024
+        url: https://doi.org/10.1109/CoG60054.2024.10645644
+
 
 experience:
     - year: "2021"
@@ -265,10 +297,32 @@ experience:
     - year: "2018-2020"
       title: Artificial Intelligence in Games
       institution: Queen Mary University of London
+      level: MSc
       role: Teaching Fellow & Demonstrator
+      contribution: 50% module delivery in 2019
       description: >
-        Delivered practical labs and lectures on search, planning, machine
-        learning and procedural generation, and assessed student work.
+        Designed and delivered half of the MSc module in 2019, including
+        lectures and labs on search, planning, machine learning and procedural
+        generation. Assessed student work and supported students.
+
+    - year: "2019"
+      title: "Erasmus MSc Project Mentoring: Procedural Level Generation"
+      institution: Queen Mary University of London
+      role: Research mentor
+      description: >
+        Mentored an Erasmus MSc student on optimising procedural level
+        generators for General Video Game AI. The work led to a joint paper at
+        the 2019 IEEE Conference on Games.
+      url: https://ieeexplore.ieee.org/document/8847961
+      link_label: Read the publication
+
+    - year: "2019"
+      title: IET Faraday Challenge
+      institution: Queen Mary University of London
+      role: Outreach facilitator
+      description: >
+        Supported a hands-on engineering challenge for school students,
+        encouraging teamwork, problem-solving and interest in STEM.
 
     - year: "2019"
       title: Technical Thinking and Writing Workshops

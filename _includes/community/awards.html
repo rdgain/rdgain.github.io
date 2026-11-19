@@ -1,0 +1,49 @@
+<section id="awards">
+
+<h2>Awards &amp; Recognition</h2>
+
+<div class="community-grid">
+
+{% assign sorted_awards = site.data.community.awards | sort: "sort_year" | reverse %}
+{% for award in sorted_awards %}
+
+<article class="community-card">
+
+<h3>{{ award.title | escape }}</h3>
+
+{% if award.category %}
+<div class="community-tags">
+<span>{{ award.category | escape }}</span>
+</div>
+{% endif %}
+
+<p class="community-card-meta">
+    {% if award.location %}
+        {{ award.location | escape }}{% if award.display_year or award.year %} · {% endif %}
+    {% endif %}
+    {% if award.display_year %}{{ award.display_year | escape }}{% elsif award.year %}{{ award.year }}{% endif %}
+</p>
+
+{% if award.highlights %}
+<ul class="community-award-highlights">
+    {% for highlight in award.highlights %}
+    <li>{{ highlight | escape }}</li>
+    {% endfor %}
+</ul>
+{% endif %}
+
+{% for link in award.links %}
+<p>
+    <a href="{{ link.url | escape }}" target="_blank" rel="noopener noreferrer">
+        {{ link.label | escape }}
+    </a>
+</p>
+{% endfor %}
+
+</article>
+
+{% endfor %}
+
+</div>
+
+</section>

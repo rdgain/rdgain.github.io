@@ -153,7 +153,7 @@ else
 end
 unique_ids(project_records, "_data/projects_page.yml projects", errors)
 
-portfolio_ids = Array(portfolio).filter_map { |record| record["id"] if record.is_a?(Hash) }
+project_ids = project_records.filter_map { |record| record["id"] if record.is_a?(Hash) }
 paper_ids = Array(papers).filter_map { |record| record["id"] if record.is_a?(Hash) }
 skill_ids = skill_records.filter_map { |skill| skill["id"] if skill.is_a?(Hash) }
 
@@ -227,7 +227,7 @@ end
 timeline = data["timeline"]
 required_fields(timeline, %w[id year title organisation description], "_data/timeline.yml", errors)
 unique_ids(timeline, "_data/timeline.yml", errors)
-validate_references(timeline, %w[portfolio], portfolio_ids, "_data/timeline.yml", errors)
+validate_references(timeline, %w[portfolio], project_ids, "_data/timeline.yml", errors)
 validate_references(timeline, %w[teaching], teaching_ids, "_data/timeline.yml", errors)
 
 if errors.empty?

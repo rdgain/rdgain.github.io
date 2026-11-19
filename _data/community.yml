@@ -1,3 +1,95 @@
+awards:
+
+  - title: AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment (AIIDE)
+    category: Conference recognition
+    sort_year: 2019
+    year: 2019
+    location: Atlanta, USA
+    highlights:
+      - Best Artifact Award
+      - Best PC Member Nomination
+
+  - title: IEEE Conference on Games (CoG) Video Competition
+    category: Competition placement
+    sort_year: 2019
+    year: 2019
+    location: London, UK
+    highlights:
+      - "Second place — “Project Thyia: A Forever Gameplayer.”"
+    links:
+      - label: Watch the video
+        url: https://www.youtube.com/watch?v=ruwH-lsIYcE&t=1s
+
+  - title: Conference travel grants
+    category: Travel grants
+    sort_year: 2019
+    display_year: 2018–2019
+    highlights:
+      - AAAI Travel Grant — AAAI Conference on Artificial Intelligence, Honolulu, USA (2019).
+      - AIIDE Travel Grant — AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment, Edmonton, Canada (2018).
+
+  - title: IEEE Conference on Computational Intelligence and Games (CIG)
+    category: Conference recognition
+    sort_year: 2018
+    year: 2018
+    location: Maastricht, Netherlands
+    highlights:
+      - Best Paper Award Nominee — “General Win Prediction from Agent Experience.”
+      - Third place, video competition — “General Win Prediction from Agent Experience.”
+    links:
+      - label: Read the paper
+        url: https://doi.org/10.1109/CIG.2018.8490439
+      - label: Watch the video
+        url: https://www.youtube.com/watch?v=zq9zaEjspUY&t=1s
+
+  - title: IET Game AI Hackathon
+    category: Competition placement
+    sort_year: 2017
+    year: 2017
+    location: University of Essex, Colchester, UK
+    highlights:
+      - Runner-up, Best Game Design
+
+  - title: IEEE Present Around the World
+    category: Competition placement
+    sort_year: 2017
+    year: 2017
+    location: University of Essex, Colchester, UK
+    highlights:
+      - Runner-up — “Could you play a game when guided only by sound?”
+
+  - title: MSc Project Prize in Computer Science
+    category: Award
+    sort_year: 2016
+    year: 2016
+    location: University of Essex, Colchester, UK
+    highlights:
+      - Highest mark for an MSc project in the CSEE department.
+
+  - title: EPSRC IGGI doctoral funding
+    category: Doctoral funding
+    sort_year: 2021
+    display_year: 2016–2021
+    highlights:
+      - Funding supporting PhD work.
+
+  - title: K. F. Bowden Memorial Prize
+    category: Prize
+    sort_year: 2014
+    display_year: 2013 and 2014
+    location: University of Essex, Colchester, UK
+    highlights:
+      - Top-four overall marks in first year (2013) and second year (2014).
+
+  - title: University of Essex Postgraduate Support Scheme
+    category: Grant
+    sort_year: 2015
+    year: 2015
+    location: University of Essex, Colchester, UK
+    highlights:
+      - £10,000 grant.
+
+
 leadership:
 
   - id: ieee-cog-2027
@@ -100,48 +192,78 @@ tutorials:
     conference: IEEE Conference on Games
     year: 2023
     location: Boston, USA
+    type: Tutorial
+    description: AI-driven tabletop games and simulation.
 
   - title: MARLO Competition
     conference: IEEE CIG
     year: 2018
     location: Maastricht, Netherlands
+    type: Tutorial
+    description: Multi-agent reinforcement learning in Minecraft.
 
   - title: General Video Game AI
     conference: Queen Mary University of London
     year: 2018
+    location: London, UK
+    type: Tutorial
+    description: Hands-on introduction to General Video Game AI research.
 
   - title: General Video Game AI – 2 Player
     conference: CEEC
     year: 2016
-    role: Tutorial Assistant
+    location: University of Essex, Colchester, UK
+    type: Tutorial
+    description: Two-player General Video Game AI.
+
+  - title: General Video Game AI Framework and Competition
+    conference: Queen Mary University of London GradFest
+    year: 2018
+    location: London, UK
+    type: Workshop
+
+  - title: "VERTIGO: Visualisation of Rolling Horizon Evolutionary Algorithms in GVGAI"
+    conference: AIIDE
+    year: 2018
+    location: Edmonton, Canada
+    type: Demo
 
 
 invited_talks:
 
-  - title: AI And Games Conference
+  - title: AI and Games Conference
     year: 2024
-    role: Speaker
+    location: Goldsmiths University, London, UK
     topic: Tabletop R&D
+    url: https://youtu.be/dUQzDiA1kiY?si=CiXQCelGh0bdnQFh
 
   - title: Audio Developers Conference
     year: 2019
+    location: London, UK
     topic: Did You Hear That? Learning to Play Video Games from Audio Cues
 
   - title: Bits, Bugs & Bots
     year: 2019
-    role: Invited Talk
+    location: QMUL, London, UK
+    series: "AI: Brains and Bits research series"
+    organiser: QMUL Centre for Fundamentals of AI and Computational Theory
+    series_url: https://www.seresearch.qmul.ac.uk/cfcs/events/5401/ai-brains-and-bits-first-symposium/
 
   - title: CogX
     year: 2018
+    location: London, UK
     topic: MARLO Competition
+    url: https://www.youtube.com/watch?v=B4GbuPWlC5Q
 
   - title: IET Christmas Lecture
     year: 2018
-    role: Invited Speaker
+    location: QMUL, London, UK
 
   - title: ASYNC Research on AI & Games
     year: 2017
+    location: Online
     topic: Planning in Real-time Games with Rolling Horizon Evolution
+    url: https://www.youtube.com/watch?v=Qh59xHU1zlQ
 
 
 reviewing:

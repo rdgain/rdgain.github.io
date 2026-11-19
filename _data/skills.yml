@@ -2,8 +2,18 @@
   skills:
     - id: c-sharp
       label: C#
+    - id: html-css
+      label: HTML/CSS
+    - id: javascript
+      label: JavaScript
+    - id: jekyll-liquid
+      label: Jekyll/Liquid
     - id: java
       label: Java
+    - id: linux-unix
+      label: Linux/Unix
+    - id: mysql
+      label: MySQL
     - id: php
       label: PHP
     - id: python
@@ -18,6 +28,8 @@
       label: TypeScript
     - id: unity
       label: Unity
+    - id: xml
+      label: XML
 
 - category: AI & data methods
   skills:
@@ -105,10 +117,16 @@
       label: Code review
     - id: entrepreneurship
       label: Entrepreneurship
+    - id: front-end-development
+      label: Front-end development
     - id: full-stack-development
       label: Full-stack development
+    - id: git
+      label: Git
     - id: large-codebase-engineering
       label: Large-codebase engineering
+    - id: object-oriented-design-patterns
+      label: Object-oriented design patterns
     - id: open-source
       label: Open source
     - id: product-development

@@ -5,6 +5,7 @@
 <div class="timeline">
 
 {% assign items = site.data.timeline | where:"featured", true %}
+{% assign projects = site.data.projects_page.featured | concat: site.data.projects_page.more %}
 
 {% for item in items %}
 
@@ -37,6 +38,16 @@
             {% endfor %}
 
         </div>
+
+        {% if item.portfolio %}
+        <p class="timeline-project-links">
+            <strong>Related projects:</strong>
+            {% for project_id in item.portfolio %}
+                {% assign project = projects | where:"id", project_id | first %}
+                <a href="{{ '/portfolio/' | append: '#' | append: project_id | relative_url }}">{{ project.title | escape }}</a>{% unless forloop.last %}, {% endunless %}
+            {% endfor %}
+        </p>
+        {% endif %}
 
     </div>
 

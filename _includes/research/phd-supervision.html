@@ -1,0 +1,39 @@
+<section class="phd-supervision-section" id="phd-supervision">
+
+<h2>PhD Supervision</h2>
+
+<div class="student-project-grid">
+
+{% for student in site.data.teaching.phd_supervision %}
+<article class="student-project-card phd-supervision-card">
+
+<h3>{{ student.name | escape }}</h3>
+
+<p class="student-subtitle">{{ student.topic | escape }}</p>
+
+{% if student.profiles %}
+<p>
+    {% for profile in student.profiles %}
+    <a href="{{ profile.url | escape }}" target="_blank" rel="noopener noreferrer">{{ profile.label | escape }}</a>{% unless forloop.last %} · {% endunless %}
+    {% endfor %}
+</p>
+{% endif %}
+
+{% if student.papers %}
+<h4>PhD-period papers</h4>
+<ul class="phd-student-papers">
+    {% for paper in student.papers %}
+    <li>
+        <a href="{{ paper.url | escape }}" target="_blank" rel="noopener noreferrer">{{ paper.title | escape }}</a>
+        <span>({{ paper.year }})</span>
+    </li>
+    {% endfor %}
+</ul>
+{% endif %}
+
+</article>
+{% endfor %}
+
+</div>
+
+</section>

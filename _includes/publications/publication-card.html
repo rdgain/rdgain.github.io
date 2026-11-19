@@ -64,6 +64,10 @@
             <span class="publication-pill highlight">First Author</span>
             {% endif %}
 
+            {% if paper.award %}
+            <span class="publication-pill highlight">{{ paper.award | escape }}</span>
+            {% endif %}
+
             {% for tag in paper.tags %}
             <span class="publication-pill">
 

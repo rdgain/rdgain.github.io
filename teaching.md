@@ -9,8 +9,8 @@ title: Teaching
 
 {% include teaching/modules.html %}
 
-{% include teaching/supervision.html %}
-
 {% include teaching/experience.html %}
+
+{% include teaching/supervision.html %}
 
 </div>
