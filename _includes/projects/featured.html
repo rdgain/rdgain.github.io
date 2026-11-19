@@ -140,6 +140,26 @@
       <h3>{{ project.title | escape }}</h3>
       <p>{{ project.summary | escape }}</p>
 
+      {% if project.screenshots and project.screenshots.size > 0 %}
+      {% assign first_screenshot = project.screenshots | first %}
+      <details class="project-gallery">
+        <summary>
+          <img src="{{ first_screenshot.file | relative_url }}" alt="" loading="lazy">
+          <span>View {{ project.screenshots.size }} screenshots</span>
+        </summary>
+        <div class="project-gallery-grid">
+          {% for screenshot in project.screenshots %}
+          <figure>
+            <a href="{{ screenshot.file | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="Open full-size screenshot: {{ screenshot.caption | escape }}">
+              <img src="{{ screenshot.file | relative_url }}" alt="{{ screenshot.alt | escape }}" loading="lazy">
+            </a>
+            <figcaption>{{ screenshot.caption | escape }}</figcaption>
+          </figure>
+          {% endfor %}
+        </div>
+      </details>
+      {% endif %}
+
       {% include projects/skill-tags.html project=project limit=3 %}
       {% if project.technologies and project.technologies.size > 0 %}
       <details class="project-full-skills">

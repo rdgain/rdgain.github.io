@@ -347,6 +347,12 @@ featured:
       - label: Rolling Horizon Evolutionary Algorithms for General Video Game Playing
         url: https://arxiv.org/abs/2003.12331
         type: publication
+      - label: NTBEA-RHEA experiment data
+        url: https://github.com/rdgain/ExperimentData/tree/NTBEA-RHEA-2019
+        type: repository
+      - label: Online RHEA tuning experiment data
+        url: https://github.com/rdgain/ExperimentData/tree/RHEA-Online-Tuning-20
+        type: repository
     case_study:
       summary: >
         A research programme developing and evaluating Rolling Horizon
@@ -528,6 +534,12 @@ more:
         type: publication
       - label: Source code
         url: https://github.com/gaigresearch/gvgai
+        type: repository
+      - label: General Win Prediction experiment data
+        url: https://github.com/rdgain/ExperimentData/tree/GeneralWinPred-CIG-18
+        type: repository
+      - label: Sparse Rewards experiment data
+        url: https://github.com/rdgain/ExperimentData/tree/SparseRewards
         type: repository
 
   - id: vertigo
@@ -872,6 +884,19 @@ more:
       - 2d-game-art
     summary: >
       A detective game created for my BSc final-year project featuring AI navigation. 
+    screenshots:
+      - file: /assets/portfolio/city-of-kalux/Screenshot%202026-11-19%20155201.png
+        alt: Top-down city map with the character portrait and minimap HUD
+        caption: Exploring the city map
+      - file: /assets/portfolio/city-of-kalux/Screenshot%202026-11-19%20155230.png
+        alt: Dialogue with Jayde Quilt overlaid on the city map
+        caption: Talking with a character
+      - file: /assets/portfolio/city-of-kalux/Screenshot%202026-11-19%20155305.png
+        alt: City map with an inventory and item-pickup dialogue
+        caption: Exploring and collecting items
+      - file: /assets/portfolio/city-of-kalux/Screenshot%202026-11-19%20155510.png
+        alt: Dialogue with Daren Cole while exploring a second map
+        caption: A conversation on the second map
     technologies: 
       - Java
       - Swing
@@ -900,6 +925,16 @@ more:
     summary: >
       A university project I developed and fully own: a Java implementation of
       snooker with custom graphics that turn the balls into cute cats.
+    screenshots:
+      - file: /assets/portfolio/snookat/Screenshot%202026-11-19%20155559.png
+        alt: Cat-shaped snooker balls arranged for the opening break
+        caption: The opening ball formation
+      - file: /assets/portfolio/snookat/Screenshot%202026-11-19%20155608.png
+        alt: Cue aiming toward the cat-shaped balls on the snooker table
+        caption: Aiming a shot
+      - file: /assets/portfolio/snookat/Screenshot%202026-11-19%20155750.png
+        alt: Cat-shaped balls scattered across the table during a game
+        caption: Gameplay after the break
     technologies:
       - Java
       - Snooker

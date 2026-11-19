@@ -287,6 +287,87 @@
     line-height: 1.6;
 }
 
+.project-gallery {
+    width: 100%;
+    margin: .25rem 0 1rem;
+}
+
+.project-gallery > summary {
+    display: flex;
+    align-items: center;
+    gap: .65rem;
+    color: #2563eb;
+    font-weight: 700;
+    cursor: pointer;
+    list-style: none;
+}
+
+.project-gallery > summary::-webkit-details-marker {
+    display: none;
+}
+
+.project-gallery > summary::before {
+    content: "+";
+    flex: 0 0 auto;
+    font-size: 1.2rem;
+}
+
+.project-gallery[open] > summary::before {
+    content: "-";
+}
+
+.project-gallery > summary:focus-visible {
+    outline: 3px solid #2563eb;
+    outline-offset: 3px;
+}
+
+.project-gallery > summary img {
+    width: 6rem;
+    height: 4.5rem;
+    border: 1px solid #d8e0ea;
+    border-radius: 7px;
+    object-fit: cover;
+}
+
+.project-gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    gap: .75rem;
+    margin-top: .75rem;
+}
+
+.project-gallery-grid figure {
+    min-width: 0;
+    margin: 0;
+}
+
+.project-gallery-grid a {
+    display: block;
+    border-radius: 7px;
+}
+
+.project-gallery-grid a:focus-visible {
+    outline: 3px solid #2563eb;
+    outline-offset: 3px;
+}
+
+.project-gallery-grid img {
+    display: block;
+    width: 100%;
+    max-height: 15rem;
+    border: 1px solid #d8e0ea;
+    border-radius: 7px;
+    background: #f3f4f6;
+    object-fit: contain;
+}
+
+.project-gallery-grid figcaption {
+    margin-top: .35rem;
+    color: #53657a;
+    font-size: .82rem;
+    line-height: 1.4;
+}
+
 .more-project-card .project-links {
     margin-top: auto;
     padding-top: .5rem;
