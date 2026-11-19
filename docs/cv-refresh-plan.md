@@ -7,13 +7,16 @@ published experience and project evidence. Each CV will be a website page with
 a print stylesheet suitable for PDF export, use a minimalist layout with one
 accent colour, and retain relevant links to supporting work.
 
-The front-page expertise areas define the CV versions:
+The retained CV versions cover four focus areas:
 
 1. AI, Machine Learning and LLMs
 2. Simulation and Game Development
-3. Procedural Content Generation
-4. Software Engineering
-5. Research and Data Science
+3. Software Engineering
+4. Research and Data Science
+
+The index page now shows the four retained CV areas in a two-column desktop
+grid; the Procedural Content Generation and Leadership expertise cards were
+removed.
 
 Keep the current Jekyll/GitHub Pages architecture, avoid duplicating project
 facts where existing content can be linked, and do not publish claims that
@@ -30,15 +33,16 @@ have not been confirmed.
    where the projects, roles or other evidence support them.
 3. **Create the first CV.** Build the AI, Machine Learning and LLM version,
    using the strongest matching website content. Make the page print cleanly
-   to no more than two A4 pages, with a minimalist design, a restrained colour
+   to exactly one A4 page, with a minimalist design, a restrained colour
    accent, project links and the research-publications link.
-4. **Create the remaining five CVs.** Tailor section order, projects, skills
-   and emphasis to each expertise area. Include publications only where
-   relevant; omit them for game-development-focused versions where they do not
-   help the application.
-5. **Write a recruiter review for each CV.** Assess each version as a recruiter
-   for its target role, noting its strongest evidence, gaps, unclear claims and
-   specific improvements.
+4. **Create the remaining three CVs.** Tailor section order, projects, skills
+   and emphasis to each retained expertise area. Include publications only
+   where relevant; omit them for game-development-focused versions where they
+   do not help the application.
+5. **Write a recruiter review for each retained CV.** Assess each version as a
+   recruiter for its target role, noting its strongest evidence, gaps, unclear
+   claims and specific improvements. **Complete:** see
+   [CV recruiter reviews](cv-recruiter-reviews.md).
 
 ## Step 1 — CV and website cross-check
 
@@ -127,7 +131,9 @@ used to settle the conflicts listed above.
 
 The Step 1 updates and the selected historical-CV additions below are
 implemented on the website. The spreadsheet analysis and recommendations are
-documented in Step 2. All CV pages and recruiter reviews remain to be done.
+documented in Step 2. Four tailored CVs are retained; the dedicated PCG CV was
+removed at the user's request. The recruiter reviews for the retained CVs are
+documented in [cv-recruiter-reviews.md](cv-recruiter-reviews.md).
 
 ## Completion checklist
 
@@ -137,12 +143,13 @@ documented in Step 2. All CV pages and recruiter reviews remain to be done.
 - [x] Implement the user-selected historical research-CV website adjustments.
 - [x] Analyze column M of the job-application spreadsheet and recommend
   evidence-based website updates.
-- [ ] Build and print-check the AI, Machine Learning and LLM CV (maximum two
-  A4 pages).
-- [ ] Build and print-check the other five expertise CVs.
-- [ ] Add a matching-role recruiter review for every CV.
+- [x] Build and print-check the AI, Machine Learning and LLM CV (exactly one
+  A4 page; retargeted to applied AI and prototypes).
+- [x] Build and print-check the other three retained expertise CVs (each
+  exactly one A4 page).
+- [x] Add a matching-role recruiter review for every retained CV.
 - [x] Run the prescribed Jekyll build and local content/reference checks.
-- [ ] Review affected pages in a browser.
+- [x] Review all four retained CV pages and homepage links in a browser.
 
 ## Step 2 — Job-application strengths analysis
 
@@ -243,6 +250,44 @@ project/teaching records; portfolio summaries now foreground individual
 ownership, cross-team work, technical scope and the specific role of
 agentic-AI workflows.
 
+## Step 3 — AI, Machine Learning & LLM CV
+
+Created the first CV as [ai-ml-llm.md](../cv/ai-ml-llm.md), using a dedicated
+layout and print stylesheet. It focuses on applied AI prototypes, evaluation,
+LLM work and the distinction between Tabletop R&D research tools and deployed
+AI products. It links to the research/publication archive without presenting
+the CV as a research-role application. The shortened page was print-checked
+and produces exactly one A4 page.
+
+The Jekyll build succeeded.
+
+## Step 4 — Remaining expertise CVs
+
+Created the three other retained CV pages, each linked from its matching
+homepage expertise card:
+
+- [Simulation & Game Development](../cv/simulation-game-development.md) —
+  reordered and focused on studio-facing game projects, with frameworks as
+  examples of game design, development and programming; publications omitted.
+- [Software Engineering](../cv/software-engineering.md) — emphasizes
+  architecture, delivery, full-stack application work and engineering
+  projects while describing Tabletop R&D AI tooling as research prototypes;
+  publications omitted.
+- [Research & Data Science](../cv/research-data-science.md) — emphasizes
+  research methods, data analysis, game AI research and selected publications;
+  Tabletop R&D appears under applied data science rather than research
+  experience.
+
+The dedicated PCG CV and the PCG and Leadership index cards were removed at
+the user's request. The index now presents the four retained CVs in a
+two-column desktop grid. The RHEA journal record now lists IEEE Transactions
+on Games (ToG) and links to its published version. Headless Edge print checks
+confirmed that each retained CV fits exactly one A4 page. Print-ready PDFs
+replace the assets in `assets/cv/`: AI (`RG_CV_AI.pdf`), simulation/game
+development (`RG_CV_U.pdf`), software engineering (`RG_CV_SD.pdf`), and
+research/data science (`RG_CV_DA.pdf`). Each CV page includes its corresponding
+PDF download link; the shared header link defaults to the Applied AI PDF.
+
 ## Historical research-CV website adjustments
 
 The attached `Raluca Gaina - Research.docx.pdf` was reviewed as historical
@@ -339,6 +384,6 @@ comprehension and listening, basic speaking).
 
 - Added a note that the PhD transferred from the University of Essex to QMUL
   in 2017. The PhD degree title is consistent across the documents.
-- Do not copy the older CV's phone number or QMUL email;
-  keep the current shared website contact details as the source of truth.
+- Do not copy the older CV's phone number or QMUL email; use current shared
+  contacts and any contact details the user explicitly supplies for a CV.
 - Do not add extra publications.

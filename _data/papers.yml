@@ -374,8 +374,12 @@
     highlight: core
     author: Raluca D. Gaina and Sam Devlin and Diego Perez-Liebana and Simon M. Lucas
     title: "Rolling Horizon Evolutionary Algorithms for General Video Game Playing"
-    journal: arxiv:2003.12331
-    year: 2020
+    journal: IEEE Transactions on Games
+    volume: 14
+    number: 2
+    pages: 232--242
+    year: 2022
+    doi: "https://doi.org/10.1109/TG.2021.3060282"
     arxiv: "https://arxiv.org/abs/2003.12331"
     pdf: true
     repo: "https://github.com/rdgain/ExperimentData/tree/NTBEA-RHEA-2019"

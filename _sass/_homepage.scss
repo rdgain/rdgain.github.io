@@ -58,6 +58,10 @@
 
 }
 
+.expertise-grid.expertise-grid-index {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
 .expertise-card {
 
     background: white;
@@ -113,6 +117,10 @@
 
         grid-template-columns:1fr;
 
+    }
+
+    .expertise-grid.expertise-grid-index {
+        grid-template-columns: 1fr;
     }
 
 }
