@@ -867,7 +867,10 @@ more:
     technologies: 
       - Java
       - A*
-    links: []
+    links:
+      - label: Play in browser
+        url: /play/city-of-kalux/
+        type: website
 
   - id: personal-website-redesign
     title: Personal Website Redesign
