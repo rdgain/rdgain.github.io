@@ -688,6 +688,9 @@ more:
       - label: Research
         url: /research/
         type: publication
+      - label: Space Battle Source code
+        url: https://github.com/rdgain/SpaceBattle
+        type: repository
 
   - id: marlo
     title: MARLO Competition
@@ -865,10 +868,12 @@ more:
       - object-oriented-design-patterns
       - backend-development
       - software-engineering
+      - 2d-game-art
     summary: >
       A detective game created for my BSc final-year project featuring AI navigation. 
     technologies: 
       - Java
+      - Swing
       - A*
     links:
       - label: Download JAR
