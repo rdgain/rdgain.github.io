@@ -1,0 +1,58 @@
+.kalux-play-page {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.kalux-breadcrumbs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+    margin-bottom: 2rem;
+    color: #53657a;
+    font-size: .9rem;
+}
+
+.kalux-play-header {
+    max-width: 760px;
+    margin-bottom: 2rem;
+}
+
+.kalux-play-header h1 {
+    margin-bottom: .75rem;
+}
+
+.kalux-play-header p,
+.kalux-desktop-notice,
+.kalux-play-page noscript {
+    color: #4b5563;
+}
+
+.kalux-game-frame {
+    display: none;
+    overflow: hidden;
+    border: 1px solid #d1d5db;
+    border-radius: 12px;
+    background: #111827;
+}
+
+.kalux-game-status {
+    margin: 0;
+    padding: .75rem 1rem;
+    background: #f3f4f6;
+    color: #26374a;
+    font-size: .9rem;
+}
+
+#kalux-game-display {
+    min-height: 830px;
+}
+
+@media (min-width: 768px) and (hover: hover) and (pointer: fine) {
+    .kalux-desktop-notice {
+        display: none;
+    }
+
+    .kalux-game-frame {
+        display: block;
+    }
+}
