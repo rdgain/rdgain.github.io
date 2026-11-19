@@ -99,7 +99,7 @@
       {% endif %}
 
       <div class="project-content">
-        <p class="project-category">{{ project.category | escape }}</p>
+        <p class="project-category">{{ project.category | escape }}{% if project.years %} ({{ project.years | escape }}){% endif %}</p>
         <span class="project-target-notice">Related expertise</span>
         <h3>{{ project.title | escape }}</h3>
         <p>{{ project.summary | escape }}</p>
@@ -136,7 +136,7 @@
       data-project-skills="{{ project.skill_ids | join: "|" | escape }}"
       data-project-evidence="{{ project_evidence | escape }}"
       data-project-search="{{ project_search_text | strip | escape }}">
-      <p class="project-category">{{ project.category | escape }}</p>
+      <p class="project-category">{{ project.category | escape }}{% if project.years %} ({{ project.years | escape }}){% endif %}</p>
       <h3>{{ project.title | escape }}</h3>
       <p>{{ project.summary | escape }}</p>
 

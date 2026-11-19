@@ -859,6 +859,7 @@ more:
   - id: city-of-kalux
     title: City of Kalux
     category: Undergraduate game project
+    years: "2015"
     publication_ids: []
     skill_ids:
       - game-development
@@ -880,6 +881,37 @@ more:
         url: /assets/portfolio/city-of-kalux/City-of-Kalux.jar
         type: download
         download: true
+      - label: Source code
+        url: https://github.com/rdgain/City-of-Kalux
+        type: repository
+
+  - id: snookat
+    title: Snookat
+    category: Undergraduate game project
+    years: "2013"
+    publication_ids: []
+    skill_ids:
+      - game-development
+      - game-design
+      - java
+      - object-oriented-design-patterns
+      - software-engineering
+      - 2d-game-art
+    summary: >
+      A university project I developed and fully own: a Java implementation of
+      snooker with custom graphics that turn the balls into cute cats.
+    technologies:
+      - Java
+      - Snooker
+      - Custom 2D graphics
+    links:
+      - label: Download JAR
+        url: /assets/portfolio/snookat/Snookat.jar
+        type: download
+        download: true
+      - label: Source code
+        url: https://github.com/rdgain/Snookat
+        type: repository
 
   - id: personal-website-redesign
     title: Personal Website Redesign

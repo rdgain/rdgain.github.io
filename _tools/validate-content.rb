@@ -178,7 +178,7 @@ validate_references(project_records, %w[publication_ids], paper_ids, "_data/proj
 
 if project_records.any?
   used_skill_ids = []
-  supported_evidence_types = %w[case_study demo publication repository website]
+  supported_evidence_types = %w[case_study demo download publication repository website]
 
   project_records.each_with_index do |project, index|
     next unless project.is_a?(Hash)
