@@ -86,6 +86,7 @@ featured:
     skill_ids:
       - ai-playtesting
       - simulation
+      - scalable-architecture
       - game-ai
       - tabletop-games
       - product-development
@@ -116,8 +117,9 @@ featured:
     image: /assets/images/projects/TRD-thumb.png
     image_alt: Tabletop board with simulated player moves and AI analytics
     summary: >
-      Co-founded a company applying game simulation and AI to help tabletop
-      designers test gameplay and explore game balance.
+      Co-founded a company developing AI-assisted playtesting tools, translating
+      tabletop designers' needs into digital twins, large-scale simulations and
+      a SaaS product roadmap.
     technologies:
       - Java
       - Object-oriented design patterns
@@ -127,6 +129,7 @@ featured:
       - Game AI
       - Product development
       - Entrepreneurship
+      - Scalable architecture
       - Translation of ambiguous designer problems into technical solutions
       - Communication of technical solutions to non-technical stakeholders
     links:
@@ -158,12 +161,14 @@ featured:
         explore game balance and inform design decisions. More details and example
         projects are available on the company website and in related publications.
       role: >
-        As co-founder and director, I focused on business development, product design
-        and research coordination. I defined product direction, the technical roadmap
-        and AI integration strategy, and led the transition toward a SaaS product with
-        user-facing tools. I also implemented tools to make development of new games
-        and AI agents faster and more consistent, coordinated technical developments
-        in the UK Creative Catalyst programme, and represented the company at trade
+        As co-founder and director, I worked with tabletop designers and clients
+        to translate design needs into technical solutions. I focused on business
+        development, product design and research coordination. I defined product
+        direction, the technical roadmap, scalable architecture and AI integration
+        strategy, and led the transition toward a SaaS product with user-facing
+        tools. I also implemented tools to make development of new games and AI
+        agents faster and more consistent, coordinated technical developments in
+        the UK Creative Catalyst programme, and represented the company at trade
         shows and conferences including UK Games Expo and Spiel Essen.
       outcomes:
         - Co-founded and directed Tabletop R&D.
@@ -183,6 +188,8 @@ featured:
       - best2024journeys
     skill_ids:
       - game-ai
+      - scalable-architecture
+      - large-codebase-engineering
       - game-systems
       - tabletop-games
       - java
@@ -192,7 +199,6 @@ featured:
       - open-source
       - user-interface-design
       - gameplay-analytics
-      - large-codebase-engineering
       - benchmarking
       - data-analysis
       - forward-models
@@ -208,8 +214,9 @@ featured:
     image: /assets/images/projects/TAG-thumb.png
     image_alt: Tabletop game board connected to code, AI agents and game analytics
     summary: >
-      A Java framework for implementing modern tabletop games and AI agents,
-      supporting shared experiments, simulation and game analytics.
+      Co-led the design and engineering of a reusable Java framework for modern
+      tabletop games and AI agents, now spanning over 60 titles and supporting
+      shared experiments, simulation and game analytics.
     technologies:
       - Java
       - Object-oriented design patterns
@@ -219,6 +226,7 @@ featured:
       - Open source
       - Software engineering
       - Large-codebase engineering
+      - Scalable architecture
       - User interface design
       - Gameplay analytics
     links:
@@ -380,6 +388,7 @@ more:
       - typescript
       - react
       - full-stack-development
+      - agile-development
       - backend-development
       - web-development
       - user-interface-design
@@ -387,12 +396,14 @@ more:
       - software-engineering
     summary: >
       Built an RPG character creator and LLM-powered chat application using
-      TypeScript and React, with an agentic AI workflow. Full project ownership.
+      TypeScript and React, using an agentic AI workflow to support development.
+      Full project ownership.
     technologies:
       - TypeScript
       - React
       - Large language models
       - Agentic AI workflows
+      - Agile development
       - Full-stack development
       - RPG systems
     links:
@@ -406,9 +417,10 @@ more:
     publication_ids: []
     skill_ids:
       - game-development
+      - unity
+      - agile-development
       - game-design
       - game-systems
-      - unity
       - c-sharp
       - team-leadership
       - agentic-ai
@@ -418,9 +430,9 @@ more:
       - full-stack-development
     summary: >
       A 2D game begun during Global Game Jam 2016 and completed as university
-      coursework with six teammates. I led game design and engineering, then solely
-      updated the project to Unity 6, fixed and completed it, and created a web
-      build using an agentic AI workflow with Codex.
+      coursework with six teammates. I led game design and engineering, then
+      independently updated it to Unity 6 and completed it. I used Codex in an
+      agentic AI workflow to create the web build.
     technologies:
       - Unity 6
       - C#
@@ -429,6 +441,7 @@ more:
       - Debugging and modernization
       - Web builds
       - Agentic AI workflows
+      - Agile development
       - Codex
       - Team leadership
     links:
@@ -462,6 +475,8 @@ more:
       - gaina2021phd
     skill_ids:
       - game-ai
+      - scalable-architecture
+      - large-codebase-engineering
       - benchmarking
       - planning-search
       - general-game-playing
@@ -477,7 +492,6 @@ more:
       - game-design
       - 2d-game-art
       - competition-design
-      - large-codebase-engineering
       - open-source
       - software-engineering
       - game-development
@@ -486,10 +500,9 @@ more:
       - simulation
       - multi-agent-systems
     summary: >
-      Framework and competition work for agents that play previously unseen
-      games. My MSc project developed the two-player competition and a related
-      MCTS coursework controller; I also organized the competition and worked
-      on its game sets, framework, website and server.
+      Developed the two-player competition and MCTS controller, then organized
+      competition work across game sets, the extensible GVGAI framework,
+      website and server for agents playing previously unseen games.
     technologies:
       - Game AI
       - Benchmarking
@@ -503,6 +516,7 @@ more:
       - Linux/Unix
       - Backend development
       - Web development
+      - Scalable architecture
       - Game design
       - 2D game art
     links:
@@ -689,9 +703,9 @@ more:
       - code-review
       - large-codebase-engineering
     summary: >
-      Developed the MARLO competition during a Microsoft Research internship,
-      designing and building competition games in Python and Java with
-      procedural content generation and code reviews.
+      During a Microsoft Research internship, developed the MARLO competition:
+      designed and built competition games in Python and Java, applied procedural
+      content generation, and reviewed code.
     technologies:
       - Reinforcement learning
       - Multi-agent systems
@@ -869,10 +883,12 @@ more:
       - git
       - software-engineering
       - user-interface-design
+      - agile-development
       - llm
     summary: >
-      Refreshed this portfolio's design and clarified its content with an
-      agentic AI workflow.
+      Directed a refresh of this portfolio's design and content, using an
+      agentic AI workflow to develop changes across Jekyll, Liquid, HTML, CSS
+      and JavaScript, then reviewing the results.
     technologies:
       - Agentic AI
       - Jekyll
@@ -881,6 +897,7 @@ more:
       - CSS
       - JavaScript
       - Git
+      - Agile development
     links:
       - label: Live website
         url: /

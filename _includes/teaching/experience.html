@@ -26,6 +26,10 @@
 
     <p class="experience-description">{{ item.description | default: item.notes | default: "Short description to be added." }}</p>
 
+    {% if item.skill_ids and item.skill_ids.size > 0 %}
+    {% include projects/skill-tags.html project=item limit=3 %}
+    {% endif %}
+
     {% if item.url %}
     <p class="experience-link">
         <a href="{{ item.url | escape }}" target="_blank" rel="noopener noreferrer">

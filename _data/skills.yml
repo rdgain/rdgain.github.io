@@ -111,6 +111,8 @@
   skills:
     - id: 2d-game-art
       label: 2D game art
+    - id: agile-development
+      label: Agile development
     - id: backend-development
       label: Backend development
     - id: code-review
@@ -125,12 +127,16 @@
       label: Git
     - id: large-codebase-engineering
       label: Large-codebase engineering
+    - id: online-communication
+      label: Online communication
     - id: object-oriented-design-patterns
       label: Object-oriented design patterns
     - id: open-source
       label: Open source
     - id: product-development
       label: Product development
+    - id: scalable-architecture
+      label: Scalable architecture
     - id: software-engineering
       label: Software engineering
     - id: stakeholder-communication

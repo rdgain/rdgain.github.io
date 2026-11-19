@@ -126,8 +126,8 @@ used to settle the conflicts listed above.
    case studies and publications.
 
 The Step 1 updates and the selected historical-CV additions below are
-implemented on the website. The spreadsheet review and all CV pages/recruiter
-reports remain to be done.
+implemented on the website. The spreadsheet analysis and recommendations are
+documented in Step 2. All CV pages and recruiter reviews remain to be done.
 
 ## Completion checklist
 
@@ -135,7 +135,7 @@ reports remain to be done.
 - [x] Apply the requested Step 1 website updates for education, experience,
   Tabletop R&D and awards.
 - [x] Implement the user-selected historical research-CV website adjustments.
-- [ ] Analyze column M of the job-application spreadsheet and recommend
+- [x] Analyze column M of the job-application spreadsheet and recommend
   evidence-based website updates.
 - [ ] Build and print-check the AI, Machine Learning and LLM CV (maximum two
   A4 pages).
@@ -143,6 +143,105 @@ reports remain to be done.
 - [ ] Add a matching-role recruiter review for every CV.
 - [x] Run the prescribed Jekyll build and local content/reference checks.
 - [ ] Review affected pages in a browser.
+
+## Step 2 — Job-application strengths analysis
+
+### Source and method
+
+Reviewed only column M (“Strengths”) of the shared job-application spreadsheet.
+There were 38 applications with a non-empty Strengths cell and 47 distinct
+labels. CSV-aware parsing preserves labels containing commas. Counts below are
+how often a label appeared in the spreadsheet, not an assessment of proficiency;
+similar labels are grouped for discussion but their counts are not added
+together.
+
+### Most frequent strengths
+
+| Strength label | Applications |
+| --- | ---: |
+| Collaborate across teams | 16 |
+| Python | 15 |
+| Work independently | 14 |
+| AI-assisted development tools | 14 |
+| Git | 12 |
+| Software development | 12 |
+| Online communication | 12 |
+| Unity | 12 |
+| Game development | 12 |
+| C# | 11 |
+| Analytics | 11 |
+| Large codebase | 11 |
+| English | 11 |
+| AI/ML | 11 |
+| SQL | 10 |
+| TypeScript/React | 10 |
+| Architecture | 9 |
+| Data analysis | 9 |
+| Debugging | 8 |
+| Written communication | 8 |
+| LLM | 8 |
+| Backend | 7 |
+| Performance optimisation | 7 |
+| Leadership / management | 6 |
+| Agile development | 6 |
+
+Other entries included Java and PhD (4 each); communication to a non-technical
+audience, scalable architectures and full stack (3 each); board-game interest,
+technical judgement, and open-source contribution (2 each); and a range of
+single mentions including testing/QA, automated testing, PCG, initiative,
+statistical analysis, and experimental work.
+
+### Comparison with current website evidence
+
+- **Already supported:** Python, Java, Unity, C#, SQL, TypeScript/React, Git,
+  AI/ML, LLMs, game development, analytics and data analysis all have project,
+  experience or skills evidence. Examples include the MARLO and GVGAI work,
+  the Rebirth Unity project, the TypeScript/React RPG application, the LLM
+  program-search study, and the RHEA/TAG research. English is listed as fluent
+  in the About-page language details. AI-assisted development is evidenced by
+  the Codex/agentic-AI workflows described for Rebirth, the RPG application
+  and this website redesign.
+- **Supported but could be easier to notice:** Cross-team collaboration is
+  reflected in TAG leadership and developer/researcher contributions,
+  Tabletop R&D stakeholder communication, and research collaborations.
+  Independent ownership is explicit for the RPG application and the later
+  Rebirth modernization. Large-codebase work and architecture are supported
+  by TAG, MARLO and GVGAI; TAG's framework now covers over 60 titles.
+  Communication is evidenced by teaching, publications, presentations and
+  technical work with non-technical stakeholders.
+- **Still unconfirmed:** General software QA/automated testing and production
+  performance optimisation are not clearly demonstrated as distinct skills.
+  AI playtesting and evaluation are strong evidence for game/product testing,
+  but should not be presented as automated software QA.
+
+### Recommendations and implementation
+
+1. Keep the existing technical skills and language details; the recurring
+   programming, game-development and AI strengths are already represented.
+2. Make ownership and collaboration more prominent in the homepage and
+   featured project summaries, using concrete examples rather than a generic
+   soft-skills list: cross-functional Tabletop R&D work, TAG coordination and
+   code review, and the independently owned RPG and Rebirth work.
+3. Surface architecture and large-codebase evidence with specific scope:
+   explain the reusable TAG framework and its 60+ titles, and clarify the
+   MARLO/GVGAI engineering context where relevant.
+4. Describe AI-assisted development precisely by naming the projects and
+   explaining what was built or modernised and where the tools contributed.
+   Avoid implying that AI tools replaced the engineering work.
+5. In the upcoming tailored CVs, prioritize evidence to match each role:
+   Python/Java and research for AI roles; Unity/C# and game systems for game
+   development; TypeScript/React, SQL, backend and Git for software roles.
+   Include collaboration, independent ownership and communication alongside
+   those examples.
+6. Add as skills: Agile development (Rebirth and agentic-AI projects), online
+   communication (online teaching and coordination with teachers,
+   demonstrators, lab assistants and students during and outside class), and
+   scalable architecture (GVGAI, TAG and Tabletop R&D).
+
+These changes are implemented: the new skills are attached to the relevant
+project/teaching records; portfolio summaries now foreground individual
+ownership, cross-team work, technical scope and the specific role of
+agentic-AI workflows.
 
 ## Historical research-CV website adjustments
 

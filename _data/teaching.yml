@@ -260,9 +260,13 @@ experience:
       level: MSc & PhD
       role: Module Development
       delivery: Online
+      skill_ids:
+        - online-communication
       description: >
         Designed practical labs and coursework on computational creativity,
-        generative systems and AI-assisted design.
+        generative systems and AI-assisted design. During online delivery,
+        coordinated with other teachers and demonstrators and supported students
+        during and outside class.
 
     - year: "2021"
       title: Java Support Classes
@@ -270,9 +274,12 @@ experience:
       level: MSc
       role: Lecturer
       delivery: Online
+      skill_ids:
+        - online-communication
       description: >
         Taught object-oriented programming, data structures and algorithms
-        through Java game-engine, gameplay AI and visualisation exercises.
+        through Java game-engine, gameplay AI and visualisation exercises,
+        communicating with students and teaching colleagues online.
 
     - year: "2021"
       title: MSc Project Supervision & UG/PG Project Examination
