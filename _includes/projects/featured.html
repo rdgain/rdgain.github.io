@@ -156,7 +156,7 @@
         {% for link in project.links %}
         {% unless link.type == "publication" and link.url contains "/research/" %}
         <li>
-          <a href="{% if link.url contains '://' %}{{ link.url }}{% else %}{{ link.url | relative_url }}{% endif %}"{% if link.url contains '://' %} target="_blank" rel="noopener noreferrer"{% endif %}>
+          <a href="{% if link.url contains '://' %}{{ link.url }}{% else %}{{ link.url | relative_url }}{% endif %}"{% if link.url contains '://' %} target="_blank" rel="noopener noreferrer"{% endif %}{% if link.download %} download{% endif %}>
             {{ link.label | escape }}
           </a>
         </li>

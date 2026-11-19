@@ -871,9 +871,10 @@ more:
       - Java
       - A*
     links:
-      - label: Play in browser
-        url: /play/city-of-kalux/
-        type: website
+      - label: Download JAR
+        url: /assets/portfolio/city-of-kalux/City-of-Kalux.jar
+        type: download
+        download: true
 
   - id: personal-website-redesign
     title: Personal Website Redesign
