@@ -236,6 +236,9 @@ featured:
       - label: TAG website
         url: https://tabletopgames.ai
         type: website
+      - label: Play TAG games in the browser
+        url: https://tag-games.fly.dev/
+        type: website
       - label: Source code
         url: https://github.com/GAIGResearch/TabletopGames
         type: repository
