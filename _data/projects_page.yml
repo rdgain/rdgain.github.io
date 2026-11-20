@@ -558,6 +558,22 @@ more:
     summary: >
       A visualization tool for examining how Rolling Horizon Evolutionary
       Algorithms behave while playing games in the GVGAI framework.
+    screenshots:
+      - file: /assets/portfolio/VERTIGO/Screenshot%202026-11-20%20085122.png
+        alt: VERTIGO startup screen configured for the aliens game
+        caption: Configuring VERTIGO for a GVGAI game
+      - file: /assets/portfolio/VERTIGO/Screenshot%202026-11-20%20085200.png
+        alt: VERTIGO running Butterflies with the player, enemies and game grid visible
+        caption: Watching an evolved agent play Butterflies
+      - file: /assets/portfolio/VERTIGO/Screenshot%202026-11-20%20085219.png
+        alt: Butterflies gameplay view with blue butterfly groups and an evolved player
+        caption: Inspecting positions and interactions during play
+      - file: /assets/portfolio/VERTIGO/Screenshot%202026-11-20%20085249.png
+        alt: VERTIGO analysis charts alongside live Butterflies gameplay
+        caption: Comparing convergence and score over game ticks
+      - file: /assets/portfolio/VERTIGO/Screenshot%202026-11-20%20085403.png
+        alt: VERTIGO result panels showing a completed Butterflies run
+        caption: Reviewing evolutionary metrics and the final game result
     technologies:
       - Data visualization
       - User interface design
@@ -573,6 +589,10 @@ more:
       - label: Source code
         url: https://github.com/rdgain/VERTIGO
         type: repository
+      - label: Download JAR
+        url: /assets/portfolio/VERTIGO/VERTIGO.jar
+        type: download
+        download: true
 
   - id: tribes
     title: Tribes
